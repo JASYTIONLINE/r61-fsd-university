@@ -1,0 +1,15 @@
+{
+  "name": "fsd-university-content",
+  "version": "1.0.0",
+  "description": "FSD University content published with Quartz",
+  "scripts": {
+    "preview": "npx quartz preview --content content",
+    "build": "npx quartz build --content content",
+    "sync": "npx quartz sync"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
