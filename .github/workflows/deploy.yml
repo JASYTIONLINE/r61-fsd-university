@@ -20,58 +20,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all history for git info
-      
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      
-      - name: Setup Quartz source
-        run: |
-          # Clone Quartz to get the source code needed for the config imports
-          git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git quartz-temp
-          cp -r quartz-temp/quartz ./quartz
-          # Use Quartz's package.json as the base - it has all the right dependencies and scripts
-          cp quartz-temp/package.json ./package.json
-          # Update name and description to match our project
-          node -e "
-            const fs = require('fs');
-            const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
-            pkg.name = 'fsd-university-content';
-            pkg.description = 'FSD University content published with Quartz';
-            fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
-          "
-      
-      - name: Install dependencies
-        run: npm install
-      
-      - name: Build Quartz
-        run: |
-          # Quartz's build script expects content in 'content' directory by default
-          # But we can override with QUARTZ_CONTENT_DIR or use the --content flag
-          npm run build -- --content content
-      
-      - name: Verify build output
-        run: |
-          if [ ! -d "public" ]; then
-            echo "ERROR: public directory not found after build!"
-            echo "Current directory contents:"
-            ls -la
-            echo "Checking for other possible output directories:"
-            [ -d "_site" ] && echo "Found _site directory" || echo "_site not found"
-            exit 1
-          fi
-          echo "✓ Build output found in public directory"
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
+      - name: Build Quartz
+        uses: konstfish/quartz-build-action@v6
+        with:
+          source: content
+          page_title: "FSD University"
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
 
   deploy:
     needs: build
