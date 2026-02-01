@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME",
+    baseUrl: "jasytionline.github.io/r61-fsd-university",
     ignorePatterns: ["private", "templates", ".obsidian", "node_modules", ".git"],
     defaultDateType: "created",
     theme: {

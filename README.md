@@ -63,12 +63,13 @@ This repository contains the course content for FSD University, published using 
 - **Content**: All markdown files in the root and subdirectories
 - **Configuration**: `quartz.config.ts`
 - **Deployment**: Automatic via GitHub Actions (`.github/workflows/deploy.yml`)
+- **Repository**: https://github.com/JASYTIONLINE/r61-fsd-university
 
 ## Important Notes
 
-- The `baseUrl` in `quartz.config.ts` needs to be updated with your GitHub username and repository name
+- The `baseUrl` in `quartz.config.ts` is configured for this repository
 - Obsidian-specific files (`.obsidian/`) are ignored by git
-- The site will be available at `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME`
+- The site will be available at `https://jasytionline.github.io/r61-fsd-university`
 
 ## Publishing
 
