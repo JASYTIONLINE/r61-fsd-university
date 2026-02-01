@@ -402,6 +402,6 @@ You now have a properly structured HTML page that loads reliably in a browser. I
 
 **Next Exercise:** [[s3-html-css/s3e2-adding-rich-content-elements|Exercise 2: Adding Rich Content Elements]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]

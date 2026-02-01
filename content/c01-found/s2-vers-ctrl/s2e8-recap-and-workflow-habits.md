@@ -522,6 +522,6 @@ After completing this exercise, you should have:
 
 **Next Section:** [[s3-html-css/index|Section 3: HTML & CSS]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s2-vers-ctrl/index|Version Control Section]]

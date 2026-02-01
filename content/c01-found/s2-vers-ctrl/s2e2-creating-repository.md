@@ -414,6 +414,6 @@ After completing this exercise, you should have:
 
 **Next Exercise:** [[s2-vers-ctrl/s2e3-pushing-changes|Exercise 3: Pushing Changes]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s2-vers-ctrl/index|Version Control Section]]

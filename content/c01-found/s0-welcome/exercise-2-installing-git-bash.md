@@ -163,7 +163,7 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 ## Navigation
 
 ### Section Navigation
-- [[index 1|Home]] - Return to main course page
+- [[index|Home]] - Return to main course page
 - [[s0-welcome/index|Orientation Index]] - Return to orientation overview
 - [[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]] - Previous exercise
 - [[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] - This page

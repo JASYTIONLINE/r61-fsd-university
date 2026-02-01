@@ -799,6 +799,6 @@ You now have a well-styled page with organized CSS. In the next exercise, you'll
 
 **Next Exercise:** [[s3-html-css/s3e9-css-layout-with-float|Exercise 9: CSS Layout with Float]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]

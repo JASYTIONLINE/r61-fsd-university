@@ -339,7 +339,7 @@ Complete these exercises in order to build your HTML and CSS skills:
 ## Navigation
 
 ### Section Navigation
-- [[index 1|Home]] - Return to the main course page
+- [[index|Home]] - Return to the main course page
 - [[s2-vers-ctrl/index|Version Control]] - Previous section
 - [[s3-html-css/index|HTML & CSS]] - This page
 - [[s4-js/index|JavaScript Basics]] - Next section

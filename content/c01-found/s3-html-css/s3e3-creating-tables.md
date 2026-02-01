@@ -417,6 +417,6 @@ You now understand how to create tables for organizing structured data. In the n
 
 **Next Exercise:** [[s3-html-css/s3e4-creating-forms|Exercise 4: Creating Forms]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]

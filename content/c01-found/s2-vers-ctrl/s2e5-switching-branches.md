@@ -456,6 +456,6 @@ After completing this exercise, you should have:
 
 **Next Exercise:** [[s2-vers-ctrl/s2e6-creating-pull-requests|Exercise 6: Creating Pull Requests]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s2-vers-ctrl/index|Version Control Section]]

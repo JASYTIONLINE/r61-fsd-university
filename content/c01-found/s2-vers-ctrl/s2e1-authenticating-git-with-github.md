@@ -426,6 +426,6 @@ After completing this exercise, you should have:
 
 **Next Exercise:** [[s2-vers-ctrl/s2e2-creating-repository|Exercise 2: Creating Repository]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s2-vers-ctrl/index|Version Control Section]]

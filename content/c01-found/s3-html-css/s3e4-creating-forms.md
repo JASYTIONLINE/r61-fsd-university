@@ -439,6 +439,6 @@ You now understand how to create forms for collecting user input. In the next ex
 
 **Next Exercise:** [[s3-html-css/s3e5-using-semantic-html-structure|Exercise 5: Using Semantic HTML Structure]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]

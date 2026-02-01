@@ -65,7 +65,7 @@ Modern CSS frameworks and advanced styling techniques. Learn to build responsive
 ## Global Navigation
 
 ### Quick Links
-- [[index 1|Home]] - Return to this page
+- [[index|Home]] - Return to this page
 - [[s0-welcome/index|Orientation]] - Get started here
 - [[s1-files/index|File Systems]] - Organization principles
 - [[s2-vers-ctrl/index|Version Control]] - Git and GitHub basics

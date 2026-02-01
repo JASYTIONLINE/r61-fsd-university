@@ -519,6 +519,6 @@ After completing this exercise, you should have:
 
 **Next Exercise:** [[s2-vers-ctrl/s2e7-merging-branches|Exercise 7: Merging Branches]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s2-vers-ctrl/index|Version Control Section]]

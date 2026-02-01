@@ -163,7 +163,7 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 ## Navigation
 
 ### Section Navigation
-- [[index 1|Home]] - Return to main course page
+- [[index|Home]] - Return to main course page
 - [[s0-welcome/index|Orientation Index]] - Return to orientation overview
 - [[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] - Previous exercise
 - [[s0-welcome/exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] - This page

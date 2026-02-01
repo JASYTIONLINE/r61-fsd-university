@@ -731,7 +731,7 @@ Version control will become second nature as you use it throughout the rest of t
 ## Navigation
 
 ### Section Navigation
-- [[index 1|Home]] - Return to the main course page
+- [[index|Home]] - Return to the main course page
 - [[s1-files/index|File Systems]] - Previous section
 - [[s2-vers-ctrl/index|Version Control]] - This page
 - [[s3-html-css/index|HTML & CSS]] - Next section

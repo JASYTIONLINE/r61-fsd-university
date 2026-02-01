@@ -503,6 +503,6 @@ You now have a well-structured HTML page with semantic elements and proper IDs a
 
 **Next Exercise:** [[s3-html-css/s3e6-introduction-to-css|Exercise 6: Introduction to CSS]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]

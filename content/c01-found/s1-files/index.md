@@ -235,13 +235,13 @@ knowledge-base/
 
 **Why this structure works:**
 
-1. **Prevents nested repositories**: The `projects/` folder itself is NOT a repository. Each project inside it is its own separate repository.
+1. **Prevents nested repositories**: The **`projects/`** folder itself is NOT a repository. Each project inside it is its own separate repository.
 2. **Clear separation**: Projects, learning materials, and notes are organized by purpose
 3. **Scalable**: As you add more projects, the structure stays organized
 4. **Self-documenting**: Anyone (including future you) can understand the organization
 
 **Important points:**
-- The knowledge base folder itself is **NOT** a Git repository
+- The **knowledge-base** folder itself is **NOT** a Git repository
 - Each project in `projects/` will be its own separate repository
 - This structure prevents the nested repository problem we discussed earlier
 - You'll create this structure in the exercises
@@ -252,7 +252,7 @@ With these organizational principles in mind, you're ready to create your own or
 
 ## Special Cases: Obsidian Knowledge Management
 
-Some tools have special organizational requirements. **Obsidian** is a note-taking and knowledge management tool that uses Markdown files, and it's great for documenting what you're learning and organizing your knowledge.
+Some tools have special organizational requirements. [Obsidian](https://obsidian.md/)  is a note-taking and knowledge management tool that uses Markdown files, and it's great for documenting what you're learning and organizing your knowledge.
 
 **Note about Obsidian folder structure:** If you plan to use Obsidian for publishing (like this course does), be aware that Obsidian typically publishes from a `content` folder rather than the root directory. This means your folder structure needs to be planned differently—your actual content goes inside a `content/` subfolder, and the Obsidian configuration stays at the root.
 
@@ -276,7 +276,11 @@ obsidian-vault/
 
 This is a special case that requires a slightly different organizational approach than standard repositories. If you're just using Obsidian for personal notes, you don't need to worry about this, but if you plan to publish your vault, you'll need to structure it accordingly.
 
-If you want to set up Obsidian with the proper structure, complete [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] (optional).
+To learn more about Why you should consider using Obsidian check out [this ~30min](https://www.bing.com/videos/riverview/relatedvideo?q=why+use+obsidian+effectively&&mid=A9D3E4E06F582D97E5D1A9D3E4E06F582D97E5D1&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCQjBsscIa_mgEnSvWpm_9vw&FORM=VCGVRP) video that explains everything you need to know to get started. 
+
+or 
+
+If you want to set up a KB in Obsidian with the proper structure, complete [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] (optional).
 
 ---
 
@@ -291,11 +295,11 @@ As a developer, you don't work in isolation. You're part of a team, an organizat
 Most developers work within organizations—companies, agencies, or teams. These organizations have policies and standards:
 
 - **Communication tools** - Your company might use Microsoft Teams, Slack, or Discord
-- **Project management** - They might use Jira, Trello, or Asana
-- **Code hosting** - They might use GitHub, GitLab, or Bitbucket
-- **Code editors** - They might standardize on VS Code, IntelliJ, or Vim
+- **Project management** - They might use [Jira](https://www.atlassian.com/software/jira), [Trello](https://trello.com/), or [Asana](https://asana.com/)
+	- **Code hosting** - They might use [GitHub](https://github.com/), [GitLab](https://gitlab.com/), or [Bitbucket](https://www.atlassian.com/software/bitbucket)
+- **Code editors** - They might standardize on [VS Code](https://code.visualstudio.com/), [IntelliJ](https://www.jetbrains.com/idea/), or [Vim](https://www.vim.org/)
 
-If your organization uses Teams for communication, you need to be proficient in Teams. If they use GitHub for code, you need to understand GitHub. If they standardize on VS Code, you should use VS Code.
+If your organization uses [Teams](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29) for communication, you need to be proficient in Teams. If they use GitHub for code, you need to understand GitHub. If they standardize on VS Code, you should use VS Code.
 
 **Your personal infrastructure should mirror your organization's infrastructure.** This doesn't mean you can't have personal preferences, but it does mean you need to be comfortable with the tools your team uses.
 
@@ -307,7 +311,7 @@ Throughout this course, you'll encounter several organizational patterns. Unders
 
 ### 1. Section-Based Organization
 
-Our course content is organized by sections:
+Our course content is organized by sections. Each section is designed to be reviewed in sequence, but also works as a stand alone work package:
 
 ```
 content/
@@ -344,14 +348,14 @@ file-systems/
 
 **Why this works:**
 - Clear separation between learning materials (lecture) and practice (exercises)
-- Easy to find what you need: want to learn? Read the lecture. Want to practice? Do an exercise.
+- Easy to find what you need: want to learn? Read the lecture. Want to practice? Do an exercise. (this is where an Obsidian knowledge base shines by allowing you to store your material using separation of concerns while accessing it in sequence)
 - Consistent structure across all sections
 - Each exercise focuses on one concept from the lecture
 
 **When you'd use this:**
 - Educational courses with multiple content types
 - Training programs with lectures and hands-on work
-- Structured learning materials
+- Structured learning materials (like this site)
 - Courses that combine theory and practice
 
 ---
@@ -406,14 +410,17 @@ As you work through this course:
 3. **Ask why** - When you see a particular organization, think about why it was chosen
 4. **Apply the principles** - Use these organizational principles in your own projects
 
-The repository you'll build throughout this course will follow professional organizational standards. By the end, you'll have a portfolio piece that demonstrates not just coding skills, but also professional organizational habits.
+OOUTSTANDING WORK!!!   
+The repository you'll build throughout this course will follow professional organizational standards. By the end of this course, you'll have a portfolio piece that demonstrates not just coding skills, but also professional organizational habits.
+
+Next Steps: [[s2-vers-ctrl/index|Version Control]] - Git and GitHub basics
 
 ---
 
 ## Navigation
 
 ### Section Navigation
-- [[index 1|Home]] - Return to the main course page
+- [[index|Home]] - Return to the main course page
 - [[s0-welcome/index|Orientation]] - Previous section
 - [[s1-files/index|File Systems]] - This page
 - [[s2-vers-ctrl/index|Version Control]] - Next section

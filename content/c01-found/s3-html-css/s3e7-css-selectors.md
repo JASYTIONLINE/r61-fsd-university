@@ -671,6 +671,6 @@ You now understand how to target elements with CSS selectors and how the cascade
 
 **Next Exercise:** [[s3-html-css/s3e8-css-styling-fundamentals|Exercise 8: CSS Styling Fundamentals]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]

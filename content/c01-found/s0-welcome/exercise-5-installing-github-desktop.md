@@ -167,7 +167,7 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 ## Navigation
 
 ### Section Navigation
-- [[index 1|Home]] - Return to main course page
+- [[index|Home]] - Return to main course page
 - [[s0-welcome/index|Orientation Index]] - Return to orientation overview
 - [[s0-welcome/exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] - Previous exercise
 - [[s0-welcome/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - This page

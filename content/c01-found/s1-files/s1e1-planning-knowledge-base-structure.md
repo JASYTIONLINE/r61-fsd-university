@@ -50,11 +50,10 @@ You need to decide where your knowledge base will live on your computer. This is
    - **Documents folder**: `C:\Users\YourName\Documents\knowledge-base` (common choice)
    - **Desktop**: `C:\Users\YourName\Desktop\knowledge-base` (easy to find)
    - **Dedicated location**: `C:\dev\knowledge-base` or `D:\development\knowledge-base` (if you have a separate drive)
-   - **OneDrive/Cloud**: If you use OneDrive, you can put it there, but be aware that syncing many files can be slow
+   - **OneDrive/Cloud**: If you use OneDrive, you can put it there, but be aware that syncing many files can be slow (i don't recommend this as one drive sync can interfere with .git.)
 
 2. **Recommended location**: `Documents\knowledge-base` or `Documents\dev-knowledge-base`
    - Easy to find
-   - Backed up if you use OneDrive
    - Professional organization
 
 3. Write down or remember your chosen location—you'll need it in the next step.
@@ -98,8 +97,9 @@ Before creating subfolders, you'll plan out how you want to organize your projec
 
 ### Instructions
 1. Open your knowledge base folder (the one you just created)
-2. Think about how you want to organize your work. Here's a recommended structure:
-
+2. Think about how you want to organize your work. I recommend using the following structure during this course. It will help keep you grounded and be easy to follow through the course:
+---
+#### Figure 1
 ```
 knowledge-base/
 ├── projects/          # Your actual coding projects (each will be a separate repo)
@@ -107,7 +107,7 @@ knowledge-base/
 ├── notes/             # Personal notes, documentation, ideas
 └── archive/           # Old projects or completed work
 ```
-
+---
 3. **Important considerations:**
    - **projects/**: This is where you'll create Git repositories. Each project will be its own folder with its own `.git` folder
    - **learning/**: Course materials, tutorials, practice exercises (may or may not be repos)
@@ -116,16 +116,16 @@ knowledge-base/
 
 4. **Key principle**: No repository should be nested inside another repository. Each project in `projects/` will be a separate, independent repository.
 
-5. Create a text file in your knowledge base folder called `structure-plan.txt`:
+5. Create a markdown file in your knowledge base folder called `structure-plan.md:
    - Right-click in the folder
    - Select **New** → **Text Document**
-   - Name it `structure-plan.txt`
-   - Open it and write down your planned structure
-
+   - Name it `structure-plan.md'
+   - Open it and write down your planned structure or copy and past the file structure in [[#Figure 1|Figure 1]]
+---
 ### Verify
 You should have:
 - ✅ A plan for your folder structure
-- ✅ A `structure-plan.txt` file with your structure documented
+- ✅ A `structure-plan.md` file with your structure documented
 - ✅ An understanding that each project will be a separate repository (not nested)
 
 ---
@@ -134,13 +134,14 @@ You should have:
 
 You should now have:
 - **Knowledge base folder**: Created in your chosen location
-- **Structure plan**: Documented in `structure-plan.txt`
+- **Structure plan**: Documented in `structure-plan.md
 - **Understanding**: Clear idea of where your development work will live
 
 Your knowledge base folder should look like:
+![[ss-kb-start.png]]
 ```
 knowledge-base/
-└── structure-plan.txt
+└── structure-plan.md
 ```
 
 ---
@@ -153,14 +154,18 @@ A well-planned knowledge base:
 - **Scales well**: As you add more projects, the structure stays organized
 - **Professional**: Shows good organizational habits from the start
 
-This foundation will support all your development work throughout this course and your career.
+Congratulations": You have Just taken the firs steps to managing all your future files in a professional knowledge base with version control. This foundation will support all your development work throughout this course and your career.
+
+Next Steps: [[c01-found/s1-files/index#Your Personal Knowledge Base Structure|Return to Lecture]]
+
+
 
 ---
 
 ## Navigation
 
 ### Section Navigation
-- [[index 1|Home]] - Return to main course page
+- [[index|Home]] - Return to main course page
 - [[s1-files/index|File Systems Index]] - Return to file systems overview
 - [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Knowledge Base Structure]] - This page
 - [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - Next exercise

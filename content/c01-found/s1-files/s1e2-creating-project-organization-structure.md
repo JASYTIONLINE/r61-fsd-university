@@ -44,7 +44,6 @@ Make sure you have:
 
 ### What This Step Does
 This creates the main organizational folders that will hold different types of work. This structure prevents confusion and makes it easy to find what you need.
-
 ### Instructions
 1. Open your **knowledge base folder** (created in Exercise 1)
 2. Create the following folders by right-clicking → **New** → **Folder**:
@@ -61,14 +60,14 @@ This creates the main organizational folders that will hold different types of w
    ├── learning/
    ├── notes/
    ├── archive/
-   └── structure-plan.txt
+   └── structure-plan.md
    ```
 
 ### Verify
 You should see:
 - ✅ Four main folders created (projects, learning, notes, archive)
 - ✅ All folders are empty (this is correct)
-- ✅ Your structure-plan.txt file is still there
+- ✅ Your structure-plan.md file is still there
 
 ---
 
@@ -85,7 +84,7 @@ The learning folder will hold course materials and practice work. Creating subfo
    - **tutorials** - Tutorials you're following
    - **resources** - Reference materials, cheat sheets, etc.
 
-3. Your learning folder should now look like:
+1. Your learning folder should now look like:![[ss-learn.png]]
    ```
    learning/
    ├── courses/
@@ -100,16 +99,16 @@ You should see:
 - ✅ All subfolders are empty
 
 ---
-
+NEXT STEP
 ## Step 3: Create a README File
 
 ### What This Step Does
 A README file documents your folder structure so you (and others) understand the organization. This is a professional practice.
 
 ### Instructions
-1. Go back to your **knowledge base** root folder (the main folder)
+1. Go back to your **knowledge base** root folder **(the main folder)**
 2. Right-click → **New** → **Text Document**
-3. Name it `README.txt` (or `README.md` if you prefer Markdown)
+3. Name it `README.md` (README files are in Markdown language so they display properly online)
 4. Open the file and add this content (customize as needed):
 
    ```
@@ -132,7 +131,7 @@ A README file documents your folder structure so you (and others) understand the
    
    - Each project in the projects/ folder will be its own Git repository
    - No repositories should be nested inside each other
-   - This knowledge base folder itself is NOT a Git repository
+
    ```
 
 5. Save the file
@@ -148,7 +147,7 @@ You should have:
 ## Step 4: Understand Repository Placement
 
 ### What This Step Does
-This step helps you understand where Git repositories will go and why they won't be nested.
+This step helps you understand where Git repositories will go inside your structure and why they should not be nested. 
 
 ### Instructions
 1. Open the **projects** folder
@@ -163,18 +162,27 @@ This step helps you understand where Git repositories will go and why they won't
      └── practice-app/         # This will be a repo (has .git folder)
      ```
 
-3. **Key point**: Each project folder will have its own `.git` folder, but the `projects/` folder itself will NOT have a `.git` folder. This prevents nesting.
+1. 
 
-4. Create a placeholder file in the projects folder to remind yourself:
+2. Create a README.md file in the projects folder:
    - Right-click in **projects** folder
    - **New** → **Text Document**
-   - Name it `README.txt`
-   - Add this text: "Each project folder here will be its own Git repository. This folder itself is NOT a repository."
-
+   - Name it `README.md` (in a repository, it is customary to have a README file in every section folder to other developers know the purpose of the folder and how it should be used)
+   - Add this text:
+```
+  This is my Projects folder. All repositories created during this course in this folder.  Each folder in Projects will be its own Git repository. Each repository will have its own `.git` folder.
+  
+  The `projects/` folder itself will NOT have a `.git` folder. This prevents nesting. Nesting in Git means putting one Git repository inside another, which happens when a folder inside your main project also contains its own .git directory. 
+  
+  When you do this, the outer repo does not properly track the inner repo’s files; it only sees that folder as a separate repository boundary. That creates confusion with commits, pushes, cloning, and history because there is now two independent version histories sitting inside each other. 
+  
+  Unless you intentionally use submodules (not covered in this course), nesting repos is a mistake: it breaks clean tracking, causes missing files in remote pushes, and makes collaboration messy.
+```
+     
 ### Verify
 You should understand:
-- ✅ Where future repositories will be created (in projects/ subfolders)
-- ✅ Why the projects/ folder itself won't be a repository
+- ✅ Where and why future repositories will be created (in projects/ subfolders)
+- ✅ Why the projects/ folder itself won't be a repository 
 - ✅ How this prevents nested repositories
 
 ---
@@ -186,7 +194,7 @@ You should now have:
 ```
 knowledge-base/
 ├── projects/
-│   └── README.txt
+│   └── README.md
 ├── learning/
 │   ├── courses/
 │   ├── practice/
@@ -194,7 +202,7 @@ knowledge-base/
 │   └── resources/
 ├── notes/
 ├── archive/
-├── README.txt (or README.md)
+├── README.md
 └── structure-plan.txt
 ```
 
@@ -202,7 +210,7 @@ knowledge-base/
 
 ---
 
-## Why This Matters
+## Why Did You Make ME DO This?
 
 This organized structure:
 - **Prevents nested repositories**: By planning where repos go, you avoid accidentally nesting them
@@ -211,14 +219,18 @@ This organized structure:
 - **Shows professionalism**: Well-organized folders demonstrate good development habits
 - **Self-documenting**: The README explains the structure to you and others
 
-When you start creating Git repositories in the next section, you'll create them as separate folders inside `projects/`, each with its own `.git` folder. This structure ensures they're never nested.
+GREAT JOB!!: When you start creating Git repositories in the next section, you'll create them as separate folders inside `projects/`, each with its own `.git` folder. This structure ensures they're never nested.
+
+[[c01-found/s1-files/index#Special Cases: Obsidian Knowledge Management|Return to Lecture]]
+
+
 
 ---
 
 ## Navigation
 
 ### Section Navigation
-- [[index 1|Home]] - Return to main course page
+- [[index|Home]] - Return to main course page
 - [[s1-files/index|File Systems Index]] - Return to file systems overview
 - [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Knowledge Base Structure]] - Previous exercise
 - [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - This page

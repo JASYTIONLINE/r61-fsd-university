@@ -479,6 +479,6 @@ You now have a page with rich content elements. In the next exercise, you'll lea
 
 **Next Exercise:** [[s3-html-css/s3e3-creating-tables|Exercise 3: Creating Tables]]
 
-**Home:** [[index 1|Main Course Page]]
+**Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]

@@ -196,8 +196,8 @@ Good luck, and welcome to the journey of becoming a full stack engineer!
 ## Global Navigation
 
 ### Quick Links
-- [[index 1|Home]] - Return to the main course page
-- [[s0-welcome/index|Section 0: Orientation]] - This page
+- [[index|Home]] - Return to the main course page
+- [[# So You Want to be an Engineer?]] - Back to Top
 - [[s1-files/index|Section 1: File Systems]] - Organization principles
 - [[s2-vers-ctrl/index|Section 2: Version Control]] - Git and GitHub basics
 - [[s3-html-css/index|Section 3: HTML & CSS]] - Web page fundamentals
