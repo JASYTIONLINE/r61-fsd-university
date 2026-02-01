@@ -24,10 +24,44 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for git info
       
-      - name: Build Quartz
-        uses: konstfish/quartz-build-action@v6
+      - uses: actions/setup-node@v4
         with:
-          source: content
+          node-version: 20
+      
+      - name: Setup Quartz source
+        run: |
+          # Clone Quartz to get the source code needed for the config imports
+          git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git quartz-temp
+          cp -r quartz-temp/quartz ./quartz
+          # Merge package.json dependencies
+          if [ -f "quartz-temp/package.json" ]; then
+            node -e "
+              const fs = require('fs');
+              const ourPkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+              const quartzPkg = JSON.parse(fs.readFileSync('quartz-temp/package.json', 'utf8'));
+              ourPkg.dependencies = { ...ourPkg.dependencies, ...quartzPkg.dependencies };
+              ourPkg.devDependencies = { ...ourPkg.devDependencies, ...quartzPkg.devDependencies };
+              fs.writeFileSync('package.json', JSON.stringify(ourPkg, null, 2));
+            "
+          fi
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Build Quartz
+        run: npx quartz build --content content
+      
+      - name: Verify build output
+        run: |
+          if [ ! -d "public" ]; then
+            echo "ERROR: public directory not found after build!"
+            echo "Current directory contents:"
+            ls -la
+            echo "Checking for other possible output directories:"
+            [ -d "_site" ] && echo "Found _site directory" || echo "_site not found"
+            exit 1
+          fi
+          echo "✓ Build output found in public directory"
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
