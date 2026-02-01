@@ -160,7 +160,7 @@ A **command line** (also called terminal, console, or shell) is a text-based int
 - Supports multiple command-line tools
 - Makes working with command line more pleasant
 
-Now that you understand what a terminal is and why it matters, you're ready to install Windows Terminal. Complete [[orientation/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]] to set up your command-line environment.
+Now that you understand what a terminal is and why it matters, you're ready to install Windows Terminal. Complete [[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]] to set up your command-line environment.
 
 ---
 
@@ -197,7 +197,7 @@ Version control lets you:
 - Gives you more control and flexibility
 - Works alongside graphical tools like GitHub Desktop
 
-Now that you understand Git and version control, you're ready to install Git. Complete [[orientation/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] to set up version control on your computer.
+Now that you understand Git and version control, you're ready to install Git. Complete [[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] to set up version control on your computer.
 
 ---
 
@@ -232,7 +232,7 @@ When you use VS Code, you're using the same tool that most developers use. This 
 
 **That's why we use VS Code in this course.** It's not the only good editor, but it's the one you're most likely to encounter in professional settings.
 
-Now that you understand code editors and why VS Code is the standard, you're ready to install it. Complete [[orientation/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] to set up your code editor.
+Now that you understand code editors and why VS Code is the standard, you're ready to install it. Complete [[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] to set up your code editor.
 
 ---
 
@@ -262,17 +262,17 @@ This course is designed to take you from zero to building real web applications.
 
 Complete these exercises in order to set up your development environment:
 
-1. **[[orientation/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]]**
+1. **[[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]]**
    - Install and configure Windows Terminal
    - Learn basic terminal navigation
    - Set up your command-line environment
 
-2. **[[orientation/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]]**
+2. **[[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]]**
    - Install Git for Windows
    - Verify Git installation
    - Integrate Git Bash with Windows Terminal
 
-3. **[[orientation/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]]**
+3. **[[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]]**
    - Install Visual Studio Code
    - Configure terminal integration
    - Set up your code editor
@@ -281,19 +281,16 @@ Complete these exercises in order to set up your development environment:
 
 ## Navigation
 
-### Section Navigation
-- [[version-control/index 1|Home]] - Return to the main course page
-- [[index 1|Orientation]] - This page
-- [[l1-file-systems/index|File Systems]] - Next section
-- [[version-control/index|Version Control]] - Version control section
-
 ### Course Sections
-- [[index 1|Orientation]] - Get started here
-- [[l1-file-systems/index|File Systems]] - Organization principles
-- [[version-control/index|Version Control]] - Git and GitHub basics
-- [[l3-html-css/index|HTML & CSS]] - Web page fundamentals
-- [[l4-/index|JavaScript Basics]] - Programming fundamentals
-- [[l5-/index|JavaScript Functions]] - Functions and optimization
-- [[l6-/index|Advanced JavaScript]] - Advanced concepts
-- [[L7-/index|Advanced Git]] - Version control workflows
-- [[L8-/index|Tailwind CSS]] - Modern styling
+- [[s0-welcome/index|Section 0: Orientation]] - Get started here
+- [[s1-files/index|Section 1: File Systems and Organization]] - Organization principles
+- [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] - Git and GitHub basics
+- [[s3-html-css/index|Section 3: HTML & CSS Foundations]] - Web page fundamentals
+- [[s4-js/index|Section 4: JavaScript Basics]] - Programming fundamentals
+- [[s5-opt-js/index|Section 5: JavaScript Functions]] - Functions and optimization
+- [[s6-adv-js/index|Section 6: Advanced JavaScript]] - Advanced concepts
+- [[s7-tailwind/index|Section 7: Tailwind CSS]] - Modern styling
+- [[s8-tailwind-adv/index|Section 8: Advanced Tailwind]] - Advanced styling
+
+### Getting Started
+New to the course? Start with [[s0-welcome/index|Section 0: Orientation]] to set up your development environment, then proceed through each section in order.

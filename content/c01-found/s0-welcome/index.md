@@ -200,12 +200,12 @@ Good luck, and welcome to the journey of becoming a full stack engineer!
 - [[s0-welcome/index|Section 0: Orientation]] - This page
 - [[s1-files/index|Section 1: File Systems]] - Organization principles
 - [[s2-vers-ctrl/index|Section 2: Version Control]] - Git and GitHub basics
-- [[l3-html-css/index|Section 3: HTML & CSS]] - Web page fundamentals
-- [[l4-/index|Section 4: JavaScript Basics]] - Programming fundamentals
-- [[l5-/index|Section 5: JavaScript Functions]] - Functions and optimization
-- [[l6-/index|Section 6: Advanced JavaScript]] - Advanced concepts
-- [[L7-/index|Section 7: Advanced Git]] - Version control workflows
-- [[L8-/index|Section 8: Tailwind CSS]] - Modern styling
+- [[s3-html-css/index|Section 3: HTML & CSS]] - Web page fundamentals
+- [[s4-js/index|Section 4: JavaScript Basics]] - Programming fundamentals
+- [[s5-opt-js/index|Section 5: JavaScript Functions]] - Functions and optimization
+- [[s6-adv-js/index|Section 6: Advanced JavaScript]] - Advanced concepts
+- [[s7-tailwind/index|Section 7: Tailwind CSS]] - Modern styling
+- [[s8-tailwind-adv/index|Section 8: Advanced Tailwind]] - Advanced styling
 
 ### Course Resources
 Each lesson contains organized materials:

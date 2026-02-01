@@ -422,9 +422,9 @@ The repository you'll build throughout this course will follow professional orga
 - [[s0-welcome/index|Orientation]] - Get started here
 - [[s1-files/index|File Systems]] - Organization principles
 - [[s2-vers-ctrl/index|Version Control]] - Git and GitHub basics
-- [[l3-html-css/index|HTML & CSS]] - Web page fundamentals
-- [[l4-/index|JavaScript Basics]] - Programming fundamentals
-- [[l5-/index|JavaScript Functions]] - Functions and optimization
-- [[l6-/index|Advanced JavaScript]] - Advanced concepts
-- [[L7-/index|Advanced Git]] - Version control workflows
-- [[L8-/index|Tailwind CSS]] - Modern styling
+- [[s3-html-css/index|HTML & CSS]] - Web page fundamentals
+- [[s4-js/index|JavaScript Basics]] - Programming fundamentals
+- [[s5-opt-js/index|JavaScript Functions]] - Functions and optimization
+- [[s6-adv-js/index|Advanced JavaScript]] - Advanced concepts
+- [[s7-tailwind/index|Tailwind CSS]] - Modern styling
+- [[s8-tailwind-adv/index|Advanced Tailwind]] - Advanced styling
