@@ -24,15 +24,10 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for git info
       
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      
-      - name: Install dependencies
-        run: npm install
-      
       - name: Build Quartz
-        run: npx quartz build --content content
+        uses: konstfish/quartz-build-action@v6
+        with:
+          source: content
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
