@@ -11,7 +11,7 @@ date: "2026-01-30"
 This exercise is written so you can complete it **without an instructor present**.
 Read each section fully before performing the steps.
 
-This exercise is part of the [[s1-file-systems/index|File Systems and Organization section]]. You'll create a well-organized knowledge base that will hold all your development projects, repositories, and learning materials.
+This exercise is part of the [[s1-files/index|File Systems and Organization section]]. You'll create a well-organized knowledge base that will hold all your development projects, repositories, and learning materials.
 
 ---
 
@@ -160,9 +160,10 @@ This foundation will support all your development work throughout this course an
 ## Navigation
 
 ### Section Navigation
-- [[s1-file-systems/index|File Systems Index]] - Return to file systems overview
-- [[s1-file-systems/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Knowledge Base Structure]] - This page
-- [[s1-file-systems/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - Next exercise
+- [[index 1|Home]] - Return to main course page
+- [[s1-files/index|File Systems Index]] - Return to file systems overview
+- [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Knowledge Base Structure]] - This page
+- [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - Next exercise
 
 ### Related Materials
-- [[s1-file-systems/index|File Systems Lecture]] - Review the concepts
+- [[s1-files/index|File Systems Lecture]] - Review the concepts

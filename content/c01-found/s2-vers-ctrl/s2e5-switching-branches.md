@@ -452,8 +452,10 @@ After completing this exercise, you should have:
 
 ## Navigation
 
-**Previous Exercise:** [[s2-version-control/s2e4-creating-branches|Exercise 4: Creating Branches]]
+**Previous Exercise:** [[s2-vers-ctrl/s2e4-creating-branches|Exercise 4: Creating Branches]]
 
-**Next Exercise:** [[s2-version-control/s2e6-creating-pull-requests|Exercise 6: Creating Pull Requests]]
+**Next Exercise:** [[s2-vers-ctrl/s2e6-creating-pull-requests|Exercise 6: Creating Pull Requests]]
 
-**Return to Section:** [[s2-version-control/index|Version Control Section]]
+**Home:** [[index 1|Main Course Page]]
+
+**Return to Section:** [[s2-vers-ctrl/index|Version Control Section]]

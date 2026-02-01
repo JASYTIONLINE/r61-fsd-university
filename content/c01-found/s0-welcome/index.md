@@ -158,27 +158,27 @@ This course is designed to take you from zero to building real web applications.
 
 Complete these exercises in order to set up your development environment:
 
-1. **[[s0-orientation/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]]**
+1. **[[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]]**
    - Install and configure Windows Terminal
    - Learn basic terminal navigation
    - Set up your command-line environment
 
-2. **[[s0-orientation/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]]**
+2. **[[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]]**
    - Install Git for Windows
    - Verify Git installation
    - Integrate Git Bash with Windows Terminal
 
-3. **[[s0-orientation/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]]**
+3. **[[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]]**
    - Install Visual Studio Code
    - Configure terminal integration
    - Set up your code editor
 
-4. **[[s0-orientation/exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]]**
+4. **[[s0-welcome/exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]]**
    - Create and verify your GitHub account
    - Set up your profile
    - Understand the GitHub interface
 
-5. **[[s0-orientation/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]]**
+5. **[[s0-welcome/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]]**
    - Install GitHub Desktop
    - Sign in to your GitHub account
    - Learn the basic interface
@@ -187,7 +187,7 @@ Complete these exercises in order to set up your development environment:
 
 ## Ready to Begin?
 
-When you're ready to start, complete the exercises above to set up your development environment. Once you have all tools installed, proceed to [[s1-file-systems/index|Section 1: File Systems and Organization]] to learn about file organization principles, then continue to [[s2-version-control/index|Section 2: Version Control Foundations]] to begin building your first professional repository.
+When you're ready to start, complete the exercises above to set up your development environment. Once you have all tools installed, proceed to [[s1-files/index|Section 1: File Systems and Organization]] to learn about file organization principles, then continue to [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] to begin building your first professional repository.
 
 Good luck, and welcome to the journey of becoming a full stack engineer!
 
@@ -196,10 +196,10 @@ Good luck, and welcome to the journey of becoming a full stack engineer!
 ## Global Navigation
 
 ### Quick Links
-- [[version-control/index 1|Home]] - Return to the main course page
-- [[s0-orientation/index|Section 0: Orientation]] - This page
-- [[s1-file-systems/index|Section 1: File Systems]] - Organization principles
-- [[s2-version-control/index|Section 2: Version Control]] - Git and GitHub basics
+- [[index 1|Home]] - Return to the main course page
+- [[s0-welcome/index|Section 0: Orientation]] - This page
+- [[s1-files/index|Section 1: File Systems]] - Organization principles
+- [[s2-vers-ctrl/index|Section 2: Version Control]] - Git and GitHub basics
 - [[l3-html-css/index|Section 3: HTML & CSS]] - Web page fundamentals
 - [[l4-/index|Section 4: JavaScript Basics]] - Programming fundamentals
 - [[l5-/index|Section 5: JavaScript Functions]] - Functions and optimization
@@ -214,4 +214,4 @@ Each lesson contains organized materials:
 - **Labs** - Found in the `lab/` folder of each lesson
 
 ### Getting Started
-New to the course? Start here with this orientation and complete all five exercises to set up your development environment. Then proceed to [[s1-file-systems/index|Section 1: File Systems and Organization]] to understand how course materials are organized, followed by [[s2-version-control/index|Section 2: Version Control Foundations]] to begin building your first repository.
+New to the course? Start here with this orientation and complete all five exercises to set up your development environment. Then proceed to [[s1-files/index|Section 1: File Systems and Organization]] to understand how course materials are organized, followed by [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] to begin building your first repository.

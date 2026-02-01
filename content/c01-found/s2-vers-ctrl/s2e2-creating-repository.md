@@ -410,8 +410,10 @@ After completing this exercise, you should have:
 
 ## Navigation
 
-**Previous Exercise:** [[s2-version-control/s2e1-authenticating-git-with-github|Exercise 1: Authenticating Git with GitHub]]
+**Previous Exercise:** [[s2-vers-ctrl/s2e1-authenticating-git-with-github|Exercise 1: Authenticating Git with GitHub]]
 
-**Next Exercise:** [[s2-version-control/s2e3-pushing-changes|Exercise 3: Pushing Changes]]
+**Next Exercise:** [[s2-vers-ctrl/s2e3-pushing-changes|Exercise 3: Pushing Changes]]
 
-**Return to Section:** [[s2-version-control/index|Version Control Section]]
+**Home:** [[index 1|Main Course Page]]
+
+**Return to Section:** [[s2-vers-ctrl/index|Version Control Section]]

@@ -11,7 +11,7 @@ date: "2026-01-30"
 This exercise is written so you can complete it **without an instructor present**.
 Read each section fully before performing the steps.
 
-This exercise covers optional tools mentioned in the [[s1-file-systems/index|File Systems lecture]]. These tools are not required for this course but can enhance your productivity and learning experience.
+This exercise covers optional tools mentioned in the [[s1-files/index|File Systems lecture]]. These tools are not required for this course but can enhance your productivity and learning experience.
 
 ---
 
@@ -153,13 +153,14 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 ## Navigation
 
 ### Section Navigation
-- [[s1-file-systems/index|File Systems Index]] - Return to file systems overview
-- [[file-systems/exercise-1-creating-github-account|Exercise 1: Creating GitHub Account]] - Previous exercise
-- [[file-systems/exercise-2-installing-github-desktop|Exercise 2: Installing GitHub Desktop]] - Previous exercise
-- [[file-systems/exercise-3-installing-optional-tools|Exercise 3: Installing Optional Tools]] - This page
+- [[index 1|Home]] - Return to main course page
+- [[s0-welcome/index|Orientation Index]] - Return to orientation overview
+- [[s0-welcome/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - Previous exercise
+- [[s0-welcome/exercise-6-installing-optional-tools|Exercise 6: Installing Optional Tools]] - This page
 
 ### Next Steps
-- [[version-control/index|Version Control Section]] - Learn Git and GitHub workflows
+- [[s1-files/index|File Systems Section]] - Learn about file organization
+- [[s2-vers-ctrl/index|Version Control Section]] - Learn Git and GitHub workflows
 
 ### Related Materials
-- [[s1-file-systems/index|File Systems Lecture]] - Review the concepts
+- [[s0-welcome/index|Orientation Lecture]] - Review the concepts

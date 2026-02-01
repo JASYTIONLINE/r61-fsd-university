@@ -11,7 +11,7 @@ date: "2026-01-30"
 This exercise is written so you can complete it **without an instructor present**.
 Read each section fully before performing the steps.
 
-This exercise is part of the [[s1-file-systems/index|File Systems and Organization section]]. You'll create the organized folder structure within your knowledge base that will hold all your development work.
+This exercise is part of the [[s1-files/index|File Systems and Organization section]]. You'll create the organized folder structure within your knowledge base that will hold all your development work.
 
 ---
 
@@ -28,7 +28,7 @@ By the end of this exercise, you will have:
 ## Before You Start
 
 Make sure you have:
-- Completed [[s1-file-systems/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]]
+- Completed [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]]
 - Your knowledge base folder created
 - Your structure plan from Exercise 1
 - About 10 minutes
@@ -218,10 +218,11 @@ When you start creating Git repositories in the next section, you'll create them
 ## Navigation
 
 ### Section Navigation
-- [[s1-file-systems/index|File Systems Index]] - Return to file systems overview
-- [[s1-file-systems/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Knowledge Base Structure]] - Previous exercise
-- [[s1-file-systems/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - This page
-- [[s1-file-systems/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] - Next exercise (Optional)
+- [[index 1|Home]] - Return to main course page
+- [[s1-files/index|File Systems Index]] - Return to file systems overview
+- [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Knowledge Base Structure]] - Previous exercise
+- [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - This page
+- [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] - Next exercise (Optional)
 
 ### Related Materials
-- [[s1-file-systems/index|File Systems Lecture]] - Review the concepts
+- [[s1-files/index|File Systems Lecture]] - Review the concepts

@@ -11,7 +11,7 @@ date: "2026-01-30"
 This exercise is written so you can complete it **without an instructor present**.
 Read each section fully before performing the steps.
 
-This exercise is part of the [[s0-orientation/index|Orientation section]]. Git is the foundation of version control, and Git Bash provides a command-line interface for using Git on Windows.
+This exercise is part of the [[s0-welcome/index|Orientation section]]. Git is the foundation of version control, and Git Bash provides a command-line interface for using Git on Windows.
 
 ---
 
@@ -163,10 +163,11 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 ## Navigation
 
 ### Section Navigation
-- [[s0-orientation/index|Orientation Index]] - Return to orientation overview
-- [[s0-orientation/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]] - Previous exercise
-- [[s0-orientation/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] - This page
-- [[s0-orientation/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] - Next exercise
+- [[index 1|Home]] - Return to main course page
+- [[s0-welcome/index|Orientation Index]] - Return to orientation overview
+- [[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]] - Previous exercise
+- [[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] - This page
+- [[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] - Next exercise
 
 ### Related Materials
-- [[s0-orientation/index|Orientation Lecture]] - Review the concepts
+- [[s0-welcome/index|Orientation Lecture]] - Review the concepts

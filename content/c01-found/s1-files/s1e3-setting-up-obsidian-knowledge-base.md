@@ -11,7 +11,7 @@ date: "2026-01-30"
 This exercise is written so you can complete it **without an instructor present**.
 Read each section fully before performing the steps.
 
-This exercise is part of the [[s1-file-systems/index|File Systems and Organization section]]. You'll set up Obsidian as a note-taking and knowledge management tool, with special attention to its unique folder structure requirements for publishing.
+This exercise is part of the [[s1-files/index|File Systems and Organization section]]. You'll set up Obsidian as a note-taking and knowledge management tool, with special attention to its unique folder structure requirements for publishing.
 
 **Note:** This exercise is **optional**. Only complete it if you want to use Obsidian for note-taking and knowledge management. If you're just using Obsidian for personal notes (not publishing), you can skip the special folder structure setup.
 
@@ -30,7 +30,7 @@ By the end of this exercise, you will have:
 ## Before You Start
 
 Make sure you have:
-- Completed [[s1-file-systems/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]]
+- Completed [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]]
 - Obsidian installed (from [[s0-orientation/exercise-6-installing-optional-tools|Orientation Exercise 6]] or install it now)
 - About 15-20 minutes
 - Understanding that Obsidian uses a special structure for publishing
@@ -295,10 +295,11 @@ Understanding Obsidian's structure:
 ## Navigation
 
 ### Section Navigation
-- [[s1-file-systems/index|File Systems Index]] - Return to file systems overview
-- [[s1-file-systems/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - Previous exercise
-- [[s1-file-systems/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] - This page
+- [[index 1|Home]] - Return to main course page
+- [[s1-files/index|File Systems Index]] - Return to file systems overview
+- [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - Previous exercise
+- [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] - This page
 
 ### Related Materials
-- [[s1-file-systems/index|File Systems Lecture]] - Review the concepts
+- [[s1-files/index|File Systems Lecture]] - Review the concepts
 - [[s0-orientation/exercise-6-installing-optional-tools|Installing Optional Tools]] - If you need to install Obsidian

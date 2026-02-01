@@ -33,13 +33,13 @@ Each lesson is structured as a **workbook** that you can complete at your own pa
 
 Navigate to any section using the links below. Each section contains a comprehensive lecture (index.md) covering all concepts, and focused exercises (exercise-N-name.md) that practice individual concepts.
 
-### [[index 1|Orientation: So You Want to be an Engineer?]]
+### [[s0-welcome/index|Orientation: So You Want to be an Engineer?]]
 Get oriented with full stack engineering. Learn what it means to be a full stack engineer, understand prerequisites, and set up your development environment (Windows Terminal, Git Bash, VS Code).
 
-### [[l1-file-systems/index|File Systems and Organization]]
+### [[s1-files/index|File Systems and Organization]]
 Introduction to file organization principles and developer infrastructure. Learn why logical file structures matter, understand organizational patterns, and set up your GitHub account and tools.
 
-### [[version-control/index|Version Control Foundations]]
+### [[s2-vers-ctrl/index|Version Control Foundations]]
 Comprehensive introduction to Git and GitHub. Learn all version control concepts through focused exercises: authentication, repositories, commits, branches, merging, and professional workflows.
 
 ### [[l3-html-css/index|HTML & CSS]]
@@ -65,10 +65,10 @@ Modern CSS frameworks and advanced styling techniques. Learn to build responsive
 ## Global Navigation
 
 ### Quick Links
-- [[version-control/index 1|Home]] - Return to this page
-- [[index 1|Orientation]] - Get started here
-- [[l1-file-systems/index|File Systems]] - Organization principles
-- [[version-control/index|Version Control]] - Git and GitHub basics
+- [[index 1|Home]] - Return to this page
+- [[s0-welcome/index|Orientation]] - Get started here
+- [[s1-files/index|File Systems]] - Organization principles
+- [[s2-vers-ctrl/index|Version Control]] - Git and GitHub basics
 - [[l3-html-css/index|HTML & CSS]] - Web page fundamentals
 - [[l4-/index|JavaScript Basics]] - Programming fundamentals
 - [[l5-/index|JavaScript Functions]] - Functions and optimization
@@ -87,4 +87,4 @@ Each section follows a consistent structure:
 3. Each exercise reinforces one specific concept from the lecture
 
 ### Getting Started
-If you're new to this course, start with [[index 1|Orientation]] to get oriented and set up your development environment, then proceed to [[l1-file-systems/index|File Systems]] to understand file organization and set up GitHub. Each section builds on the previous one, and you'll work with a single repository throughout the entire course.
+If you're new to this course, start with [[s0-welcome/index|Orientation]] to get oriented and set up your development environment, then proceed to [[s1-files/index|File Systems]] to understand file organization and set up GitHub. Each section builds on the previous one, and you'll work with a single repository throughout the entire course.

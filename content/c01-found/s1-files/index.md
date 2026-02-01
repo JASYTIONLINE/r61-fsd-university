@@ -206,7 +206,7 @@ Documents/
 
 **Key takeaway:** If you're setting up multiple repositories, make sure each one is in its own separate folder at the same level, not nested inside another repository. Each project should have its own `.git` folder at the root of that project, and no other `.git` folders should exist inside it.
 
-Now that you understand how repositories work and why they shouldn't be nested, you're ready to plan where yours will live. Complete [[s1-file-systems/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]] to get started.
+Now that you understand how repositories work and why they shouldn't be nested, you're ready to plan where yours will live. Complete [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]] to get started.
 
 ---
 
@@ -246,7 +246,7 @@ knowledge-base/
 - This structure prevents the nested repository problem we discussed earlier
 - You'll create this structure in the exercises
 
-With these organizational principles in mind, you're ready to create your own organized structure. Complete [[s1-file-systems/s1e2-creating-project-organization-structure|Exercise 2: Creating Your Project Organization Structure]] to build your knowledge base.
+With these organizational principles in mind, you're ready to create your own organized structure. Complete [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Your Project Organization Structure]] to build your knowledge base.
 
 ---
 
@@ -276,7 +276,7 @@ obsidian-vault/
 
 This is a special case that requires a slightly different organizational approach than standard repositories. If you're just using Obsidian for personal notes, you don't need to worry about this, but if you plan to publish your vault, you'll need to structure it accordingly.
 
-If you want to set up Obsidian with the proper structure, complete [[s1-file-systems/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] (optional).
+If you want to set up Obsidian with the proper structure, complete [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] (optional).
 
 ---
 
@@ -377,19 +377,19 @@ This foundation will support all your development work throughout this course an
 
 Complete these exercises to set up your knowledge base and understand file organization:
 
-1. **[[s1-file-systems/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]]**
+1. **[[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]]**
    - Choose a location for your knowledge base
    - Understand the difference between a knowledge base folder and a Git repository
    - Create your top-level knowledge base folder
    - Plan your folder structure
 
-2. **[[s1-file-systems/s1e2-creating-project-organization-structure|Exercise 2: Creating Your Project Organization Structure]]**
+2. **[[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Your Project Organization Structure]]**
    - Create organized folders for projects, learning materials, and notes
    - Set up a structure that prevents nested repositories
    - Document your organization with README files
    - Understand where future Git repositories will be placed
 
-3. **[[s1-file-systems/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]]** (Optional)
+3. **[[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]]** (Optional)
    - Set up Obsidian with the special `content/` folder structure for publishing
    - Understand how Obsidian's organization differs from standard repositories
    - Create your first notes in the proper structure
@@ -413,15 +413,15 @@ The repository you'll build throughout this course will follow professional orga
 ## Navigation
 
 ### Section Navigation
-- [[version-control/index 1|Home]] - Return to the main course page
-- [[index 1|Orientation]] - Previous section
-- [[s1-file-systems/index|File Systems]] - This page
-- [[version-control/index|Version Control]] - Next section
+- [[index 1|Home]] - Return to the main course page
+- [[s0-welcome/index|Orientation]] - Previous section
+- [[s1-files/index|File Systems]] - This page
+- [[s2-vers-ctrl/index|Version Control]] - Next section
 
 ### Course Sections
-- [[index 1|Orientation]] - Get started here
-- [[s1-file-systems/index|File Systems]] - Organization principles
-- [[version-control/index|Version Control]] - Git and GitHub basics
+- [[s0-welcome/index|Orientation]] - Get started here
+- [[s1-files/index|File Systems]] - Organization principles
+- [[s2-vers-ctrl/index|Version Control]] - Git and GitHub basics
 - [[l3-html-css/index|HTML & CSS]] - Web page fundamentals
 - [[l4-/index|JavaScript Basics]] - Programming fundamentals
 - [[l5-/index|JavaScript Functions]] - Functions and optimization

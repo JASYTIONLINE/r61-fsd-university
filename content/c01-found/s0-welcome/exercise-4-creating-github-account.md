@@ -11,7 +11,7 @@ date: "2026-01-30"
 This exercise is written so you can complete it **without an instructor present**.
 Read each section fully before performing the steps.
 
-This exercise is part of the [[s0-orientation/index|Orientation section]]. GitHub is where you'll store your code online and build your portfolio. You need an account before you can use GitHub.
+This exercise is part of the [[s0-welcome/index|Orientation section]]. GitHub is where you'll store your code online and build your portfolio. You need an account before you can use GitHub.
 
 ---
 
@@ -163,10 +163,11 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 ## Navigation
 
 ### Section Navigation
-- [[s0-orientation/index|Orientation Index]] - Return to orientation overview
-- [[s0-orientation/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] - Previous exercise
-- [[s0-orientation/exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] - This page
-- [[s0-orientation/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - Next exercise
+- [[index 1|Home]] - Return to main course page
+- [[s0-welcome/index|Orientation Index]] - Return to orientation overview
+- [[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] - Previous exercise
+- [[s0-welcome/exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] - This page
+- [[s0-welcome/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - Next exercise
 
 ### Related Materials
-- [[s0-orientation/index|Orientation Lecture]] - Review the concepts
+- [[s0-welcome/index|Orientation Lecture]] - Review the concepts

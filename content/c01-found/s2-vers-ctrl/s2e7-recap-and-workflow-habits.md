@@ -518,8 +518,10 @@ After completing this exercise, you should have:
 
 ## Navigation
 
-**Previous Exercise:** [[s2-version-control/s2e7-merging-branches|Exercise 7: Merging Branches]]
+**Previous Exercise:** [[s2-vers-ctrl/s2e7-merging-branches|Exercise 7: Merging Branches]]
 
 **Next Section:** [[s3-html-css/index|Section 3: HTML & CSS]]
 
-**Return to Section:** [[s2-version-control/index|Version Control Section]]
+**Home:** [[index 1|Main Course Page]]
+
+**Return to Section:** [[s2-vers-ctrl/index|Version Control Section]]
