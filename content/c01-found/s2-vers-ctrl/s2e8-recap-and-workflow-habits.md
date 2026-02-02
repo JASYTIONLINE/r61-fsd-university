@@ -23,10 +23,11 @@ Before starting, verify:
 1. ✅ **Exercises 1-7 completed**
    - Repository `version-control-portfolio` exists
    - Repository is open in VS Code
-   - You're in the repository folder in terminal
+   - You're in the *version-control-portfolio* repository folder in terminal
    - Only `main` branch exists
    - Only `README.md` and `index.html` files exist
    - All commits pushed to GitHub
+   - You have set VS Code terminal to use Git Bash (see [[c01-found/s2-vers-ctrl/s2e1-authenticating-git-with-github#Step 5: Configure VS Code Terminal to Use Git Bash|Section 2, Exercise 1 - Step 5]])
 
 2. ✅ **Current State Verification**
    - Open VS Code terminal (Ctrl + ~)
@@ -60,6 +61,20 @@ By the end of this exercise, you will have:
 
 ## Step 1: Verify Your Repository State
 
+### 0: Go to Your Repository Folder
+
+Before running any commands, move into the root of your version control repository in the VS Code terminal.
+
+1. In the VS Code terminal, type exactly (replace `YourName` with your Windows username):
+   ```bash
+   cd /c/Users/YourName/knowledge-base/projects/version-control-portfolio
+   ```
+2. Press **Enter**.
+
+You should now be in the folder that contains `.git`, `README.md`, and `index.html`.
+
+> If you created your `knowledge-base` or `version-control-portfolio` repository in a different location, adjust the path above to match where you actually created it. The important part is that you are in the `version-control-portfolio` folder before continuing.
+
 ### 1.1: Check Branch Structure
 
 1. In the VS Code terminal, type exactly:
@@ -79,15 +94,37 @@ By the end of this exercise, you will have:
 - ✅ `remotes/origin/main` showing the remote branch
 - ✅ No feature branches remaining
 
+**Note:** Your output might also show a line like: *remotes/origin/HEAD -> origin/main*
+This is normal. It just means the remote (GitHub) has `main` set as its default branch. As long as you only see `main` as the local branch (no `feature-...` branches), your result matches this exercise.
 ### 1.2: Check File Structure
 
-1. In the terminal, type exactly:
+#### What This Step Does
+
+You are verifying that your **repository folder on disk is clean and professional**.
+At this point, it should contain only:
+
+- `.git` – Git’s internal database
+- `README.md` – Project documentation
+- `index.html` – Your project file
+
+No extra “practice” or temporary files should remain.
+
+#### How to Do It (in VS Code Terminal)
+
+1. In **VS Code**, with the terminal already in your repository folder, type exactly:
+
    ```bash
    ls -la
    ```
-2. Press **Enter**
+git status
+2. Press **Enter**.
 
-**Expected Output:**
+> If you run this in a different terminal than the one configured earlier in this course, the exact formatting may look slightly different, but the important part is which files are listed.
+
+#### Expected Output
+
+You should see something like:
+
 ```
 total X
 drwxr-xr-x 1 user user  X date .git
@@ -97,11 +134,15 @@ drwxr-xr-x 1 user user  X date ..
 -rw-r--r-- 1 user user  X date index.html
 ```
 
+(The exact permissions, user name, and dates will be different on your machine.)
+
 **You should see:**
 - ✅ `.git` folder (hidden)
-- ✅ `README.md` file
-- ✅ `index.html` file
-- ✅ No other files
+- ✅ `README.md`
+- ✅ `index.html`
+- ✅ **No other project files**
+
+If you see extra files here, your repository is not yet clean; remove or archive any temporary/practice files, then run `ls -la` again until only these files remain.
 
 ### 1.3: Check Commit History
 
