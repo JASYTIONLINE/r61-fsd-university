@@ -20,12 +20,12 @@ In this section, you will:
 - Learn what version control is and why every developer needs it
 - Understand the relationship between [Git (the tool)](https://en.wikipedia.org/wiki/Git) and [GitHub (the platform)](https://en.wikipedia.org/wiki/GitHub)
 - **Use VS Code's integrated terminal** configured with Git Bash for all Git operations
-- Set up Git authentication with GitHub via **GitHub CLI** (install `gh` and use `gh auth login`)
+- Set up [Git authentication](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github) with GitHub via [GitHub CLI](https://docs.github.com/en/github-cli/github-cli/about-github-cli) (install `gh` and use `gh auth login`)
 - Create one professional [repository](https://en.wikipedia.org/wiki/Repository) for this section 
 - Create and manage repositories using terminal commands
-- Track files and create commits using Git commands
-- Work with branches safely through command-line Git
-- Merge changes professionally using terminal commands
+- Track files and create [commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) using Git commands
+- Work with [branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches?versionId=free-pro-team%40latest&productId=pages&restPage=getting-started-with-github-pages%2Csecuring-your-github-pages-site-with-https]) safely through command-line Git
+- [Merge](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github) changes professionally using terminal commands
 - Develop workflow habits that employers expect
 
 **Important:** This section teaches **command-line Git** using **VS Code's integrated terminal** configured with **Git Bash**. While GUI tools exist, command-line Git is the industry standard and what many employers expect. All exercises use VS Code's terminal with Git Bash.
@@ -175,7 +175,8 @@ Even though you're using VS Code's terminal, it's using **Git Bash** as the shel
 
 ### Setting Up VS Code Terminal
 
-In the following exercises, you'll configure [VS Code to use Git Bash as its default terminal.](https://www.bing.com/videos/riverview/relatedvideo?q=setting+up+vs+code+for+git+bash+and+terminal&&mid=2D306CD938B7D87761EC2D306CD938B7D87761EC&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCam2FHXijtbff4uW2VglGtA&mmscn=mtsc&aps=42&FORM=VMSOVR)
+In the following exercises, you will install Git Bash and configure VS Code to use Git Bash as its default terminal.
+
 This means:
 - Opening the terminal in VS Code (Ctrl + ~)
 - Automatically getting Git Bash

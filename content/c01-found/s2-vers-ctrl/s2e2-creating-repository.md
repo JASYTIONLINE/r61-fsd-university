@@ -139,10 +139,9 @@ https://github.com/your-username/version-control-portfolio.git
 - Open the folder in VS Code
 
 ![[ss-open-local.png]]
-**VS Code opens.**
 
 ### 3.2: Open VS Code Terminal
-
+![[ss-vs-term.png]]
 1. In VS Code, press **Ctrl + ~** (Control key + tilde key)
    - This opens the integrated terminal at the bottom
 2. Verify the terminal prompt ends with `$` (Git Bash)

@@ -145,12 +145,6 @@ Every exercise from now on will use VS Code. You're ready to start coding.
 
 ---
 
-## Next Steps
-
-- [[s0-welcome/index|Orientation Lecture]] - Return to the lecture and continue with the next orientation exercise.
-
----
-
 ## Troubleshooting
 
 If something didn't work:
@@ -162,6 +156,9 @@ If something didn't work:
 3. **Can't find VS Code after installation**: Press Windows key, type "visual studio code", and it should appear.
 
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
+
+---
+Next Steps: [[s0-welcome/index|Orientation Lecture]] - Return to the lecture and continue with the next orientation exercise.
 
 ---
 
