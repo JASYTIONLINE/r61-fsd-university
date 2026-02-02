@@ -497,6 +497,12 @@ You now have a well-structured HTML page with semantic elements and proper IDs a
 
 ---
 
+## Next Steps
+
+- [[c01-found/s3-html-css/index#Semantic HTML Structure|Return to Lecture]] - Go back to the Semantic HTML Structure section of the lecture before starting CSS.
+
+---
+
 ## Navigation
 
 **Previous Exercise:** [[s3-html-css/s3e4-creating-forms|Exercise 4: Creating Forms]]

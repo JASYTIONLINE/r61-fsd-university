@@ -396,6 +396,12 @@ You now have a properly structured HTML page that loads reliably in a browser. I
 
 ---
 
+## Next Steps
+
+- [[c01-found/s3-html-css/index#HTML Document Structure|Return to Lecture]] - Go back to the HTML Document Structure section of the lecture before continuing.
+
+---
+
 ## Navigation
 
 **Previous Section:** [[s2-vers-ctrl/index|Section 2: Version Control]]

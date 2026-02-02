@@ -145,6 +145,12 @@ Every exercise from now on will use VS Code. You're ready to start coding.
 
 ---
 
+## Next Steps
+
+- [[s0-welcome/index|Orientation Lecture]] - Return to the lecture and continue with the next orientation exercise.
+
+---
+
 ## Troubleshooting
 
 If something didn't work:

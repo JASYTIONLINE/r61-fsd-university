@@ -408,6 +408,12 @@ After completing this exercise, you should have:
 
 ---
 
+## Next Steps
+
+- [[c01-found/s2-vers-ctrl/index#Repositories: The Container for Your Work|Return to Lecture]] - Review the repository concepts in the lecture before moving on.
+
+---
+
 ## Navigation
 
 **Previous Exercise:** [[s2-vers-ctrl/s2e1-authenticating-git-with-github|Exercise 1: Authenticating Git with GitHub]]

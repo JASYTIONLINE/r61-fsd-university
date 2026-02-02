@@ -644,3 +644,9 @@ You now have a complete understanding of HTML structure, CSS styling, and layout
 **Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]
+
+---
+
+## Next Steps
+
+- [[c01-found/s3-html-css/index#CSS Layout and Responsive Design|Return to Lecture]] - Go back to the CSS Layout and Responsive Design section of the lecture before starting the capstone.

@@ -665,6 +665,12 @@ You now understand how to target elements with CSS selectors and how the cascade
 
 ---
 
+## Next Steps
+
+- [[c01-found/s3-html-css/index#CSS Selectors, Cascade, and Specificity|Return to Lecture]] - Go back to the lecture section that explains selectors, cascade, and specificity.
+
+---
+
 ## Navigation
 
 **Previous Exercise:** [[s3-html-css/s3e6-introduction-to-css|Exercise 6: Introduction to CSS]]

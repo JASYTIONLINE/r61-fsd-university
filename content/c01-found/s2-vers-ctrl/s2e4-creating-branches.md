@@ -392,6 +392,12 @@ After completing this exercise, you should have:
 
 ---
 
+## Next Steps
+
+- [[c01-found/s2-vers-ctrl/index#Branching: Working Safely|Return to Lecture]] - Review the branching concepts in the lecture before moving to branch isolation.
+
+---
+
 ## Navigation
 
 **Previous Exercise:** [[s2-vers-ctrl/s2e3-pushing-changes|Exercise 3: Pushing Changes]]

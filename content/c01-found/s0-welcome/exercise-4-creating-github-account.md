@@ -146,6 +146,12 @@ This account will be used throughout the course. Every repository you create wil
 
 ---
 
+## Next Steps
+
+- [[s0-welcome/index|Orientation Lecture]] - Return to the lecture and complete the remaining orientation exercises.
+
+---
+
 ## Troubleshooting
 
 If something didn't work:

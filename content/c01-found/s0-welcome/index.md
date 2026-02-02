@@ -187,7 +187,9 @@ Complete these exercises in order to set up your development environment:
 
 ## Ready to Begin?
 
-When you're ready to start, complete the exercises above to set up your development environment. Once you have all tools installed, proceed to [[s1-files/index|Section 1: File Systems and Organization]] to learn about file organization principles, then continue to [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] to begin building your first professional repository.
+When you're ready to start, complete the exercises above to set up your development environment.
+
+**Next Steps:** [[s1-files/index|Section 1: File Systems and Organization]] - Learn about file organization principles. After completing Section 1, continue to [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] to begin building your first professional repository.
 
 Good luck, and welcome to the journey of becoming a full stack engineer!
 

@@ -292,6 +292,12 @@ Understanding Obsidian's structure:
 
 ---
 
+## Next Steps
+
+- [[c01-found/s1-files/index#Special Cases: Obsidian Knowledge Management|Return to Lecture]] - Go back to the lecture section that introduced Obsidian as a special case.
+
+---
+
 ## Navigation
 
 ### Section Navigation

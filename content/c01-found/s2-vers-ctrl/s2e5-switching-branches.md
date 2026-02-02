@@ -450,6 +450,12 @@ After completing this exercise, you should have:
 
 ---
 
+## Next Steps
+
+- [[c01-found/s2-vers-ctrl/index#Branching: Working Safely|Return to Lecture]] - Revisit the branching and branch isolation concepts in the lecture before continuing.
+
+---
+
 ## Navigation
 
 **Previous Exercise:** [[s2-vers-ctrl/s2e4-creating-branches|Exercise 4: Creating Branches]]

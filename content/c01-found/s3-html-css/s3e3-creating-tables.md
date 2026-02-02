@@ -411,6 +411,12 @@ You now understand how to create tables for organizing structured data. In the n
 
 ---
 
+## Next Steps
+
+- [[c01-found/s3-html-css/index#HTML Tables|Return to Lecture]] - Go back to the HTML Tables section of the lecture before moving on.
+
+---
+
 ## Navigation
 
 **Previous Exercise:** [[s3-html-css/s3e2-adding-rich-content-elements|Exercise 2: Adding Rich Content Elements]]

@@ -728,6 +728,13 @@ Version control will become second nature as you use it throughout the rest of t
 
 ---
 
+## Next Steps
+
+- [[s2-vers-ctrl/s2e8-recap-and-workflow-habits|Exercise 8: Recap and Workflow Habits]] - Review all concepts and reinforce your workflow habits before moving on.
+- After completing the recap, continue to [[s3-html-css/index|Section 3: HTML & CSS Foundations]] to start building and styling web pages.
+
+---
+
 ## Navigation
 
 ### Section Navigation

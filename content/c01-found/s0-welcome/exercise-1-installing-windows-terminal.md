@@ -104,6 +104,12 @@ While optional, Windows Terminal makes working with the command line more pleasa
 
 ---
 
+## Next Steps
+
+- [[s0-welcome/index|Orientation Lecture]] - Return to the lecture and continue with the next exercise in the sequence.
+
+---
+
 ## Navigation
 
 ### Section Navigation

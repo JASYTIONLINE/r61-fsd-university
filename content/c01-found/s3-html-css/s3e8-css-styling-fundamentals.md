@@ -793,6 +793,12 @@ You now have a well-styled page with organized CSS. In the next exercise, you'll
 
 ---
 
+## Next Steps
+
+- [[c01-found/s3-html-css/index#CSS Styling Fundamentals|Return to Lecture]] - Go back to the CSS Styling Fundamentals section of the lecture before moving on to layout.
+
+---
+
 ## Navigation
 
 **Previous Exercise:** [[s3-html-css/s3e7-css-selectors|Exercise 7: CSS Selectors]]

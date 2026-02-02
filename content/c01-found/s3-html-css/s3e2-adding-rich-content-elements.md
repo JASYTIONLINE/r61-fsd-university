@@ -482,3 +482,9 @@ You now have a page with rich content elements. In the next exercise, you'll lea
 **Home:** [[index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]
+
+---
+
+## Next Steps
+
+- [[c01-found/s3-html-css/index#HTML Content Elements|Return to Lecture]] - Go back to the lecture section that introduced links, lists, and media elements.

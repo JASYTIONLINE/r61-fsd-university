@@ -433,6 +433,12 @@ You now understand how to create forms for collecting user input. In the next ex
 
 ---
 
+## Next Steps
+
+- [[c01-found/s3-html-css/index#HTML Forms|Return to Lecture]] - Go back to the HTML Forms section of the lecture before continuing.
+
+---
+
 ## Navigation
 
 **Previous Exercise:** [[s3-html-css/s3e3-creating-tables|Exercise 3: Creating Tables]]

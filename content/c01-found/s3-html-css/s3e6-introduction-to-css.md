@@ -633,6 +633,12 @@ You now have CSS set up with proper file organization. In the next exercise, you
 
 ---
 
+## Next Steps
+
+- [[c01-found/s3-html-css/index#Introduction to CSS|Return to Lecture]] - Go back to the Introduction to CSS section of the lecture before diving deeper into selectors.
+
+---
+
 ## Navigation
 
 **Previous Exercise:** [[s3-html-css/s3e5-using-semantic-html-structure|Exercise 5: Using Semantic HTML Structure]]

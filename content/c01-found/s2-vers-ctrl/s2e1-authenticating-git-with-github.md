@@ -422,6 +422,12 @@ After completing this exercise, you should have:
 
 ---
 
+## Next Steps
+
+- [[c01-found/s2-vers-ctrl/index#Authentication: Connecting Git to GitHub|Return to Lecture]] - Review the authentication concepts in the lecture before continuing.
+
+---
+
 ## Navigation
 
 **Next Exercise:** [[s2-vers-ctrl/s2e2-creating-repository|Exercise 2: Creating Repository]]

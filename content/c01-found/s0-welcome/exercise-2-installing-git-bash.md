@@ -146,6 +146,12 @@ In later sections, you'll learn how to use Git and authenticate with GitHub from
 
 ---
 
+## Next Steps
+
+- [[s0-welcome/index|Orientation Lecture]] - Return to the lecture and move on to the next exercise in the setup sequence.
+
+---
+
 ## Troubleshooting
 
 If something didn't work:

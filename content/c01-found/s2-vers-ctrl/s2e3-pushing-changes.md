@@ -402,6 +402,12 @@ After completing this exercise, you should have:
 
 ---
 
+## Next Steps
+
+- [[c01-found/s2-vers-ctrl/index#Tracking Files and Making Commits|Return to Lecture]] - Review tracking, commits, and pushing concepts in the lecture before continuing.
+
+---
+
 ## Navigation
 
 **Previous Exercise:** [[s2-vers-ctrl/s2e2-creating-repository|Exercise 2: Creating Repository]]
