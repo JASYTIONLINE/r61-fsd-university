@@ -10,7 +10,9 @@ date: "2026-01-30"
 
 This section introduces you to the fundamental principles of organizing files and folders. You'll learn why good organization matters, see examples of effective structures, understand how the organizational patterns used in this course help you (and others) find what you need quickly, and discover why developers need personal infrastructure that matches organizational standards.
 
-This is a **level 2 understanding**—enough to grasp the "why" behind our organizational choices, not a deep dive into every possible file structure pattern. By the end, you'll understand why we organize repositories the way we do, and you'll be able to navigate and contribute to well-organized projects.
+Our goal in this course is to take your from the first level of understanding: I don't know what I don't know to level 2: I know what I don't know.
+
+Don't try to memorize or learn all the concepts you see here.  Work through the entire course, and we will reinforce the important concepts multiple times. For now, it is enough to grasp the "why" behind our organizational choices, not a deep dive into every possible file structure pattern. By the end, you'll understand why we organize repositories the way we do, and you'll be able to navigate and contribute to well-organized projects.
 
 ---
 
@@ -278,15 +280,14 @@ obsidian-vault/
 
 This is a special case that requires a slightly different organizational approach than standard repositories. If you're just using Obsidian for personal notes, you don't need to worry about this, but if you plan to publish your vault, you'll need to structure it accordingly.
 
-To learn more about Why you should consider using Obsidian check out [this ~30min](https://www.bing.com/videos/riverview/relatedvideo?q=why+use+obsidian+effectively&&mid=A9D3E4E06F582D97E5D1A9D3E4E06F582D97E5D1&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCQjBsscIa_mgEnSvWpm_9vw&FORM=VCGVRP) video that explains everything you need to know to get started. 
+To learn more about Why you should consider using Obsidian check out [this ~30min video ](https://www.bing.com/videos/riverview/relatedvideo?q=why+use+obsidian+effectively&&mid=A9D3E4E06F582D97E5D1A9D3E4E06F582D97E5D1&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCQjBsscIa_mgEnSvWpm_9vw&FORM=VCGVRP) that explains everything you need to know to get started. 
 
 or 
 
-If you want to set up a KB in Obsidian with the proper structure, complete:
+If you want to set up a Knowledge Base in Obsidian with the proper structure, complete:
 - [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] (optional).
 
 ---
-
 ## Why Infrastructure Matters
 
 As a developer, you don't work in isolation. You're part of a team, an organization, and an industry. The tools and systems you use need to work with everyone else's tools and systems.
@@ -302,7 +303,7 @@ Most developers work within organizations—companies, agencies, or teams. These
 	- **Code hosting** - They might use [GitHub](https://github.com/), [GitLab](https://gitlab.com/), or [Bitbucket](https://www.atlassian.com/software/bitbucket)
 - **Code editors** - They might standardize on [VS Code](https://code.visualstudio.com/), [IntelliJ](https://www.jetbrains.com/idea/), or [Vim](https://www.vim.org/)
 
-If your organization uses [Teams](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29) for communication, you need to be proficient in Teams. If they use GitHub for code, you need to understand GitHub. If they standardize on VS Code, you should use VS Code.
+If your organization uses [Teams](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29) for communication, you need to be proficient in Teams. If they use GitHub for code, you need to understand GitHub. If they standardize on VS Code, you should use [VS Code.](https://code.visualstudio.com/)
 
 **Your personal infrastructure should mirror your organization's infrastructure.** This doesn't mean you can't have personal preferences, but it does mean you need to be comfortable with the tools your team uses.
 
@@ -310,7 +311,7 @@ If your organization uses [Teams](https://support.microsoft.com/en-us/topic/what
 
 ## Organizational Structures in This Course
 
-Throughout this course, you'll encounter several organizational patterns. Understanding these patterns helps you navigate the material and prepares you for real-world projects.
+Throughout this course, you'll encounter several organizational patterns. Understanding these patterns helps you navigate the material and prepares you for real-world projects.  We will ask you to think of your own way of organizing things, but at the same time for continuity purposes, we will have you follow our set structure during the course.  Our file system is A WAY not THE Way, but it is the way we will do things during this course.
 
 ### 1. Section-Based Organization
 
@@ -379,7 +380,25 @@ This foundation will support all your development work throughout this course an
 **The knowledge base you build now will become the foundation for everything you create as a developer.**
 
 ---
+## How This Applies to Your Learning
 
+As you work through this course:
+
+1. **Notice the patterns** - Pay attention to how files are organized in each section
+2. **Follow the structure** - When creating files, put them where the structure suggests they belong
+3. **Ask why** - When you see a particular organization, think about why it was chosen
+4. **Apply the principles** - Use these organizational principles in your own projects
+
+OUTSTANDING WORK!!!   
+The repository you'll build throughout this course will follow professional organizational standards. By the end of this course, you'll have a portfolio piece that demonstrates not just coding skills, but also professional organizational habits.
+
+---
+
+## Next Steps
+
+[[s2-vers-ctrl/index|Section 2: Version Control Foundations]] - Git and GitHub basics
+
+---
 ## Exercises in This Section
 
 Complete these exercises to set up your knowledge base and understand file organization:
@@ -401,25 +420,7 @@ Complete these exercises to set up your knowledge base and understand file organ
    - Understand how Obsidian's organization differs from standard repositories
    - Create your first notes in the proper structure
    - Document the Obsidian vault structure
-
 ---
-
-## How This Applies to Your Learning
-
-As you work through this course:
-
-1. **Notice the patterns** - Pay attention to how files are organized in each section
-2. **Follow the structure** - When creating files, put them where the structure suggests they belong
-3. **Ask why** - When you see a particular organization, think about why it was chosen
-4. **Apply the principles** - Use these organizational principles in your own projects
-
-OUTSTANDING WORK!!!   
-The repository you'll build throughout this course will follow professional organizational standards. By the end of this course, you'll have a portfolio piece that demonstrates not just coding skills, but also professional organizational habits.
-
-Next Steps: [[s2-vers-ctrl/index|Version Control]] - Git and GitHub basics
-
----
-
 ## Navigation
 
 ### Section Navigation

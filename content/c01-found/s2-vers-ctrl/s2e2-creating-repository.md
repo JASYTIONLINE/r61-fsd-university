@@ -13,7 +13,6 @@ date: "2026-01-30"
 **Time Required:** 15-20 minutes
 
 ---
-
 ## Prerequisites Check
 
 Before starting, verify you have completed:
@@ -30,7 +29,7 @@ Before starting, verify you have completed:
    - Example: `C:\Users\YourName\knowledge-base\projects\`
 
 3. ✅ **Current Requirements**
-   - VS Code closed (we'll open it during this exercise)
+   - VS Code installed (closed-we'll open it during this exercise)
    - Working internet connection
    - Web browser open
 
@@ -45,8 +44,8 @@ By the end of this exercise, you will have:
 - A GitHub repository created on GitHub.com
 - The repository cloned to your `knowledge-base/projects/` folder
 - The repository open in VS Code
-- A README.md file in the repository
-- Local and remote repositories connected
+- A [README.md](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) file in the repository
+- [Local](https://docs.github.com/en/desktop/adding-and-cloning-repositories/adding-a-repository-from-your-local-computer-to-github-desktop) and [remote](https://docs.github.com/en/get-started/git-basics/about-remote-repositories) repositories connected
 
 ---
 
@@ -57,7 +56,7 @@ By the end of this exercise, you will have:
 1. Open your web browser
 2. Navigate to:  [GithHub](https://github.com/login)
 3. If not already logged in, click **Sign in** and enter your credentials
-4. You will need to setup 2-factor authentication
+4. You will need to setup [2-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication)
 5. After logging in, you should see your GitHub dashboard
 
 ### 1.2: Start Repository Creation
@@ -112,7 +111,6 @@ On the repository page, verify you see:
 **If anything is missing, go back and check Step 1.3.**
 ![[ss-verify.png]]
 ---
-
 ## Step 2: Get Repository URL
 
 ### 2.1: Copy Repository URL
@@ -120,10 +118,10 @@ On the repository page, verify you see:
 1. On your GitHub repository page, locate the green **Code** button
 2. Click the **Code** button
 3. A dropdown menu appears
-4. Make sure **HTTPS** is selected (it should be by default)
+4. Make sure [HTTPS](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication) is selected (it should be by default)
 5. Click the **copy icon** (two overlapping squares) next to the URL
 
-**Expected Result:** The URL is copied to your clipboard. It should look like:
+**Expected Result:** The URL is copied to your clipboard. It should look like: 
 ```
 https://github.com/your-username/version-control-portfolio.git
 ```

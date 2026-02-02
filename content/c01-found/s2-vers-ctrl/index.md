@@ -5,12 +5,11 @@ tags: [git, github, version-control, beginner, fundamentals]
 draft: false
 date: "2026-01-30"
 ---
-
 # Version Control Foundations
 
 Welcome to Section 2: Version Control Foundations. This section builds directly on the file organization principles you learned in Section 1. You'll learn how to use Git and GitHub to track changes, collaborate safely, and maintain professional development workflows.
 
-This is a **level 2 understanding**—enough to grasp the "why" behind version control practices and develop professional habits. By the end, you'll understand how version control works, why it's essential for professional development, and you'll have hands-on experience with Git and GitHub.
+ By the end of this section, you'll understand how version control works, why it's essential for professional development, and you'll have hands-on experience with Git and GitHub.
 
 ---
 
@@ -19,10 +18,10 @@ This is a **level 2 understanding**—enough to grasp the "why" behind version c
 In this section, you will:
 
 - Learn what version control is and why every developer needs it
-- Understand the relationship between Git (the tool) and GitHub (the platform)
+- Understand the relationship between [Git (the tool)](https://en.wikipedia.org/wiki/Git) and [GitHub (the platform)](https://en.wikipedia.org/wiki/GitHub)
 - **Use VS Code's integrated terminal** configured with Git Bash for all Git operations
 - Set up Git authentication with GitHub via **GitHub CLI** (install `gh` and use `gh auth login`)
-- **Create one professional repository** for this section 
+- Create one professional [repository](https://en.wikipedia.org/wiki/Repository) for this section 
 - Create and manage repositories using terminal commands
 - Track files and create commits using Git commands
 - Work with branches safely through command-line Git
@@ -40,7 +39,7 @@ In this section, you will:
 
 ## What is Version Control?
 
-Version control is a system that tracks changes to files over time. Think of it as a time machine for your code, with the ability to:
+[Version control](https://en.wikipedia.org/wiki/Version_control) is a system that tracks changes to files over time. Think of it as a time machine for your code, with the ability to:
 
 - **See what changed**: View the history of every file
 - **Go back in time**: Revert to previous versions if something breaks
@@ -190,7 +189,7 @@ This means:
 
 ### Git: The Version Control System
 
-**Git** is software that runs on your computer. It:
+[Git](https://git-scm.com/about) is software that runs on your computer. It:
 - Tracks changes to files in a repository
 - Maintains a complete history of all changes
 - Allows you to create branches for different features
@@ -200,7 +199,7 @@ Think of Git as a sophisticated filing system that remembers every version of ev
 
 ### GitHub: The Hosting Platform
 
-**GitHub** is a website that hosts Git repositories online. It:
+[GitHub](https://www.bing.com/ck/a?!&&p=1ae580aaad81befce6b02873aff47a986b497c7b895e7da2244118f386f3874cJmltdHM9MTc2OTk5MDQwMA&ptn=3&ver=2&hsh=4&fclid=07f802bb-eb29-6f86-2b0a-1404ea816ee4&u=a1aHR0cHM6Ly9naXRodWIuY29tL2xvZ2lu) is a website that hosts Git repositories online. It:
 - Stores your code in the cloud (backup)
 - Provides a web interface for viewing repositories
 - Enables collaboration and code review
@@ -222,9 +221,10 @@ Your Computer (Local)          GitHub (Remote)
 ```
 
 - **Local repository**: Lives on your computer, in your `projects/` folder
-- **Remote repository**: Lives on GitHub's servers
+- A [Remote repository](https://docs.github.com/en/get-started/git-basics/about-remote-repositories): Lives on GitHub's servers
 - **Synchronization**: You push local changes to GitHub, and pull remote changes to your computer 
-- **NOTE:** When you make changes on GitHub, then pull those changed, your local files will change so don't be surprised if folders or files are missing after a pull request.
+
+**NOTE:** When you make changes on GitHub, then pull those changes on your pc, your local files will change so don't be surprised if folders or files are missing or changed after a pull request.
 
 ---
 
@@ -246,7 +246,7 @@ GitHub needs to know:
    - Attached to every commit you make
    - Set once, used forever
 
-2. **GitHub Authentication** (proving you can push)
+1. [GitHub Authentication](https://docs.github.com/en/get-started/git-basics/caching-your-github-credentials-in-git) (proving you can push)
    - **GitHub CLI** (`gh`) - Modern, industry-standard authentication tool
    - Handles authentication automatically and securely
    - Configures Git credentials for you
@@ -256,7 +256,7 @@ GitHub needs to know:
 
 You'll configure authentication using **VS Code's integrated terminal** (configured with Git Bash):
 
-1. **Install GitHub CLI** (one-time installation):
+1. Install [GitHub CLI](https://github.com/cli/cli#installation) (one-time installation):
    - Download GitHub CLI for Windows
    - Install it on your computer
    - Verify installation: `gh --version`
@@ -283,7 +283,7 @@ Now that you understand authentication and your terminal setup, you're ready to 
 
 ## Repositories: The Container for Your Work
 
-A **repository** (or "repo") is a folder that Git tracks. It contains:
+A [Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories) (or "repo") is a folder that Git tracks. It contains:
 - Your project files
 - A hidden `.git` folder (the version control database)
 - Complete history of all changes
@@ -296,7 +296,7 @@ A **repository** (or "repo") is a folder that Git tracks. It contains:
 
 ### Creating a Repository
 
-You can create a repository in two ways:
+You can [create a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) in two ways:
 
 1. **On GitHub first** (recommended for beginners)
    - Create it on GitHub's website
@@ -308,16 +308,15 @@ You can create a repository in two ways:
    - Create repository on GitHub
    - Connect them together
 
-### No Throwaway Repositories
+**NOTE:** **Important principle:** Every repository you create should be intentional and professional. 
 
-**Important principle:** Every repository you create should be intentional and professional. We don't create "practice" or "throwaway" repositories. In this section, you'll create **one repository** that you'll use for all exercises. This repository:
+We don't create "practice" or "throwaway" repositories. In this section, you'll create **one repository** that you'll use for all exercises. This repository:
 - Will be portfolio-ready by the end of the section
 - Demonstrates professional version control practices
 - Is something you can show to employers
 - Teaches you to maintain a real project over time
 
 Each project gets its own repository, and every repository matters. This approach builds professional habits from day one.
-
 ### Repository Structure
 
 A typical repository looks like:
@@ -670,6 +669,26 @@ This foundation will support all your development work throughout this course an
 
 ---
 
+## How This Applies to Your Learning
+
+As you work through this section:
+
+1. **Practice the habits** - Run `git status` frequently, commit often, protect main
+2. **Understand the why** - Don't just memorize commands; understand what they do
+3. **Work in your knowledge base** - All repositories go in `knowledge-base/projects/`
+4. **Build your portfolio** - This repository will be part of your professional portfolio
+5. **Ask questions** - If something doesn't make sense, review the concepts
+
+Version control will become second nature as you use it throughout the rest of this course. Every project you build will use Git and GitHub, and these skills will be essential in your career.
+
+---
+
+## Next Steps
+
+[[s2-vers-ctrl/s2e8-recap-and-workflow-habits|Exercise 8: Recap and Workflow Habits]] - Review all concepts and reinforce your workflow habits before moving on. After completing the recap, continue to [[s3-html-css/index|Section 3: HTML & CSS Foundations]] to start building and styling web pages.
+
+---
+
 ## Exercises in This Section
 
 Complete these exercises in order to build your version control skills:
@@ -716,27 +735,6 @@ Complete these exercises in order to build your version control skills:
    - Review all concepts learned
    - Reinforce professional habits
    - Prepare for the next section
-
----
-
-## How This Applies to Your Learning
-
-As you work through this section:
-
-1. **Practice the habits** - Run `git status` frequently, commit often, protect main
-2. **Understand the why** - Don't just memorize commands; understand what they do
-3. **Work in your knowledge base** - All repositories go in `knowledge-base/projects/`
-4. **Build your portfolio** - This repository will be part of your professional portfolio
-5. **Ask questions** - If something doesn't make sense, review the concepts
-
-Version control will become second nature as you use it throughout the rest of this course. Every project you build will use Git and GitHub, and these skills will be essential in your career.
-
----
-
-## Next Steps
-
-- [[s2-vers-ctrl/s2e8-recap-and-workflow-habits|Exercise 8: Recap and Workflow Habits]] - Review all concepts and reinforce your workflow habits before moving on.
-- After completing the recap, continue to [[s3-html-css/index|Section 3: HTML & CSS Foundations]] to start building and styling web pages.
 
 ---
 

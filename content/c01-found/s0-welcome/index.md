@@ -90,7 +90,7 @@ A **command line** (also called terminal, console, or shell) is a text-based int
 - Professional developers use it regularly
 
 ### Windows Terminal
-
+![[ss-terminal.png]]
 **Windows Terminal** is Microsoft's modern terminal application for Windows. It provides a better experience than the default Command Prompt:
 - Multiple tabs for different shells
 - Better customization options
@@ -127,7 +127,7 @@ Version control lets you:
 - It helps you understand how your project evolved
 
 ### Git Bash
-
+![[ss-gbterm.png]]
 **Git Bash** is a command-line interface that comes with Git for Windows. It provides:
 - Access to Git commands
 - A Unix-like shell environment
@@ -156,9 +156,8 @@ A **code editor** is a specialized text editor designed for writing code. While 
 - **Integrated Terminal**: Run commands without leaving the editor
 - **Extensions**: Add features for specific languages and tools
 - **Git Integration**: See file changes and commit directly from the editor
-
 ### Visual Studio Code (VS Code)
-
+![[ss-vs-code.png]]
 **Visual Studio Code** has become the industry standard for code editors. Here's why:
 
 - **Free and Open Source** - Available to everyone, regardless of budget
@@ -176,6 +175,57 @@ When you use VS Code, you're using the same tool that most developers use. This 
 **That's why we use VS Code in this course.** It's not the only good editor, but it's the one you're most likely to encounter in professional settings.
 
 Now that you understand code editors and why VS Code is the standard, you're ready to install it. Complete [[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] to set up your code editor.
+
+---
+
+## Introduction to GitHub
+
+**GitHub** is a website that hosts Git repositories online. Think of it as cloud storage specifically designed for code.
+
+### What GitHub Provides
+
+- **Online Backup**: Your code is stored in the cloud, safe from computer failures
+- **Portfolio**: Your GitHub profile becomes a showcase of your work
+- **Collaboration**: Share code with others and work on projects together
+- **Version History**: See all changes to your code over time
+- **Access Anywhere**: Work on your code from any computer
+
+### Why You Need a GitHub Account
+
+Even though you'll primarily use command-line Git, you need a GitHub account to:
+- Store your repositories online (backup and access)
+- Build your professional portfolio
+- Learn how Git and GitHub work together
+- Prepare for collaboration in professional settings
+
+**GitHub accounts are free** and essential for modern web development. Every professional developer has one.
+
+Now that you understand what GitHub is and why you need it, you're ready to create your account. Complete [[s0-welcome/exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] to set up your GitHub account.
+
+---
+
+## Introduction to GitHub Desktop
+
+**GitHub Desktop** is a visual interface for Git and GitHub. While this course focuses on command-line Git (the industry standard), GitHub Desktop provides a helpful visual way to understand Git concepts.
+
+### What GitHub Desktop Provides
+
+- **Visual Interface**: See your changes, commits, and history in a graphical format
+- **Easier Learning**: Understand Git concepts visually before mastering command-line
+- **Quick Operations**: Perform common Git tasks with clicks instead of commands
+- **Integration**: Works seamlessly with your GitHub account
+
+### Why Install It Now
+
+While you'll primarily use command-line Git in this course (because that's what employers expect), GitHub Desktop helps you:
+- **Visualize Git concepts** as you learn them
+- **Understand the workflow** before memorizing commands
+- **Have a backup tool** if you get stuck with command-line
+- **See the big picture** of how Git and GitHub work together
+
+**Note:** This course teaches command-line Git because it's the professional standard. GitHub Desktop is a learning aid and backup tool, not the primary method you'll use.
+
+Now that you understand GitHub Desktop and its role as a learning tool, you're ready to install it. Complete [[s0-welcome/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] to set up the visual interface.
 
 ---
 
@@ -218,6 +268,17 @@ This structure allows you to:
 
 ---
 
+---
+
+## Ready to Begin?
+
+When you're ready to start, complete the exercises above to set up your development environment. Once you have all tools installed, proceed to [[s1-files/index|Section 1: File Systems and Organization]] to understand how course materials are organized, followed by [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] to begin building your first repository.
+
+Good luck, and welcome to the journey of becoming a full stack engineer!
+
+**Next Steps:** [[s1-files/index|Section 1: File Systems and Organization]] - Learn about file organization principles. 
+
+---
 ## Exercises in This Section
 
 Complete these exercises in order to set up your development environment:
@@ -246,19 +307,7 @@ Complete these exercises in order to set up your development environment:
    - Install GitHub Desktop
    - Sign in to your GitHub account
    - Learn the basic interface
-
 ---
-
-## Ready to Begin?
-
-When you're ready to start, complete the exercises above to set up your development environment. Once you have all tools installed, proceed to [[s1-files/index|Section 1: File Systems and Organization]] to understand how course materials are organized, followed by [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] to begin building your first repository.
-
-**Next Steps:** [[s1-files/index|Section 1: File Systems and Organization]] - Learn about file organization principles. After completing Section 1, continue to [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] to begin building your first professional repository.
-
-Good luck, and welcome to the journey of becoming a full stack engineer!
-
----
-
 ## Navigation
 
 ### Section Navigation

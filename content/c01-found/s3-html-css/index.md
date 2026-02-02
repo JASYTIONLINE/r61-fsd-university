@@ -275,6 +275,12 @@ By completing this section and its exercises, you will have:
 
 ---
 
+## Next Steps
+
+[[s3-html-css/s3e10-capstone-client-meeting-scheduler|Exercise 10: Capstone Project - Client Meeting Scheduler]] - Build the complete Client Meeting Scheduler project that brings together everything you've learned in this section.
+
+---
+
 ## Exercises in This Section
 
 Complete these exercises in order to build your HTML and CSS skills:
@@ -333,12 +339,6 @@ Complete these exercises in order to build your HTML and CSS skills:
     - Combine all concepts
     - Implement best practices
     - Create portfolio-ready work
-
----
-
-## Next Steps
-
-- [[s3-html-css/s3e10-capstone-client-meeting-scheduler|Exercise 10: Capstone Project - Client Meeting Scheduler]] - Build the complete Client Meeting Scheduler project that brings together everything you've learned in this section.
 
 ---
 
