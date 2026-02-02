@@ -10,7 +10,7 @@ date: "2026-01-30"
 
 **This exercise is a recap and reflection. No new commands are introduced.**
 
-**This exercise is a standalone technical manual. Follow each step exactly.**
+It may seem repetitive (because it is) and feel like you are circling back to things you have already learned. This is intentional.  You will repeat many steps to help retention. **This exercise is a standalone technical manual. Follow each step exactly.** Trust the process.
 
 **Time Required:** 15-20 minutes
 
@@ -65,7 +65,19 @@ By the end of this exercise, you will have:
 
 Before running any commands, move into the root of your version control repository in the VS Code terminal.
 
-1. In the VS Code terminal, type exactly (replace `YourName` with your Windows username):
+1. In the VS Code terminal, type
+```
+pwd
+```
+Expected Output: 
+
+```
+/c/Users/YourName/knowledge-base/projects/version-control-portfolio
+
+```
+If you see any other directory than your *version-control-portfolio*, you need to use change directory to navigate to the correct folder (directory)
+
+**NOTE:** replace *`YourName`* with your Windows username:
    ```bash
    cd /c/Users/YourName/knowledge-base/projects/version-control-portfolio
    ```
@@ -73,7 +85,7 @@ Before running any commands, move into the root of your version control reposito
 
 You should now be in the folder that contains `.git`, `README.md`, and `index.html`.
 
-> If you created your `knowledge-base` or `version-control-portfolio` repository in a different location, adjust the path above to match where you actually created it. The important part is that you are in the `version-control-portfolio` folder before continuing.
+> If you created your `knowledge-base` or `version-control-portfolio` repository in a different location, adjust the path above to match where you actually created it. The important part is that you are in the *`version-control-portfolio`* folder before continuing.
 
 ### 1.1: Check Branch Structure
 
@@ -142,7 +154,7 @@ drwxr-xr-x 1 user user  X date ..
 - ✅ `index.html`
 - ✅ **No other project files**
 
-If you see extra files here, your repository is not yet clean; remove or archive any temporary/practice files, then run `ls -la` again until only these files remain.
+If you see extra files here, your repository is not yet clean; remove or archive any temporary/practice files, commit and push your changes, then run `ls -la` again until only these files remain.
 
 ### 1.3: Check Commit History
 
@@ -152,7 +164,7 @@ If you see extra files here, your repository is not yet clean; remove or archive
    ```
 2. Press **Enter**
 
-**Expected Output:**
+**Expected Output:** (something like)
 ```
 jkl0123 (HEAD -> main, origin/main) remove temporary about.html file
 ghi7890 add about.html page
@@ -434,11 +446,15 @@ Throughout all exercises, you repeatedly used:
    ```
    Keep your work backed up on GitHub.
 
-5. **Clean up after yourself:**
+**NOTE:** If Git ever tells you “no upstream branch” on main, use this once to set it:
+
    ```bash
    git branch -d feature-name
    ```
-   Delete branches and remove temporary files.
+  ```- If Git ever tells you “no upstream branch” on main, use this once to set it:
+  ```
+   6. **Clean up after yourself:**
+	   1. Delete branches and remove temporary files.
 
 ---
 
@@ -555,8 +571,9 @@ After completing this exercise, you should have:
 
 **This foundation will support all your development work.**
 
----
+**Next Steps:** [[s3-html-css/index|Section 3: HTML & CSS]]
 
+---
 ## Navigation
 
 **Previous Exercise:** [[s2-vers-ctrl/s2e7-merging-branches|Exercise 7: Merging Branches]]
