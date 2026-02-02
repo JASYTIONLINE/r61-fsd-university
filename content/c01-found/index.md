@@ -60,6 +60,8 @@ Advanced version control techniques including branch management, merging strateg
 ### [[L8-/index|Advanced Elements & Tailwind CSS]]
 Modern CSS frameworks and advanced styling techniques. Learn to build responsive, professional-looking interfaces with Tailwind CSS.
 
+Next Steps: [[s0-welcome/index|Orientation]] - Get started here
+
 ---
 
 ## Global Navigation

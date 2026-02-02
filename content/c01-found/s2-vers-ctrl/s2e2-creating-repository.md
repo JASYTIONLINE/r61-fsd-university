@@ -55,9 +55,10 @@ By the end of this exercise, you will have:
 ### 1.1: Navigate to GitHub
 
 1. Open your web browser
-2. Navigate to: `https://github.com`
+2. Navigate to:  [GithHub](https://github.com/login)
 3. If not already logged in, click **Sign in** and enter your credentials
-4. After logging in, you should see your GitHub dashboard
+4. You will need to setup 2-factor authentication
+5. After logging in, you should see your GitHub dashboard
 
 ### 1.2: Start Repository Creation
 
@@ -65,7 +66,7 @@ By the end of this exercise, you will have:
 2. Click the **+** icon
 3. A dropdown menu appears
 4. Click **New repository**
-
+![[ss-new-repo.png]]
 **Expected Result:** You are taken to the "Create a new repository" page.
 
 ### 1.3: Configure Repository Settings
@@ -90,7 +91,7 @@ Fill out the form exactly as follows:
    - ❌ Leave unchecked: **Choose a license**
 
 5. **Do not change any other settings**
-
+![[ss-create-repo.png]]
 ### 1.4: Create the Repository
 
 1. Scroll down to the bottom of the page
@@ -109,7 +110,7 @@ On the repository page, verify you see:
 
 **If you see all of these, proceed to Step 2.**
 **If anything is missing, go back and check Step 1.3.**
-
+![[ss-verify.png]]
 ---
 
 ## Step 2: Get Repository URL
@@ -128,17 +129,18 @@ https://github.com/your-username/version-control-portfolio.git
 ```
 
 **Important:** Keep this URL copied. You'll need it in Step 3.
-
+![[ss-copy.png]]
 ---
 
 ## Step 3: Navigate to Your Projects Folder
 
 ### 3.1: Open VS Code
 
-1. Press the **Windows key**
-2. Type: `visual studio code`
-3. Press **Enter**
+- Choose the file drop down and choose e Open Folder
+- Navigate to your projects folder
+- Open the folder in VS Code
 
+![[ss-open-local.png]]
 **VS Code opens.**
 
 ### 3.2: Open VS Code Terminal
@@ -148,11 +150,11 @@ https://github.com/your-username/version-control-portfolio.git
 2. Verify the terminal prompt ends with `$` (Git Bash)
 
 **If you see `$`, proceed.**
-**If you see `>` or `PS`, you need to configure VS Code terminal (see Exercise 1, Step 5).**
+**If you see `>` or `PS`, you need to configure VS Code terminal [[#Step 5 Open Repository in VS Code|see Section 2 Exercise 1, Step 5.]]
 
-### 3.3: Navigate to Your Projects Folder
+### 3.3: OPEN Projects Folder
 
-1. In the VS Code terminal, type exactly (replace with your actual path):
+1. In the VS Code terminal, type your path (replace with your actual path):
    ```bash
    cd /c/Users/YourName/knowledge-base/projects
    ```

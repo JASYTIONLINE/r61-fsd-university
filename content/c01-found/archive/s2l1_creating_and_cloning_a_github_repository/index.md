@@ -11,13 +11,11 @@ date: "2026-01-30"
 this exercise is written so you can complete it **without an instructor present**.
 read each section fully before performing the steps.
 
-this exercise is based on *lesson 01 demo 01* from the original course material, but rewritten to:
+this exercise is designed to:
 - use clear explanations
 - avoid unnecessary steps
 - fit into one continuous project
 - reinforce good habits
-
-source reference: lesson 01 demo 01 creating and cloning a github repository fileciteturn7file0
 
 ---
 
@@ -46,10 +44,10 @@ open vs code now, but do not open any folders yet.
 
 ---
 
-## step 1: create the repository on github
+## step 1: create the repository on GitHub
 
 ### what this step does
-this creates an empty project space on github and adds an initial readme file.
+this creates an empty project space on GitHub and adds an initial readme file.
 
 ### instructions
 1. open a web browser and go to https://github.com

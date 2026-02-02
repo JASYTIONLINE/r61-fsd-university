@@ -206,7 +206,8 @@ Documents/
 
 **Key takeaway:** If you're setting up multiple repositories, make sure each one is in its own separate folder at the same level, not nested inside another repository. Each project should have its own `.git` folder at the root of that project, and no other `.git` folders should exist inside it.
 
-Now that you understand how repositories work and why they shouldn't be nested, you're ready to plan where yours will live. Complete [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]] to get started.
+Now that you understand how repositories work and why they shouldn't be nested, you're ready to plan where yours will live. Complete:
+- [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]] to get started.
 
 ---
 
@@ -246,7 +247,8 @@ knowledge-base/
 - This structure prevents the nested repository problem we discussed earlier
 - You'll create this structure in the exercises
 
-With these organizational principles in mind, you're ready to create your own organized structure. Complete [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Your Project Organization Structure]] to build your knowledge base.
+With these organizational principles in mind, you're ready to create your own organized structure. Complete:
+- [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Your Project Organization Structure]] to build your knowledge base.
 
 ---
 
@@ -280,7 +282,8 @@ To learn more about Why you should consider using Obsidian check out [this ~30mi
 
 or 
 
-If you want to set up a KB in Obsidian with the proper structure, complete [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] (optional).
+If you want to set up a KB in Obsidian with the proper structure, complete:
+- [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] (optional).
 
 ---
 
@@ -410,7 +413,7 @@ As you work through this course:
 3. **Ask why** - When you see a particular organization, think about why it was chosen
 4. **Apply the principles** - Use these organizational principles in your own projects
 
-OOUTSTANDING WORK!!!   
+OUTSTANDING WORK!!!   
 The repository you'll build throughout this course will follow professional organizational standards. By the end of this course, you'll have a portfolio piece that demonstrates not just coding skills, but also professional organizational habits.
 
 Next Steps: [[s2-vers-ctrl/index|Version Control]] - Git and GitHub basics

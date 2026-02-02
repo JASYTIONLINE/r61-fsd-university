@@ -22,7 +22,7 @@ In this section, you will:
 - Understand the relationship between Git (the tool) and GitHub (the platform)
 - **Use VS Code's integrated terminal** configured with Git Bash for all Git operations
 - Set up Git authentication with GitHub via **GitHub CLI** (install `gh` and use `gh auth login`)
-- **Create one professional repository** for this section (no throwaway practice repos)
+- **Create one professional repository** for this section 
 - Create and manage repositories using terminal commands
 - Track files and create commits using Git commands
 - Work with branches safely through command-line Git
@@ -31,7 +31,10 @@ In this section, you will:
 
 **Important:** This section teaches **command-line Git** using **VS Code's integrated terminal** configured with **Git Bash**. While GUI tools exist, command-line Git is the industry standard and what many employers expect. All exercises use VS Code's terminal with Git Bash.
 
-**Also Important:** All your work in this section will happen in your own knowledge base that you set up in Section 1. Your repositories will live in your `knowledge-base/projects/` folder, completely separate from this course site. This is intentional—you're building your own professional development environment.
+**Also Important:** 
+- All your work in this section will happen in your own knowledge base that you set up in Section 1. 
+- Your repositories will live in your `knowledge-base/projects/` folder, completely separate from this course site. 
+	- This is intentional—you're building your own professional development environment.
 
 ---
 
@@ -87,7 +90,7 @@ Before starting this section, make sure you have:
 
 - ✅ **VS Code installed** (from Orientation section)
 
-If you haven't completed Section 1, go back and complete it first. The knowledge base structure you created there is essential for organizing your work in this section.
+If you haven't completed [[c01-found/s1-files/s1e1-planning-knowledge-base-structure.md|Section 1]], go back and complete it first. The knowledge base structure you created there is essential for organizing your work in this section.
 
 ---
 
@@ -156,8 +159,8 @@ You have three main ways to access a terminal on Windows:
 ### Understanding the Relationship
 
 Think of it this way:
-- **VS Code Terminal** = The container/window (where you type)
-- **Git Bash** = The shell inside that container (what interprets your commands)
+- **VS Code Terminal** = The vehicle you are driving. It has different lights buttons and dials, the the purpose is t take you where you want to go.
+- **Git Bash** = the engine that takes you where you want to go.  we can put this engine in any vehicle that it fits with, and it will still perform its main function.
 
 When you open the terminal in VS Code and it's configured to use Git Bash, you get:
 - The convenience of VS Code's integrated terminal
@@ -173,7 +176,8 @@ Even though you're using VS Code's terminal, it's using **Git Bash** as the shel
 
 ### Setting Up VS Code Terminal
 
-In the exercises, you'll configure VS Code to use Git Bash as its default terminal. This means:
+In the following exercises, you'll configure [VS Code to use Git Bash as its default terminal.](https://www.bing.com/videos/riverview/relatedvideo?q=setting+up+vs+code+for+git+bash+and+terminal&&mid=2D306CD938B7D87761EC2D306CD938B7D87761EC&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCam2FHXijtbff4uW2VglGtA&mmscn=mtsc&aps=42&FORM=VMSOVR)
+This means:
 - Opening the terminal in VS Code (Ctrl + ~)
 - Automatically getting Git Bash
 - Running Git commands that work the same everywhere
@@ -219,7 +223,8 @@ Your Computer (Local)          GitHub (Remote)
 
 - **Local repository**: Lives on your computer, in your `projects/` folder
 - **Remote repository**: Lives on GitHub's servers
-- **Synchronization**: You push local changes to GitHub, and pull remote changes to your computer
+- **Synchronization**: You push local changes to GitHub, and pull remote changes to your computer 
+- **NOTE:** When you make changes on GitHub, then pull those changed, your local files will change so don't be surprised if folders or files are missing after a pull request.
 
 ---
 
