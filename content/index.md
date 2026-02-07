@@ -78,7 +78,6 @@ You're about to learn skills that are in high demand. Full stack engineers work 
 - [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] - Git and GitHub basics
 - [[s3-html-css/index|Section 3: HTML & CSS Foundations]] - Web page fundamentals
 - [[s4-js/index|Section 4: JavaScript Basics]] - Programming fundamentals
-- [[s5-opt-js/index|Section 5: JavaScript Functions]] - Functions and optimization
-- [[s6-adv-js/index|Section 6: Advanced JavaScript]] - Advanced concepts
-- [[s7-tailwind/index|Section 7: Tailwind CSS]] - Modern styling
-- [[s8-tailwind-adv/index|Section 8: Advanced Tailwind]] - Advanced styling
+- [[s5-Opt-js/index|Section 5: JavaScript Functions]] - Functions and optimization
+- [[s06-adv-js/index|Section 6: Advanced JavaScript]] - Advanced concepts
+- [[s07-tailwind/index|Section 7: Tailwind CSS]] - Modern styling
