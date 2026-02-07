@@ -100,21 +100,21 @@ Now that you understand HTML structure, complete **[[s3-html-css/s3e1-creating-f
 
 ## HTML Content Elements
 
-HTML provides many elements for adding content to your pages.
+[HTML provides many elements](https://developer.mozilla.org/en-US/docs/Web/HTML) for adding content to your pages.
 
-**Text elements** include headings (`<h1>` through `<h6>`) for creating hierarchy, paragraphs (`<p>`) for body text, and strong/emphasis (`<strong>`, `<em>`) for important or emphasized text.
+**[Text elements** include headings (`<h1>` through `<h6>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements) for creating hierarchy, [paragraphs (`<p>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p) for body text, and strong/emphasis ([`<strong>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/strong), [`<em>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/em) for important or emphasized text.
 
-**Hyperlinks** (`<a href="url">`) create clickable links. You can link to other pages on your site (internal), other websites (external), or sections on the same page (anchors).
+**Hyperlinks** [(`<a href="url">`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a) create clickable links. You can link to other pages on your site (internal), other websites (external), or sections on the same page (anchors).
 
-**Lists** organize information. Ordered lists (`<ol>`) create numbered lists, while unordered lists (`<ul>`) create bulleted lists. List items (`<li>`) are the individual items in lists.
+**Lists** organize information. Ordered lists [(`<ol>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ol) create numbered lists, while unordered lists [(`<ul>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ul) create bulleted lists. List items [(`<li>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/li) are the individual items in lists.
 
-**Images** (`<img src="path" alt="description">`) display pictures. The `src` attribute specifies the image file, and the `alt` attribute provides a text description that's essential for accessibility.
+**Images** [(`<img src="path" alt="description">`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img) display pictures. The [`src`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/src) attribute specifies the image file, and the `alt` attribute provides a text description that's essential for accessibility.
 
-**Embedded content** includes `<iframe>` for embedding external content (videos, maps), and `<audio>` and `<video>` for media content.
+**Embedded content** includes [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe) for embedding external content (videos, maps), and [`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/audio) and[`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/video) for media content.
 
-Always include `alt` text for images, use descriptive link text (not "click here"), ensure proper heading hierarchy, and use semantic elements when possible.
+Always include [`alt` text](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) for images, use descriptive link text (not "click here"), ensure proper heading hierarchy, and use [semantic elements](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) when possible.
 
-Now that you understand content elements, complete **[[s3-html-css/s3e2-adding-rich-content-elements|Exercise 2: Adding Rich Content Elements]]** to add links, lists, images, and embedded content to your page.
+Now that you understand content [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element), complete **[[s3-html-css/s3e2-adding-rich-content-elements|Exercise 2: Adding Rich Content Elements]]** to add links, lists, images, and embedded content to your page.
 
 ---
 
@@ -122,7 +122,7 @@ Now that you understand content elements, complete **[[s3-html-css/s3e2-adding-r
 
 Tables organize data into rows and columns, making information easy to scan and understand.
 
-Tables use semantic elements: `<table>` for the container, `<caption>` for the table title, `<thead>` for header rows, `<tbody>` for body rows, `<tr>` for table rows, `<th>` for header cells, and `<td>` for data cells.
+Tables use semantic elements: [`<table>`](http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table) for the container, [`<caption>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/caption) for the table title, [`<thead>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/thead) for header rows, [`<tbody>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/tbody) for body rows, [`<tr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/tr) for table rows, [`<th>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/th) for header cells, and [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/td) for data cells.
 
 Tables are perfect for tabular data like schedules, comparisons, and statistics—any structured information that benefits from rows and columns.
 
