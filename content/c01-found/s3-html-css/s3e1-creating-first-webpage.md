@@ -366,7 +366,7 @@ You now have a properly structured HTML page that loads reliably in a browser. I
 ---
 ## Next Steps
 
-- [[c01-found/s3-html-css/index#HTML Document Structure|Return to Lecture]] - Go back to the HTML Document Structure section of the lecture before continuing.
+- [[c01-found/s3-html-css/index#HTML Content Elements|Return to Lecture]] - Go back to the HTML Document Structure section of the lecture before continuing.
 ---
 ## Troubleshooting:
 Things not working? Check out these common mistakes.
