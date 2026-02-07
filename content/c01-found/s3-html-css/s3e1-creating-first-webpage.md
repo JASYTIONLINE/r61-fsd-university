@@ -8,9 +8,7 @@ date: "2026-01-30"
 
 # Exercise 1: Creating Your First Webpage
 
-**This exercise continues from Section 2. You must complete Section 2 first.**
-
-**This exercise is a standalone technical manual. Follow each step exactly.**
+**This exercise continues from Section 2. You must complete Section 2 first. Follow each step exactly.**
 
 **Time Required:** 20-25 minutes
 
@@ -21,10 +19,14 @@ date: "2026-01-30"
 Before starting, verify:
 
 1. ✅ **Section 2: Version Control Foundations completed**
-   - You have a repository in your `knowledge-base/projects/` folder
+   - You have a repository (containing: .git file) in your `knowledge-base/projects/` folder
    - Repository is open in VS Code
-   - You're in the repository folder in terminal
-   - Repository should have `README.md` and `index.html` files
+   - You're in the repository folder (i.e. ) in terminal
+   ![[vsc-op-folder.png]]
+(Note: Open the knowledge base folder in VS Code and navigate to Projects in vs Code)
+![[vsc-openindex.png]]
+
+- Repository should have `README.md` and `index.html` files
 
 2. ✅ **Current State Verification**
    - Open VS Code terminal (Ctrl + ~)
@@ -66,7 +68,8 @@ By the end of this exercise, you will have:
 ### Instructions
 
 1. In VS Code, look at the file explorer sidebar (left side)
-2. Click on `index.html` to open it in the editor
+2. Click on `index.html` to open it in the editor![[vsc-openindex.png]]
+
 3. If the file already has content from Section 2, that's fine. You're about to replace it with a cleaner, properly structured HTML template.
 
 ---
@@ -127,7 +130,7 @@ Look at the file tab in VS Code at the top of the editor:
 - If you see a **white dot** next to `index.html`, the file is not saved yet
 - Press **Ctrl + S** to save if you see the dot
 - The dot should disappear when the file is saved
-
+![[vsc-saved.png]]
 ### Git Check
 
 1. In the VS Code terminal (Ctrl + ~), type exactly:
@@ -168,10 +171,10 @@ Live Server is a VS Code extension that creates a local web server for your HTML
 
 ### Instructions
 
-1. In VS Code, click the **Extensions** icon in the left sidebar (or press Ctrl + Shift + X)
+1. In VS Code, click the **Extensions** icon in the left sidebar (or press Ctrl + Shift + X)![[vsc-ext.png]]
 2. In the search box at the top, type: `live server`
 3. Look for the extension named **Live Server** (published by Ritwick Dey)
-4. Click the **Install** button
+4. Click the **Install** button (trust publisher)
 5. Wait for installation to complete (may take 10-30 seconds)
 
 ### Verify Installation
@@ -180,7 +183,7 @@ After installation:
 - VS Code may ask you to reload. If it does, click **Reload**
 - The Extensions icon should show Live Server as installed
 - You should see a "Go Live" button appear in the bottom-right corner of VS Code
-
+![[vsc-golive.png]]
 **If Live Server is installed, proceed to Step 5.**
 
 ---
@@ -216,8 +219,7 @@ You should see in the browser:
 - Make sure you opened it with Live Server (not by double-clicking the file in Windows File Explorer)
 - Check that the browser tab shows "My First Webpage" - if it shows "file://" in the address bar, you didn't use Live Server
 - Try closing the browser tab and opening with Live Server again
-
----
+![[live-rightpng.png]]--
 
 ## Step 6: Commit Your Work
 
@@ -362,9 +364,14 @@ nothing to commit, working tree clean
 You now have a properly structured HTML page that loads reliably in a browser. In the next exercise, you'll add more content elements like hyperlinks, lists, and images to make your page more interesting and functional.
 
 ---
+## Next Steps
 
-## Troubleshooting
+- [[c01-found/s3-html-css/index#HTML Document Structure|Return to Lecture]] - Go back to the HTML Document Structure section of the lecture before continuing.
+---
+## Troubleshooting:
+Things not working? Check out these common mistakes.
 
+---
 ### Problem: "fatal: not a git repository"
 
 **Solution:**
@@ -395,13 +402,6 @@ You now have a properly structured HTML page that loads reliably in a browser. I
 - Check that you're editing the correct file
 
 ---
-
-## Next Steps
-
-- [[c01-found/s3-html-css/index#HTML Document Structure|Return to Lecture]] - Go back to the HTML Document Structure section of the lecture before continuing.
-
----
-
 ## Navigation
 
 **Previous Section:** [[s2-vers-ctrl/index|Section 2: Version Control]]

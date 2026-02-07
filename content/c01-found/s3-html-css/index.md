@@ -63,7 +63,7 @@ When you visit a webpage, your browser:
 
 Understanding this process helps you debug why styles aren't applying, understand the cascade and specificity, use developer tools effectively, and write more efficient code.
 
-Now that you understand how browsers work, you're ready to create your first webpage. Complete **[[s3-html-css/s3e1-creating-first-webpage|Exercise 1: Creating Your First Webpage]]** to build the foundation.
+Now that you understand how browsers work, you're ready to create your first webpage. Complete **[[c01-found/s3-html-css/s3e1-creating-first-webpage.md|Exercise 1: Creating Your First Webpage]]** to build the foundation.
 
 ---
 
@@ -91,7 +91,7 @@ Every HTML document follows this structure:
 - **`<body>`** - Contains all visible content
 
 For responsive design, every HTML document should include a viewport meta tag in the `<head>` section. This tells mobile browsers to use the device width, enabling responsive design.
-
+![[vsc-meta-mob.png]]
 Semantic HTML uses elements that describe their meaning, not just their appearance. For example, `<header>` for page headers, `<nav>` for navigation, and `<footer>` for page footers. Semantic HTML improves accessibility, SEO, and code maintainability.
 
 Now that you understand HTML structure, complete **[[s3-html-css/s3e1-creating-first-webpage|Exercise 1: Creating Your First Webpage]]** to create your first HTML document.
