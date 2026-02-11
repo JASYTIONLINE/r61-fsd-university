@@ -8,9 +8,9 @@ date: "2026-01-30"
 
 # Exercise 3: Creating Tables
 
-**This exercise continues from Exercise 2. You must complete Exercise 2 first.**
+**This exercise continues from Exercise 2. You must complete [[c01-found/s3-html-css/s3e2-adding-rich-content-elements|Exercise 2]] first.**
 
-**This exercise is a standalone technical manual. Follow each step exactly.**
+** Follow each step exactly.**
 
 **Time Required:** 20-25 minutes
 
@@ -21,11 +21,21 @@ date: "2026-01-30"
 Before starting, verify:
 
 1. ✅ **Exercise 2 completed**
-   - `index.html` file has links, lists, images, and embedded content
-   - All changes from Exercise 2 are committed
-   - You can preview your page in a browser
+   - `index.html` file has [[s3e2-adding-rich-content-elements|links, lists, images, and embedded content]]
+   - All changes from Exercise 2 are [[c01-found/s2-vers-ctrl/s2e3-pushing-changes#Step 3: Commit the File|committed]].
+   - You have [[c01-found/s2-vers-ctrl/s2e3-pushing-changes#Step 5: Push to GitHub|pushed your changes]] to the remote GitHub server on the command line.
+   - You can [[r61-fsd-university/content/c01-found/s3-html-css/s3e1-creating-first-webpage#Step 4: Install Live Server Extension (One-Time Setup)|preview your page in a browser]]
 
 2. ✅ **Current State Verification**
+   - Open VS Code 
+	<details>
+<summary>How to open Run</summary>
+
+Press **Win + R**  
+Type `code`  
+Press Enter
+
+</details>
    - Open VS Code terminal (Ctrl + ~)
    - Type: `git status`
    - Press Enter
@@ -33,13 +43,11 @@ Before starting, verify:
 **Expected Output:**
 ```
 On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-
-nothing to commit, working tree clean
+Your branch is up to date with 'origin/main'.
 ```
 
 **If you see this, proceed.**
-**If not, complete Exercise 2 first or resolve any uncommitted changes.**
+**If not, complete Exercise 2 first or resolve and push any uncommitted changes.**
 
 ---
 
@@ -59,7 +67,7 @@ By the end of this exercise, you will have:
 
 ### What This Step Does
 
-Before creating a table, it's important to understand when tables are appropriate. Tables are perfect for organizing structured data that has a clear relationship between rows and columns. They're ideal for schedules, comparisons, statistics, and any information that benefits from being displayed in a grid format.
+Before creating a [table in HTML](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics), it's important to understand when tables are appropriate. Tables are perfect for organizing structured data that has a clear relationship between rows and columns. They're ideal for schedules, comparisons, statistics, and any information that benefits from being displayed in a grid format.
 
 **Good uses for tables:**
 - Schedules (time slots, days of the week)
@@ -80,18 +88,19 @@ For this exercise, you'll create a simple schedule table to demonstrate table st
 
 ### What This Step Does
 
-You'll create a table that shows a weekly schedule. This demonstrates all the important table elements: caption (table title), thead (header row), tbody (body rows), th (header cells), and td (data cells). Using semantic table elements makes your tables more accessible and easier to style later.
+You'll create a table that shows a weekly schedule. This demonstrates all the important [table elements:](https://cmastris.github.io/html-tables-cheat-sheet/) caption (table title), thead (header row), tbody (body rows), th (header cells), and td (data cells). Using semantic table elements makes your tables more accessible and easier to style later.
 
 ### Instructions
 
-1. Open `index.html` in VS Code
+1. Open `index.html` ``` (knowledge-base\projects\index.html)```  in VS Code
 2. Find the contact section you added in Exercise 2 (the one with `id="contact"`)
-3. Add this code **after** the contact section (before the `</body>` tag):
+3. ![[vsc-id-contacts.png]]
+4. Add this code **after** the contact section (before the `<p>Return...` line:
 
 ```html
 <h2>Weekly Schedule</h2>
 <table>
-  <caption>My Learning Schedule for This Week</caption>
+  <caption>My first HTML Table. It is my Schedule for This Week</caption>
   <thead>
     <tr>
       <th>Day</th>
@@ -130,6 +139,8 @@ You'll create a table that shows a weekly schedule. This demonstrates all the im
 ```
 
 4. Press **Ctrl + S** to save the file
+5. Format the document to clean it up
+6. Open in live server
 
 ### What to Notice
 
@@ -140,7 +151,8 @@ You'll create a table that shows a weekly schedule. This demonstrates all the im
 - **`<tr>`** - This is a table row. Each `<tr>` creates one horizontal row in the table.
 - **`<th>`** - This is a table header cell. It's used in the `<thead>` section to label columns. Header cells are bold by default and help users understand what each column represents.
 - **`<td>`** - This is a table data cell. It contains the actual data in the table. Each `<td>` is one cell in a row.
-
+- notice how each nested piece is moved one tab tot he right when you format the document showing you the parent child relationship between each line.
+![[vsc-nested.png]]
 **Semantic Structure:** Notice how the table is organized with thead and tbody. This semantic structure helps screen readers navigate the table, makes it easier to style different sections, and clearly separates headers from data.
 
 ### Verify Changes
@@ -153,15 +165,39 @@ You'll create a table that shows a weekly schedule. This demonstrates all the im
 
 **Expected Output:**
 ```
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-
-Changes not staged for commit:
-  (use "git add <file>..." to include in what will be committed)
-        modified:   index.html
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   projects/index.html
 ```
 
-**If you see `index.html` listed as modified, proceed to Step 3.**
+**If you see `index.html` >
+
+- copy and paste this line onto your command line:
+
+ ```
+    git commit -m "added table to project/index.html"
+    git add projects/index.html
+
+ ```
+  
+  You will see a warning about running multiple commands.  This is normal. Just verify you have the correct syntax and click "Paste"
+  
+  ![[term-multiline.png]]
+  
+- Expected output: you should see something very similar to this>
+```
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   projects/index.html
+
+```
+
+- USE git add to "Stage" your index file, push it, then verify your tree is up to date with git status
+- proceed to Step 3.**
 
 ---
 
@@ -225,7 +261,7 @@ This step gives you practice adding more data to your table. In real projects, t
 - The number of `<td>` elements in each row must match the number of columns (in this case, three: Day, Topic, Time).
 - All rows go inside the `<tbody>` section, not in `<thead>`.
 
-### Verify Changes
+### Here we go again. Its time to Verify Changes
 
 1. In the terminal, type exactly:
    ```bash
@@ -281,6 +317,24 @@ no changes added to commit (use "git add" or "git commit -a")
 
 **Expected Result:** No error message, prompt returns.
 
+---
+**Note:** You must be in the "projects" to add the index file with just add index.html.
+
+If you are in the root knowledge base directory, you must give the relative path in your add command:
+
+```
+git add projects/index.html
+```
+
+or change directories into knowledge-base/projects 
+
+```
+cd projects 
+```
+
+to get into the projects folder in Terminal
+
+---
 ### Verify File is Staged
 
 1. In the terminal, type exactly:
@@ -328,17 +382,17 @@ Changes to be committed:
 **Expected Output:**
 ```
 On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
+Your branch is ahead of 'origin/main' by 1 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
 ```
 
 **Key indicators:**
-- ✅ "Your branch is ahead of 'origin/main' by 3 commits" - You now have 3 local commits (Exercises 1, 2, and 3)
+- ✅ "Your branch is ahead of 'origin/main' by 1 commits" - You now have 1 local commit to push
 - ✅ "nothing to commit, working tree clean" - All changes are committed
 
-**If you see this, your commit was successful. Proceed to final verification.**
+**If you see this, your commit was successful, PUSH your commit and proceed to final verification.**
 
 ---
 
@@ -351,6 +405,7 @@ After completing this exercise, you should have:
 - ✅ Header row with `<th>` elements
 - ✅ Data rows with `<td>` elements
 - ✅ All changes committed to Git
+- ✅ All commits pushed to remote
 - ✅ Working tree clean
 
 ### Final Verification
@@ -364,12 +419,10 @@ After completing this exercise, you should have:
 **Expected Output:**
 ```
 On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
-
-nothing to commit, working tree clean
+Your branch is up to date with 'origin/main'.
 ```
 
-**If you see "working tree clean", you're ready for the next exercise.**
+**If you see "Your branch is up to date...", you're ready for the next exercise.**
 
 ---
 
@@ -378,7 +431,11 @@ nothing to commit, working tree clean
 You now understand how to create tables for organizing structured data. In the next exercise, you'll learn about forms, which allow users to submit data to your website. Forms are essential for contact forms, search boxes, login pages, and any interactive data collection.
 
 ---
+## Next Steps
 
+- [[c01-found/s3-html-css/index#Collecting User Input with Forms|Return to Lecture]] - Go back to the "Collecting User Input with Forms section" of the lecture before moving on.
+
+---
 ## Troubleshooting
 
 ### Problem: Table doesn't display in rows and columns
@@ -410,13 +467,6 @@ You now understand how to create tables for organizing structured data. In the n
 - You'll learn to style tables with CSS in later exercises
 
 ---
-
-## Next Steps
-
-- [[c01-found/s3-html-css/index#HTML Tables|Return to Lecture]] - Go back to the HTML Tables section of the lecture before moving on.
-
----
-
 ## Navigation
 
 **Previous Exercise:** [[s3-html-css/s3e2-adding-rich-content-elements|Exercise 2: Adding Rich Content Elements]]
