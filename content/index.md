@@ -50,10 +50,10 @@ Each lesson builds on the previous one, and you'll work with a single repository
 
 ## What Makes This Course Different
 
-This course is designed as a **workbook**—meaning you can learn at your own pace without needing an instructor present. Here's what to expect:
+This course is designed as both a textbook and a **workbook**—meaning you can learn at your own pace without needing an instructor present. Here's what to expect:
 
 - **Self-Paced Learning**: Work through lectures and exercises when it fits your schedule
-- **One Continuous Project**: All lessons build on a single repository, not throwaway demos
+- **One Continuous Project**: Each lesson and exercise builds on the previous exercises creating one comprehensive finished project that will is totally interconnected, just like a real website.
 - **Professional Habits**: Learn industry-standard practices from day one, starting with file organization
 - **Portfolio Ready**: Your final project will be something you can show to employers
 - **Beginner Friendly**: No prior experience assumed—we explain everything
@@ -69,14 +69,14 @@ You're about to learn skills that are in high demand. Full stack engineers work 
 **Next Step:** [Foundations of Front End Development: ](c01-found/index) focus on building a solid foundation in Front End Web Engineering with a comprehensive, beginner-friendly program designed to teach you the essential skills needed to become a front-end developer. 
  
 ---
+[Back to Top](#So%20You%20Want%20to%20be%20an%20Engineer?)
 ## Navigation
-
-### Course Sections
-- [Section 0: Orientation:](c01-found/s0-welcome/index) Getting Started in Your Windows Environment
-- [Section 1: File Structure: ](c01-found/s1-files/index) - Organization principles
-- [Section 2: Version Control Foundations](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
-- [Section 3: HTML & CSS Foundations](c01-found/s3-html-css/index) - Web page fundamentals
-- [Section 4: JavaScript Basics](c01-found/s4-js/index) - Programming fundamentals
-- [Section 5: Optimizing Java Script](c01-found/s5-Opt-js/index) - Functions and optimization
-- [Section 6: Advanced JavaScript](c01-found/s06-adv-js/index) - Advanced concepts
-- [Section 7: Tailwind CSS](c01-found/index) - Modern styling
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02genai-fun/index) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet
