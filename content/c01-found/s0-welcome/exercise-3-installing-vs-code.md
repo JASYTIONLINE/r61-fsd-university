@@ -165,7 +165,7 @@ Next Steps: [[s0-welcome/index|Orientation Lecture]] - Return to the lecture and
 ## Navigation
 
 ### Section Navigation
-- [[index|Home]] - Return to main course page
+- [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to main course page
 - [[s0-welcome/index|Orientation Index]] - Return to orientation overview
 - [[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]] - Previous exercise
 - [[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] - Previous exercise

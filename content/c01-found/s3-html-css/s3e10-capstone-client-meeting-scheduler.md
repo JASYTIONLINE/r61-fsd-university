@@ -970,7 +970,7 @@ After completing this section, you can:
 
 **Next Section:** [[s4-js/index|Section 4: JavaScript Basics]]
 
-**Home:** [[index|Main Course Page]]
+**Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]
 

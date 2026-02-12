@@ -165,7 +165,7 @@ Next Steps: [[c01-found/s1-files/index#Your Personal Knowledge Base Structure|Re
 ## Navigation
 
 ### Section Navigation
-- [[index|Home]] - Return to main course page
+- [[r61-fsd-university/content/c01-found/s1-files/index|Home]] - Return to main course page
 - [[s1-files/index|File Systems Index]] - Return to file systems overview
 - [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Knowledge Base Structure]] - This page
 - [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - Next exercise

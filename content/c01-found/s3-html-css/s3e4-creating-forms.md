@@ -8,9 +8,9 @@ date: "2026-01-30"
 
 # Exercise 4: Creating Forms
 
-**This exercise continues from Exercise 3. You must complete Exercise 3 first.**
+**This exercise continues from [[s3e3-creating-tables|Exercise 3.]] You must complete Exercise 3 first.**
 
-**This exercise is a standalone technical manual. Follow each step exactly.**
+**Follow each step exactly.**
 
 **Time Required:** 25-30 minutes
 
@@ -27,19 +27,20 @@ Before starting, verify:
 
 2. ✅ **Current State Verification**
    - Open VS Code terminal (Ctrl + ~)
+   - Verify you are in you knowledge-base/projects Directory
    - Type: `git status`
    - Press Enter
 
 **Expected Output:**
 ```
 On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
-
-nothing to commit, working tree clean
+Your branch is up to date with 'origin/main'.
 ```
 
 **If you see this, proceed.**
-**If not, complete Exercise 3 first or resolve any uncommitted changes.**
+**If not, complete Exercise 3 first or resolve and push any uncommitted changes.**
+
+3. ✅ **Open index.html in LIVE SERVER.**
 
 ---
 
@@ -52,6 +53,7 @@ By the end of this exercise, you will have:
 - Added form validation attributes
 - Understood different input types and when to use them
 - Committed your work with Git
+- Updated your remote repository
 
 ---
 
@@ -82,11 +84,11 @@ For this exercise, you'll create a contact form that demonstrates these concepts
 
 ### What This Step Does
 
-You'll create a contact form with text input, email input, and a textarea for messages. This demonstrates the basic form structure and shows how different input types work. Most importantly, you'll learn about labels and how to associate them with inputs for accessibility.
+You'll create a contact form with text input, email input, and a text area for messages. This demonstrates the basic form structure and shows how different input types work. Most importantly, you'll learn about labels and how to associate them with inputs for accessibility.
 
 ### Instructions
 
-1. Open `index.html` in VS Code
+1. Open `index.html` in VS Code (if not already open)
 2. Find the table you added in Exercise 3
 3. Add this code **after** the table (before the `</body>` tag):
 
@@ -95,18 +97,18 @@ You'll create a contact form with text input, email input, and a textarea for me
 <form>
   <label for="name">Your Name:</label>
   <input type="text" id="name" name="name" required>
-  
   <label for="email">Your Email:</label>
   <input type="email" id="email" name="email" required>
-  
+  </br>
   <label for="message">Your Message:</label>
   <textarea id="message" name="message" rows="5" required></textarea>
-  
+  </br>
   <button type="submit">Send Message</button>
 </form>
 ```
 
-4. Press **Ctrl + S** to save the file
+4. right click format the file
+5. Press **Ctrl + S** to save the file
 
 ### What to Notice
 
@@ -134,11 +136,14 @@ You'll create a contact form with text input, email input, and a textarea for me
 **Expected Output:**
 ```
 On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
+Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to include in what will be committed)
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
         modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 **If you see `index.html` listed as modified, proceed to Step 3.**
@@ -154,12 +159,12 @@ HTML provides many input types for different kinds of data. You'll add a few mor
 ### Instructions
 
 1. In `index.html`, find the form you just created
-2. Add these additional fields **before** the submit button (after the textarea):
+2. Add these additional fields **before** the submit button (after the text area):
 
 ```html
   <label for="phone">Your Phone (optional):</label>
   <input type="tel" id="phone" name="phone">
-  
+     </br>
   <label for="subject">Subject:</label>
   <select id="subject" name="subject" required>
     <option value="">Choose a subject...</option>
@@ -167,11 +172,12 @@ HTML provides many input types for different kinds of data. You'll add a few mor
     <option value="feedback">Feedback</option>
     <option value="support">Support Request</option>
   </select>
-  
+     </br>
   <label>
     <input type="checkbox" name="newsletter" value="yes">
     Subscribe to newsletter
   </label>
+     </br>
 ```
 
 3. Press **Ctrl + S** to save the file
@@ -445,6 +451,6 @@ You now understand how to create forms for collecting user input. In the next ex
 
 **Next Exercise:** [[s3-html-css/s3e5-using-semantic-html-structure|Exercise 5: Using Semantic HTML Structure]]
 
-**Home:** [[index|Main Course Page]]
+**Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]

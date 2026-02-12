@@ -1,21 +1,22 @@
 ---
-title: "C02: Understanding Fundamentals of Generative AI"
-description: Learn about Generative AI and how it can help you in your Full Stack Journey
+title: "C9: Publishing Your Website to the Live Internet"
+description: A look at how to use various tools and interfaces to publish your work to the web
 tags:
   - course
   - beginner
   - full-stack
-  - artificial-intelligence
-  - ai
+  - react
+  - front-end
   - generative-ai
+  - web-publishing
+  - git-hub-pages
+  - verscai
 draft: false
 date: 2026-01-30
 enableToc: true
 ---
 
-# Fundamentals of Generative AI
-## About This Course
-
+# # Publishing Your Website to the Live Internet
 
 ---
 

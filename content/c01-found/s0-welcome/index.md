@@ -311,12 +311,12 @@ Complete these exercises in order to set up your development environment:
 ## Navigation
 
 ### Section Navigation
-- [[index|Home]] - Return to the main course page
+- [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to the main course page
 - [[s0-welcome/index|Orientation]] - This page
 - [[s1-files/index|File Systems]] - Next section
 
 ### Course Sections
-- [[index|Home]] - Return to the main course page
+- [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to the main course page
 - [[s0-welcome/index|Section 0: Orientation]] - Get started here
 - [[s1-files/index|Section 1: File Systems]] - Organization principles
 - [[s2-vers-ctrl/index|Section 2: Version Control]] - Git and GitHub basics

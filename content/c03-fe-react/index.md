@@ -1,19 +1,21 @@
 ---
-title: "C02: Understanding Fundamentals of Generative AI"
-description: Learn about Generative AI and how it can help you in your Full Stack Journey
+title: "C3: Using React to Design a Dynamic Frontend"
+description: An introduction to the REACT Model. A shortcut system to make creating web applications easier and modular.
 tags:
   - course
   - beginner
   - full-stack
   - artificial-intelligence
-  - ai
-  - generative-ai
+  - react
+  - front-end
+  - javascript
+  - js
 draft: false
 date: 2026-01-30
 enableToc: true
 ---
 
-# Fundamentals of Generative AI
+# # Designing a Dynamic Frontend with React
 ## About This Course
 
 

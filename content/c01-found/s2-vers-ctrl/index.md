@@ -742,7 +742,7 @@ Complete these exercises in order to build your version control skills:
 ## Navigation
 
 ### Section Navigation
-- [[index|Home]] - Return to the main course page
+- [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Home]] - Return to the main course page
 - [[s1-files/index|File Systems]] - Previous section
 - [[s2-vers-ctrl/index|Version Control]] - This page
 - [[s3-html-css/index|HTML & CSS]] - Next section

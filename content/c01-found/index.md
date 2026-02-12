@@ -1,5 +1,5 @@
 ---
-title: Foundations of Front-end Development
+title: "C01: Foundations of Front-end Development"
 description: A beginner-friendly course covering version control, HTML, CSS, JavaScript, and modern front-end development practices.
 tags:
   - course
@@ -15,78 +15,74 @@ enableToc: true
 
 ## About This Course
 
-Welcome to the **Foundations of Front-end Development** course. This is a comprehensive, beginner-friendly program designed to teach you the essential skills needed to become a front-end developer. 
+Welcome to the **Foundations of Front-end Development** course. This is a comprehensive, beginner-friendly program designed to teach you the essential skills needed to become a [front-end developer.](https://www.bing.com/ck/a?!&&p=e2877549ce424abf9b315d310a43615978f6699054321d9b29d7028045883848JmltdHM9MTc3MDg1NDQwMA&ptn=3&ver=2&hsh=4&fclid=07f802bb-eb29-6f86-2b0a-1404ea816ee4&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRnJvbnQtZW5kX3dlYl9kZXZlbG9wbWVudA) 
 
-This course is part of a larger full-stack development series that will eventually cover the complete MERN stack (MongoDB, Express, React, Node.js). Here, we focus on building a solid foundation in:
+This course is part of a larger [full-stack](https://en.wikipedia.org/wiki/Front_end_and_back_end) development series that will eventually cover the complete [MERN](https://dev.to/utkarsh_singh_/understanding-the-mern-stack-a-beginners-guide-5d1k) stack (MongoDB, Express, React, Node.js). Here, we focus on building a solid foundation in Front End Web Engineering:
 
+- [Knowledge Base](https://www.getguru.com/reference/what-is-a-knowledge-base) - Creating a solid file structure
 - **Version Control** - Professional Git and GitHub workflows
 - **HTML & CSS** - Building and styling web pages
 - **JavaScript Fundamentals** - Core programming concepts
 - **Advanced JavaScript** - Functions, strings, and optimization
 - **Modern Front-end Tools** - Tailwind CSS and advanced techniques
 
-Each lesson is structured as a **workbook** that you can complete at your own pace, without requiring an instructor. All exercises build on a single, portfolio-ready repository that demonstrates professional development practices.
+Although this course come with a complete lecture series and is designed to be experienced in a linear fashion starting with [Course 01 Section 0](c01-found/s0-welcome/index), each lesson is structured as a **workbook** that you can complete independent of the course lecture at your own pace, without requiring an instructor.
+
+I do recommend completing the exercises in order since each exercise builds on the exercise preceding it. Upon completion of all the exercises, you will have a comprehensive portfolio-ready repository that demonstrates your skills as a Full Stack Engineer and a showcases the professional development practices you will develop throughout the course.
 
 ---
 
-## Course Menu
+## Course Overview
 
 Navigate to any section using the links below. Each section contains a comprehensive lecture (index.md) covering all concepts, and focused exercises (exercise-N-name.md) that practice individual concepts.
 
-### [[s0-welcome/index|Orientation: So You Want to be an Engineer?]]
+### [Orientation: Getting Started in a Windows Environment](c01-found/s0-welcome/index)
 Get oriented with full stack engineering. Learn what it means to be a full stack engineer, understand prerequisites, and set up your development environment (Windows Terminal, Git Bash, VS Code).
 
-### [[s1-files/index|File Systems and Organization]]
+### [File Systems and Organization](c01-found/s1-files/index)
 Introduction to file organization principles and developer infrastructure. Learn why logical file structures matter, understand organizational patterns, and set up your GitHub account and tools.
 
 ### [[s2-vers-ctrl/index|Version Control Foundations]]
 Comprehensive introduction to Git and GitHub. Learn all version control concepts through focused exercises: authentication, repositories, commits, branches, merging, and professional workflows.
 
-### [[l3-html-css/index|HTML & CSS]]
+### [HTML & CSS](content/c01-found/s3-html-css/index)
 Create your first web pages and learn to structure and style content. Build on the repository from Version Control as you develop real web development skills.
 
-### [[l4-/index|JavaScript Fundamentals]]
+### [JavaScript Fundamentals](content/c01-found/s4-js/index)
 Introduction to JavaScript programming. Learn core concepts, syntax, and how to make your web pages interactive.
 
-### [[l5-/index|Optimizing JavaScript Functions & Strings]]
+### [Optimizing JavaScript Functions & Strings](content/c01-found/s5-Opt-js/index)
 Deep dive into JavaScript functions, string manipulation, and optimization techniques. Learn to write efficient, maintainable code.
 
-### [[l6-/index|Advanced JavaScript]]
+### [Advanced JavaScript](r61-fsd-university/content/c01-found/s06-adv-js/index)
 Explore advanced JavaScript concepts including prototypes, closures, and modern ES6+ features.
 
-### [[L7-/index|Advanced Git Workflows]]
-Advanced version control techniques including branch management, merging strategies, and collaborative workflows.
-
-### [[L8-/index|Advanced Elements & Tailwind CSS]]
+### [Advanced Elements & Tailwind CSS](r61-fsd-university/content/c01-found/s06-adv-js/index)
 Modern CSS frameworks and advanced styling techniques. Learn to build responsive, professional-looking interfaces with Tailwind CSS.
 
-Next Steps: [[s0-welcome/index|Orientation]] - Get started here
+Next Steps: [Orientation:](r61-fsd-university/content/c01-found/s0-welcome/index) - Get started here by setting up Your Windows Environment
 
 ---
+[[#About This Course|Back to the top]]
+### Course Sections
+- [Section 0: Orientation:](c01-found/s0-welcome/index) Getting Started in Your Windows Environment
+- [Section 1: File Structure: ](c01-found/s1-files/index) - Organization principles
+- [Section 2: Version Control Foundations](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
+- [Section 3: HTML & CSS Foundations](c01-found/s3-html-css/index) - Web page fundamentals
+- [Section 4: JavaScript Basics](c01-found/s4-js/index) - Programming fundamentals
+- [Section 5: Optimizing Java Script](c01-found/s5-Opt-js/index) - Functions and optimization
+- [Section 6: Advanced JavaScript](c01-found/s06-adv-js/index) - Advanced concepts
+- [Section 7: Tailwind CSS](c01-found/index) - Modern styling
 
+---
 ## Global Navigation
-
-### Quick Links
-- [[index|Home]] - Return to this page
-- [[s0-welcome/index|Orientation]] - Get started here
-- [[s1-files/index|File Systems]] - Organization principles
-- [[s2-vers-ctrl/index|Version Control]] - Git and GitHub basics
-- [[l3-html-css/index|HTML & CSS]] - Web page fundamentals
-- [[l4-/index|JavaScript Basics]] - Programming fundamentals
-- [[l5-/index|JavaScript Functions]] - Functions and optimization
-- [[l6-/index|Advanced JavaScript]] - Advanced concepts
-- [[L7-/index|Advanced Git]] - Version control workflows
-- [[L8-/index|Tailwind CSS]] - Modern styling
-
-### Course Structure
-Each section follows a consistent structure:
-- **Lecture (index.md)** - Comprehensive lecture covering ALL concepts for that section
-- **Exercises (exercise-N-name.md)** - Focused exercises, each covering ONE specific concept from the lecture
-
-**Learning Pattern:**
-1. Read the comprehensive lecture to understand all concepts
-2. Complete focused exercises to practice individual concepts
-3. Each exercise reinforces one specific concept from the lecture
-
-### Getting Started
-If you're new to this course, start with [[s0-welcome/index|Orientation]] to get oriented and set up your development environment, then proceed to [[s1-files/index|File Systems]] to understand file organization and set up GitHub. Each section builds on the previous one, and you'll work with a single repository throughout the entire course.
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02genai-fun/index) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

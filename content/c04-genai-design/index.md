@@ -1,20 +1,23 @@
 ---
-title: "C02: Understanding Fundamentals of Generative AI"
-description: Learn about Generative AI and how it can help you in your Full Stack Journey
+title: "C4:: Harnessing Gen AI: From Design to Code Optimization"
+description: A more advanced look at using the power of generative AI to build code
 tags:
   - course
   - beginner
   - full-stack
-  - artificial-intelligence
+  - react
+  - front-end
+  - javascript
+  - js
   - ai
   - generative-ai
+  - artificial-intelligence
 draft: false
 date: 2026-01-30
 enableToc: true
 ---
 
-# Fundamentals of Generative AI
-## About This Course
+# # # Harnessing Gen AI: From Design to Code Optimization
 
 
 ---

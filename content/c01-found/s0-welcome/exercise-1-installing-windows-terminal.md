@@ -113,7 +113,7 @@ While optional, Windows Terminal makes working with the command line more pleasa
 ## Navigation
 
 ### Section Navigation
-- [[index|Home]] - Return to main course page
+- [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to main course page
 - [[s0-welcome/index|Orientation Index]] - Return to orientation overview
 - [[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]] - This page
 - [[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] - Next exercise

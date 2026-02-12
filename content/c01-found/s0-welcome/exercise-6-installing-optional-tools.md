@@ -153,7 +153,7 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 ## Navigation
 
 ### Section Navigation
-- [[index|Home]] - Return to main course page
+- [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to main course page
 - [[s0-welcome/index|Orientation Index]] - Return to orientation overview
 - [[s0-welcome/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - Previous exercise
 - [[s0-welcome/exercise-6-installing-optional-tools|Exercise 6: Installing Optional Tools]] - This page

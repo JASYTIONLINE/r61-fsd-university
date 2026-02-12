@@ -42,7 +42,7 @@ nothing to commit, working tree clean
 ---
 ## Setup
 ### Part One
-Download the image we will use in tis exercise.
+Download the image we will use in this exercise.
 
 1. Download this image and save it to your project folder (the same folder where `index.html` is located):
 ![[local-img.jpg]]
@@ -57,9 +57,6 @@ Create a basic About me page
 ![[vsc-newfile.png]]
 2. Create a file with the filename about.html
 3. on line 1 type: "!", then hit enter.
-```
-!
-```
 4. VS Code should create an HTML5 basic structure for you.
 ![[vsc-html5.png]]
 5. Change line 6 to read 
@@ -91,7 +88,7 @@ By the end of this exercise, you will have:
 
 ---
 
-## Step 1: Add Hyperlinks to Your Page
+## Step 1: Add [[https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links|Hyperlinks]] to Your Page
 
 ### What This Step Does
 
@@ -619,7 +616,7 @@ Course Lecture: [[c01-found/s3-html-css/index|HTML & CSS Foundations]]
 
 **Next Exercise:** [[s3-html-css/s3e3-creating-tables|Exercise 3: Creating Tables]]
 
-**Home:** [[index|Main Course Page]]
+**Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]
 

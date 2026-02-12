@@ -641,7 +641,7 @@ You now have a complete understanding of HTML structure, CSS styling, and layout
 
 **Next Exercise:** [[s3-html-css/s3e10-capstone-client-meeting-scheduler|Exercise 10: Capstone Project - Client Meeting Scheduler]]
 
-**Home:** [[index|Main Course Page]]
+**Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 
 **Return to Section:** [[s3-html-css/index|HTML & CSS Section]]
 

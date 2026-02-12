@@ -1,20 +1,23 @@
 ---
-title: "C02: Understanding Fundamentals of Generative AI"
-description: Learn about Generative AI and how it can help you in your Full Stack Journey
+title: "C8: The Power of Generative AI Software Testing"
+description: A look at how to store and retrieve data to maximize efficiency in any situation
 tags:
   - course
   - beginner
   - full-stack
-  - artificial-intelligence
-  - ai
+  - react
+  - front-end
   - generative-ai
+  - data-structure
+  - algorithms
+  - linked-list
+  - array
 draft: false
 date: 2026-01-30
 enableToc: true
 ---
 
-# Fundamentals of Generative AI
-## About This Course
+# # Data Structures and Algorithms
 
 
 ---

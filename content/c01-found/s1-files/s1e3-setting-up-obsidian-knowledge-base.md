@@ -301,7 +301,7 @@ Understanding Obsidian's structure:
 ## Navigation
 
 ### Section Navigation
-- [[index|Home]] - Return to main course page
+- [[r61-fsd-university/content/c01-found/s1-files/index|Home]] - Return to main course page
 - [[s1-files/index|File Systems Index]] - Return to file systems overview
 - [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - Previous exercise
 - [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] - This page
