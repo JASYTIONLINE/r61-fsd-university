@@ -75,6 +75,7 @@ You're about to learn skills that are in high demand. Full stack engineers work 
 ---
 [Back to Top](#So%20You%20Want%20to%20be%20an%20Engineer?)
 ## Navigation
+
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02genai-fun/index) Fundamentals of Generative AI
 - [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
