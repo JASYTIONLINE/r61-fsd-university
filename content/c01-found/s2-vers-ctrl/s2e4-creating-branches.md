@@ -404,6 +404,6 @@ After completing this exercise, you should have:
 
 **Next Exercise:** [[s2-vers-ctrl/s2e5-switching-branches|Exercise 5: Switching Branches]]
 
-**Home:** [[index|Main Course Page]]
+**Home:** [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Main Course Page]]
 
 **Return to Section:** [[s2-vers-ctrl/index|Version Control Section]]
