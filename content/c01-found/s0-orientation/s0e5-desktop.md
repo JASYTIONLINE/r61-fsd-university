@@ -161,7 +161,7 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 ## Global Navigation
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -
 - [Course 01:](c01-found/index) Foundations of Front End Development
-- [Course 02:](c02genai-fun/index) Fundamentals of Generative AI
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
 - [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
 - [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
 - [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
