@@ -7,7 +7,7 @@ date: "2026-01-30"
 ---
 # Version Control Foundations
 
-Welcome to Section 2: Version Control Foundations. This section builds directly on the file organization principles you learned in Section 1. You'll learn how to use Git and GitHub to track changes, collaborate safely, and maintain professional development workflows.
+Welcome to Section 2: [Version Control](https://git-scm.com/video/what-is-version-control) Foundations. This section builds directly on the file organization principles you learned in Section 1. You'll learn how to use Git and GitHub to track changes, collaborate safely, and maintain professional development workflows.
 
  By the end of this section, you'll understand how version control works, why it's essential for professional development, and you'll have hands-on experience with Git and GitHub.
 
