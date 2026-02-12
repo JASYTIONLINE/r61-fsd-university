@@ -67,18 +67,18 @@ You're about to learn skills that are in high demand. Full stack engineers work 
 **Remember**: Every expert was once a beginner. Don't be discouraged if things feel challenging at first. That's normal and expected. The key is to keep going, practice regularly, and build on what you learn each day.
 
 
-**Next Step:** [Orientation:](r61-fsd-university/content/c01-found/s0-welcome/index) Getting Started in Your Windows Environment - Set up your development environment and learn about the tools you'll use throughout this course. 
+**Next Step:** [Orientation:](c01-found/s0-welcome/index) Getting Started in Your Windows Environment - Set up your development environment and learn about the tools you'll use throughout this course. 
 
 ---
 
 ## Navigation
 
 ### Course Sections
-- [Section:](r61-fsd-university/content/c01-found/s0-welcome/index) Gtion 0: Orientetting Started in Your Windows Environment
-- [[r61-fsd-university/content/c01-found/s1-files/index|Section 1: File Systems and Organization]] - Organization principles
-- [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Section 2: Version Control Foundations]] - Git and GitHub basics
-- [[r61-fsd-university/content/c01-found/s3-html-css/index|Section 3: HTML & CSS Foundations]] - Web page fundamentals
-- [[r61-fsd-university/content/c01-found/s4-js/index|Section 4: JavaScript Basics]] - Programming fundamentals
-- [[r61-fsd-university/content/c01-found/s5-Opt-js/index|Optimizing JS]] - Functions and optimization
-- [[s06-adv-js/index|Section 6: Advanced JavaScript]] - Advanced concepts
-- [[s07-tailwind/index|Section 7: Tailwind CSS]] - Modern styling
+- [Section 0: Orientation:](c01-found/s0-welcome/index) Getting Started in Your Windows Environment
+- [Section 1: File Structure: ](c01-found/s1-files/index) - Organization principles
+- [Section 2: Version Control Foundations](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
+- [Section 3: HTML & CSS Foundations](c01-found/s3-html-css/index) - Web page fundamentals
+- [Section 4: JavaScript Basics](c01-found/s4-js/index) - Programming fundamentals
+- [Section 5: Optimizing Java Script](c01-found/s5-Opt-js/index) - Functions and optimization
+- [Section 6: Advanced JavaScript](c01-found/s06-adv-js/index) - Advanced concepts
+- [Section 7: Tailwind CSS](c01-found/index) - Modern styling
