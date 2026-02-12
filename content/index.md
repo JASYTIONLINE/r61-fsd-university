@@ -66,14 +66,15 @@ You're about to learn skills that are in high demand. Full stack engineers work 
 
 **Remember**: Every expert was once a beginner. Don't be discouraged if things feel challenging at first. That's normal and expected. The key is to keep going, practice regularly, and build on what you learn each day.
 
-**Next Step:** [[r61-fsd-university/content/c01-found/s0-welcome/index|Orientation: Getting Started in Your Windows Environment]] - Set up your development environment and learn about the tools you'll use throughout this course.
+
+**Next Step:** [Orientation:](r61-fsd-university/content/c01-found/s0-welcome/index) Getting Started in Your Windows Environment - Set up your development environment and learn about the tools you'll use throughout this course. 
 
 ---
 
 ## Navigation
 
 ### Course Sections
-- [[r61-fsd-university/content/c01-found/s0-welcome/index|Section 0: Orientation]] - Get started here
+- [Section 0: Orientation:](r61-fsd-university/content/c01-found/s0-welcome/index) Getting Started in Your Windows Environment
 - [[r61-fsd-university/content/c01-found/s1-files/index|Section 1: File Systems and Organization]] - Organization principles
 - [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Section 2: Version Control Foundations]] - Git and GitHub basics
 - [[r61-fsd-university/content/c01-found/s3-html-css/index|Section 3: HTML & CSS Foundations]] - Web page fundamentals
