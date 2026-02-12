@@ -42,25 +42,25 @@ Get oriented with full stack engineering. Learn what it means to be a full stack
 ### [File Systems and Organization](c01-found/s1-files/index)
 Introduction to file organization principles and developer infrastructure. Learn why logical file structures matter, understand organizational patterns, and set up your GitHub account and tools.
 
-### [[s2-vers-ctrl/index|Version Control Foundations]]
+### [Version Control Foundations](c01-found/s2-vers-ctrl/index)
 Comprehensive introduction to Git and GitHub. Learn all version control concepts through focused exercises: authentication, repositories, commits, branches, merging, and professional workflows.
 
-### [HTML & CSS](content/c01-found/s3-html-css/index)
+### [HTML & CSS](c01-found/s3-html-css/index)
 Create your first web pages and learn to structure and style content. Build on the repository from Version Control as you develop real web development skills.
 
-### [JavaScript Fundamentals](content/c01-found/s4-js/index)
+### [JavaScript Fundamentals](c01-found/s4-js/index)
 Introduction to JavaScript programming. Learn core concepts, syntax, and how to make your web pages interactive.
 
-### [Optimizing JavaScript Functions & Strings](content/c01-found/s5-Opt-js/index)
+### [Optimizing JavaScript Functions & Strings](c01-found/s5-Opt-js/index)
 Deep dive into JavaScript functions, string manipulation, and optimization techniques. Learn to write efficient, maintainable code.
 
-### [Advanced JavaScript](r61-fsd-university/content/c01-found/s06-adv-js/index)
+### [Advanced JavaScript](c01-found/s06-adv-js/index)
 Explore advanced JavaScript concepts including prototypes, closures, and modern ES6+ features.
 
-### [Advanced Elements & Tailwind CSS](r61-fsd-university/content/c01-found/s06-adv-js/index)
+### [Advanced Elements & Tailwind CSS](c01-found/s06-adv-js/index)
 Modern CSS frameworks and advanced styling techniques. Learn to build responsive, professional-looking interfaces with Tailwind CSS.
 
-Next Steps: [Orientation:](r61-fsd-university/content/c01-found/s0-welcome/index) - Get started here by setting up Your Windows Environment
+Next Steps: [Orientation:](c01-found/s0-welcome/index) - Get started here by setting up Your Windows Environment
 
 ---
 [[#About This Course|Back to the top]]
