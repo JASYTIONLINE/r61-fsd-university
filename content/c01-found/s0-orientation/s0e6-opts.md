@@ -1,21 +1,20 @@
 ---
-title: "Exercise 3: Installing Optional Tools"
+title: "C1S0E6: Installing Optional Tools"
 description: "Install optional development tools: Cursor (AI code editor) and Obsidian (note-taking tool)."
-tags: [cursor, obsidian, setup, tools, beginner, workbook, windows, optional]
+tags:
+  - cursor
+  - obsidian
+  - setup
+  - tools
+  - beginner
+  - workbook
+  - windows
+  - optional
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
-
-# Exercise 3: Installing Optional Tools
-
-This exercise is written so you can complete it **without an instructor present**.
-Read each section fully before performing the steps.
-
-This exercise covers optional tools mentioned in the [[s1-files/index|File Systems lecture]]. These tools are not required for this course but can enhance your productivity and learning experience.
-
----
-
-## What You Are Building
+# What You Are Building
+This exercise covers optional tools mentioned in the [[s1-files/index|File Systems lecture]]. 
 
 By the end of this exercise, you will have (optionally):
 - Cursor installed (AI-powered code editor)
@@ -24,7 +23,6 @@ By the end of this exercise, you will have (optionally):
 **Note:** Both tools are optional. You can complete this course using only VS Code (from Orientation) and basic note-taking. These tools are just enhancements if you want them.
 
 ---
-
 ## Before You Start
 
 Make sure you have:
@@ -34,7 +32,6 @@ Make sure you have:
 - VS Code already installed (from Orientation Exercise 3)
 
 ---
-
 ## Part 1: Installing Cursor (Optional)
 
 ### What Cursor Is
@@ -68,12 +65,10 @@ If Cursor opens, the installation is successful.
 **Note:** You don't need to configure Cursor now. We'll primarily use VS Code in this course. Cursor is just available if you want to try AI-assisted coding.
 
 ---
-
 ## Part 2: Installing Obsidian (Optional)
 
 ### What Obsidian Is
 [Obsidian](https://www.youtube.com/watch?v=hSTy_BInQs8) is a note-taking and knowledge management tool that uses Markdown files. It's great for documenting what you learn and organizing your knowledge.
-
 ### Why You Might Want It
 - Take notes on what you're learning
 - Create your own documentation (this site was built with obsidian)
@@ -82,7 +77,6 @@ If Cursor opens, the installation is successful.
 - Works with plain text files (future-proof)
 
 **Note:** Obsidian is optional. You can take notes in any text editor or even on paper. Obsidian is just a nice tool for organizing your learning.
-
 ### Instructions
 1. Open your web browser
 2. Go to [obsidian.md](https://obsidian.md)
@@ -95,7 +89,6 @@ If Cursor opens, the installation is successful.
    - Click **Install**
 7. Wait for installation to complete
 8. Click **Finish**
-
 ### Verify
 1. Launch Obsidian
 2. You'll be prompted to create or open a vault (a folder for your notes)
@@ -108,7 +101,6 @@ If Cursor opens, the installation is successful.
 If you can see the Obsidian interface and create a vault, the installation is successful.
 
 ---
-
 ## Expected State at the End of This Exercise
 
 You should now have (optionally):
@@ -118,7 +110,6 @@ You should now have (optionally):
 **Remember:** These tools are optional. You can complete this course without them. They're just enhancements if you want additional productivity tools.
 
 ---
-
 ## Why These Tools Matter (If You Choose to Use Them)
 
 **Cursor:**
@@ -135,7 +126,6 @@ You should now have (optionally):
 Both tools are optional but can enhance your development and learning experience if you choose to use them.
 
 ---
-
 ## Troubleshooting
 
 If something didn't work:
@@ -149,18 +139,26 @@ If something didn't work:
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
 
 ---
+[Back to the Top](#What%20You%20Are%20Building)
+## Course 1 Map
+- [Section 0: Orientation](c01-found/s0-orientation/index.md) - Get started here
+- [Section 1: File Systems](c01-found/s1-files/index) - Organization principles
+- [Section 2: Version Control](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
+- [Section 3: HTML & CSS](c01-found/s3-html-css/index) - Web page fundamentals
+- [Section 4: JavaScript Basics](c01-found/s4-js/index) - Programming fundamentals
+- [Section 5: JavaScript Functions](c01-found/s4-js/index) - Functions and optimization
+- [Section 6: Advanced JavaScript](c01-found/s06-adv-js/index) - Advanced concepts 
+- [Section 7: Tailwind CSS](c01-found/s06-adv-js/index) - Modern styling with Tailwind
 
-## Navigation
-
-### Section Navigation
-- [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to main course page
-- [[c01-found/s0-orientation/index|Orientation Index]] - Return to orientation overview
-- [[exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - Previous exercise
-- [[exercise-6-installing-optional-tools|Exercise 6: Installing Optional Tools]] - This page
-
-### Next Steps
-- [[s1-files/index|File Systems Section]] - Learn about file organization
-- [[s2-vers-ctrl/index|Version Control Section]] - Learn Git and GitHub workflows
-
-### Related Materials
-- [[c01-found/s0-orientation/index|Orientation Lecture]] - Review the concepts
+---
+## Global Navigation
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02genai-fun/index) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

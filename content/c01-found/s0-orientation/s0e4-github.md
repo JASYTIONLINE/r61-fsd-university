@@ -1,21 +1,18 @@
 ---
-title: "Exercise 4: Creating GitHub Account"
-description: "Create and verify a GitHub account, set up your profile, and understand the GitHub interface."
-tags: [github, account, setup, beginner, workbook]
+title: "C1S0E4: Create and Configure Your GitHub Account"
+description: Create and verify a GitHub account, set up your profile, and understand the GitHub interface.
+tags:
+  - github
+  - account
+  - setup
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
-# Exercise 4: Creating GitHub Account
-
-This exercise is written so you can complete it **without an instructor present**.
-Read each section fully before performing the steps.
-
-This exercise is part of the [[c01-found/s0-orientation/index|Orientation section]]. GitHub is where you'll store your code online and build your portfolio. You need an account before you can use GitHub.
-
----
-
-## What You Are Building
+# What You Are Building
+GitHub is where you'll store your code online and build your portfolio. You need an account before you can use GitHub. This exercise is part of the [[c01-found/s0-orientation/index|Orientation section]]. 
 
 By the end of this exercise, you will have:
 - A GitHub account created and verified
@@ -24,7 +21,6 @@ By the end of this exercise, you will have:
 - Access to GitHub's features
 
 ---
-
 ## Before You Start
 
 Make sure you have:
@@ -33,12 +29,10 @@ Make sure you have:
 - About 10-15 minutes
 
 ---
-
 ## Step 1: Create a GitHub Account
 
 ### What This Step Does
 This creates your GitHub account, which you'll use to store and share code.
-
 ### Instructions
 1. Open your web browser
 2. Go to [github.com](https://github.com)
@@ -57,7 +51,6 @@ This creates your GitHub account, which you'll use to store and share code.
     - Check your email inbox
     - Look for an email from GitHub
     - Click the verification link in the email
-
 ### Verify
 You should now be able to:
 - Log in to github.com
@@ -67,12 +60,10 @@ You should now be able to:
 If you can do these things, your GitHub account is ready.
 
 ---
-
 ## Step 2: Set Up Your Profile (Optional)
 
 ### What This Step Does
 This makes your GitHub profile more professional and helps others understand who you are.
-
 ### Instructions
 1. While logged in to GitHub, click your profile picture (top right)
 2. Click **Your profile**
@@ -84,7 +75,6 @@ This makes your GitHub profile more professional and helps others understand who
    - **Website**: Your portfolio or blog (optional)
    - **Twitter/X**: Your social media handle (optional)
 5. Click **Save changes**
-
 ### Verify
 You should see:
 - ✅ Your profile information updated
@@ -93,12 +83,10 @@ You should see:
 **Note:** This step is optional but recommended. A complete profile looks more professional.
 
 ---
-
 ## Step 3: Explore the GitHub Interface
 
 ### What This Step Does
 This helps you understand the basic GitHub interface so you can navigate it confidently.
-
 ### Instructions
 1. Look at the top navigation bar:
    - **GitHub logo**: Takes you to your dashboard
@@ -115,7 +103,6 @@ This helps you understand the basic GitHub interface so you can navigate it conf
 3. Click on your profile picture → **Settings**:
    - Explore the settings menu (don't change anything yet)
    - See options for account, security, notifications, etc.
-
 ### Verify
 You should understand:
 - ✅ How to navigate the GitHub interface
@@ -124,7 +111,6 @@ You should understand:
 - ✅ Basic GitHub terminology
 
 ---
-
 ## Expected State at the End of This Exercise
 
 You should now have:
@@ -133,7 +119,6 @@ You should now have:
 - **Interface familiarity**: Understand basic navigation
 
 ---
-
 ## Why This Matters
 
 You now have:
@@ -145,13 +130,11 @@ You now have:
 This account will be used throughout the course. Every repository you create will be stored on GitHub, and your GitHub profile will become a portfolio of your work.
 
 ---
-
 ## Next Steps
 
 - [[c01-found/s0-orientation/index|Orientation Lecture]] - Return to the lecture and complete the remaining orientation exercises.
 
 ---
-
 ## Troubleshooting
 
 If something didn't work:
@@ -165,15 +148,26 @@ If something didn't work:
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
 
 ---
+[Back to the Top](#What%20You%20Are%20Building)
+## Course 1 Map
+- [Section 0: Orientation](c01-found/s0-orientation/index.md) - Get started here
+- [Section 1: File Systems](c01-found/s1-files/index) - Organization principles
+- [Section 2: Version Control](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
+- [Section 3: HTML & CSS](c01-found/s3-html-css/index) - Web page fundamentals
+- [Section 4: JavaScript Basics](c01-found/s4-js/index) - Programming fundamentals
+- [Section 5: JavaScript Functions](c01-found/s4-js/index) - Functions and optimization
+- [Section 6: Advanced JavaScript](c01-found/s06-adv-js/index) - Advanced concepts 
+- [Section 7: Tailwind CSS](c01-found/s06-adv-js/index) - Modern styling with Tailwind
 
-## Navigation
-
-### Section Navigation
-- [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to main course page
-- [[c01-found/s0-orientation/index|Orientation Index]] - Return to orientation overview
-- [[exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] - Previous exercise
-- [[exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] - This page
-- [[exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - Next exercise
-
-### Related Materials
-- [[c01-found/s0-orientation/index|Orientation Lecture]] - Review the concepts
+---
+## Global Navigation
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02genai-fun/index) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

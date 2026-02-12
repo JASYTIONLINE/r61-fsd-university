@@ -142,7 +142,7 @@ Windows Terminal is an upgraded version of the traditional Command Prompt window
 - It keeps your workflow organized when managing projects.
 - It makes command-line work cleaner and more manageable, especially as projects grow.
 
-Now that you concept of what a Command Line (terminal) is and why it matters, you're ready to install Windows Terminal. Complete [Exercise 1: Installing Windows Terminal](C1S1%20Installing%20Windows%20Terminal.md) to set up your command-line environment.
+Now that you concept of what a Command Line (terminal) is and why it matters, you're ready to install Windows Terminal. Complete [Exercise 1: Installing Windows Terminal](s0e1-Term.md) to set up your command-line environment.
 
 ---
 ## Introduction to Git and Version Control
@@ -178,7 +178,7 @@ Now that you concept of what a Command Line (terminal) is and why it matters, yo
 - Gives you more control and flexibility
 - Works alongside graphical tools like GitHub Desktop
 
-Now that you understand Git and version control, you're ready to install Git. Complete [[exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] to set up version control on your computer.
+Now that you understand Git and version control, you're ready to install Git. Complete [[s0e2-gitbash|Exercise 2: Installing Git Bash]] to set up version control on your computer.
 
 ---
 
@@ -212,7 +212,7 @@ When you use VS Code, you're using the same tool that most developers use. This 
 
 **That's why we use VS Code in this course.** It's not the only good editor, but it's the one you're most likely to encounter in professional settings.
 
-Now that you understand code editors and why VS Code is the standard, you're ready to install it. Complete [[exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] to set up your code editor.
+Now that you understand code editors and why VS Code is the standard, you're ready to install it. Complete [[s0e3-vscode|Exercise 3: Installing VS Code]] to set up your code editor.
 
 ---
 ## Introduction to GitHub
@@ -238,7 +238,7 @@ Even though you'll primarily use command-line Git, you need a GitHub account to:
 
 **GitHub accounts are free** and essential for modern web development. Every professional developer has one.
 
-Now that you understand what GitHub is and why you need it, you're ready to create your account. Complete [[exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] to set up your GitHub account.
+Now that you understand what GitHub is and why you need it, you're ready to create your account. Complete [[s0e4-github|Exercise 4: Creating GitHub Account]] to set up your GitHub account.
 
 ---
 
@@ -258,7 +258,7 @@ Now that you understand what GitHub is and why you need it, you're ready to crea
 
 **Note:** This course teaches command-line Git because it's the professional standard. GitHub Desktop is a learning aid and backup tool, not the primary method you'll use.
 
-Now that you understand GitHub Desktop and its role as a learning tool, you're ready to install it. Complete [[exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] to set up the visual interface.
+Now that you understand GitHub Desktop and its role as a learning tool, you're ready to install it. Complete [[s0e5-desktop|Exercise 5: Installing GitHub Desktop]] to set up the visual interface.
 
 ---
 
@@ -291,32 +291,32 @@ Good luck, and welcome to the journey of becoming a full stack engineer!
 
 Complete these exercises in order to set up your development environment:
 
-1. [Exercise 1: Installing Windows Terminal](C1S1%20Installing%20Windows%20Terminal.md)
+1. [Exercise 1: Installing Windows Terminal](s0e1-Term.md)
    - Install and configure Windows Terminal
    - Learn basic terminal navigation
    - Set up your command-line environment
 
-2. [Exercise 2: Installing Git Bash](exercise-2-installing-git-bash.md)
+2. [Exercise 2: Installing Git Bash](s0e2-gitbash.md)
    - Install Git for Windows
    - Verify Git installation
    - Integrate Git Bash with Windows Terminal
 
-3. [Exercise 3: Installing VS Code](exercise-3-installing-vs-code.md)
+3. [Exercise 3: Installing VS Code](s0e3-vscode.md)
    - Install Visual Studio Code
    - Configure terminal integration
    - Set up your code editor
 
-4. [Exercise 4: Creating GitHub Account](exercise-4-creating-github-account.md)
+4. [Exercise 4: Creating GitHub Account](s0e4-github.md)
    - Create and verify your GitHub account
    - Set up your profile
    - Understand the GitHub interface
 
-5. [Exercise 5: Installing GitHub Desktop](exercise-5-installing-github-desktop.md)
+5. [Exercise 5: Installing GitHub Desktop](s0e5-desktop.md)
    - Install GitHub Desktop
    - Sign in to your GitHub account
    - Learn the basic interface
 
-6. [Exercise 6: Installing Optional tools](exercise-6-installing-optional-tools.md) 
+6. [Exercise 6: Installing Optional tools](s0e6-opts.md) 
 	- Obsidian: a powerful note-taking and knowledge management tool.
 	- Cursor: AI powered alternative to VS Code
 ---

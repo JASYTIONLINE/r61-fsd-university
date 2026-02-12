@@ -1,9 +1,15 @@
 ---
-title: "Exercise 1: Installing Windows Terminal"
-description: "Install and configure Windows Terminal for a better command-line experience on Windows."
-tags: [windows-terminal, setup, tools, beginner, workbook, windows]
+title: "C1S0E1: Installing Windows Terminal"
+description: Install and configure Windows Terminal for a better command-line experience on Windows.
+tags:
+  - windows-terminal
+  - setup
+  - tools
+  - beginner
+  - workbook
+  - windows
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 # Before You Start
 
@@ -97,7 +103,7 @@ While optional, Windows Terminal makes working with the command line more pleasa
 - Return to the [Orientation Lecture](c01-found/s0-welcome/index# Git-Bash) to learn about Version Control.
 ---
 [Back to Top](#Before%20You%20Start)
-## Course Map
+## Course 1 Map
 - [Section 0: Orientation](c01-found/s0-orientation/index.md) - Get started here
 - [Section 1: File Systems](c01-found/s1-files/index) - Organization principles
 - [Section 2: Version Control](c01-found/s2-vers-ctrl/index) - Git and GitHub basics

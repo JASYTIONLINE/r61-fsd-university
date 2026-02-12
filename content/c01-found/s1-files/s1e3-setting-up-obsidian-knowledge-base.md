@@ -31,7 +31,7 @@ By the end of this exercise, you will have:
 
 Make sure you have:
 - Completed [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]]
-- Obsidian installed (from [[s0-orientation/exercise-6-installing-optional-tools|Orientation Exercise 6]] or install it now)
+- Obsidian installed (from [[s0e6-opts|Orientation Exercise 6]] or install it now)
 - About 15-20 minutes
 - Understanding that Obsidian uses a special structure for publishing
 
@@ -308,4 +308,4 @@ Understanding Obsidian's structure:
 
 ### Related Materials
 - [[s1-files/index|File Systems Lecture]] - Review the concepts
-- [[s0-orientation/exercise-6-installing-optional-tools|Installing Optional Tools]] - If you need to install Obsidian
+- [[s0e6-opts|Installing Optional Tools]] - If you need to install Obsidian
