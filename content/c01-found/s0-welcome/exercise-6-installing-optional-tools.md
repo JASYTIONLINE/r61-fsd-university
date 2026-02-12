@@ -38,10 +38,9 @@ Make sure you have:
 ## Part 1: Installing Cursor (Optional)
 
 ### What Cursor Is
-Cursor is an AI-powered code editor based on VS Code. It has built-in AI assistance that can help you write code, understand code, and debug problems.
-
+Cursor is an AI-powered code editor based on VS Code. It has built-in AI assistance that can help you write code, understand code, and debug problems. 
 ### Why You Might Want It
-- AI helps you write code faster
+- AI helps you write code faster (better than Chat because it can see the file in your repo)
 - Understands context of your project
 - Can explain code you don't understand
 - Helps with debugging
@@ -49,6 +48,7 @@ Cursor is an AI-powered code editor based on VS Code. It has built-in AI assista
 
 **Note:** Cursor is an alternative to VS Code. You can use either, but we'll primarily use VS Code in this course since it's the industry standard. Cursor is just an additional tool if you want AI assistance.
 
+**Double Sticky Note:** Cursor is a paid subscription program.
 ### Instructions
 1. Open your web browser
 2. Go to [cursor.sh](https://cursor.sh)
@@ -72,11 +72,11 @@ If Cursor opens, the installation is successful.
 ## Part 2: Installing Obsidian (Optional)
 
 ### What Obsidian Is
-Obsidian is a note-taking and knowledge management tool that uses Markdown files. It's great for documenting what you learn and organizing your knowledge.
+[Obsidian](https://www.youtube.com/watch?v=hSTy_BInQs8) is a note-taking and knowledge management tool that uses Markdown files. It's great for documenting what you learn and organizing your knowledge.
 
 ### Why You Might Want It
 - Take notes on what you're learning
-- Create your own documentation
+- Create your own documentation (this site was built with obsidian)
 - Link ideas together (helpful for learning)
 - Organize your knowledge
 - Works with plain text files (future-proof)
