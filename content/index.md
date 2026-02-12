@@ -8,7 +8,7 @@ date: "2026-01-30"
 
 # So You Want to be an Engineer?
 
-Welcome! You're about to embark on a journey to become a **full stack engineer**. This course will teach you the essential skills needed to build modern web applications from the ground up.
+Welcome! You're about to embark on a journey to become a **full Stack Web Application Engineer**. This course will teach you the essential skills needed to build modern web applications from the ground up.
 
 ---
 
@@ -66,11 +66,9 @@ You're about to learn skills that are in high demand. Full stack engineers work 
 
 **Remember**: Every expert was once a beginner. Don't be discouraged if things feel challenging at first. That's normal and expected. The key is to keep going, practice regularly, and build on what you learn each day.
 
-
-**Next Step:** [Orientation:](c01-found/s0-welcome/index) Getting Started in Your Windows Environment - Set up your development environment and learn about the tools you'll use throughout this course. 
-
+**Next Step:** [Foundations of Front End Development: ](c01-found/index) focus on building a solid foundation in Front End Web Engineering with a comprehensive, beginner-friendly program designed to teach you the essential skills needed to become a front-end developer. 
+ 
 ---
-
 ## Navigation
 
 ### Course Sections
