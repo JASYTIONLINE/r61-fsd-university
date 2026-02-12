@@ -1,14 +1,19 @@
 ---
-title: "File Systems and Organization"
-description: "Comprehensive introduction to file organization principles, infrastructure concepts, and why logical file structures matter in professional development."
-tags: [file-systems, organization, structure, beginner, fundamentals, infrastructure]
+title: "C1S1: File Systems and Organization"
+description: Comprehensive introduction to file organization principles, infrastructure concepts, and why logical file structures matter in professional development.
+tags:
+  - file-systems
+  - organization
+  - structure
+  - beginner
+  - fundamentals
+  - infrastructure
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
-# File Systems and Organization
-
-This section introduces you to the fundamental principles of organizing files and folders. You'll learn why good organization matters, see examples of effective structures, understand how the organizational patterns used in this course help you (and others) find what you need quickly, and discover why developers need personal infrastructure that matches organizational standards.
+# Fundamental principles of organizing files and folders.
+IN this section you'll learn why good organization matters, see examples of effective structures, understand how the organizational patterns used in this course help you (and others) find what you need quickly, and discover why developers need personal infrastructure that matches organizational standards.
 
 Our goal in this course is to take your from the first level of understanding: I don't know what I don't know to level 2: I know what I don't know.
 

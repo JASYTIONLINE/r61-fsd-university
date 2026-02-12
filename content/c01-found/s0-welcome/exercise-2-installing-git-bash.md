@@ -171,7 +171,7 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 ### Section Navigation
 - [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to main course page
 - [[s0-welcome/index|Orientation Index]] - Return to orientation overview
-- [[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]] - Previous exercise
+- [[C1S1 Installing Windows Terminal|Exercise 1: Installing Windows Terminal]] - Previous exercise
 - [[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] - This page
 - [[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] - Next exercise
 

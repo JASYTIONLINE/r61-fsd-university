@@ -1,5 +1,5 @@
 ---
-title: "C1S1: Orientation: Getting Started in Your Windows Environment"
+title: "C1S0: Orientation: Getting Started in Your Windows Environment"
 description: Set up your Windows development environment and learn about the essential developer tools you'll use throughout this course and your career.
 tags:
   - orientation
@@ -11,12 +11,10 @@ draft: false
 date: 2026-01-30
 ---
 
-# Orientation: Getting Started in Your Windows Environment
-
+# Getting Started
 Welcome to the orientation! Before you start building web applications, you need to set up your development environment. This section will guide you through installing and configuring the essential tools you'll use throughout this course.
 
 ---
-
 ## Prerequisites for Success
 
 You don't need any prior programming experience to start this course, but here's what will help you succeed:
@@ -80,7 +78,27 @@ Windows is the most widely used operating system, and many professional developm
 - Focus on understanding the "why" behind each step, not just the "what"
 
 ---
+## How This Course Is Structured
 
+This course follows a **section/lecture/exercise** structure, similar to how technical manuals are organized:
+
+- **Section**: Overall concept folder (orientation, file-systems, version-control)
+- **Lecture (index.md)**: Comprehensive lecture covering ALL concepts for that section (like a PowerPoint/PDF lesson)
+- **Exercises (exercise-N-name.md)**: Focused exercises, each covering ONE specific concept from the lecture
+
+**Learning Pattern:**
+1. Read the comprehensive lecture (index.md) to understand all concepts
+2. Complete focused exercises (exercise-1.md, exercise-2.md, etc.) to practice individual concepts
+3. Each exercise reinforces one specific concept from the lecture
+4. Complete the section Capstone (blends all section lessons into one final project)
+
+This structure allows you to:
+- Get the big picture from the lecture
+- Practice concepts individually through exercises
+- Jump to any exercise if you already understand the prerequisite concepts
+- Work at your own pace
+
+---
 ## Introduction to Command Line Interface 
 Here comes the learning part (so pay attention)
 
@@ -100,7 +118,7 @@ You will learn how to set up VS Code to work with the CL in this section.
 - The CL is much faster than graphical interfaces for most tasks
 - It very easy to automate repetitive tasks
 - The CL works the same across different operating systems
-- It is essentially required for many development tools (Git, Node.js, etc.)
+- It is effectively required for many development tools (Git, Node.js, etc.)
 - You will be expected to know how to use the command line, because your peers, prospective employers, and other professional developers use it regularly
 ### Windows Terminal (Command Line Tool)
 ![[ss-terminal.png]]
@@ -119,12 +137,12 @@ Windows Terminal is an upgraded version of the traditional Command Prompt window
 
 ### Why We Use It
 
-- It is widely used in Windows development environments.
+- The Command Line is widely used in Windows development environments.
 - It allows you to work with Git, Node, PowerShell, and other tools in one place.
 - It keeps your workflow organized when managing projects.
 - It makes command-line work cleaner and more manageable, especially as projects grow.
 
-Now that you understand what a terminal is and why it matters, you're ready to install Windows Terminal. Complete [Exercise 1: Installing Windows Terminal](c01-found/s0-welcome/exercise-1-installing-windows-terminal) to set up your command-line environment.
+Now that you concept of what a Command Line (terminal) is and why it matters, you're ready to install Windows Terminal. Complete [Exercise 1: Installing Windows Terminal](C1S1%20Installing%20Windows%20Terminal.md) to set up your command-line environment.
 
 ---
 ## Introduction to Git and Version Control
@@ -133,7 +151,7 @@ Now that you understand what a terminal is and why it matters, you're ready to i
 
 ### What is Version Control?
 
-Version control lets you:
+[Version control](https://git-scm.com/video/what-is-version-control) lets you:
 - See what changed and when
 - Go back to previous versions if something breaks
 - Work on different features simultaneously (using branches)
@@ -148,7 +166,7 @@ Version control lets you:
 
 ### Git Bash
 ![[ss-gbterm.png]]
-**Git Bash** is a command-line interface that comes with Git for Windows. It provides:
+[Git Bash](https://gitforwindows.org/) (also known as Git for Windows) is a command-line interface that comes with Git for Windows. It provides:
 - Access to Git commands
 - A Unix-like shell environment
 - Tools for working with files and directories
@@ -166,7 +184,7 @@ Now that you understand Git and version control, you're ready to install Git. Co
 
 ## Introduction to Code Editors
 
-A **code editor** is a specialized text editor designed for writing code. While you could write code in Notepad, code editors provide features that make development much easier.
+A [Source Code Editor](https://en.wikipedia.org/wiki/Source-code_editor) is a specialized text editor designed for writing code. While you could write code in Notepad, code editors provide features that make development much easier.
 
 ### What Code Editors Provide
 
@@ -197,10 +215,9 @@ When you use VS Code, you're using the same tool that most developers use. This 
 Now that you understand code editors and why VS Code is the standard, you're ready to install it. Complete [[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] to set up your code editor.
 
 ---
-
 ## Introduction to GitHub
 
-**GitHub** is a website that hosts Git repositories online. Think of it as cloud storage specifically designed for code.
+[GitHub](https://en.wikipedia.org/wiki/GitHub) is a website that hosts Git repositories online. Think of it as The Drop Box for developers. It is a cloud storage space specifically designed for code.
 
 ### What GitHub Provides
 
@@ -217,6 +234,7 @@ Even though you'll primarily use command-line Git, you need a GitHub account to:
 - Build your professional portfolio
 - Learn how Git and GitHub work together
 - Prepare for collaboration in professional settings
+- Host and publish your work
 
 **GitHub accounts are free** and essential for modern web development. Every professional developer has one.
 
@@ -226,19 +244,14 @@ Now that you understand what GitHub is and why you need it, you're ready to crea
 
 ## Introduction to GitHub Desktop
 
-**GitHub Desktop** is a visual interface for Git and GitHub. While this course focuses on command-line Git (the industry standard), GitHub Desktop provides a helpful visual way to understand Git concepts.
+[GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop) is a visual interface for Git and GitHub. While this course focuses on command-line Git (the industry standard), GitHub Desktop provides a helpful visual way to understand Git concepts.
 
-### What GitHub Desktop Provides
+### What GitHub Desktop Provides & Why Install It Now
 
 - **Visual Interface**: See your changes, commits, and history in a graphical format
 - **Easier Learning**: Understand Git concepts visually before mastering command-line
 - **Quick Operations**: Perform common Git tasks with clicks instead of commands
 - **Integration**: Works seamlessly with your GitHub account
-
-### Why Install It Now
-
-While you'll primarily use command-line Git in this course (because that's what employers expect), GitHub Desktop helps you:
-- **Visualize Git concepts** as you learn them
 - **Understand the workflow** before memorizing commands
 - **Have a backup tool** if you get stuck with command-line
 - **See the big picture** of how Git and GitHub work together
@@ -249,9 +262,9 @@ Now that you understand GitHub Desktop and its role as a learning tool, you're r
 
 ---
 
-## Tools You'll Install in This Section
+## Tools You Have Installed in This Section
 
-In the exercises below, you'll install:
+In the exercises below, you'll installed:
 - **Windows Terminal** - Modern terminal application (optional but recommended)
 - **Git for Windows** - Version control system (includes Git Bash)
 - **VS Code** - Industry-standard code editor
@@ -265,84 +278,68 @@ In the exercises below, you'll install:
 Don't worry if these sound unfamiliar now. We'll walk you through everything step by step.
 
 ---
-
-## How This Course Is Structured
-
-This course follows a **section/lecture/exercise** structure, similar to how technical manuals are organized:
-
-- **Section**: Overall concept folder (orientation, file-systems, version-control)
-- **Lecture (index.md)**: Comprehensive lecture covering ALL concepts for that section (like a PowerPoint/PDF lesson)
-- **Exercises (exercise-N-name.md)**: Focused exercises, each covering ONE specific concept from the lecture
-
-**Learning Pattern:**
-1. Read the comprehensive lecture (index.md) to understand all concepts
-2. Complete focused exercises (exercise-1.md, exercise-2.md, etc.) to practice individual concepts
-3. Each exercise reinforces one specific concept from the lecture
-4. Complete the section Capstone (blends all section lessons into one final project)
-
-This structure allows you to:
-- Get the big picture from the lecture
-- Practice concepts individually through exercises
-- Jump to any exercise if you already understand the prerequisite concepts
-- Work at your own pace
-
----
-
----
-
 ## Ready to Begin?
 
-When you're ready to start, complete the exercises above to set up your development environment. Once you have all tools installed, proceed to [[s1-files/index|Section 1: File Systems and Organization]] to understand how course materials are organized, followed by [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] to begin building your first repository.
+Now that you have completed the exercises above and set up your development environment. You are ready to proceed to Section 1: File Systems and Organization to begin your journey to become a Full Fledged Full Stack Code Monkey!
 
 Good luck, and welcome to the journey of becoming a full stack engineer!
 
-**Next Steps:** [[s1-files/index|Section 1: File Systems and Organization]] - Learn about file organization principles. 
+**Next Steps:**[C1S1: File Systems and Organization](c01-found/s1-files/index) - Learn about file organization principles. 
 
 ---
 ## Exercises in This Section
 
 Complete these exercises in order to set up your development environment:
 
-1. **[[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]]**
+1. [Exercise 1: Installing Windows Terminal](C1S1%20Installing%20Windows%20Terminal.md)
    - Install and configure Windows Terminal
    - Learn basic terminal navigation
    - Set up your command-line environment
 
-2. **[[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]]**
+2. [Exercise 2: Installing Git Bash](c01-found/s0-welcome/exercise-2-installing-git-bash)
    - Install Git for Windows
    - Verify Git installation
    - Integrate Git Bash with Windows Terminal
 
-3. **[[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]]**
+3. [Exercise 3: Installing VS Code](c01-found/s0-welcome/exercise-3-installing-vs-code)
    - Install Visual Studio Code
    - Configure terminal integration
    - Set up your code editor
 
-4. **[[s0-welcome/exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]]**
+4. [Exercise 4: Creating GitHub Account](c01-found/s0-welcome/exercise-4-creating-github-account)
    - Create and verify your GitHub account
    - Set up your profile
    - Understand the GitHub interface
 
-5. **[[s0-welcome/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]]**
+5. [Exercise 5: Installing GitHub Desktop](c01-found/s0-welcome/exercise-5-installing-github-desktop)
    - Install GitHub Desktop
    - Sign in to your GitHub account
    - Learn the basic interface
+
+6. [Exercise 6: Installing Optional tools](c01-found/s0-welcome/exercise-6-installing-optional-tools) 
+	- Obsidian: a powerful note-taking and knowledge management tool.
+	- Cursor: AI powered alternative to VS Code
 ---
-## Navigation
+[Back to Top](#Getting%20Started)
+## Course Map
+- [Section 0: Orientation](c01-found/s0-welcome/index) - Get started here
+- [Section 1: File Systems](c01-found/s1-files/index) - Organization principles
+- [Section 2: Version Control](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
+- [Section 3: HTML & CSS](c01-found/s3-html-css/index) - Web page fundamentals
+- [Section 4: JavaScript Basics](c01-found/s4-js/index) - Programming fundamentals
+- [Section 5: JavaScript Functions](c01-found/s4-js/index) - Functions and optimization
+- [Section 6: Advanced JavaScript](c01-found/s06-adv-js/index) - Advanced concepts 
+- [Section 7: Tailwind CSS](c01-found/s06-adv-js/index) - Modern styling with Tailwind
 
-### Section Navigation
-- [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to the main course page
-- [[s0-welcome/index|Orientation]] - This page
-- [[s1-files/index|File Systems]] - Next section
-
-### Course Sections
-- [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to the main course page
-- [[s0-welcome/index|Section 0: Orientation]] - Get started here
-- [[s1-files/index|Section 1: File Systems]] - Organization principles
-- [[s2-vers-ctrl/index|Section 2: Version Control]] - Git and GitHub basics
-- [[s3-html-css/index|Section 3: HTML & CSS]] - Web page fundamentals
-- [[s4-js/index|Section 4: JavaScript Basics]] - Programming fundamentals
-- [[s5-opt-js/index|Section 5: JavaScript Functions]] - Functions and optimization
-- [[s6-adv-js/index|Section 6: Advanced JavaScript]] - Advanced concepts
-- [[s7-tailwind/index|Section 7: Tailwind CSS]] - Modern styling
-- [[s8-tailwind-adv/index|Section 8: Advanced Tailwind]] - Advanced styling
+---
+## Global Navigation
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02genai-fun/index) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet
