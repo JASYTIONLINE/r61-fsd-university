@@ -74,7 +74,7 @@ You're about to learn skills that are in high demand. Full stack engineers work 
 ## Navigation
 
 ### Course Sections
-- [Section 0: Orientation:](r61-fsd-university/content/c01-found/s0-welcome/index) Getting Started in Your Windows Environment
+- [Section:](r61-fsd-university/content/c01-found/s0-welcome/index) Gtion 0: Orientetting Started in Your Windows Environment
 - [[r61-fsd-university/content/c01-found/s1-files/index|Section 1: File Systems and Organization]] - Organization principles
 - [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Section 2: Version Control Foundations]] - Git and GitHub basics
 - [[r61-fsd-university/content/c01-found/s3-html-css/index|Section 3: HTML & CSS Foundations]] - Web page fundamentals
