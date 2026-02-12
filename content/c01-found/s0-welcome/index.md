@@ -1,9 +1,14 @@
 ---
-title: "Orientation: Getting Started in Your Windows Environment"
-description: "Set up your Windows development environment and learn about the essential tools you'll use throughout this course."
-tags: [orientation, windows, setup, tools, prerequisites]
+title: "C1S1: Orientation: Getting Started in Your Windows Environment"
+description: Set up your Windows development environment and learn about the essential developer tools you'll use throughout this course and your career.
+tags:
+  - orientation
+  - windows
+  - setup
+  - tools
+  - prerequisites
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Orientation: Getting Started in Your Windows Environment
@@ -20,12 +25,13 @@ You don't need any prior programming experience to start this course, but here's
 
 - **A Windows Computer**: This course is taught for Windows users. While most development concepts are the same across Windows, Mac, and Linux, the instructions and examples in this course are Windows-specific. If you're using Mac or Linux, you may need to do additional research to adapt certain steps to your system.
 
-- **Internet Connection**: You'll need reliable internet to access GitHub, download tools, and follow along
+- **Internet Connection**: You'll need reliable internet to access  essential web-based resources like GitHub, download tools, and of course access this material.
 
-- **Time Commitment**: Set aside regular time for practice. Consistency matters more than long sessions
+- **Time Commitment**: Set aside regular time for practice. Consistency matters more than long sessions. You should be able to do at least one reading assignment and exercise in 30 min or less each day.
 
 - **Curiosity and Patience**: Learning to code takes time. Be patient with yourself and stay curious
 
+- **Problem-Solving Mindset**: Enjoying puzzles and logical thinking will help you get through the hard parts and make the easy stuff more enjoyable.
 ### Basic Computer Skills Expected
 
 This course assumes you have basic computer skills. We won't teach you how to:
@@ -46,10 +52,9 @@ If you need help with basic computer operations (like opening a terminal or navi
 
 ### Helpful (But Not Required)
 
-- **Problem-Solving Mindset**: Enjoying puzzles and logical thinking will help
-- **Attention to Detail**: Programming requires precision—small details matter
+- **Attention to Detail**: Programming requires precision—small details matter. Get right the first time and save hours of debugging.
 - **Willingness to Practice**: The more you code, the better you'll become
-- **Comfort with Self-Directed Learning**: Being able to look up basic OS operations when needed
+- **Comfort with Self-Directed Learning**: Being able to look up basic OS operations when needed (Google is your friend)
 
 ---
 
@@ -65,7 +70,9 @@ This course is designed for **Windows users**. While the core development concep
 - You may need to do additional research to adapt certain steps
 
 **Why Windows?**
-Windows is the most widely used operating system, and many professional development environments run on Windows. Learning on Windows prepares you for the most common professional scenario.
+Because I have a PC and I don't speak MAC, and...
+
+Windows is the most widely used operating system, and many professional development environments run on Windows. Learning on Windows prepares you for the most common professional scenario. 
 
 **If you encounter platform-specific issues:**
 - Use ChatGPT or Google to find Mac/Linux equivalents
@@ -74,36 +81,47 @@ Windows is the most widely used operating system, and many professional developm
 
 ---
 
-## Introduction to Command Line Interface
+## Introduction to Command Line Interface 
+Here comes the learning part (so pay attention)
 
 Before you can start developing, you need to understand the command line. This is a fundamental tool that developers use daily.
-
 ### What is a Command Line?
 
 A **command line** (also called terminal, console, or shell) is a text-based interface for interacting with your computer. Instead of clicking icons and menus, you type commands and see text output.
 
+The command line comes in many shapes sizes and colors.
+![](terminals.png)
+But they all pretty much do the same thing.  Some are platform specific and others work universally.  We will be using the Terminal in VS Code for the most part.  I You will learn how to set ip up in this section.
+
 **Why developers use command line:**
-- Faster than graphical interfaces for many tasks
-- Can automate repetitive tasks
-- Works the same across different operating systems
-- Required for many development tools (Git, Node.js, etc.)
-- Professional developers use it regularly
-
-### Windows Terminal
+- The CL is much faster than graphical interfaces for most tasks
+- It very easy to automate repetitive tasks
+- The CL works the same across different operating systems
+- It is essentially required for many development tools (Git, Node.js, etc.)
+- You will be expected to know how to use the command line, because your peers, prospective employers, and other professional developers use it regularly
+### Windows Terminal (Command Line Tool)
 ![[ss-terminal.png]]
-**Windows Terminal** is Microsoft's modern terminal application for Windows. It provides a better experience than the default Command Prompt:
-- Multiple tabs for different shells
-- Better customization options
-- Integration with PowerShell, Git Bash, and other tools
-- Modern, professional interface
+The [Windows Terminal](https://www.bing.com/ck/a?!&&p=234f3d182e978cdd9ea4c77df3a19442304b6d55695ba2e5981358cf9c250113JmltdHM9MTc3MDg1NDQwMA&ptn=3&ver=2&hsh=4&fclid=07f802bb-eb29-6f86-2b0a-1404ea816ee4&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvV2luZG93c19UZXJtaW5hbA) is Microsoft's modern terminal application for Windows. 
 
-**Why we use it:**
-- Industry standard for Windows development
-- Better visual experience
-- Supports multiple command-line tools
-- Makes working with command line more pleasant
+Windows Terminal is an upgraded version of the traditional Command Prompt window. Instead of opening separate black windows for different tools, it allows you to run multiple command-line environments inside one organized application.
 
-Now that you understand what a terminal is and why it matters, you're ready to install Windows Terminal. Complete [[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]] to set up your command-line environment.
+**What it does:**
+
+- You can open multiple tabs, just like a web browser. One tab might run Command Prompt, another PowerShell, and another Git Bash.
+- You can switch between different shells without opening separate programs.
+- It supports customization such as font size, themes, and layout, which makes long sessions easier on your eyes.
+- It provides better compatibility with modern development tools.
+
+---
+
+### Why We Use It
+
+- It is widely used in Windows development environments.
+- It allows you to work with Git, Node, PowerShell, and other tools in one place.
+- It keeps your workflow organized when managing projects.
+- It makes command-line work cleaner and more manageable, especially as projects grow.
+
+Now that you understand what a terminal is and why it matters, you're ready to install Windows Terminal. Complete [Exercise 1: Installing Windows Terminal](c01-found/s0-welcome/exercise-1-installing-windows-terminal) to set up your command-line environment.
 
 ---
 

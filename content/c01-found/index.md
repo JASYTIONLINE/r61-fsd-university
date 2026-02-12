@@ -17,9 +17,9 @@ enableToc: true
 
 Welcome to the **Foundations of Front-end Development** course. This is a comprehensive, beginner-friendly program designed to teach you the essential skills needed to become a [front-end developer.](https://www.bing.com/ck/a?!&&p=e2877549ce424abf9b315d310a43615978f6699054321d9b29d7028045883848JmltdHM9MTc3MDg1NDQwMA&ptn=3&ver=2&hsh=4&fclid=07f802bb-eb29-6f86-2b0a-1404ea816ee4&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRnJvbnQtZW5kX3dlYl9kZXZlbG9wbWVudA) 
 
-This course is part of a larger [full-stack](https://en.wikipedia.org/wiki/Front_end_and_back_end) development series that will eventually cover the complete [MERN](https://dev.to/utkarsh_singh_/understanding-the-mern-stack-a-beginners-guide-5d1k) stack (MongoDB, Express, React, Node.js). Here, we focus on building a solid foundation in Front End Web Engineering:
+This course is part of a larger [full-stack](https://en.wikipedia.org/wiki/Front_end_and_back_end) development series that will eventually cover the complete [MERN Stack](https://dev.to/utkarsh_singh_/understanding-the-mern-stack-a-beginners-guide-5d1k) (MongoDB, Express, React, Node.js). Here, we focus on building a solid foundation in Front End Web Engineering:
 
-- [Knowledge Base](https://www.getguru.com/reference/what-is-a-knowledge-base) - Creating a solid file structure
+- Creating your Knowledge Base with a solid expandable file structure
 - **Version Control** - Professional Git and GitHub workflows
 - **HTML & CSS** - Building and styling web pages
 - **JavaScript Fundamentals** - Core programming concepts
@@ -34,7 +34,7 @@ I do recommend completing the exercises in order since each exercise builds on t
 
 ## Course Overview
 
-Navigate to any section using the links below. Each section contains a comprehensive lecture (index.md) covering all concepts, and focused exercises (exercise-N-name.md) that practice individual concepts.
+Although I do recommend starting at the beginning, you may navigate to any section using the links below. Each section contains a comprehensive lecture (index.md) covering all concepts, and focused exercises (exercise-N-name.md) that practice individual concepts.
 
 ### [Orientation: Getting Started in a Windows Environment](c01-found/s0-welcome/index)
 Get oriented with full stack engineering. Learn what it means to be a full stack engineer, understand prerequisites, and set up your development environment (Windows Terminal, Git Bash, VS Code).
@@ -64,7 +64,7 @@ Next Steps: [Orientation:](c01-found/s0-welcome/index) - Get started here by set
 
 ---
 [[#About This Course|Back to the top]]
-### Course Sections
+### Fundamentals of Front End Development: Course Sections
 - [Section 0: Orientation:](c01-found/s0-welcome/index) Getting Started in Your Windows Environment
 - [Section 1: File Structure: ](c01-found/s1-files/index) - Organization principles
 - [Section 2: Version Control Foundations](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
