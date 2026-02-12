@@ -1,12 +1,16 @@
 ---
-title: "So You Want to be an Engineer?"
-description: "Welcome to the Full Stack Development Foundations course. Learn the essential skills to become a professional web developer."
-tags: [welcome, full-stack, introduction, course-overview]
+title: So You Want to be an Full Stack Engineer?
+description: Welcome to the Full Stack Development Foundations course. Learn the essential skills to become a professional web developer.
+tags:
+  - welcome
+  - full-stack
+  - introduction
+  - course-overview
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
-# So You Want to be an Engineer?
+# So You Want to be a Full Stack Engineer?
 
 Welcome! You're about to embark on a journey to become a **full Stack Web Application Engineer**. This course will teach you the essential skills needed to build modern web applications from the ground up.
 
