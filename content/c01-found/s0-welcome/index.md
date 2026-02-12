@@ -91,7 +91,10 @@ A **command line** (also called terminal, console, or shell) is a text-based int
 
 The command line comes in many shapes sizes and colors.
 ![](terminals.png)
-But they all pretty much do the same thing.  Some are platform specific and others work universally.  We will be using the Terminal in VS Code for the most part.  I You will learn how to set ip up in this section.
+
+But they all pretty much do the same thing.  Some are platform specific and others work universally.  We will be using the Terminal in VS Code for the most part.  
+
+You will learn how to set up VS Code to work with the CL in this section.
 
 **Why developers use command line:**
 - The CL is much faster than graphical interfaces for most tasks
@@ -124,7 +127,6 @@ Windows Terminal is an upgraded version of the traditional Command Prompt window
 Now that you understand what a terminal is and why it matters, you're ready to install Windows Terminal. Complete [Exercise 1: Installing Windows Terminal](c01-found/s0-welcome/exercise-1-installing-windows-terminal) to set up your command-line environment.
 
 ---
-
 ## Introduction to Git and Version Control
 
 **Git** is a version control system—a tool that tracks changes to your files over time. Think of it like a time machine for your code.
