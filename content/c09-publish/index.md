@@ -30,6 +30,14 @@ enableToc: true
 
 ---
 ## Global Navigation
-- [JASYTI's Full Stack Development Foundations Course -HOME](content/index)
-- [Course 01: Foundations of Front End Development](r61-fsd-university/content/c01-found/index)
-- Course 02: Fundamentals of Generative AI]() 
+
+- [Home](index) - Return to Full Stack Development Foundations course home page
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02genai-fun/index) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet
