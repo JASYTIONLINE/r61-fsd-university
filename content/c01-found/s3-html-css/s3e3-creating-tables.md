@@ -100,7 +100,8 @@ You'll create a table that shows a weekly schedule. This demonstrates all the im
 ```html
 <h2>Weekly Schedule</h2>
 <table>
-  <caption>My first HTML Table. It is my Schedule for This Week</caption>
+  <caption>My first HTML Table.</caption>
+   <caption>It is my Schedule for This Week</caption>
   <thead>
     <tr>
       <th>Day</th>
