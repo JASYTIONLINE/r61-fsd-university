@@ -97,7 +97,7 @@ While optional, Windows Terminal makes working with the command line more pleasa
 
 ## Next Steps
 
-- Return to the [Orientation Lecture](c01-found/s0-welcome/index#what-is-version-control?) to learn about Version Control.
+- Return to the [Orientation Lecture](c01-found/s0-welcome/index# Git-Bash) to learn about Version Control.
 
 ---
 
