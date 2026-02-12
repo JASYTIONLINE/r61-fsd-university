@@ -74,10 +74,10 @@ You're about to learn skills that are in high demand. Full stack engineers work 
 
 ### Course Sections
 - [[r61-fsd-university/content/c01-found/s0-welcome/index|Section 0: Orientation]] - Get started here
-- [[s1-files/index|Section 1: File Systems and Organization]] - Organization principles
-- [[s2-vers-ctrl/index|Section 2: Version Control Foundations]] - Git and GitHub basics
-- [[s3-html-css/index|Section 3: HTML & CSS Foundations]] - Web page fundamentals
-- [[s4-js/index|Section 4: JavaScript Basics]] - Programming fundamentals
-- [[s5-Opt-js/index|Section 5: JavaScript Functions]] - Functions and optimization
+- [[r61-fsd-university/content/c01-found/s1-files/index|Section 1: File Systems and Organization]] - Organization principles
+- [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Section 2: Version Control Foundations]] - Git and GitHub basics
+- [[r61-fsd-university/content/c01-found/s3-html-css/index|Section 3: HTML & CSS Foundations]] - Web page fundamentals
+- [[r61-fsd-university/content/c01-found/s4-js/index|Section 4: JavaScript Basics]] - Programming fundamentals
+- [[r61-fsd-university/content/c01-found/s5-Opt-js/index|Optimizing JS]] - Functions and optimization
 - [[s06-adv-js/index|Section 6: Advanced JavaScript]] - Advanced concepts
 - [[s07-tailwind/index|Section 7: Tailwind CSS]] - Modern styling
