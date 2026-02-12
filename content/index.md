@@ -10,12 +10,10 @@ draft: false
 date: 2026-01-30
 ---
 
-# So You Want to be a Full Stack Engineer?
-
-Welcome! You're about to embark on a journey to become a **full Stack Web Application Engineer**. This course will teach you the essential skills needed to build modern web applications from the ground up.
+# Welcome! 
+You're about to embark on a journey to become a **full Stack Web Application Engineer**. This course will teach you the essential skills needed to build modern web applications from the ground up.
 
 ---
-
 ## What is a Full Stack Engineer?
 
 A **full stack engineer** is a developer who can work on both the **front-end** and **back-end** of web applications. This means you'll be able to:
@@ -73,7 +71,7 @@ You're about to learn skills that are in high demand. Full stack engineers work 
 **Next Step:** [Foundations of Front End Development: ](c01-found/index) focus on building a solid foundation in Front End Web Engineering with a comprehensive, beginner-friendly program designed to teach you the essential skills needed to become a front-end developer. 
  
 ---
-[Back to Top](#So%20You%20Want%20to%20be%20an%20Engineer?)
+[Back to Top](#Welcome!)
 ## Navigation
 
 - [Course 01:](c01-found/index) Foundations of Front End Development

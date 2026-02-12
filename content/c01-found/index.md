@@ -26,7 +26,7 @@ This course is part of a larger [full-stack](https://en.wikipedia.org/wiki/Front
 - **Advanced JavaScript** - Functions, strings, and optimization
 - **Modern Front-end Tools** - Tailwind CSS and advanced techniques
 
-Although this course come with a complete lecture series and is designed to be experienced in a linear fashion starting with [Course 01 Section 0](c01-found/s0-welcome/index), each lesson is structured as a **workbook** that you can complete independent of the course lecture at your own pace, without requiring an instructor.
+Although this course come with a complete lecture series and is designed to be experienced in a linear fashion starting with [Course 01 Section 0](c01-found/s0-orientation/index.md), each lesson is structured as a **workbook** that you can complete independent of the course lecture at your own pace, without requiring an instructor.
 
 I do recommend completing the exercises in order since each exercise builds on the exercise preceding it. Upon completion of all the exercises, you will have a comprehensive portfolio-ready repository that demonstrates your skills as a Full Stack Engineer and a showcases the professional development practices you will develop throughout the course.
 
@@ -36,7 +36,7 @@ I do recommend completing the exercises in order since each exercise builds on t
 
 Although I do recommend starting at the beginning, you may navigate to any section using the links below. Each section contains a comprehensive lecture (index.md) covering all concepts, and focused exercises (exercise-N-name.md) that practice individual concepts.
 
-### [Orientation: Getting Started in a Windows Environment](c01-found/s0-welcome/index)
+### [Orientation: Getting Started in a Windows Environment](c01-found/s0-orientation/index.md)
 Get oriented with full stack engineering. Learn what it means to be a full stack engineer, understand prerequisites, and set up your development environment (Windows Terminal, Git Bash, VS Code).
 
 ### [File Systems and Organization](c01-found/s1-files/index)
@@ -60,12 +60,12 @@ Explore advanced JavaScript concepts including prototypes, closures, and modern 
 ### [Advanced Elements & Tailwind CSS](c01-found/s06-adv-js/index)
 Modern CSS frameworks and advanced styling techniques. Learn to build responsive, professional-looking interfaces with Tailwind CSS.
 
-Next Steps: [Orientation:](c01-found/s0-welcome/index) - Get started here by setting up Your Windows Environment
+Next Steps: [Orientation:](c01-found/s0-orientation/index.md) - Get started here by setting up Your Windows Environment
 
 ---
 [[#About This Course|Back to the top]]
 ### Fundamentals of Front End Development: Course Sections
-- [Section 0: Orientation:](c01-found/s0-welcome/index) Getting Started in Your Windows Environment
+- [Section 0: Orientation:](c01-found/s0-orientation/index.md) Getting Started in Your Windows Environment
 - [Section 1: File Structure: ](c01-found/s1-files/index) - Organization principles
 - [Section 2: Version Control Foundations](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
 - [Section 3: HTML & CSS Foundations](c01-found/s3-html-css/index) - Web page fundamentals

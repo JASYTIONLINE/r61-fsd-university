@@ -154,13 +154,13 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 
 ### Section Navigation
 - [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to main course page
-- [[s0-welcome/index|Orientation Index]] - Return to orientation overview
-- [[s0-welcome/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - Previous exercise
-- [[s0-welcome/exercise-6-installing-optional-tools|Exercise 6: Installing Optional Tools]] - This page
+- [[c01-found/s0-orientation/index|Orientation Index]] - Return to orientation overview
+- [[exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - Previous exercise
+- [[exercise-6-installing-optional-tools|Exercise 6: Installing Optional Tools]] - This page
 
 ### Next Steps
 - [[s1-files/index|File Systems Section]] - Learn about file organization
 - [[s2-vers-ctrl/index|Version Control Section]] - Learn Git and GitHub workflows
 
 ### Related Materials
-- [[s0-welcome/index|Orientation Lecture]] - Review the concepts
+- [[c01-found/s0-orientation/index|Orientation Lecture]] - Review the concepts

@@ -748,7 +748,7 @@ Complete these exercises in order to build your version control skills:
 - [[s3-html-css/index|HTML & CSS]] - Next section
 
 ### Course Sections
-- [[s0-welcome/index|Orientation]] - Get started here
+- [[c01-found/s0-orientation/index|Orientation]] - Get started here
 - [[s1-files/index|Section 1: File Systems]] - Organization principles
 - [[s2-vers-ctrl/index|Section 2: Version Control]] - This page
 - [[s3-html-css/index|Section 3: HTML & CSS]] - Web page fundamentals

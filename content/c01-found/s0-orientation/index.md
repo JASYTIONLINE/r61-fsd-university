@@ -178,7 +178,7 @@ Now that you concept of what a Command Line (terminal) is and why it matters, yo
 - Gives you more control and flexibility
 - Works alongside graphical tools like GitHub Desktop
 
-Now that you understand Git and version control, you're ready to install Git. Complete [[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] to set up version control on your computer.
+Now that you understand Git and version control, you're ready to install Git. Complete [[exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] to set up version control on your computer.
 
 ---
 
@@ -212,7 +212,7 @@ When you use VS Code, you're using the same tool that most developers use. This 
 
 **That's why we use VS Code in this course.** It's not the only good editor, but it's the one you're most likely to encounter in professional settings.
 
-Now that you understand code editors and why VS Code is the standard, you're ready to install it. Complete [[s0-welcome/exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] to set up your code editor.
+Now that you understand code editors and why VS Code is the standard, you're ready to install it. Complete [[exercise-3-installing-vs-code|Exercise 3: Installing VS Code]] to set up your code editor.
 
 ---
 ## Introduction to GitHub
@@ -238,7 +238,7 @@ Even though you'll primarily use command-line Git, you need a GitHub account to:
 
 **GitHub accounts are free** and essential for modern web development. Every professional developer has one.
 
-Now that you understand what GitHub is and why you need it, you're ready to create your account. Complete [[s0-welcome/exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] to set up your GitHub account.
+Now that you understand what GitHub is and why you need it, you're ready to create your account. Complete [[exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] to set up your GitHub account.
 
 ---
 
@@ -258,7 +258,7 @@ Now that you understand what GitHub is and why you need it, you're ready to crea
 
 **Note:** This course teaches command-line Git because it's the professional standard. GitHub Desktop is a learning aid and backup tool, not the primary method you'll use.
 
-Now that you understand GitHub Desktop and its role as a learning tool, you're ready to install it. Complete [[s0-welcome/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] to set up the visual interface.
+Now that you understand GitHub Desktop and its role as a learning tool, you're ready to install it. Complete [[exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] to set up the visual interface.
 
 ---
 
@@ -296,33 +296,33 @@ Complete these exercises in order to set up your development environment:
    - Learn basic terminal navigation
    - Set up your command-line environment
 
-2. [Exercise 2: Installing Git Bash](c01-found/s0-welcome/exercise-2-installing-git-bash)
+2. [Exercise 2: Installing Git Bash](exercise-2-installing-git-bash.md)
    - Install Git for Windows
    - Verify Git installation
    - Integrate Git Bash with Windows Terminal
 
-3. [Exercise 3: Installing VS Code](c01-found/s0-welcome/exercise-3-installing-vs-code)
+3. [Exercise 3: Installing VS Code](exercise-3-installing-vs-code.md)
    - Install Visual Studio Code
    - Configure terminal integration
    - Set up your code editor
 
-4. [Exercise 4: Creating GitHub Account](c01-found/s0-welcome/exercise-4-creating-github-account)
+4. [Exercise 4: Creating GitHub Account](exercise-4-creating-github-account.md)
    - Create and verify your GitHub account
    - Set up your profile
    - Understand the GitHub interface
 
-5. [Exercise 5: Installing GitHub Desktop](c01-found/s0-welcome/exercise-5-installing-github-desktop)
+5. [Exercise 5: Installing GitHub Desktop](exercise-5-installing-github-desktop.md)
    - Install GitHub Desktop
    - Sign in to your GitHub account
    - Learn the basic interface
 
-6. [Exercise 6: Installing Optional tools](c01-found/s0-welcome/exercise-6-installing-optional-tools) 
+6. [Exercise 6: Installing Optional tools](exercise-6-installing-optional-tools.md) 
 	- Obsidian: a powerful note-taking and knowledge management tool.
 	- Cursor: AI powered alternative to VS Code
 ---
 [Back to Top](#Getting%20Started)
 ## Course Map
-- [Section 0: Orientation](c01-found/s0-welcome/index) - Get started here
+- [Section 0: Orientation](c01-found/s0-orientation/index.md) - Get started here
 - [Section 1: File Systems](c01-found/s1-files/index) - Organization principles
 - [Section 2: Version Control](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
 - [Section 3: HTML & CSS](c01-found/s3-html-css/index) - Web page fundamentals

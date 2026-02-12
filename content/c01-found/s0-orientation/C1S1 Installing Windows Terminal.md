@@ -23,7 +23,7 @@ By the end of this exercise, you will have:
 - Windows Terminal configured as your default terminal
 - Verified that Windows Terminal is working
 
-**Note:** This exercise is part of the [Orientation Section](c01-found/s0-welcome/index). Read each section fully before performing the steps.
+**Note:** This exercise is part of the [Orientation Section](c01-found/s0-orientation/index.md). Read each section fully before performing the steps.
 
 ---
 ## Step 1: Install Windows Terminal
@@ -98,7 +98,7 @@ While optional, Windows Terminal makes working with the command line more pleasa
 ---
 [Back to Top](#Before%20You%20Start)
 ## Course Map
-- [Section 0: Orientation](c01-found/s0-welcome/index) - Get started here
+- [Section 0: Orientation](c01-found/s0-orientation/index.md) - Get started here
 - [Section 1: File Systems](c01-found/s1-files/index) - Organization principles
 - [Section 2: Version Control](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
 - [Section 3: HTML & CSS](c01-found/s3-html-css/index) - Web page fundamentals

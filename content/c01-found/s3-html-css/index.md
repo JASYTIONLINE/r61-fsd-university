@@ -351,7 +351,7 @@ Complete these exercises in order to build your HTML and CSS skills:
 - [JavaScript Basics](c01-found/s4-js/index) - Next section
 
 ### Course Sections
-- [Orientation](c01-found/s0-welcome/index) - Get started here
+- [Orientation](c01-found/s0-orientation/index.md) - Get started here
 - [File Systems](c01-found/s1-files/index) - Organization principles
 - [Version Control](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
 - [HTML & CSS Foundations](c01-found/s3-html-css/index) - This page

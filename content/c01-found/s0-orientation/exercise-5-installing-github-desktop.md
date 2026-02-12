@@ -11,7 +11,7 @@ date: "2026-01-30"
 This exercise is written so you can complete it **without an instructor present**.
 Read each section fully before performing the steps.
 
-This exercise is part of the [[s0-welcome/index|Orientation section]]. GitHub Desktop provides a visual interface for Git and GitHub, making version control easier for beginners.
+This exercise is part of the [[c01-found/s0-orientation/index|Orientation section]]. GitHub Desktop provides a visual interface for Git and GitHub, making version control easier for beginners.
 
 ---
 
@@ -168,12 +168,12 @@ If you're still stuck, use ChatGPT or Google to search for your specific error m
 
 ### Section Navigation
 - [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to main course page
-- [[s0-welcome/index|Orientation Index]] - Return to orientation overview
-- [[s0-welcome/exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] - Previous exercise
-- [[s0-welcome/exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - This page
+- [[c01-found/s0-orientation/index|Orientation Index]] - Return to orientation overview
+- [[exercise-4-creating-github-account|Exercise 4: Creating GitHub Account]] - Previous exercise
+- [[exercise-5-installing-github-desktop|Exercise 5: Installing GitHub Desktop]] - This page
 
 ### Next Steps
 - [[s1-files/index|File Systems Section]] - Learn about file organization
 
 ### Related Materials
-- [[s0-welcome/index|Orientation Lecture]] - Review the concepts
+- [[c01-found/s0-orientation/index|Orientation Lecture]] - Review the concepts

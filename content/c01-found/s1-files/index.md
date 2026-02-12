@@ -430,12 +430,12 @@ Complete these exercises to set up your knowledge base and understand file organ
 
 ### Section Navigation
 - [[r61-fsd-university/content/c01-found/s1-files/index|Home]] - Return to the main course page
-- [[s0-welcome/index|Orientation]] - Previous section
+- [[c01-found/s0-orientation/index|Orientation]] - Previous section
 - [[s1-files/index|File Systems]] - This page
 - [[s2-vers-ctrl/index|Version Control]] - Next section
 
 ### Course Sections
-- [[s0-welcome/index|Orientation]] - Get started here
+- [[c01-found/s0-orientation/index|Orientation]] - Get started here
 - [[s1-files/index|File Systems]] - Organization principles
 - [[s2-vers-ctrl/index|Version Control]] - Git and GitHub basics
 - [[s3-html-css/index|HTML & CSS]] - Web page fundamentals
