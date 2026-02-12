@@ -5,10 +5,15 @@ tags: [windows-terminal, setup, tools, beginner, workbook, windows]
 draft: false
 date: "2026-01-30"
 ---
+# Before You Start
 
-# Exercise 1: Installing Windows Terminal
+Make sure you have:
+- A Windows computer
+- Access to the Microsoft Store (or ability to download from GitHub)
+- About 5 minutes
 
-This exercise is part of the [Orientation Section](c01-found/s0-welcome/index). Read each section fully before performing the steps.
+**Note:** Windows Terminal is optional but recommended. If you prefer, you can skip this exercise and use Git Bash directly (which you'll install in the next exercise).
+Getting Started
 
 ---
 ## What are we doing?
@@ -18,15 +23,7 @@ By the end of this exercise, you will have:
 - Windows Terminal configured as your default terminal
 - Verified that Windows Terminal is working
 
----
-## Before You Start
-
-Make sure you have:
-- A Windows computer
-- Access to the Microsoft Store (or ability to download from GitHub)
-- About 5 minutes
-
-**Note:** Windows Terminal is optional but recommended. If you prefer, you can skip this exercise and use Git Bash directly (which you'll install in the next exercise).
+**Note:** This exercise is part of the [Orientation Section](c01-found/s0-welcome/index). Read each section fully before performing the steps.
 
 ---
 ## Step 1: Install Windows Terminal
@@ -98,16 +95,27 @@ While optional, Windows Terminal makes working with the command line more pleasa
 ## Next Steps
 
 - Return to the [Orientation Lecture](c01-found/s0-welcome/index# Git-Bash) to learn about Version Control.
+---
+[Back to Top](#Before%20You%20Start)
+## Course Map
+- [Section 0: Orientation](c01-found/s0-welcome/index) - Get started here
+- [Section 1: File Systems](c01-found/s1-files/index) - Organization principles
+- [Section 2: Version Control](c01-found/s2-vers-ctrl/index) - Git and GitHub basics
+- [Section 3: HTML & CSS](c01-found/s3-html-css/index) - Web page fundamentals
+- [Section 4: JavaScript Basics](c01-found/s4-js/index) - Programming fundamentals
+- [Section 5: JavaScript Functions](c01-found/s4-js/index) - Functions and optimization
+- [Section 6: Advanced JavaScript](c01-found/s06-adv-js/index) - Advanced concepts 
+- [Section 7: Tailwind CSS](c01-found/s06-adv-js/index) - Modern styling with Tailwind
 
 ---
-
-## Navigation
-
-### Section Navigation
-- [[r61-fsd-university/content/c01-found/s0-welcome/index|Home]] - Return to main course page
-- [[s0-welcome/index|Orientation Index]] - Return to orientation overview
-- [[s0-welcome/exercise-1-installing-windows-terminal|Exercise 1: Installing Windows Terminal]] - This page
-- [[s0-welcome/exercise-2-installing-git-bash|Exercise 2: Installing Git Bash]] - Next exercise
-
-### Related Materials
-- [[s0-welcome/index|Orientation Lecture]] - Review the concepts
+## Global Navigation
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02genai-fun/index) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet
