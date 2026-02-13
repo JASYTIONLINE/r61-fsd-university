@@ -13,20 +13,21 @@ draft: false
 date: 2026-01-30
 ---
 
-# What Are We Doing?
-Exercise 3: Setting Up Obsidian Knowledge Base (Optional)
-
-This exercise is written so you can complete it **without an instructor present**.
-Read each section fully before performing the steps.
-
-This exercise is part of the [[c01-found/c1s1-files/index|File Systems and Organization section]]. You'll set up Obsidian as a note-taking and knowledge management tool, with special attention to its unique folder structure requirements for publishing.
-
-**Note:** This exercise is **optional**. Only complete it if you want to use Obsidian for note-taking and knowledge management. If you're just using Obsidian for personal notes (not publishing), you can skip the special folder structure setup.
+# Exercise 3: Setting Up Obsidian Knowledge Base
+(Optional) In this exercise you'll set up Obsidian as a note-taking and knowledge management tool, with special attention to its unique folder structure requirements for publishing.
 
 ---
+## Getting Started
+**Note:** This exercise is **optional**. Only complete it if you want to use Obsidian for note-taking and knowledge management. If you're just using Obsidian for personal notes (not publishing), you can skip the special folder structure setup.
+### Prerequisites:
+Before You Start - Make sure you have:
+- Completed [[s1e1-plan-kbs|Exercise 1: Planning Your Knowledge Base Structure]]
+- Obsidian installed (from [[s0e6-opts|Orientation Exercise 6]] or install it now)
+- About 15-20 minutes
+- Understanding that Obsidian uses a special structure for publishing
 
-## What You Are Building
-
+**Important:** If you're using Obsidian just for personal notes (not publishing), you can create a simpler structure. This exercise focuses on the more intricate publishing structure because this course uses it.
+### What to Expect
 By the end of this exercise, you will have:
 - Obsidian installed (if not already installed)
 - An Obsidian vault created with the correct structure for publishing
@@ -34,25 +35,12 @@ By the end of this exercise, you will have:
 - Basic Obsidian configuration
 
 ---
-
-## Before You Start
-
-Make sure you have:
-- Completed [[s1e1-plan-kbs|Exercise 1: Planning Your Knowledge Base Structure]]
-- Obsidian installed (from [[s0e6-opts|Orientation Exercise 6]] or install it now)
-- About 15-20 minutes
-- Understanding that Obsidian uses a special structure for publishing
-
-**Important:** If you're using Obsidian just for personal notes (not publishing), you can create a simpler structure. This exercise focuses on the publishing structure because this course uses it.
-
----
-
 ## Step 1: Understand Obsidian's Special Structure
 
 ### What This Step Does
 Obsidian has a unique requirement: when publishing, the published content lives in a `content/` folder, not at the root. This is different from standard Git repositories.
 
-### Instructions
+#### Instructions
 1. **Standard Git repository structure:**
    ```
    my-repo/
@@ -88,13 +76,11 @@ You should understand:
 - ✅ Configuration files stay at the root, content goes in `content/`
 
 ---
-
 ## Step 2: Decide Where Your Obsidian Vault Will Live
 
 ### What This Step Does
 You need to decide if your Obsidian vault will be part of your knowledge base or separate. Both approaches work.
-
-### Instructions
+#### Instructions
 1. **Option A: Obsidian vault inside knowledge base**
    ```
    knowledge-base/
@@ -122,7 +108,6 @@ You need to decide if your Obsidian vault will be part of your knowledge base or
 3. **Recommendation:** If you're publishing (like this course), keep it separate. If just for personal notes, either works.
 
 4. Choose your approach and remember where you'll create it.
-
 ### Verify
 You should have:
 - ✅ Decided where your Obsidian vault will live
@@ -130,13 +115,11 @@ You should have:
 - ✅ A location chosen
 
 ---
-
 ## Step 3: Create Your Obsidian Vault Structure
 
 ### What This Step Does
 This creates the Obsidian vault with the correct folder structure for publishing.
-
-### Instructions
+#### Instructions
 1. Navigate to your chosen location (separate from knowledge base, or inside it if you prefer)
 
 2. Create a new folder named `obsidian-vault` or `my-notes` or similar
@@ -153,7 +136,6 @@ This creates the Obsidian vault with the correct folder structure for publishing
    ```
 
 5. **Important:** Don't create a `.git` folder here yet. If you plan to version control this vault, you'll do that later, and you'll need to understand that the `content/` folder is what matters for the repository structure.
-
 ### Verify
 You should see:
 - ✅ An Obsidian vault folder created
@@ -161,13 +143,11 @@ You should see:
 - ✅ The vault folder is ready for Obsidian
 
 ---
-
 ## Step 4: Open Vault in Obsidian
 
 ### What This Step Does
 This opens your vault in Obsidian so Obsidian can initialize its configuration files.
-
-### Instructions
+#### Instructions
 1. Open **Obsidian** (Windows key → type "obsidian")
 
 2. If this is your first time:
@@ -184,7 +164,6 @@ This opens your vault in Obsidian so Obsidian can initialize its configuration f
 4. Obsidian will create a `.obsidian` folder automatically (this contains settings)
 
 5. Your vault should now be open in Obsidian
-
 ### Verify
 You should see:
 - ✅ Obsidian is open with your vault loaded
@@ -192,13 +171,11 @@ You should see:
 - ✅ The `content/` folder is visible in Obsidian
 
 ---
-
 ## Step 5: Create Your First Note in Content Folder
 
 ### What This Step Does
 This creates your first note in the `content/` folder to establish the pattern.
-
-### Instructions
+#### Instructions
 1. In Obsidian's file explorer, click on the `content` folder
 
 2. Click the **New note** button (or press Ctrl+N)
@@ -220,7 +197,6 @@ This creates your first note in the `content/` folder to establish the pattern.
    - Right-click on `content` in the file explorer
    - Select **New folder**
    - Name it `notes` or `learning` or similar
-
 ### Verify
 You should have:
 - ✅ An `index.md` file in the `content/` folder
@@ -228,13 +204,11 @@ You should have:
 - ✅ Understanding that all your notes go in `content/`, not at the root
 
 ---
-
 ## Step 6: Document the Structure
 
 ### What This Step Does
 Create a README at the root of your vault to document the special structure.
-
-### Instructions
+#### Instructions
 1. In Obsidian, create a new note at the root level (not in `content/`)
    - Click the root folder in the file explorer
    - Click **New note**
@@ -259,7 +233,6 @@ Create a README at the root of your vault to document the special structure.
    ```
 
 3. Save the file
-
 ### Verify
 You should have:
 - ✅ A README.md at the root of your vault
@@ -267,7 +240,6 @@ You should have:
 - ✅ Clear notes about where content goes
 
 ---
-
 ## Expected State at the End of This Exercise
 
 You should now have:
@@ -303,11 +275,12 @@ Apply this lesson to Your Learning Experience
 
 ---
 ## Navigation
-[Back to the Top](#What%20are%20we%20doing?)
+[Back to the Top](#Getting%20Started)
 ### Section 0 Map
 - [C1S1E1:](c01-found/c1s1-files/s1e2-creat-kbs) Planning Your Knowledge Base Structure
 - [C1S1E2:](c01-found/c1s1-files/s1e2-creat-kbs) Creating Your Project Organization Structure
 - [C1S1E3:](c01-found/c1s1-files/s1e3-obsid-kbs) Setting Up Obsidian Knowledge Base (Optional)
+
 ---
 ### Global Navigation
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -

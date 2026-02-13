@@ -10,18 +10,13 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
 # Exercise 2: Creating Repository
-
-**This exercise is a standalone technical manual. Follow each step exactly. No prior knowledge of Git commands is required.**
-
 **Time Required:** 15-20 minutes
 
 ---
-## Prerequisites Check
-
+## Getting Started
+### Prerequisites Check
 Before starting, verify you have completed:
-
 1. ✅ **Exercise 1: Authenticating Git with GitHub**
    - GitHub CLI installed
    - Git configured with your name and email
@@ -40,12 +35,8 @@ Before starting, verify you have completed:
 
 **If any prerequisite is missing, complete it before proceeding.**
 
----
-
-## What You Will Accomplish
-
+### What You Will Accomplish
 By the end of this exercise, you will have:
-
 - A GitHub repository created on GitHub.com
 - The repository cloned to your `knowledge-base/projects/` folder
 - The repository open in VS Code
@@ -53,11 +44,9 @@ By the end of this exercise, you will have:
 - [Local](https://docs.github.com/en/desktop/adding-and-cloning-repositories/adding-a-repository-from-your-local-computer-to-github-desktop) and [remote](https://docs.github.com/en/get-started/git-basics/about-remote-repositories) repositories connected
 
 ---
-
 ## Step 1: Create Repository on GitHub
 
 ### 1.1: Navigate to GitHub
-
 1. Open your web browser
 2. Navigate to:  [GithHub](https://github.com/login)
 3. If not already logged in, click **Sign in** and enter your credentials
@@ -65,7 +54,6 @@ By the end of this exercise, you will have:
 5. After logging in, you should see your GitHub dashboard
 
 ### 1.2: Start Repository Creation
-
 1. In the top right corner of GitHub, locate the **+** icon (plus sign)
 2. Click the **+** icon
 3. A dropdown menu appears
@@ -74,9 +62,7 @@ By the end of this exercise, you will have:
 **Expected Result:** You are taken to the "Create a new repository" page.
 
 ### 1.3: Configure Repository Settings
-
 Fill out the form exactly as follows:
-
 1. **Repository name:**
    - Type: `version-control-portfolio`
    - Use all lowercase letters
@@ -97,16 +83,13 @@ Fill out the form exactly as follows:
 5. **Do not change any other settings**
 ![[ss-create-repo.png]]
 ### 1.4: Create the Repository
-
 1. Scroll down to the bottom of the page
 2. Click the green button: **Create repository**
 
 **Expected Result:** You are taken to your new repository page on GitHub.
 
 ### 1.5: Verify Repository Creation
-
 On the repository page, verify you see:
-
 - ✅ Repository name: `version-control-portfolio` (or your username/version-control-portfolio)
 - ✅ One file listed: `README.md`
 - ✅ Text showing "1 commit" or similar
@@ -119,7 +102,6 @@ On the repository page, verify you see:
 ## Step 2: Get Repository URL
 
 ### 2.1: Copy Repository URL
-
 1. On your GitHub repository page, locate the green **Code** button
 2. Click the **Code** button
 3. A dropdown menu appears
@@ -138,7 +120,6 @@ https://github.com/your-username/version-control-portfolio.git
 ## Step 3: Navigate to Your Projects Folder
 
 ### 3.1: Open VS Code
-
 - Choose the file drop down and choose e Open Folder
 - Navigate to your projects folder
 - Open the folder in VS Code
@@ -155,7 +136,6 @@ https://github.com/your-username/version-control-portfolio.git
 **If you see `>` or `PS`, you need to configure VS Code terminal [[#Step 5 Open Repository in VS Code|see Section 2 Exercise 1, Step 5.]]
 
 ### 3.3: OPEN Projects Folder
-
 1. In the VS Code terminal, type your path (replace with your actual path):
    ```bash
    cd /c/Users/YourName/knowledge-base/projects
@@ -180,7 +160,6 @@ username@computername MINGW64 /c/Users/YourName/knowledge-base/projects
 - You're using forward slashes and `/c/` format
 
 ### 3.4: Verify You're in the Right Location
-
 1. In the terminal, type exactly:
    ```bash
    pwd
@@ -196,11 +175,8 @@ username@computername MINGW64 /c/Users/YourName/knowledge-base/projects
 **If not, repeat Step 3.3 with the correct path.**
 
 ---
-
 ## Step 4: Clone the Repository
-
 ### 4.1: Clone Using Git
-
 1. In the VS Code terminal (still in your projects folder), type exactly:
    ```bash
    git clone https://github.com/your-username/version-control-portfolio.git
@@ -224,7 +200,6 @@ Resolving deltas: 100% (X/X), done.
 **If you see an authentication error, you need to complete Exercise 1 first.**
 
 ### 4.2: Verify Clone Success
-
 1. In the terminal, type exactly:
    ```bash
    ls
@@ -244,7 +219,6 @@ version-control-portfolio
 ## Step 5: Open Repository in VS Code
 
 ### 5.1: Navigate into Repository Folder
-
 1. In the terminal, type exactly:
    ```bash
    cd version-control-portfolio
@@ -254,7 +228,6 @@ version-control-portfolio
 **Expected Result:** The prompt should now show the repository path.
 
 ### 5.2: Open Folder in VS Code
-
 1. In VS Code, click **File** in the menu bar
 2. Click **Open Folder...**
 3. Navigate to: `C:\Users\YourName\knowledge-base\projects\version-control-portfolio`
@@ -267,7 +240,6 @@ version-control-portfolio
 - The terminal still open at the bottom
 
 ### 5.3: Verify Git Repository Status
-
 1. In the VS Code terminal (still open), type exactly:
    ```bash
    git status
@@ -288,7 +260,6 @@ nothing to commit, working tree clean
 ---
 
 ## Step 6: Verify Repository Structure
-
 ### 6.1: List Files
 
 1. In the terminal, type exactly:
@@ -311,7 +282,6 @@ drwxr-xr-x 1 user user  X date ..
 - ✅ `README.md` file
 
 ### 6.2: Verify Remote Connection
-
 1. In the terminal, type exactly:
    ```bash
    git remote -v
@@ -328,11 +298,9 @@ origin  https://github.com/your-username/version-control-portfolio.git (push)
 **If not, the clone may have failed. Repeat Step 4.**
 
 ---
-
 ## Step 7: Verify Connection to GitHub
 
 ### 7.1: Check Branch Information
-
 1. In the terminal, type exactly:
    ```bash
    git branch -a
@@ -349,7 +317,6 @@ origin  https://github.com/your-username/version-control-portfolio.git (push)
 **`remotes/origin/main` shows the remote branch exists.**
 
 ### 7.2: View Commit History
-
 1. In the terminal, type exactly:
    ```bash
    git log --oneline
@@ -364,7 +331,6 @@ origin  https://github.com/your-username/version-control-portfolio.git (push)
 **You should see at least one commit (the initial commit from GitHub).**
 
 ---
-
 ## Expected Final State
 
 After completing this exercise, you should have:
@@ -377,7 +343,10 @@ After completing this exercise, you should have:
 - ✅ Working tree clean, on branch `main`
 
 ---
+#### Next Steps: - Return to the [Version Control Lecture](c01-found/c1s2-vers-ctrl/index#3.-Pushing-Changes-to-Your-Remote)
+3. Pushing Changes to Your Remote
 
+---
 ## Troubleshooting
 
 ### Problem: "fatal: could not read Username"
@@ -386,14 +355,12 @@ After completing this exercise, you should have:
 - You need to complete Exercise 1 first (GitHub CLI authentication)
 - Run `gh auth status` to verify authentication
 - If not authenticated, run `gh auth login` again
-
 ### Problem: "fatal: destination path already exists"
 
 **Solution:**
 - The folder already exists
 - Either delete the existing folder, or
 - Use a different repository name in Step 1.3
-
 ### Problem: Can't find knowledge-base/projects folder
 
 **Solution:**
@@ -402,7 +369,6 @@ After completing this exercise, you should have:
   ```bash
   mkdir -p /c/Users/YourName/knowledge-base/projects
   ```
-
 ### Problem: VS Code doesn't show files
 
 **Solution:**
@@ -411,19 +377,27 @@ After completing this exercise, you should have:
 - Try closing and reopening VS Code
 
 ---
-
-## Next Steps
-
-- [[c01-found/c1s2-vers-ctrl/index#Repositories: The Container for Your Work|Return to Lecture]] - Review the repository concepts in the lecture before moving on.
+## Navigation
+[Back to the Top](#Getting%20Started)
+### Section 0 Map
+- [C1S2E1:](c01-found/c1s2-vers-ctrl/s2e1-auth-gh) Authenticating Git with GitHub
+- [C1S2E2:](c01-found/c1s2-vers-ctrl/s2e2-creat-repo)  Creating a GitHub Repository
+- [C1S2E3:](c01-found/c1s2-vers-ctrl/s2e3-push) Pushing Changes to your Remote Repository
+- [C1S2E4:](c01-found/c1s2-vers-ctrl/s2e4-branch) Creating Branches in your Repository
+- [C1S2E5:](c01-found/c1s2-vers-ctrl/s2e5-switch) Switching Between Branches
+- [C1S2E6:](c01-found/c1s2-vers-ctrl/s2e6-pull) Creating Pull Requests
+- [C1S2E7:](c01-found/c1s2-vers-ctrl/s2e7-merge) Merging Branches
+- [C1S2E8:](c01-found/c1s2-vers-ctrl/s2e8-recap) Recap and Workflow Habits
 
 ---
-
-## Navigation
-
-**Previous Exercise:** [[s2e1-auth-gh|Exercise 1: Authenticating Git with GitHub]]
-
-**Next Exercise:** [[s2e3-push|Exercise 3: Pushing Changes]]
-
-**Home:** [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Main Course Page]]
-
-**Return to Section:** [[c01-found/c1s2-vers-ctrl/index|Version Control Section]]
+### Global Navigation
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

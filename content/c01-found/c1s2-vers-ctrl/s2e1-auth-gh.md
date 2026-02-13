@@ -11,19 +11,14 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
 # Exercise 1: Authenticating Git with GitHub
-
-**This exercise is a standalone technical manual. Follow each step exactly. No prior knowledge of Git commands is required.**
-
 **Time Required:** 20-30 minutes
 
 ---
-
-## Prerequisites Check
-
+## Getting Started
+If you want to store tour work on a remote repository in GitHub, you need to authenticate with GitHub first.  GitHub is a secure sight that needs to know who you are when you push code from the command line. Authentication allows GitHub to verify that you have permission to update the repositories you are working in. Without authentication, you can create commits locally, but you cannot securely push or pull changes from GitHub.
+### Prerequisites Check
 Before starting, verify you have completed:
-
 1. ✅ **Section 0 (Orientation)**
    - Exercise 2: Git Bash installed
    - Exercise 3: VS Code installed
@@ -39,14 +34,9 @@ Before starting, verify you have completed:
    - GitHub account username and password
    - VS Code closed (we'll open it during this exercise)
 
-**If any prerequisite is missing, complete it before proceeding.**
-
----
-
-## What You Will Accomplish
-
+**NOTE:** If any prerequisite is missing, complete it before proceeding.**
+### What To Expect?
 By the end of this exercise, you will have:
-
 - GitHub CLI (`gh`) installed on your computer
 - Git configured with your name and email
 - Git authenticated with GitHub using GitHub CLI
@@ -54,7 +44,6 @@ By the end of this exercise, you will have:
 - Verified that authentication works
 
 ---
-
 ## Step 1: Install GitHub CLI
 
 ### 1.1: Download GitHub CLI
@@ -68,7 +57,6 @@ By the end of this exercise, you will have:
 **Expected Result:** A file named `gh_x.x.x_windows_amd64.msi` appears in your Downloads folder (version numbers will vary).
 
 ### 1.2: Install GitHub CLI
-
 1. Open your Downloads folder
 2. Double-click the `gh_x.x.x_windows_amd64.msi` file
 3. If Windows asks for permission, click **Yes**
@@ -81,7 +69,6 @@ By the end of this exercise, you will have:
 10. Click **Finish**
 
 ### 1.3: Verify GitHub CLI Installation
-
 1. Press the **Windows key**
 2. Type: `git bash`
 3. Press **Enter** (Git Bash opens)
@@ -104,7 +91,6 @@ gh version x.x.x (xxxx-xx-xx)
 ## Step 2: Configure Git with Your Identity
 
 ### 2.1: Open Git Bash
-
 1. Press the **Windows key**
 2. Type: `git bash`
 3. Press **Enter**
@@ -112,7 +98,6 @@ gh version x.x.x (xxxx-xx-xx)
 **You should see a terminal window with a prompt ending in `$`**
 
 ### 2.2: Set Your Git Name
-
 1. In Git Bash, type exactly (replace "Your Name" with your actual name):
    ```bash
    git config --global user.name "Your Name"
@@ -123,7 +108,6 @@ gh version x.x.x (xxxx-xx-xx)
 **Important:** Use your real name or professional name. This name will appear on all your commits.
 
 ### 2.3: Set Your Git Email
-
 1. In Git Bash, type exactly (replace the email with the email address associated with your GitHub account):
    ```bash
    git config --global user.email "your.email@example.com"
@@ -134,7 +118,6 @@ gh version x.x.x (xxxx-xx-xx)
 **Important:** Use the same email address you used to create your GitHub account.
 
 ### 2.4: Verify Git Configuration
-
 1. In Git Bash, type exactly:
    ```bash
    git config --global --list
@@ -156,11 +139,9 @@ user.email=your.email@example.com
 **If they are incorrect, repeat Steps 2.2 and 2.3 with the correct information.**
 
 ---
-
 ## Step 3: Authenticate with GitHub Using GitHub CLI
 
 ### 3.1: Start Authentication
-
 1. In Git Bash (still open from Step 2), type exactly:
    ```bash
    gh auth login
@@ -173,7 +154,6 @@ user.email=your.email@example.com
 ```
 
 ### 3.2: Select GitHub.com
-
 1. The prompt shows: `? What account do you want to log into?`
 2. Press **Enter** (GitHub.com is the default)
 
@@ -183,7 +163,6 @@ user.email=your.email@example.com
 ```
 
 ### 3.3: Select HTTPS Protocol
-
 1. The prompt shows: `? What is your preferred protocol for Git operations?`
 2. Press **Enter** (HTTPS is the default)
 
@@ -193,7 +172,6 @@ user.email=your.email@example.com
 ```
 
 ### 3.4: Enable Git Credential Helper
-
 1. The prompt shows: `? Authenticate Git with your GitHub credentials?`
 2. Press **Enter** (Yes is the default)
 
@@ -203,7 +181,6 @@ user.email=your.email@example.com
 ```
 
 ### 3.5: Choose Web Browser Authentication
-
 1. The prompt shows: `? How would you like to authenticate GitHub CLI?`
 2. Press **Enter** (Login with a web browser is the default)
 
@@ -214,7 +191,6 @@ Press Enter to open github.com in your browser...
 ```
 
 ### 3.6: Copy One-Time Code
-
 1. **Copy the one-time code** shown (format: XXXX-XXXX)
    - Click and drag to select the code
    - Press **Ctrl + C** to copy
@@ -223,7 +199,6 @@ Press Enter to open github.com in your browser...
 **Expected Result:** Your web browser opens to GitHub's device authorization page.
 
 ### 3.7: Authorize on GitHub Website
-
 1. In your web browser, you should see a GitHub page asking you to authorize GitHub CLI
 2. Paste the one-time code you copied (Ctrl + V) into the code field
 3. Click **Continue**
@@ -232,7 +207,6 @@ Press Enter to open github.com in your browser...
 6. You should see a success message: "You have successfully authorized GitHub CLI"
 
 ### 3.8: Return to Git Bash
-
 1. Return to the Git Bash window
 2. You should see:
    ```
@@ -244,11 +218,9 @@ Press Enter to open github.com in your browser...
 **If you see an error, repeat Step 3 from the beginning.**
 
 ---
-
 ## Step 4: Verify Authentication
 
 ### 4.1: Test GitHub CLI Authentication
-
 1. In Git Bash, type exactly:
    ```bash
    gh auth status
@@ -266,7 +238,6 @@ github.com
 **If you see all three checkmarks, authentication is successful.**
 
 ### 4.2: Test Git Authentication
-
 1. In Git Bash, type exactly:
    ```bash
    git config --global credential.helper
@@ -281,11 +252,9 @@ github.com
 **If you see this output, Git is configured to use GitHub CLI for authentication.**
 
 ---
-
 ## Step 5: Configure VS Code Terminal to Use Git Bash
 
 ### 5.1: Open VS Code
-
 1. Press the **Windows key**
 2. Type: `visual studio code`
 3. Press **Enter**
@@ -293,20 +262,17 @@ github.com
 **VS Code opens.**
 
 ### 5.2: Open VS Code Settings
-
 1. In VS Code, press **Ctrl + ,** (Control key + comma)
    - This opens Settings
 2. In the search box at the top, type: `terminal integrated default profile windows`
 3. Click on **Terminal > Integrated > Default Profile: Windows**
 
 ### 5.3: Set Git Bash as Default Terminal
-
 1. Click the dropdown that says **PowerShell** (or **Command Prompt**)
 2. Select **Git Bash** from the list
 3. Close the Settings tab (click the X or press **Ctrl + ,** again)
 
 ### 5.4: Verify Terminal Configuration
-
 1. In VS Code, press **Ctrl + ~** (Control key + tilde key)
    - This opens the integrated terminal
 2. Look at the terminal prompt
@@ -319,7 +285,6 @@ github.com
 **If you see `>` or `PS`, repeat Step 5.3.**
 
 ### 5.5: Test Git in VS Code Terminal
-
 1. In the VS Code terminal (still open), type exactly:
    ```bash
    git --version
@@ -347,11 +312,9 @@ gh version x.x.x (xxxx-xx-xx)
 **If you see a version number, GitHub CLI works in VS Code terminal.**
 
 ---
-
 ## Step 6: Final Verification
 
 ### 6.1: Verify All Components
-
 In the VS Code terminal, run these commands one at a time and verify each output:
 
 1. **Check Git identity:**
@@ -381,9 +344,7 @@ In the VS Code terminal, run these commands one at a time and verify each output
 **If all four checks pass, you have successfully completed Exercise 1.**
 
 ---
-
 ## Expected Final State
-
 After completing this exercise, you should have:
 
 - ✅ GitHub CLI installed and working
@@ -393,7 +354,10 @@ After completing this exercise, you should have:
 - ✅ All commands working in VS Code terminal
 
 ---
+#### Next Steps: - Return to the [Version Control Lecture](c01-found/c1s2-vers-ctrl/index#2.-Creating-Your-First-Repository)
+2. Creating Your First Repository
 
+---
 ## Troubleshooting
 
 ### Problem: "gh: command not found" after installation
@@ -425,10 +389,6 @@ After completing this exercise, you should have:
 **Solution:**
 1. Run the `git config --global user.name` and `user.email` commands again with correct values
 2. Verify with `git config --global --list`
-
----
-#### Next Steps: - [[c01-found/c1s2-vers-ctrl/index#Authentication: Connecting Git to GitHub|Return to Lecture]] 
-Review the authentication concepts in the lecture before continuing.
 
 ---
 ## Navigation

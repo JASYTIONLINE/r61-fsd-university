@@ -488,7 +488,10 @@ After completing this exercise, you should have:
 - ✅ Understanding of the PR workflow
 
 ---
+#### Next Steps: - Return to the [Version Control Lecture](c01-found/c1s2-vers-ctrl/index#7.-Merging-Branches)
+7. Merging Branches
 
+---
 ## Troubleshooting
 
 ### Problem: "fatal: remote upstream already exists"
@@ -520,13 +523,27 @@ After completing this exercise, you should have:
 - Push again if needed: `git push`
 
 ---
-
 ## Navigation
+[Back to the Top](#Getting%20Started)
+### Section 0 Map
+- [C1S2E1:](c01-found/c1s2-vers-ctrl/s2e1-auth-gh) Authenticating Git with GitHub
+- [C1S2E2:](c01-found/c1s2-vers-ctrl/s2e2-creat-repo)  Creating a GitHub Repository
+- [C1S2E3:](c01-found/c1s2-vers-ctrl/s2e3-push) Pushing Changes to your Remote Repository
+- [C1S2E4:](c01-found/c1s2-vers-ctrl/s2e4-branch) Creating Branches in your Repository
+- [C1S2E5:](c01-found/c1s2-vers-ctrl/s2e5-switch) Switching Between Branches
+- [C1S2E6:](c01-found/c1s2-vers-ctrl/s2e6-pull) Creating Pull Requests
+- [C1S2E7:](c01-found/c1s2-vers-ctrl/s2e7-merge) Merging Branches
+- [C1S2E8:](c01-found/c1s2-vers-ctrl/s2e8-recap) Recap and Workflow Habits
 
-**Previous Exercise:** [[s2e5-switch|Exercise 5: Switching Branches]]
-
-**Next Exercise:** [[s2e7-merge|Exercise 7: Merging Branches]]
-
-**Home:** [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Main Course Page]]
-
-**Return to Section:** [[c01-found/c1s2-vers-ctrl/index|Version Control Section]]
+---
+### Global Navigation
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

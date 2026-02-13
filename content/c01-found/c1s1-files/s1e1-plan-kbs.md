@@ -11,18 +11,22 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# What Are We Doing?
-Exercise 1: Planning Your Knowledge Base Structure
-
-This exercise is written so you can complete it **without an instructor present**.
-Read each section fully before performing the steps.
-
-This exercise is part of the [[c01-found/c1s1-files/index|File Systems and Organization section]]. You'll create a well-organized knowledge base that will hold all your development projects, repositories, and learning materials.
+# Exercise 1: Planning Your Knowledge Base Structure
+In this exercise, you will  create a well-organized knowledge base that will hold all your development projects, repositories, and learning materials.
 
 ---
-
-## What You Are Building
-
+## Getting Started
+**Important concepts to remember:**
+- A knowledge base is just a regular folder—it's NOT a Git repository
+- This folder will contain multiple separate Git repositories later
+- Each repository will have its own `.git` folder, but they won't be nested inside each other
+### Prerequisites:
+Before You Start - Make sure you have:
+- A Windows computer
+- Basic understanding of File Explorer
+- About 10-15 minutes
+- A location in mind for your knowledge base (Documents folder, Desktop, or a dedicated drive)
+### What to Expect?
 By the end of this exercise, you will have:
 - A clear plan for where your knowledge base will live
 - An understanding of the difference between a knowledge base folder and a Git repository
@@ -30,22 +34,6 @@ By the end of this exercise, you will have:
 - A documented structure plan for your projects
 
 ---
-
-## Before You Start
-
-Make sure you have:
-- A Windows computer
-- Basic understanding of File Explorer
-- About 10-15 minutes
-- A location in mind for your knowledge base (Documents folder, Desktop, or a dedicated drive)
-
-**Important concepts to remember:**
-- A knowledge base is just a regular folder—it's NOT a Git repository
-- This folder will contain multiple separate Git repositories later
-- Each repository will have its own `.git` folder, but they won't be nested inside each other
-
----
-
 ## Step 1: Choose Your Knowledge Base Location
 
 ### What This Step Does
@@ -71,7 +59,6 @@ You should have:
 - ✅ The full path written down (e.g., `C:\Users\YourName\Documents\knowledge-base`)
 
 ---
-
 ## Step 2: Create Your Knowledge Base Folder
 
 ### What This Step Does
@@ -95,7 +82,6 @@ You should see:
 - ✅ You can open the folder and see it's empty
 
 ---
-
 ## Step 3: Plan Your Folder Structure
 
 ### What This Step Does
@@ -136,7 +122,6 @@ You should have:
 - ✅ An understanding that each project will be a separate repository (not nested)
 
 ---
-
 ## Expected State at the End of This Exercise
 
 You should now have:
@@ -152,7 +137,6 @@ knowledge-base/
 ```
 
 ---
-
 ## Why This Matters
 
 A well-planned knowledge base:
@@ -166,9 +150,10 @@ Congratulations": You have Just taken the firs steps to managing all your future
 ---
 Next Steps: [Return to Lecture](c01-found/c1s1-files/index#2.-Create-Your-Personal-Knowledge-Base-Structure)
 2. Create Your Personal Knowledge Base Structure
+
 ---
-## ## Navigation
-[Back to the Top](#What%20are%20we%20doing?)
+## Navigation
+[Back to the Top](#Getting%20Started)
 ### Section 0 Map
 - [C1S1E1:](c01-found/c1s1-files/s1e2-creat-kbs) Planning Your Knowledge Base Structure
 - [C1S1E2:](c01-found/c1s1-files/s1e2-creat-kbs) Creating Your Project Organization Structure

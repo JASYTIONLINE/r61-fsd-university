@@ -10,16 +10,24 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# Getting Started
-Welcome to Version Control Foundations. This section builds directly on the file organization principles you learned in Section 1. You'll learn how to use Git and GitHub to track changes, collaborate safely, and maintain professional development workflows.
-
- By the end of this section, you'll understand how version control works, why it's essential for professional development, and you'll have hands-on experience with Git and GitHub.
+# Lecture 2: Version Control Foundations
+In this section you'll learn how to use Git and GitHub to track changes, collaborate safely, and maintain professional development workflows.
 
 ---
-## 0. What to Expect
-
+## Getting Started
+Welcome to Version Control Foundations. This section builds directly on the file organization principles you learned in Section 1.  This section teaches **command-line Git** using **VS Code's integrated terminal** configured with **Git Bash**. While GUI tools exist, command-line Git is the industry standard and what many employers expect. All exercises use VS Code's terminal with Git Bash.  All your work in this section will happen in your own knowledge base that you set up in Section 1. 
+### Prerequisites:
+Before starting this section, make sure you have:
+- ✅ **Completed Section 1: File Systems and Organization**
+	 - You should have your knowledge base folder structure set up
+	 - You understand where repositories will live (`knowledge-base/projects/`)
+- ✅ **A GitHub account** (created in Section 1 or Orientation)
+- ✅ **Git Bash installed** (from Orientation section)
+- ✅ **VS Code installed** (from Orientation section)
+	- You can open your Knowledge-Base folder in VS Code
+	- If you haven't completed ][Section 1](c01-found/c1s1-files/index), go back and complete it first. The knowledge base structure you created there is essential for organizing your work in this section.
+### What to Expect
 In this section, you will:
-
 - Learn what [version control](https://git-scm.com/video/what-is-version-control) ) is and why every developer needs it
 - Understand the relationship between [Git (the tool)](https://en.wikipedia.org/wiki/Git) and [GitHub (the platform)](https://en.wikipedia.org/wiki/GitHub)
 - **Use VS Code's integrated terminal** configured with Git Bash for all Git operations
@@ -31,15 +39,8 @@ In this section, you will:
 - [Merge](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github) changes professionally using terminal commands
 - Develop workflow habits that employers expect
 
-**Important:** This section teaches **command-line Git** using **VS Code's integrated terminal** configured with **Git Bash**. While GUI tools exist, command-line Git is the industry standard and what many employers expect. All exercises use VS Code's terminal with Git Bash.
-
-**Also Important:** 
-- All your work in this section will happen in your own knowledge base that you set up in Section 1. 
-- Your repositories will live in your `knowledge-base/projects/` folder, completely separate from this course site. 
-	- This is intentional—you're building your own professional development environment.
-
 ---
-## What is Version Control?
+##  0. What is Version Control?
 
 [Version control](https://git-scm.com/video/what-is-version-control) ) is a system that tracks changes to files over time. Think of it as a time machine for your code, with the ability to:
 
@@ -48,9 +49,7 @@ In this section, you will:
 - **Work safely**: Experiment without fear of losing work
 - **Collaborate**: Multiple people can work on the same project without conflicts
 - **Document decisions**: Every change is recorded with a message explaining why
-
 ### The Problem Without Version Control
-
 Imagine you're working on a website. You make changes, test them, and everything works. Then you try to add a new feature, and suddenly nothing works. Without version control:
 
 - You can't remember what you changed
@@ -59,7 +58,6 @@ Imagine you're working on a website. You make changes, test them, and everything
 - You can't safely experiment
 
 ### The Solution: Git
-
 **Git** is a version control system that solves all these problems. It's:
 - **Free and open source**
 - **Industry standard** (used by virtually every software company)
@@ -74,26 +72,8 @@ Imagine you're working on a website. You make changes, test them, and everything
 
 Together, Git and GitHub form the foundation of modern software development.
 
-### Prerequisites
-
-Before starting this section, make sure you have:
-
-- ✅ **Completed Section 1: File Systems and Organization**
-  - You should have your knowledge base folder structure set up
-  - You understand where repositories will live (`knowledge-base/projects/`)
-  - You know why repositories shouldn't be nested
-
-- ✅ **A GitHub account** (created in Section 1 or Orientation)
-
-- ✅ **Git Bash installed** (from Orientation section)
-
-- ✅ **VS Code installed** (from Orientation section)
-
-If you haven't completed ][Section 1](c01-found/c1s1-files/index), go back and complete it first. The knowledge base structure you created there is essential for organizing your work in this section.
-
 ---
-## 1. Your Development Environment
-
+## Your Development Environment
 In Section 1, you set up a knowledge base structure like this:
 
 ```
@@ -115,19 +95,12 @@ This means:
 When you clone or create repositories, you'll do it inside your `projects/` folder. This keeps your development work organized and separate from this course site.
 
 ---
-
 ## Command-Line Git: Understanding Your Terminal Options
-
 This section focuses on **command-line Git**—typing Git commands in a terminal. Before we start, let's clarify the different terminal options you have and which one we'll use.
-
 ### What is a Terminal?
-
 A **terminal** (also called a command line or shell) is a text-based interface where you type commands instead of clicking buttons. Think of it as a way to talk directly to your computer using text commands. It's how developers interact with Git and other tools.
-
 ### Your Terminal Options
-
 You have three main ways to access a terminal on Windows:
-
 1. **Git Bash** (standalone application)
    - A separate program you open from the Start menu
    - Provides a Bash shell environment
@@ -142,7 +115,6 @@ You have three main ways to access a terminal on Windows:
    - A terminal that appears inside VS Code
    - Can be configured to use different shells (including Git Bash)
    - Convenient because it's right where you're editing code
-
 ### Which One Will We Use?
 
 **We'll primarily use the VS Code Integrated Terminal** because:
@@ -153,9 +125,7 @@ You have three main ways to access a terminal on Windows:
 **However**, the VS Code terminal needs to be configured to use **Git Bash** as its shell. This means:
 - You're using VS Code's terminal (convenient)
 - But it's running Git Bash inside it (cross-platform consistency)
-
 ### Understanding the Relationship
-
 Think of it this way:
 - **VS Code Terminal** = The vehicle you are driving. It has different lights buttons and dials, the the purpose is t take you where you want to go.
 - **Git Bash** = the engine that takes you where you want to go.  we can put this engine in any vehicle that it fits with, and it will still perform its main function.
@@ -165,15 +135,12 @@ When you open the terminal in VS Code and it's configured to use Git Bash, you g
 - The cross-platform consistency of Git Bash commands
 
 ### Why Git Bash Matters
-
 Even though you're using VS Code's terminal, it's using **Git Bash** as the shell because:
 - **Cross-platform consistency**: Git Bash provides the same Bash environment that developers use on Mac and Linux
 - **Industry standard**: Most Git tutorials, documentation, and Stack Overflow answers assume Bash/Unix-style commands
 - **Universal Git commands**: The Git commands you learn work identically on Windows (with Git Bash), Mac, and Linux
 - **Professional skill**: Many software development roles (especially web development) expect Bash proficiency
-
 ### Setting Up VS Code Terminal
-
 In the following exercises, you will install Git Bash and configure VS Code to use Git Bash as its default terminal.
 
 This means:
@@ -184,11 +151,9 @@ This means:
 **Note:** If you prefer, you can also use standalone Git Bash or Windows Terminal—the Git commands are the same. But VS Code's integrated terminal is the most convenient for development work.
 
 ---
-
 ## Understanding Git and GitHub
 
 ### Git: The Version Control System
-
 [Git](https://git-scm.com/about) is software that runs on your computer. It:
 - Tracks changes to files in a repository
 - Maintains a complete history of all changes
@@ -196,9 +161,7 @@ This means:
 - Enables collaboration through merging
 
 Think of Git as a sophisticated filing system that remembers every version of every file.
-
 ### GitHub: The Hosting Platform
-
 [GitHub](https://www.bing.com/ck/a?!&&p=1ae580aaad81befce6b02873aff47a986b497c7b895e7da2244118f386f3874cJmltdHM9MTc2OTk5MDQwMA&ptn=3&ver=2&hsh=4&fclid=07f802bb-eb29-6f86-2b0a-1404ea816ee4&u=a1aHR0cHM6Ly9naXRodWIuY29tL2xvZ2lu) is a website that hosts Git repositories online. It:
 - Stores your code in the cloud (backup)
 - Provides a web interface for viewing repositories
@@ -206,9 +169,7 @@ Think of Git as a sophisticated filing system that remembers every version of ev
 - Serves as your professional portfolio
 
 Think of GitHub as a cloud storage service specifically designed for code.
-
 ### How They Work Together
-
 ```
 Your Computer (Local)          GitHub (Remote)
      │                              │
@@ -219,7 +180,6 @@ Your Computer (Local)          GitHub (Remote)
      │<─────────────────────────────┤  (Download changes)
      │                              │
 ```
-
 - **Local repository**: Lives on your computer, in your `projects/` folder
 - A [Remote repository](https://docs.github.com/en/get-started/git-basics/about-remote-repositories): Lives on GitHub's servers
 - **Synchronization**: You push local changes to GitHub, and pull remote changes to your computer 
@@ -227,19 +187,17 @@ Your Computer (Local)          GitHub (Remote)
 **NOTE:** When you make changes on GitHub, then pull those changes on your pc, your local files will change so don't be surprised if folders or files are missing or changed after a pull request.
 
 ---
-
-## Authentication: Connecting Git to GitHub
+## 1. Authenticating Git with GitHub
+Authentication: Connecting Git to GitHub
 
 Before you can use Git with GitHub, you need to authenticate. This proves to GitHub that you're authorized to push code to your repositories.
 
 ### Why Authentication Matters
-
 GitHub needs to know:
 - **Who you are** (so commits are attributed correctly)
 - **What you're allowed to do** (so you can only modify your own repositories)
 
 ### Two Types of Authentication
-
 1. **Git Identity** (who you are for commits)
    - Your name and email
    - Set using `git config` commands in VS Code terminal (with Git Bash)
@@ -253,7 +211,6 @@ GitHub needs to know:
    - Much simpler than manual token management
 
 ### The Authentication Process
-
 You'll configure authentication using **VS Code's integrated terminal** (configured with Git Bash):
 
 1. Install [GitHub CLI](https://github.com/cli/cli#installation) (one-time installation):
@@ -280,8 +237,8 @@ Once set up, you can push and pull from GitHub using VS Code terminal without en
 Now that you understand authentication and your terminal setup, you're ready to configure it. Complete [[s2e1-auth-gh|Exercise 1: Authenticating Git with GitHub]] to set up Git and connect it to GitHub.
 
 ---
-
-## Repositories: The Container for Your Work
+## 2. Creating Your First Repository
+The Container for Your Work
 
 A [Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories) (or "repo") is a folder that Git tracks. It contains:
 - Your project files
@@ -289,13 +246,11 @@ A [Repository](https://docs.github.com/en/repositories/creating-and-managing-rep
 - Complete history of all changes
 
 ### Local vs. Remote Repositories
-
 - **Local repository**: Lives on your computer in `knowledge-base/projects/`
 - **Remote repository**: Lives on GitHub's servers
 - **Connection**: They stay synchronized through push and pull
 
 ### Creating a Repository
-
 You can [create a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) in two ways:
 
 1. **On GitHub first** (recommended for beginners)
@@ -308,17 +263,8 @@ You can [create a repository](https://docs.github.com/en/repositories/creating-a
    - Create repository on GitHub
    - Connect them together
 
-**NOTE:** **Important principle:** Every repository you create should be intentional and professional. 
-
-We don't create "practice" or "throwaway" repositories. In this section, you'll create **one repository** that you'll use for all exercises. This repository:
-- Will be portfolio-ready by the end of the section
-- Demonstrates professional version control practices
-- Is something you can show to employers
-- Teaches you to maintain a real project over time
-
-Each project gets its own repository, and every repository matters. This approach builds professional habits from day one.
+**NOTE:** **Important principle:** Every repository you create should be intentional and professional. Each project gets its own repository. this is essential once you have a large portfolio of projects. This approach builds professional habits from day one.
 ### Repository Structure
-
 A typical repository looks like:
 
 ```
@@ -328,32 +274,26 @@ my-project/
 ├── README.md      # Project documentation
 └── index.html     # Project files
 ```
-
 The `.git` folder is what makes a directory a repository. It contains all the version history.
 
 Now that you understand repositories, you're ready to create your first one. Complete [[s2e2-creat-repo|Exercise 2: Creating Repository]] to create a GitHub repository and clone it to your `knowledge-base/projects/` folder.
 
 ---
-
-## Tracking Files and Making Commits
-
-Git doesn't automatically track every file. You need to explicitly tell Git which files to track and when to save their state.
+## 3. Pushing Changes to Your Remote
+Tracking Files and Making Commits, and updating your remote Repository Git doesn't automatically track every file. You need to explicitly tell Git which files to track and when to save their state.
 
 ### The Three States of Files
-
 1. **Untracked**: Git doesn't know about this file
 2. **Staged**: File is ready to be committed (added to history)
 3. **Committed**: File's current state is saved in Git's history
 
 ### The Workflow
-
 ```
 Create/Edit File → Stage File → Commit → Push to GitHub
    (untracked)     (staged)    (saved)    (backed up)
 ```
 
 ### Staging: Choosing What to Commit
-
 **Staging** is the process of selecting which changes to include in a commit. This allows you to:
 - Commit related changes together
 - Exclude temporary files
@@ -361,7 +301,6 @@ Create/Edit File → Stage File → Commit → Push to GitHub
 - Create logical, focused commits
 
 ### Commits: Snapshots in Time
-
 A **commit** is a snapshot of your project at a specific moment. Each commit:
 - Has a unique identifier (hash)
 - Contains a message explaining what changed
@@ -369,7 +308,6 @@ A **commit** is a snapshot of your project at a specific moment. Each commit:
 - Can be revisited or reverted
 
 ### Commit Messages
-
 Good commit messages explain **what** changed and **why**:
 
 ```
@@ -381,12 +319,8 @@ Good commit messages explain **what** changed and **why**:
 
 Clear commit messages help you (and others) understand the project's history.
 
-Now that you understand how Git tracks files, you're ready to create files and commit them. Complete [[s2e3-push|Exercise 3: Pushing Changes]] to practice tracking files, making commits, and pushing to GitHub.
-
 ---
-
 ## Pushing to GitHub
-
 **Pushing** sends your local commits to GitHub. This:
 - Backs up your work to the cloud
 - Makes your code accessible from anywhere
@@ -394,7 +328,6 @@ Now that you understand how Git tracks files, you're ready to create files and c
 - Builds your portfolio
 
 ### Understanding Remotes
-
 A **remote** is a saved connection to a GitHub repository. By convention, the primary remote is named `origin`.
 
 ```
@@ -402,29 +335,21 @@ Local Repository → origin → GitHub Repository
 ```
 
 ### The Push Process
-
 1. Make changes locally
 2. Stage and commit changes
 3. Push commits to GitHub
 4. GitHub updates with your latest work
 
 ### Why Push Regularly
-
 - **Backup**: Your work is safe if your computer fails
 - **Access**: Work from any computer
 - **Portfolio**: Show your work to employers
 - **Collaboration**: Others can see your progress
 
-### Pull: The Reverse Operation
-
-**Pulling** downloads changes from GitHub to your local repository. You'll use this when:
-- Working from multiple computers
-- Collaborating with others
-- Updating your local copy
+Now that you understand how Git tracks files, you're ready to create files and commit them. Complete [[s2e3-push|Exercise 3: Pushing Changes]] to practice tracking files, making commits, and pushing to GitHub.
 
 ---
-
-## Branching: Working Safely
+## 4. Branching: Working Safely
 
 **Branches** are parallel versions of your project. They let you:
 - Work on features without affecting the main code
@@ -433,40 +358,30 @@ Local Repository → origin → GitHub Repository
 - Keep `main` branch stable
 
 ### Why Branches Matter
-
 Imagine you're building a website:
 - `main` branch: The live, working version
 - `feature-login` branch: Working on login functionality
 - `feature-dashboard` branch: Working on dashboard
 
 You can work on both features simultaneously without breaking `main`.
-
 ### The Main Branch
-
 The **main branch** (formerly called "master") is:
 - The primary branch of your repository
 - What gets deployed to production
 - Protected from direct changes (in professional workflows)
 - The source of truth for your project
-
 ### Creating Branches
-
 Branches are lightweight and fast to create. They:
 - Start from the current state of your project
 - Don't duplicate files (Git is efficient)
 - Can be created, used, and deleted easily
-
 ### Branch Isolation
-
 Changes on a branch don't affect other branches until you merge them. This means:
 - You can experiment freely
 - You can abandon work without consequences
 - You can work on multiple features simultaneously
 
-Now that you understand branching, you're ready to create and work with branches. Complete [[s2e4-branch|Exercise 4: Creating Branches]] to learn how to create, list, and switch between branches.
-
 ---
-
 ## Working with Branches
 
 Once you create a branch, you can work on it just like the main branch:
@@ -474,20 +389,20 @@ Once you create a branch, you can work on it just like the main branch:
 - Stage and commit changes
 - Push to GitHub
 
-### Switching Branches
+---
+Now that you understand branching, you're ready to create and work with branches. Complete [[s2e4-branch|Exercise 4: Creating Branches]] to learn how to create, list, and switch between branches.
 
+---
+## 5. Switching Branches
 When you switch branches, Git updates your working directory to match that branch's state. This means:
 - Files may appear or disappear (they're still in Git's history)
 - Your working directory reflects the branch you're on
 - Uncommitted changes might prevent switching (Git protects you)
-
 ### Branch-Specific Work
-
 Changes committed on a branch exist only on that branch until merged. This allows:
 - Multiple features in development simultaneously
 - Safe experimentation
 - Clean separation of concerns
-
 ### Visualizing Branch History
 
 ```
@@ -504,7 +419,6 @@ In this example:
 Now that you understand how to work with branches, complete [[s2e5-switch|Exercise 5: Switching Branches]] to practice making changes on branches and seeing branch isolation in action.
 
 ---
-
 ## Forking and Pull Requests: Contributing to Others' Work
 
 **Forking** creates your own copy of someone else's repository. This enables:
@@ -512,16 +426,12 @@ Now that you understand how to work with branches, complete [[s2e5-switch|Exerci
 - Experimenting without affecting the original
 - Learning from others' code
 - Building your portfolio through contributions
-
 ### Understanding Fork vs Original Repository
-
 - **Original repository**: The source project (owned by someone else)
 - **Your fork**: Your copy of that repository (owned by you)
 - **Upstream**: The original repository (a remote named `upstream`)
 - **Origin**: Your fork (the default remote, named `origin`)
-
 ### The Fork Workflow
-
 1. Fork the original repository on GitHub
 2. Clone your fork locally
 3. Add upstream remote (connection to original)
@@ -531,16 +441,19 @@ Now that you understand how to work with branches, complete [[s2e5-switch|Exerci
 7. Create a pull request to the original repository
 8. Maintainer reviews and merges (or you merge if you have access)
 
+---
+### 6. Pull: The Reverse Operation
+**Pulling** downloads changes from GitHub to your local repository. You'll use this when:
+- Working from multiple computers
+- Collaborating with others
+- Updating your local copy
 ### Pull Requests: The Collaboration Mechanism
-
 A **pull request** (PR) is a request to merge your changes into someone else's repository. It:
 - Shows what changed (diff)
 - Allows discussion and review
 - Enables collaboration
 - Documents the contribution
-
 ### Why This Matters
-
 In professional development:
 - You'll contribute to team repositories
 - You'll work with open-source projects
@@ -552,45 +465,35 @@ In professional development:
 Now that you understand forking and pull requests, complete [[s2e6-pull|Exercise 6: Creating Pull Requests]] to practice the fork workflow.
 
 ---
-
-## Merging Branches
-
+## 7. Merging Branches
 **Merging** combines changes from one branch into another. This is how completed work becomes part of the main branch.
 
 **Note:** You've already learned about merging through pull requests (the professional collaborative method). Now you'll learn local merging, which is the same concept but done directly on your computer.
 
 **Merging** combines changes from one branch into another. This is how completed work becomes part of the main branch.
-
 ### The Merge Process
-
 1. Switch to the branch you want to merge INTO (usually `main`)
 2. Run `git merge [branch-name]`
 3. Git combines the changes
 4. The branch's work is now part of the target branch
 
 ### Fast-Forward Merges
-
 When the target branch hasn't changed since the feature branch was created, Git performs a "fast-forward" merge:
 - Simply moves the branch pointer forward
 - No merge commit needed
 - Clean, linear history
 
 ### Merge Commits
-
 When both branches have changes, Git creates a merge commit:
 - Combines changes from both branches
 - Records that a merge occurred
 - May require conflict resolution (advanced topic)
-
 ### After Merging
-
 Once merged:
 - The feature branch's work is part of `main`
 - You can delete the feature branch (it's no longer needed)
 - Push the updated `main` to GitHub
-
 ### Professional Workflow
-
 The standard workflow:
 1. Create a branch for a feature
 2. Work on the feature
@@ -602,13 +505,9 @@ The standard workflow:
 Now that you understand merging, complete [[s2e7-merge|Exercise 7: Merging Branches]] to practice merging branch work into main and cleaning up.
 
 ---
-
-## Professional Workflow Habits
-
+## 8. Recap - Professional Workflow Habits
 Version control isn't just about commands—it's about developing professional habits that make you a better developer.
-
 ### The Habits That Matter
-
 1. **Check Your Status**
    - Run `git status` before risky operations
    - Know which branch you're on
@@ -635,7 +534,6 @@ Version control isn't just about commands—it's about developing professional h
    - Keep local and remote in sync
 
 ### Why These Habits Matter
-
 These habits:
 - Prevent mistakes
 - Make collaboration easier
@@ -646,9 +544,7 @@ These habits:
 Now that you understand professional workflow habits, complete [[s2e8-recap|Exercise 8: Recap and Workflow Habits]] to reinforce these concepts and tie everything together.
 
 ---
-
-## What You'll Accomplish
-
+## 9. Wrap Up: What You've Accomplished
 By completing this section and its exercises, you will have:
 
 - ✅ **Git configured and authenticated** with GitHub
@@ -668,9 +564,7 @@ Your repository will be:
 This foundation will support all your development work throughout this course and your career. Every project you create will use these version control skills.
 
 ---
-
 ## How This Applies to Your Learning
-
 As you work through this section:
 
 1. **Practice the habits** - Run `git status` frequently, commit often, protect main

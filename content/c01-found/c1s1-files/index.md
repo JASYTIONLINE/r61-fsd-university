@@ -11,9 +11,9 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# Getting Started
+# Lecture 01: File Systems and Organization
 In this section you'll learn why good organization matters, see examples of effective structures, understand how the organizational patterns used in this course help you (and others) find what you need quickly, and discover why developers need personal infrastructure that matches organizational standards.
-
+## Getting Started
 Many educational platforms strive to teach you "Everything you need to know" about the subject matter it explores, but I have found this endeavor is often fruitless and results in overwhelming the student.
 
 There is a widely accepted way of viewing our level of competence in any given subject. It states there are [four levels of competence](https://en.wikipedia.org/wiki/Four_stages_of_competence).
@@ -122,7 +122,6 @@ my-project/
 ```
 
 **Why this structure is industry standard:**
-
 1. [Separates concerns](https://en.wikipedia.org/wiki/Separation_of_concerns): Code, tests, and documentation are clearly separated
 2. [Language-agnostic:](https://en.wikipedia.org/wiki/Language-agnostic) Works for JavaScript, Python, Java, C#, and more
 3. [Framework-agnostic:](https://gist.github.com/dragontheory/1277cbace48928eef5f7ab000ef3fe74) Used by React, Vue, Angular, Django, Flask, etc.
@@ -148,15 +147,15 @@ The key is that the [separation of concerns](https://en.wikipedia.org/wiki/Separ
 ### Principles of Good Organization
 
 While different projects use different structures, good organization follows these principles:
-#### 1. **Logical Grouping**
+1. **Logical Grouping**
 Files that belong together should be together. Authentication files go with authentication files, not scattered across the project.
-#### 2. **Consistent Naming**
+2. **Consistent Naming**
 Use consistent [naming conventions](https://en.wikipedia.org/wiki/Naming_convention). If you use [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case) for folders, use it everywhere. If you number things, be consistent with the numbering system.
-#### 3. **Self-Explanatory Names**
+ 3. **Self-Explanatory Names**
 Folder and file names should tell you what's inside. `user-authentication` is better than `auth` or `stuff`.
-#### 4. **Shallow When Possible**
+ 4. **Shallow When Possible**
 Avoid deeply [nested folders](https://www.glarysoft.com/how-to/are-you-making-these-common-mistakes-with-folder-structure-optimization-in-windows/) when you can. `src/components/auth/login.js` is better than `src/components/user/authentication/forms/login/login.js`.
-#### 5. **Scalable Structure**
+ 5. **Scalable Structure**
 Organize for growth. A structure that works for 10 files should still make sense with 1000 files.
 
 These principles apply whether you're organizing a single project or your entire development workspace.

@@ -12,18 +12,22 @@ draft: false
 date: 2026-01-30
 ---
 
-# What Are We Doing?
-Exercise 2: Creating Your Project Organization Structure
-
-This exercise is written so you can complete it **without an instructor present**.
-Read each section fully before performing the steps.
-
-This exercise is part of the [[c01-found/c1s1-files/index|File Systems and Organization section]]. You'll create the organized folder structure within your knowledge base that will hold all your development work.
+# Exercise 2: Creating Your Project Organization Structure
+In this exercise You'll create the organized folder structure within your knowledge base that will hold all your development work.
 
 ---
-
-## What You Are Building
-
+## Getting Started
+**Remember:**
+- These are just regular folders—NOT Git repositories yet
+- Each project folder will become a separate repository later
+- No `.git` folders should exist at this point
+### Prerequisites:
+Before You Start - Make sure you have:
+- Completed [[s1e1-plan-kbs|Exercise 1: Planning Your Knowledge Base Structure]]
+- Your knowledge base folder created
+- Your structure plan from Exercise 1
+- About 10 minutes
+### What to expect?
 By the end of this exercise, you will have:
 - A complete folder structure within your knowledge base
 - Subfolders for projects, learning materials, and notes
@@ -31,22 +35,6 @@ By the end of this exercise, you will have:
 - A README file documenting your structure
 
 ---
-
-## Before You Start
-
-Make sure you have:
-- Completed [[s1e1-plan-kbs|Exercise 1: Planning Your Knowledge Base Structure]]
-- Your knowledge base folder created
-- Your structure plan from Exercise 1
-- About 10 minutes
-
-**Remember:**
-- These are just regular folders—NOT Git repositories yet
-- Each project folder will become a separate repository later
-- No `.git` folders should exist at this point
-
----
-
 ## Step 1: Create Main Category Folders
 
 ### What This Step Does
@@ -77,7 +65,6 @@ You should see:
 - ✅ Your structure-plan.md file is still there
 
 ---
-
 ## Step 2: Create Learning Subfolders
 
 ### What This Step Does
@@ -150,7 +137,6 @@ You should have:
 - ✅ Clear notes about repository organization
 
 ---
-
 ## Step 4: Understand Repository Placement
 
 ### What This Step Does
@@ -232,7 +218,7 @@ GREAT JOB!!: When you start creating Git repositories in the next section, you'l
 
 ---
 ## Navigation
-[Back to the Top](#What%20are%20we%20doing?) 
+[Back to the Top](#Getting%20Started)
 ### Section 0 Map
 - [C1S1E1:](c01-found/c1s1-files/s1e2-creat-kbs) Planning Your Knowledge Base Structure
 - [C1S1E2:](c01-found/c1s1-files/s1e2-creat-kbs) Creating Your Project Organization Structure
