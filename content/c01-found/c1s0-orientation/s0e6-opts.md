@@ -13,7 +13,7 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# What You Are Building
+# What Are We Doing?
 This exercise covers optional tools mentioned in the [[c01-found/c1s1-files/index|File Systems lecture]]. 
 
 By the end of this exercise, you will have (optionally):
@@ -137,21 +137,19 @@ If something didn't work:
 3. **Installation failed**: Check that you have enough disk space and administrator rights.
 
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
+---
+[Back to the Top](#What%20are%20we%20doing?)
+## Navigation
+### Section 0 Map
+- [C1S0E1:](s0e1-Term.md) Installing Windows Terminal
+- [C1S0E2:](s0e2-gitbash.md) Installing Git Bash
+- [C1S0E3:](s0e3-vscode.md) Installing VS Code
+- [C1S0E4:](s0e4-github.md) Create and Configure Your GitHub Account
+- [C1S0E5:](s0e5-desktop.md) Installing GitHub Desktop
+- [C1S0E6:](s0e6-opts.md) Installing Optional Tools
 
 ---
-[Back to the Top](#What%20You%20Are%20Building)
-## Course 1 Map
-- [Section 0: Orientation](c01-found/c1s0-orientation/index.md) - Get started here
-- [Section 1: File Systems](c01-found/c1s1-files/index.md) - Organization principles
-- [Section 2: Version Control](c01-found/c1s2-vers-ctrl/index.md) - Git and GitHub basics
-- [Section 3: HTML & CSS](c01-found/c1s3-html-css/index.md) - Web page fundamentals
-- [Section 4: JavaScript Basics](c01-found/c1s4-js/index.md) - Programming fundamentals
-- [Section 5: JavaScript Functions](c01-found/c1s4-js/index.md) - Functions and optimization
-- [Section 6: Advanced JavaScript](c01-found/c1s6-adv-js/index.md) - Advanced concepts 
-- [Section 7: Tailwind CSS](c01-found/c1s6-adv-js/index.md) - Modern styling with Tailwind
-
----
-## Global Navigation
+### Global Navigation
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI

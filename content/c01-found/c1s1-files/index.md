@@ -11,16 +11,16 @@ tags:
 draft: false
 date: 2026-01-30
 ---
+# Getting Started
+Fundamental Principles of Organizing Files and Folders.
 
-# Fundamental Principles of Organizing Files and Folders.
-IN this section you'll learn why good organization matters, see examples of effective structures, understand how the organizational patterns used in this course help you (and others) find what you need quickly, and discover why developers need personal infrastructure that matches organizational standards.
+In this section you'll learn why good organization matters, see examples of effective structures, understand how the organizational patterns used in this course help you (and others) find what you need quickly, and discover why developers need personal infrastructure that matches organizational standards.
 
-Our goal in this course is to take your from the first level of understanding: I don't know what I don't know to level 2: I know what I don't know.
+The goal in this course is to take your from the first level of understanding: I don't know what I don't know to level 2: I know what I don't know.
 
 Don't try to memorize or learn all the concepts you see here.  Work through the entire course, and we will reinforce the important concepts multiple times. For now, it is enough to grasp the "why" behind our organizational choices, not a deep dive into every possible file structure pattern. By the end, you'll understand why we organize repositories the way we do, and you'll be able to navigate and contribute to well-organized projects.
 
 ---
-
 ## Why File Organization Matters
 
 Imagine you're a new employee at a software company. On your first day, your manager says: "Welcome! Your first task is to update the user authentication system. All the files you need are somewhere in our codebase. Good luck!"
@@ -76,7 +76,6 @@ Even without instructions, you can immediately see:
 - Where to add new files
 
 ---
-
 ## The New Employee Test
 
 A simple test for good organization: **Can a new team member find what they need without asking?**
@@ -96,7 +95,6 @@ When files are organized logically, the structure itself becomes a form of commu
 - Mistakes from putting files in the wrong place
 
 ---
-
 ## Industry Standard Project Structures
 
 The software development industry has converged on certain organizational patterns. These aren't arbitrary—they exist because they work well for collaboration and productivity across different programming languages, frameworks, and team sizes.
@@ -123,7 +121,6 @@ my-project/
 4. **Immediately understandable**: Any developer can navigate it without explanation
 5. **Scales well**: Works for small projects and large codebases
 6. **Tool compatibility**: Build tools, IDEs, and CI/CD systems expect this structure
-
 ### Variations You'll See
 
 While the core pattern is consistent, you'll see variations:
@@ -138,7 +135,6 @@ The key is that the **separation of concerns** remains: code, tests, docs, and a
 **This is what you'll use in your projects.** When you create repositories in this course, you'll follow this industry-standard structure. It's what employers expect, what tools are designed for, and what makes collaboration possible.
 
 ---
-
 ## Principles of Good Organization
 
 While different projects use different structures, good organization follows these principles:
@@ -161,7 +157,6 @@ Organize for growth. A structure that works for 10 files should still make sense
 These principles apply whether you're organizing a single project or your entire development workspace.
 
 ---
-
 ## Understanding Git Repositories
 
 When you initialize a Git repository (using `git init` or through GitHub Desktop), Git creates a hidden `.git` folder in that directory. **This `.git` folder is what makes a directory a Git repository.**
@@ -217,7 +212,6 @@ Now that you understand how repositories work and why they shouldn't be nested, 
 - [[s1e1-plan-kbs|Exercise 1: Planning Your Knowledge Base Structure]] to get started.
 
 ---
-
 ## Your Personal Knowledge Base Structure
 
 Before you start creating repositories, you need a place to organize all your development work. This is your **knowledge base**—a well-organized folder structure that will hold your projects, learning materials, and notes.
@@ -258,7 +252,6 @@ With these organizational principles in mind, you're ready to create your own or
 - [[s1e2-creat-kbs|Exercise 2: Creating Your Project Organization Structure]] to build your knowledge base.
 
 ---
-
 ## Special Cases: Obsidian Knowledge Management
 
 Some tools have special organizational requirements. [Obsidian](https://obsidian.md/)  is a note-taking and knowledge management tool that uses Markdown files, and it's great for documenting what you're learning and organizing your knowledge.
@@ -298,7 +291,6 @@ If you want to set up a Knowledge Base in Obsidian with the proper structure, co
 As a developer, you don't work in isolation. You're part of a team, an organization, and an industry. The tools and systems you use need to work with everyone else's tools and systems.
 
 **This is why infrastructure matters.** When everyone uses similar tools and follows similar standards, collaboration becomes easier. Code flows smoothly between team members. Problems get solved faster. New team members can get up to speed quickly.
-
 ### The Organization Connection
 
 Most developers work within organizations—companies, agencies, or teams. These organizations have policies and standards:
@@ -313,11 +305,9 @@ If your organization uses [Teams](https://support.microsoft.com/en-us/topic/what
 **Your personal infrastructure should mirror your organization's infrastructure.** This doesn't mean you can't have personal preferences, but it does mean you need to be comfortable with the tools your team uses.
 
 ---
-
 ## Organizational Structures in This Course
 
 Throughout this course, you'll encounter several organizational patterns. Understanding these patterns helps you navigate the material and prepares you for real-world projects.  We will ask you to think of your own way of organizing things, but at the same time for continuity purposes, we will have you follow our set structure during the course.  Our file system is A WAY not THE Way, but it is the way we will do things during this course.
-
 ### 1. Section-Based Organization
 
 Our course content is organized by sections. Each section is designed to be reviewed in sequence, but also works as a stand alone work package:
@@ -342,7 +332,6 @@ content/
 - Documentation organized by topic
 - Training programs
 - Sequential learning resources
-
 ### 2. Section Content Organization
 
 Within each section, content is organized by type:
@@ -368,7 +357,6 @@ file-systems/
 - Courses that combine theory and practice
 
 ---
-
 ## Building Your Knowledge Base
 
 By completing this section and its exercises, you will have:
@@ -398,49 +386,50 @@ OUTSTANDING WORK!!!
 The repository you'll build throughout this course will follow professional organizational standards. By the end of this course, you'll have a portfolio piece that demonstrates not just coding skills, but also professional organizational habits.
 
 ---
-
 ## Next Steps
 
-[[c01-found/c1s2-vers-ctrl/index|Section 2: Version Control Foundations]] - Git and GitHub basics
+[C1S2: Version Control Foundations](c01-found/c1s2-vers-ctrl/index) - Git and GitHub basics
 
 ---
 ## Exercises in This Section
 
 Complete these exercises to set up your knowledge base and understand file organization:
 
-1. **[[s1e1-plan-kbs|Exercise 1: Planning Your Knowledge Base Structure]]**
+1. [Exercise 1: Planning Your Knowledge Base Structure](c01-found/c1s1-files/s1e1-plan-kbs)
    - Choose a location for your knowledge base
    - Understand the difference between a knowledge base folder and a Git repository
    - Create your top-level knowledge base folder
    - Plan your folder structure
 
-2. **[[s1e2-creat-kbs|Exercise 2: Creating Your Project Organization Structure]]**
+1. [Exercise 2: Creating Your Project Organization Structure](c01-found/c1s1-files/s1e2-creat-kbs)
    - Create organized folders for projects, learning materials, and notes
    - Set up a structure that prevents nested repositories
    - Document your organization with README files
    - Understand where future Git repositories will be placed
 
-3. **[[s1e3-obsid-kbs|Exercise 3: Setting Up Obsidian Knowledge Base]]** (Optional)
+1. [Exercise 3: Setting Up Obsidian Knowledge Base](c01-found/c1s1-files/s1e3-obsid-kbs) (Optional)
    - Set up Obsidian with the special `content/` folder structure for publishing
    - Understand how Obsidian's organization differs from standard repositories
    - Create your first notes in the proper structure
    - Document the Obsidian vault structure
+
 ---
+[Back to the Top](#Getting%20Started)
 ## Navigation
+### Section 0 Map
+- [C1S1E1:](c01-found/c1s1-files/s1e2-creat-kbs) Planning Your Knowledge Base Structure
+- [C1S1E2:](c01-found/c1s1-files/s1e2-creat-kbs) Creating Your Project Organization Structure
+- [C1S1E3:](c01-found/c1s1-files/s1e3-obsid-kbs) Setting Up Obsidian Knowledge Base (Optional)
 
-### Section Navigation
-- [[r61-fsd-university/content/c01-found/s1-files/index|Home]] - Return to the main course page
-- [[c01-found/c1s0-orientation/index|Orientation]] - Previous section
-- [[c01-found/c1s1-files/index|File Systems]] - This page
-- [[c01-found/c1s2-vers-ctrl/index|Version Control]] - Next section
-
-### Course Sections
-- [[c01-found/c1s0-orientation/index|Orientation]] - Get started here
-- [[c01-found/c1s1-files/index|File Systems]] - Organization principles
-- [[c01-found/c1s2-vers-ctrl/index|Version Control]] - Git and GitHub basics
-- [[c01-found/c1s3-html-css/index|HTML & CSS]] - Web page fundamentals
-- [[c01-found/c1s4-js/index|JavaScript Basics]] - Programming fundamentals
-- [[c01-found/c1s5-Opt-js/index|JavaScript Functions]] - Functions and optimization
-- [[s6-adv-js/index|Advanced JavaScript]] - Advanced concepts
-- [[s7-tailwind/index|Tailwind CSS]] - Modern styling
-- [[s8-tailwind-adv/index|Advanced Tailwind]] - Advanced styling
+---
+### Global Navigation
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

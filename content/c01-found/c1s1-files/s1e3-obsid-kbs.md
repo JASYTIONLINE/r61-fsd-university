@@ -13,7 +13,8 @@ draft: false
 date: 2026-01-30
 ---
 
-# Exercise 3: Setting Up Obsidian Knowledge Base (Optional)
+# What Are We Doing?
+Exercise 3: Setting Up Obsidian Knowledge Base (Optional)
 
 This exercise is written so you can complete it **without an instructor present**.
 Read each section fully before performing the steps.
@@ -302,17 +303,23 @@ Understanding Obsidian's structure:
 ## Next Steps
 
 - [[c01-found/c1s1-files/index#Special Cases: Obsidian Knowledge Management|Return to Lecture]] - Go back to the lecture section that introduced Obsidian as a special case.
+---
+[Back to the Top](#What%20are%20we%20doing?)
+## Navigation
+### Section 0 Map
+- [C1S1E1:](c01-found/c1s1-files/s1e2-creat-kbs) Planning Your Knowledge Base Structure
+- [C1S1E2:](c01-found/c1s1-files/s1e2-creat-kbs) Creating Your Project Organization Structure
+- [C1S1E3:](c01-found/c1s1-files/s1e3-obsid-kbs) Setting Up Obsidian Knowledge Base (Optional)
 
 ---
-
-## Navigation
-
-### Section Navigation
-- [[r61-fsd-university/content/c01-found/s1-files/index|Home]] - Return to main course page
-- [[c01-found/c1s1-files/index|File Systems Index]] - Return to file systems overview
-- [[s1e2-creat-kbs|Exercise 2: Creating Project Organization Structure]] - Previous exercise
-- [[s1e3-obsid-kbs|Exercise 3: Setting Up Obsidian Knowledge Base]] - This page
-
-### Related Materials
-- [[c01-found/c1s1-files/index|File Systems Lecture]] - Review the concepts
-- [[s0e6-opts|Installing Optional Tools]] - If you need to install Obsidian
+### Global Navigation
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

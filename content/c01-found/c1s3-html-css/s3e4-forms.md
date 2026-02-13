@@ -12,7 +12,16 @@ draft: false
 date: 2026-01-30
 ---
 
-# Exercise 4: Creating Forms
+# What Are We Doing?
+
+By the end of this exercise, you will have:
+
+- Created a contact form with multiple input types
+- Used proper labels associated with inputs (for accessibility)
+- Added form validation attributes
+- Understood different input types and when to use them
+- Committed your work with Git
+- Updated your remote repositoryExercise 4: Creating Forms
 
 **This exercise continues from [[s3e3-tables|Exercise 3.]] You must complete Exercise 3 first.**
 
@@ -50,16 +59,6 @@ Your branch is up to date with 'origin/main'.
 
 ---
 
-## What You Will Accomplish
-
-By the end of this exercise, you will have:
-
-- Created a contact form with multiple input types
-- Used proper labels associated with inputs (for accessibility)
-- Added form validation attributes
-- Understood different input types and when to use them
-- Committed your work with Git
-- Updated your remote repository
 
 ---
 

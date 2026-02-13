@@ -106,8 +106,9 @@ While optional, Windows Terminal makes working with the command line more pleasa
 
 - Return to the [Orientation Lecture](c01-found/c1s0-orientation/index.md#Introduction-to-git-and-versionc-control) to learn and install Git and Git Bash
 ---
-[[Back to the Top](#What%20are%20we%20doing?)
-## Section 0 Map
+[Back to the Top](#What%20are%20we%20doing?)
+## Navigation
+### Section 0 Map
 - [C1S0E1:](s0e1-Term.md) Installing Windows Terminal
 - [C1S0E2:](s0e2-gitbash.md) Installing Git Bash
 - [C1S0E3:](s0e3-vscode.md) Installing VS Code
@@ -116,7 +117,7 @@ While optional, Windows Terminal makes working with the command line more pleasa
 - [C1S0E6:](s0e6-opts.md) Installing Optional Tools
 
 ---
-## Global Navigation
+### Global Navigation
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI

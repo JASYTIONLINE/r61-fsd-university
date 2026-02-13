@@ -285,23 +285,27 @@ Now that you have completed the exercises above and set up your development envi
 
 Good luck, and welcome to the journey of becoming a full stack engineer!
 
-**Next Steps:**[C1S1: File Systems and Organization](c01-found/c1s1-files/index.md) - Learn about file organization principles. 
-
+**Next Steps:**[C1S1: File Systems and Organization](c01-found/c1s1-files/index.md) - Learn about file organization principles.
 ---
-[Back to the top](#Getting%20Started)]
-## Section 0 Map
+[Back to the Top](#What%20are%20we%20doing?)
+## Navigation
+### Section 0 Map
 - [C1S0E1:](s0e1-Term.md) Installing Windows Terminal
 - [C1S0E2:](s0e2-gitbash.md) Installing Git Bash
 - [C1S0E3:](s0e3-vscode.md) Installing VS Code
 - [C1S0E4:](s0e4-github.md) Create and Configure Your GitHub Account
 - [C1S0E5:](s0e5-desktop.md) Installing GitHub Desktop
 - [C1S0E6:](s0e6-opts.md) Installing Optional Tools
-## Course Map
-- [Section 0: Orientation](c01-found/c1s0-orientation/index.md) - Get started here
-- [Section 1: File Systems](c01-found/c1s1-files/index.md) - Organization principles
-- [Section 2: Version Control](c01-found/c1s2-vers-ctrl/index.md) - Git and GitHub basics
-- [Section 3: HTML & CSS](c01-found/c1s3-html-css/index.md) - Web page fundamentals
-- [Section 4: JavaScript Basics](c01-found/c1s4-js/index.md) - Programming fundamentals
-- [Section 5: JavaScript Functions](c01-found/c1s4-js/index.md) - Functions and optimization
-- [Section 6: Advanced JavaScript](c01-found/c1s6-adv-js/index.md) - Advanced concepts 
-- [Section 7: Tailwind CSS](c01-found/c1s6-adv-js/index.md) - Modern styling with Tailwind
+
+---
+### Global Navigation
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet
