@@ -16,7 +16,16 @@ Fundamental Principles of Organizing Files and Folders.
 
 In this section you'll learn why good organization matters, see examples of effective structures, understand how the organizational patterns used in this course help you (and others) find what you need quickly, and discover why developers need personal infrastructure that matches organizational standards.
 
-The goal in this course is to take your from the first level of understanding: I don't know what I don't know to level 2: I know what I don't know.
+Many educational platforms strive to teach you "Everything you need to know" about the subject matter it explores, but I have found this endeavor is often fruitless and results in overwhelming the student.
+
+There is a widely accepted way of viewing our level of competence in any given subject. It states there are [four levels of competence](https://en.wikipedia.org/wiki/Four_stages_of_competence).
+
+The goal in this course is to take your from the first level of understanding:
+1. Level 1: Unconscious Incompetence (I don't know what I don't know.) 
+to
+2. level 2: Conscious Incompetence (I know what I don't know.)
+
+I will leave it to you to make the rest of the journey through level 4
 
 Don't try to memorize or learn all the concepts you see here.  Work through the entire course, and we will reinforce the important concepts multiple times. For now, it is enough to grasp the "why" behind our organizational choices, not a deep dive into every possible file structure pattern. By the end, you'll understand why we organize repositories the way we do, and you'll be able to navigate and contribute to well-organized projects.
 
@@ -93,12 +102,12 @@ When files are organized logically, the structure itself becomes a form of commu
 - Extensive documentation about "where things go"
 - Questions like "where should I put this?"
 - Mistakes from putting files in the wrong place
+- losing work in the mess of files and having to re-create it
 
 ---
 ## Industry Standard Project Structures
 
 The software development industry has converged on certain organizational patterns. These aren't arbitrary—they exist because they work well for collaboration and productivity across different programming languages, frameworks, and team sizes.
-
 ### The Standard Structure
 
 Most professional projects follow this pattern:
@@ -115,22 +124,22 @@ my-project/
 
 **Why this structure is industry standard:**
 
-1. **Separates concerns**: Code, tests, and documentation are clearly separated
-2. **Language-agnostic**: Works for JavaScript, Python, Java, C#, and more
-3. **Framework-agnostic**: Used by React, Vue, Angular, Django, Flask, etc.
+1. [Separates concerns](https://en.wikipedia.org/wiki/Separation_of_concerns): Code, tests, and documentation are clearly separated
+2. [Language-agnostic:](https://en.wikipedia.org/wiki/Language-agnostic) Works for JavaScript, Python, Java, C#, and more
+3. [Framework-agnostic:](https://gist.github.com/dragontheory/1277cbace48928eef5f7ab000ef3fe74) Used by React, Vue, Angular, Django, Flask, etc.
 4. **Immediately understandable**: Any developer can navigate it without explanation
-5. **Scales well**: Works for small projects and large codebases
-6. **Tool compatibility**: Build tools, IDEs, and CI/CD systems expect this structure
+5. [Scales well:](https://en.wikipedia.org/wiki/Scalability) Works for small projects and large [codebases](https://en.wikipedia.org/wiki/Codebase)
+6. **Tool compatibility**: [Build tools](https://dev.to/vaib/top-5-essential-build-tools-for-modern-development-5694), [IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment), and [CI/CD systems](https://en.wikipedia.org/wiki/CI/CD) expect this structure
 ### Variations You'll See
 
 While the core pattern is consistent, you'll see variations:
 
-- **`lib/` or `app/`** instead of `src/` (common in some frameworks)
-- **`__tests__/` or `test/` or `spec/`** instead of `tests/` (depends on testing framework)
-- **`public/` or `static/`** instead of `assets/` (common in web projects)
-- **`dist/` or `build/`** for compiled output (created by build tools, not manually organized)
+- [lib/](https://thisvsthat.io/dll-vs-lib) or `app/`** instead of [src/](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/src) (common in some frameworks)
+- [`__tests__/` or `test/` or `spec/` instead of `tests/`](https://medium.com/@mohitkhubchandani88/understanding-web-project-folder-structure-6cc7ae62fb40) (depends on testing framework)
+- [public/](https://medium.com/@mohitkhubchandani88/understanding-web-project-folder-structure-6cc7ae62fb40) or [static/](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)** instead of `assets/` (common in web projects)
+- [dist/ or build/](https://medium.com/@mohitkhubchandani88/understanding-web-project-folder-structure-6cc7ae62fb40) for compiled output (created by build tools, not manually organized)
 
-The key is that the **separation of concerns** remains: code, tests, docs, and assets are always separated.
+The key is that the [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) remains: code, tests, docs, and assets are always separated.
 
 **This is what you'll use in your projects.** When you create repositories in this course, you'll follow this industry-standard structure. It's what employers expect, what tools are designed for, and what makes collaboration possible.
 
@@ -143,13 +152,13 @@ While different projects use different structures, good organization follows the
 Files that belong together should be together. Authentication files go with authentication files, not scattered across the project.
 
 ### 2. **Consistent Naming**
-Use consistent naming conventions. If you use `kebab-case` for folders, use it everywhere. If you number things, be consistent with the numbering system.
+Use consistent [naming conventions](https://en.wikipedia.org/wiki/Naming_convention). If you use [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case) for folders, use it everywhere. If you number things, be consistent with the numbering system.
 
 ### 3. **Self-Explanatory Names**
 Folder and file names should tell you what's inside. `user-authentication` is better than `auth` or `stuff`.
 
 ### 4. **Shallow When Possible**
-Avoid deeply nested folders when you can. `src/components/auth/login.js` is better than `src/components/user/authentication/forms/login/login.js`.
+Avoid deeply [nested folders](https://www.glarysoft.com/how-to/are-you-making-these-common-mistakes-with-folder-structure-optimization-in-windows/) when you can. `src/components/auth/login.js` is better than `src/components/user/authentication/forms/login/login.js`.
 
 ### 5. **Scalable Structure**
 Organize for growth. A structure that works for 10 files should still make sense with 1000 files.
@@ -159,9 +168,8 @@ These principles apply whether you're organizing a single project or your entire
 ---
 ## Understanding Git Repositories
 
-When you initialize a Git repository (using `git init` or through GitHub Desktop), Git creates a hidden `.git` folder in that directory. **This `.git` folder is what makes a directory a Git repository.**
-
-**Important: Repositories should not be nested inside each other.**
+When you initialize a [Git ](https://git-scm.com/video/what-is-git) Repository (using [git init](https://git-scm.com/docs/git-init) or through [GitHub](https://en.wikipedia.org/wiki/GitHub) Desktop), Git creates a hidden `.git` folder in that directory. **This `.git` folder is what makes a directory a [Git repository](https://github.com/resources/articles/what-are-code-repositories).
+**Important: [Repositories should not be nested](https://www.google.com/search?q=why+not+nest+git+inside+git&sca_esv=4b271a6f1ec3bc04&sxsrf=ANbL-n6vK6tLYJfmBTipapjackZTF5s6Jg%3A1770977859354&source=hp&ei=Q_qOabaZE-LHi-gP87nnGQ&iflsig=AFdpzrgAAAAAaY8IU6eENM44jKc2Ui5FojS7UJwq3B_c&ved=0ahUKEwj2xtbRntaSAxXi4wIHHfPcOQMQ4dUDCDI&uact=5&oq=why+not+nest+git+inside+git&gs_lp=Egdnd3Mtd2l6Iht3aHkgbm90IG5lc3QgZ2l0IGluc2lkZSBnaXQyBRAhGKABMgUQIRigATIFECEYoAFIuS1QwwJYuCtwAngAkAEBmAGeAqAB5haqAQYxOS43LjK4AQPIAQD4AQGYAh2gAoIVqAIKwgIKECMY8AUYJxjqAsICBxAjGCcY6gLCAg0QIxjwBRgnGOoCGJ4GwgINECMY8AUYgAQYJxiKBcICBBAjGCfCAgUQABiABMICCxAuGIAEGNEDGMcBwgIFEC4YgATCAgsQLhiABBjHARivAcICBhAAGBYYHsICCBAAGKIEGIkFwgIFEAAY7wXCAgcQIRigARgKwgIEECEYFcICBhAhGBUYCsICBRAhGJ8FmAMH8QX3pKONZ9TJfZIHBjIxLjcuMaAH3tEBsgcGMTkuNy4xuAf5FMIHBzEzLjE1LjHIByOACAA&sclient=gws-wiz) inside each other.**
 
 Here's what NOT to do:
 
@@ -209,7 +217,7 @@ Documents/
 **Key takeaway:** If you're setting up multiple repositories, make sure each one is in its own separate folder at the same level, not nested inside another repository. Each project should have its own `.git` folder at the root of that project, and no other `.git` folders should exist inside it.
 
 Now that you understand how repositories work and why they shouldn't be nested, you're ready to plan where yours will live. Complete:
-- [[s1e1-plan-kbs|Exercise 1: Planning Your Knowledge Base Structure]] to get started.
+- [Exercise 1: Planning Your Knowledge Base Structure](c01-found/c1s1-files/s1e1-plan-kbs) to get started.
 
 ---
 ## Your Personal Knowledge Base Structure
@@ -249,7 +257,7 @@ knowledge-base/
 - You'll create this structure in the exercises
 
 With these organizational principles in mind, you're ready to create your own organized structure. Complete:
-- [[s1e2-creat-kbs|Exercise 2: Creating Your Project Organization Structure]] to build your knowledge base.
+- [Exercise 2: Creating Your Project Organization Structure](c01-found/c1s1-files/s1e2-creat-kbs) to build your knowledge base.
 
 ---
 ## Special Cases: Obsidian Knowledge Management
@@ -283,14 +291,14 @@ To learn more about Why you should consider using Obsidian check out [this ~30mi
 or 
 
 If you want to set up a Knowledge Base in Obsidian with the proper structure, complete:
-- [[s1e3-obsid-kbs|Exercise 3: Setting Up Obsidian Knowledge Base]] (optional).
+- [Exercise 3: Setting Up Obsidian Knowledge Base](c01-found/c1s1-files/s1e3-obsid-kbs) (optional).
 
 ---
 ## Why Infrastructure Matters
 
 As a developer, you don't work in isolation. You're part of a team, an organization, and an industry. The tools and systems you use need to work with everyone else's tools and systems.
 
-**This is why infrastructure matters.** When everyone uses similar tools and follows similar standards, collaboration becomes easier. Code flows smoothly between team members. Problems get solved faster. New team members can get up to speed quickly.
+**This is why a having a [solid file infrastructure](https://mitcommlab.mit.edu/broad/commkit/file-structure/) matters.** When everyone uses similar tools and follows similar standards, collaboration becomes easier. Code flows smoothly between team members. Problems get solved faster. New team members can get up to speed quickly.
 ### The Organization Connection
 
 Most developers work within organizations—companies, agencies, or teams. These organizations have policies and standards:
