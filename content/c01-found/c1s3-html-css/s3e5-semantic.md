@@ -11,19 +11,12 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
 # Exercise 5: Using Semantic HTML Structure
-
-**This exercise continues from Exercise 4. You must complete Exercise 4 first.**
-
-**This exercise is a standalone technical manual. Follow each step exactly.**
-
 **Time Required:** 25-30 minutes
 
 ---
-
-## Prerequisites Check
-
+## Getting Started
+### Prerequisites Check
 Before starting, verify:
 
 1. ✅ **Exercise 4 completed**
@@ -46,11 +39,7 @@ nothing to commit, working tree clean
 
 **If you see this, proceed.**
 **If not, complete Exercise 4 first or resolve any uncommitted changes.**
-
----
-
-## What You Will Accomplish
-
+### What to Expect
 By the end of this exercise, you will have:
 
 - Used ID and class attributes to identify and group elements
@@ -60,7 +49,6 @@ By the end of this exercise, you will have:
 - Committed your work with Git
 
 ---
-
 ## Step 1: Understand ID and Class Attributes
 
 ### What This Step Does
@@ -84,7 +72,6 @@ ID and class attributes help you identify and organize HTML elements. They're es
 - Use kebab-case (lowercase with hyphens) for names: `main-content`, not `mainContent` or `MainContent`
 
 ---
-
 ## Step 2: Add Semantic Structure to Your Page
 
 ### What This Step Does
@@ -167,7 +154,6 @@ Changes not staged for commit:
 **If you see `index.html` listed as modified, proceed to Step 3.**
 
 ---
-
 ## Step 3: Add Section Elements and IDs
 
 ### What This Step Does
@@ -224,7 +210,6 @@ You'll organize your content into logical sections using the `<section>` element
 **You should still see `index.html` as modified. This is correct.**
 
 ---
-
 ## Step 4: Add Class Attributes to Similar Elements
 
 ### What This Step Does
@@ -273,7 +258,6 @@ You'll add class attributes to groups of similar elements. This demonstrates how
 **You should still see `index.html` as modified. This is correct.**
 
 ---
-
 ## Step 5: Add Abbreviation Element
 
 ### What This Step Does
@@ -310,7 +294,6 @@ The `<abbr>` element is a semantic way to mark abbreviations and acronyms. When 
 **You should still see `index.html` as modified. This is correct.**
 
 ---
-
 ## Step 6: Test Navigation Links
 
 ### What This Step Does
@@ -334,7 +317,6 @@ You'll test that the navigation links you created actually work. Clicking "About
 **If links don't work, check that section IDs match the href values in navigation (case-sensitive).**
 
 ---
-
 ## Step 7: Commit Your Work
 
 ### What This Step Does
@@ -439,7 +421,6 @@ nothing to commit, working tree clean
 **If you see this, your commit was successful. Proceed to final verification.**
 
 ---
-
 ## Expected Final State
 
 After completing this exercise, you should have:
@@ -478,6 +459,7 @@ You now have a well-structured HTML page with semantic elements and proper IDs a
 ---
 #### Next Steps: Return to the [HTML-CSS Lecture](6. Introduction to CSS#6.-Introduction-to-CSS)
 6. Introduction to CSS
+
 ---
 ## Troubleshooting
 

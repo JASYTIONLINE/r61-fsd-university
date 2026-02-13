@@ -11,30 +11,27 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-#  What are we doing?
-In this exercise you will be downloading and installing the Windows Terminal application. Windows Terminal gives you access to the Command Line(CL) which is a powerful text base interface.
+#  Exercise 1: Installing Windows Terminal
+In this exercise you will be downloading and installing the Windows Terminal application. 
 
+---
+## Getting Started
+Windows Terminal gives you access to the Command Line(CL) which is a powerful text base interface.
+### Prerequisites
+Make sure you have:
+
+- A Windows computer (Turn it on)
+- Reliable Internet Connection
+- Access to the Microsoft Store (or ability to download from GitHub)
+- About 5 minutes
+### What to Expect?
 By the end of this exercise, you will have:
+
 - Windows Terminal (also called the Command Line Interface) installed
 - Windows Terminal configured as your default terminal
 - Verified that Windows Terminal is working
 
-**Note:** This exercise is part of the [Orientation Section](c01-found/c1s0-orientation/index.md). Read each section fully before performing the steps
-
-Double Sticky Note: **Note:** Windows Terminal is optional but recommended. If you prefer, you can skip this exercise and use Git Bash directly (which you'll install in the next exercise).
-
----
-## Before You Start
-
-Make sure you have:
-- A Windows computer
-- Access to the Microsoft Store (or ability to download from GitHub)
-- About 5 minutes
-
-
-
----
-.
+**Note:** Windows Terminal is optional but recommended. If you prefer, you can skip this exercise and use Git Bash directly (which you'll install in the next exercise).
 
 ---
 ## Step 1: Install Windows Terminal
@@ -61,7 +58,6 @@ Instructions
 If Windows Terminal opens, the installation is successful.
 
 ---
-
 ## Step 2: Configure Windows Terminal (Optional)
 
 ### What This Step Does
@@ -82,7 +78,6 @@ You should see:
 - ✅ You can create new tabs
 
 ---
-
 ## Expected State at the End of This Exercise
 
 You should now have:
@@ -90,7 +85,6 @@ You should now have:
 - **Basic Configuration**: Ready to add Git Bash in the next exercise
 
 ---
-
 ## Why This Matters
 
 Windows Terminal provides:
@@ -106,8 +100,8 @@ While optional, Windows Terminal makes working with the command line more pleasa
 2. Introduction to Git and Version Control
 
 ---
-[Back to the Top](#What%20are%20we%20doing?)
 ## Navigation
+[Back to the Top](#Getting%20Started)
 ### Section 0 Map
 - [C1S0E1:](s0e1-Term.md) Installing Windows Terminal
 - [C1S0E2:](s0e2-gitbash.md) Installing Git Bash

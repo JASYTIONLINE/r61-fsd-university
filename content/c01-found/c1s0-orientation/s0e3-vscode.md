@@ -11,30 +11,32 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# What Are We Doing?
-VS Code is the industry-standard code editor. This is where you'll write all your code throughout this course. This exercise is part of the [[c01-found/c1s0-orientation/index|Orientation section]]. 
+# Exercise 3 Installing VS Code
+In this excercise you wil download install and configure VS Code.
 
-By the end of this exercise, you will have:
-- Visual Studio Code installed on your computer
-- VS Code configured with terminal access
-- Verified that VS Code is working correctly
----
-## Before You Start
+## Getting Started
+VS Code is the industry-standard code editor. This is where you'll write all your code throughout this course.
+### Prerequisites
+Before You Start-Make sure you have:
 
-Make sure you have:
 - A Windows computer with administrator access
 - A working internet connection
 - About 5-10 minutes
 - Git Bash installed (from Exercise 2)
+### What to Expect
+By the end of this exercise, you will have:
 
-**Important:** If you're using Mac or Linux, the installation process differs. Use ChatGPT or Google to find the equivalent steps for your operating system.
+- Visual Studio Code installed on your computer
+- VS Code configured with terminal access
+- Verified that VS Code is working correctly
+- **Important:** If you're using Mac or Linux, the installation process differs. Use ChatGPT or Google to find the equivalent steps for your operating system.
 
 ---
 ## Step 1: Download VS Code
 
 ### What This Step Does
 This downloads the VS Code installer to your computer.
-### Instructions
+#### Instructions
 1. Open your web browser
 2. Go to [code.visualstudio.com](https://code.visualstudio.com)
 3. Click **Download for Windows** (stable build)
@@ -48,7 +50,7 @@ You should see a file named something like `vscodeusersetup-x.x.x.exe` in your d
 
 ### What This Step Does
 This installs VS Code on your computer and sets up important integrations.
-### Instructions
+#### Instructions
 1. Find the downloaded file in your downloads folder
 2. Double-click the installer (vscodeusersetup-x.x.x.exe)
 3. If Windows asks for permission, click **Yes**
@@ -76,7 +78,7 @@ If you can see the VS Code interface, the installation is successful.
 ### What This Step Does
 This confirms that VS Code can access the terminal, which you'll use throughout the course.
 
-### Instructions
+#### Instructions
 1. In VS Code, open the integrated terminal:
    - Press `Ctrl + ~` (control key + tilde key)
    - Or go to **Terminal** → **New Terminal** in the menu bar
@@ -96,7 +98,7 @@ If you can see and use the terminal, VS Code is fully set up.
 
 ### What This Step Does
 This confirms that VS Code can detect Git, which you installed in Exercise 2.
-### Instructions
+#### Instructions
 1. In VS Code, open a folder (File → Open Folder)
 2. Choose any folder on your computer
 3. VS Code should detect if the folder is a Git repository (if it is, you'll see Git information in the sidebar)
@@ -127,6 +129,10 @@ VS Code is the industry-standard code editor. By installing it now, you're:
 Every exercise from now on will use VS Code. You're ready to start coding.
 
 ---
+#### Next Steps: Return to the [[c01-found/c1s0-orientation/index|Orientation Lecture]] 
+4. Introduction to GitHub
+
+---
 ## Troubleshooting
 
 If something didn't work:
@@ -140,12 +146,8 @@ If something didn't work:
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
 
 ---
-#### Next Steps: Return to the [[c01-found/c1s0-orientation/index|Orientation Lecture]] 
-4. Introduction to GitHub
-
----
-[Back to the Top](#What%20are%20we%20doing?)
 ## Navigation
+[Back to the Top](#Getting%20Started)
 ### Section 0 Map
 - [C1S0E1:](s0e1-Term.md) Installing Windows Terminal
 - [C1S0E2:](s0e2-gitbash.md) Installing Git Bash

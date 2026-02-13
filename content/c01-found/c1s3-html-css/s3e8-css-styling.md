@@ -11,19 +11,12 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
 # Exercise 8: CSS Styling Fundamentals
-
-**This exercise continues from Exercise 7. You must complete Exercise 7 first.**
-
-**This exercise is a standalone technical manual. Follow each step exactly.**
-
 **Time Required:** 30-35 minutes
 
 ---
-
-## Prerequisites Check
-
+## Getting Started
+### Prerequisites Check
 Before starting, verify:
 
 1. ✅ **Exercise 7 completed**
@@ -46,11 +39,7 @@ nothing to commit, working tree clean
 
 **If you see this, proceed.**
 **If not, complete Exercise 7 first or resolve any uncommitted changes.**
-
----
-
-## What You Will Accomplish
-
+### What To Expect?
 By the end of this exercise, you will have:
 
 - Styled text with font properties, colors, and alignment
@@ -61,7 +50,6 @@ By the end of this exercise, you will have:
 - Committed your work with Git
 
 ---
-
 ## Step 1: Organize CSS with Comments and Sections
 
 ### What This Step Does
@@ -240,7 +228,6 @@ Changes not staged for commit:
 **If you see `css/styles.css` listed as modified, proceed to Step 2.**
 
 ---
-
 ## Step 2: Add Advanced Text Styling
 
 ### What This Step Does
@@ -311,7 +298,6 @@ em {
 **You should still see `css/styles.css` as modified. This is correct.**
 
 ---
-
 ## Step 3: Add Borders and Backgrounds
 
 ### What This Step Does
@@ -382,7 +368,6 @@ button[type="submit"]:hover {
 **You should still see `css/styles.css` as modified. This is correct.**
 
 ---
-
 ## Step 4: Practice Box Model with Padding and Margin
 
 ### What This Step Does
@@ -454,7 +439,6 @@ button[type="submit"] {
 **You should still see `css/styles.css` as modified. This is correct.**
 
 ---
-
 ## Step 5: Style Form Elements
 
 ### What This Step Does
@@ -542,7 +526,6 @@ button[type="submit"]:active {
 ```
 
 2. Press **Ctrl + S** to save the file
-
 ### What to Notice
 
 - **`:focus`** - Styles applied when input is focused (user clicks in it)
@@ -567,7 +550,6 @@ button[type="submit"]:active {
 **You should still see `css/styles.css` as modified. This is correct.**
 
 ---
-
 ## Step 6: Preview Your Styled Page
 
 ### What This Step Does
@@ -596,7 +578,6 @@ You should see:
 **If something doesn't look right, check that you saved the CSS file and refresh the browser.**
 
 ---
-
 ## Step 7: Use Developer Tools to See Box Model
 
 ### What This Step Does
@@ -627,7 +608,6 @@ You'll use developer tools to visually see the box model in action. This reinfor
 **This visual understanding helps:** When spacing isn't right, you can see exactly which part of the box model is causing the issue.
 
 ---
-
 ## Step 8: Commit Your Work
 
 ### What This Step Does
@@ -765,7 +745,6 @@ nothing to commit, working tree clean
 **If you see "working tree clean", you're ready for the next exercise.**
 
 ---
-
 ## What This Sets Up for Exercise 9
 
 You now have a well-styled page with organized CSS. In the next exercise, you'll learn about CSS layout using float, display properties, and responsive design basics. You'll create page layouts and test them with developer tools.

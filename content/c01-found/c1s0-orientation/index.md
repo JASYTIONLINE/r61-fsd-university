@@ -10,14 +10,14 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# Getting Started
+# Orientation: Getting Started in Your Windows Environment
+---
+## Getting Started
 Welcome to the orientation! Before you start building web applications, you need to set up your development environment. This section will guide you through installing and configuring the essential tools you'll use throughout this course.
 
----
-## 0. Prerequisites for Success
-
+### Prerequisites for Success
 You don't need any prior programming experience to start this course, but here's what will help you succeed:
-### Essential Requirements
+#### Essential Requirements
 
 - **A Windows Computer**: This course is taught for Windows users. While most development concepts are the same across Windows, Mac, and Linux, the instructions and examples in this course are Windows-specific. If you're using Mac or Linux, you may need to do additional research to adapt certain steps to your system.
 
@@ -28,7 +28,7 @@ You don't need any prior programming experience to start this course, but here's
 - **Curiosity and Patience**: Learning to code takes time. Be patient with yourself and stay curious
 
 - **Problem-Solving Mindset**: Enjoying puzzles and logical thinking will help you get through the hard parts and make the easy stuff more enjoyable.
-### Basic Computer Skills Expected
+#### Basic Computer Skills Expected
 
 This course assumes you have basic computer skills. We won't teach you how to:
 - Open File Explorer or navigate folders
@@ -46,16 +46,17 @@ If you need help with basic computer operations (like opening a terminal or navi
 
 **Most students will never have worked in a command-line environment before.** That's okay—we'll take you through how to use the command line interface step by step. You just need to be able to open it first.
 
-### Helpful (But Not Required)
+#### Helpful (But Not Required)
 
 - **Attention to Detail**: Programming requires precision—small details matter. Get right the first time and save hours of debugging.
 - **Willingness to Practice**: The more you code, the better you'll become
 - **Comfort with Self-Directed Learning**: Being able to look up basic OS operations when needed (Google is your friend)
 
 ---
-### Course Environment: Windows Focus
+## Course Environment: Windows Focus
+This course is designed for **Windows users**. 
 
-This course is designed for **Windows users**. While the core development concepts (Git, HTML, CSS, JavaScript) work the same across all operating systems, the specific instructions, file paths, and tool setup in this course are Windows-focused.
+While the core development concepts (Git, HTML, CSS, JavaScript) work the same across all operating systems, the specific instructions, file paths, and tool setup in this course are Windows-focused.
 
 **If you're using Mac or Linux:**
 - Most concepts will translate directly
@@ -75,7 +76,7 @@ Windows is the most widely used operating system, and many professional developm
 - Focus on understanding the "why" behind each step, not just the "what"
 
 ---
-### How This Course Is Structured
+## How This Course Is Structured
 
 This course follows a **section/lecture/exercise** structure, similar to how technical manuals are organized:
 
@@ -122,16 +123,13 @@ You will learn how to set up VS Code to work with the CL in this section.
 The [Windows Terminal](https://www.bing.com/ck/a?!&&p=234f3d182e978cdd9ea4c77df3a19442304b6d55695ba2e5981358cf9c250113JmltdHM9MTc3MDg1NDQwMA&ptn=3&ver=2&hsh=4&fclid=07f802bb-eb29-6f86-2b0a-1404ea816ee4&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvV2luZG93c19UZXJtaW5hbA) is Microsoft's modern terminal application for Windows. 
 
 Windows Terminal is an upgraded version of the traditional Command Prompt window. Instead of opening separate black windows for different tools, it allows you to run multiple command-line environments inside one organized application.
-
-**What it does:**
+### What it does:
 
 - You can open multiple tabs, just like a web browser. One tab might run Command Prompt, another PowerShell, and another Git Bash.
 - You can switch between different shells without opening separate programs.
 - It supports customization such as font size, themes, and layout, which makes long sessions easier on your eyes.
 - It provides better compatibility with modern development tools.
-
----
-#### Why We Use It
+### Why We Use It
 
 - The Command Line is widely used in Windows development environments.
 - It allows you to work with Git, Node, PowerShell, and other tools in one place.
@@ -153,7 +151,7 @@ Now that you concept of what a Command Line (terminal) is and why it matters, yo
 - Collaborate with others without conflicts
 - Keep a history of all your work
 
-### Why version control matters:
+#### Why version control matters:
 - Professional developers use it for every project
 - It's essential for collaboration
 - It protects you from losing work
@@ -166,7 +164,6 @@ Now that you concept of what a Command Line (terminal) is and why it matters, yo
 - A Unix-like shell environment
 - Tools for working with files and directories
 - Integration with Windows Terminal
-
 #### Why we use Git Bash:
 - Git commands work the same across all platforms
 - Professional developers use command-line Git regularly
@@ -177,8 +174,9 @@ Now that you understand Git and version control, you're ready to install Git. Co
 
 ---
 ## 3. Introduction to Code Editors
+A [Source Code Editor](https://en.wikipedia.org/wiki/Source-code_editor) is a specialized text editor designed for writing code. 
 
-A [Source Code Editor](https://en.wikipedia.org/wiki/Source-code_editor) is a specialized text editor designed for writing code. While you could write code in Notepad, code editors provide features that make development much easier.
+While you could write code in Notepad, code editors provide features that make development much easier.
 ### What Code Editors Provide
 
 - **Syntax Highlighting**: Colors code to make it easier to read
@@ -304,7 +302,6 @@ Getting Started: Fundamental Principles of Organizing Files and Folders.
 
 ---
 ## Navigation
-
 [Back to the Top](#Getting%20Started)
 ### Exercises in This Section
 Complete these exercises in order to properly configure your Windows development environment. Each exercise builds on the previous one and prepares you for professional development workflows used throughout the rest of this course.

@@ -14,16 +14,11 @@ date: 2026-01-30
 ---
 
 # Exercise 10: Capstone Project - Client Meeting Scheduler
-
-**This exercise continues from Exercise 9. You must complete Exercise 9 first.**
-
-**This exercise is a standalone technical manual. Follow each step exactly.**
-
 **Time Required:** 60-90 minutes
 
 ---
-
-## Prerequisites Check
+## Getting Started
+### Prerequisites Check
 
 Before starting, verify:
 
@@ -47,11 +42,7 @@ nothing to commit, working tree clean
 
 **If you see this, proceed.**
 **If not, complete Exercise 9 first or resolve any uncommitted changes.**
-
----
-
-## What You Will Accomplish
-
+### What To Expect?
 By the end of this exercise, you will have:
 
 - Built a complete Client Meeting Scheduler web application
@@ -65,7 +56,6 @@ By the end of this exercise, you will have:
 - Committed your work with Git
 
 ---
-
 ## Step 1: Understand the Project Requirements
 
 ### What This Step Does
@@ -85,7 +75,6 @@ You're building a Client Meeting Scheduler - a web application that allows clien
 **This is your portfolio piece:** This project demonstrates your ability to build a complete web application from scratch.
 
 ---
-
 ## Step 2: Set Up Project File Structure
 
 ### What This Step Does
@@ -155,7 +144,6 @@ nothing to commit, working tree clean
 **You should see `images/` as an untracked directory. This is correct - you'll commit it after adding content.**
 
 ---
-
 ## Step 3: Create the HTML Structure
 
 ### What This Step Does
@@ -316,7 +304,6 @@ Untracked files:
 **You should see `index.html` modified and `images/` untracked. This is correct.**
 
 ---
-
 ## Step 4: Create Complete CSS Stylesheet
 
 ### What This Step Does
@@ -693,7 +680,6 @@ abbr {
 **You should see both `index.html` and `css/styles.css` as modified. This is correct.**
 
 ---
-
 ## Step 5: Preview Your Complete Application
 
 ### What This Step Does
@@ -729,7 +715,6 @@ You should see:
 **If something doesn't look right, check that both files are saved and refresh the browser.**
 
 ---
-
 ## Step 6: Add Data Labels for Mobile Table (Optional Enhancement)
 
 ### What This Step Does
@@ -758,7 +743,6 @@ For the mobile table layout to work properly with the CSS you added, you need to
 **This enhances mobile experience:** On mobile, each cell shows its label, making the table readable even on small screens.
 
 ---
-
 ## Step 7: Commit Your Work
 
 ### What This Step Does
@@ -874,7 +858,6 @@ nothing to commit, working tree clean
 **If you see this, your commit was successful. Proceed to final verification.**
 
 ---
-
 ## Expected Final State
 
 After completing this exercise, you should have:
@@ -909,7 +892,6 @@ nothing to commit, working tree clean
 **If you see "working tree clean", congratulations! You've completed the capstone project!**
 
 ---
-
 ## What You've Accomplished
 
 You've successfully completed Section 3: HTML & CSS Foundations! You've learned:

@@ -10,24 +10,9 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# 0: Getting Started
-In this section, you will move from managing code to actually creating what users see in a browser. 
-
-## What are we doing?
-You will learn how web pages are structured using HTML and how they are styled and laid out using CSS. By the end of this section, you will understand how websites are built from the ground up and will have created a clean, structured, and beautifully styled web page that can serve as the foundation of your professional portfolio.
-### What to Expect
-In this section, you will:
-
-- Learn HTML document structure and semantic elements
-- Understand how HTML and CSS work together
-- Build web pages with proper structure and styling
-- Use browser developer tools for debugging
-- Create responsive, accessible web pages
-- **Continue working in your repository from Section 2** (portfolio project)
-- Maintain professional Git workflow throughout
-- Build a complete Client Meeting Scheduler project
-
-**Important:** All your work in this section continues in the same repository you created in Section 2. This repository is becoming a portfolio piece.  I highly recommend following the storage location recommendations in these lectures as all links depend on files being in the right place.  Every page builds on the pages before, and most are interconnected.
+# C1S3: HTML & CSS Foundations
+In this section, you will move from managing code to actually creating what users see in a browser. You will learn how web pages are structured using HTML and how they are styled and laid out using CSS. 
+## Getting Started
 ### Prerequisites
 
 Before starting this section, make sure you have:
@@ -41,6 +26,20 @@ Before starting this section, make sure you have:
 - ✅ **Live Server extension** (we'll install this in Exercise 1 if needed)
 
 If you haven't completed Section 2, go back and complete it first. The repository you created there is essential for this section.
+### What to Expect
+In this section, you will:
+
+- Learn HTML document structure and semantic elements
+- Understand how HTML and CSS work together
+- Build web pages with proper structure and styling
+- Use browser developer tools for debugging
+- Create responsive, accessible web pages
+- **Continue working in your repository from Section 2** (portfolio project)
+- Maintain professional Git workflow throughout
+- Build a complete Client Meeting Scheduler project
+-  By the end of this section, you will understand how websites are built from the ground up and will have created a clean, structured, and beautifully styled web page that can serve as the foundation of your professional portfolio.
+
+**Important:** All your work in this section continues in the same repository you created in Section 2. This repository is becoming a portfolio piece.  I highly recommend following the storage location recommendations in these lectures as all links depend on files being in the right place.  Every page builds on the pages before, and most are interconnected.
 
 ---
 ## 1. How Browsers Work

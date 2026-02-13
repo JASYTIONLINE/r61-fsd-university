@@ -12,18 +12,12 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
 # Exercise 9: CSS Layout with Float
-
-**This exercise continues from Exercise 8. You must complete Exercise 8 first.**
-
-**This exercise is a standalone technical manual. Follow each step exactly.**
-
 **Time Required:** 30-35 minutes
 
 ---
-
-## Prerequisites Check
+## Getting Started
+### Prerequisites Check
 
 Before starting, verify:
 
@@ -48,10 +42,7 @@ nothing to commit, working tree clean
 **If you see this, proceed.**
 **If not, complete Exercise 8 first or resolve any uncommitted changes.**
 
----
-
-## What You Will Accomplish
-
+### What To Expect?
 By the end of this exercise, you will have:
 
 - Understood CSS display properties (block, inline, inline-block)
@@ -62,7 +53,6 @@ By the end of this exercise, you will have:
 - Committed your work with Git
 
 ---
-
 ## Step 1: Understand Display Properties
 
 ### What This Step Does
@@ -79,7 +69,6 @@ Every HTML element has a display property that determines how it behaves in the 
 **Why it matters:** Display properties control the fundamental layout behavior. Changing display can completely change how elements are positioned.
 
 ---
-
 ## Step 2: Add Display Properties to CSS
 
 ### What This Step Does
@@ -142,7 +131,6 @@ Changes not staged for commit:
 **If you see `css/styles.css` listed as modified, proceed to Step 3.**
 
 ---
-
 ## Step 3: Create a Two-Column Layout with Float
 
 ### What This Step Does
@@ -264,7 +252,6 @@ Changes not staged for commit:
 **You should see both files modified. This is correct.**
 
 ---
-
 ## Step 4: Clear Floats
 
 ### What This Step Does
@@ -312,7 +299,6 @@ When you use float, you often need to "clear" floats to prevent layout issues. E
 **You should still see both files as modified. This is correct.**
 
 ---
-
 ## Step 5: Understand Responsive Design
 
 ### What This Step Does
@@ -328,7 +314,6 @@ Responsive design makes web pages work on all screen sizes - from large desktop 
 **Why it matters:** More people browse on mobile devices than desktop. Responsive design ensures your site works for everyone.
 
 ---
-
 ## Step 6: Add Media Queries for Responsive Design
 
 ### What This Step Does
@@ -400,7 +385,6 @@ You'll add media queries that change your layout for smaller screens. On mobile 
 **You should still see both files as modified. This is correct.**
 
 ---
-
 ## Step 7: Test Responsive Design with Developer Tools
 
 ### What This Step Does
@@ -432,7 +416,6 @@ Developer tools have a responsive design mode that lets you test how your page l
 **This is how developers test responsive design:** Developer tools let you test multiple screen sizes quickly without needing actual devices.
 
 ---
-
 ## Step 8: Review Viewport Meta Tag
 
 ### What This Step Does
@@ -461,7 +444,6 @@ You'll verify that the viewport meta tag is in your HTML (you added it in Exerci
 **This is the foundation of responsive design:** The viewport meta tag makes everything else possible.
 
 ---
-
 ## Step 9: Commit Your Work
 
 ### What This Step Does
@@ -568,7 +550,6 @@ nothing to commit, working tree clean
 **If you see this, your commit was successful. Proceed to final verification.**
 
 ---
-
 ## Expected Final State
 
 After completing this exercise, you should have:

@@ -12,19 +12,12 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
 # Exercise 6: Introduction to CSS
-
-**This exercise continues from Exercise 5. You must complete Exercise 5 first.**
-
-**This exercise is a standalone technical manual. Follow each step exactly.**
-
 **Time Required:** 30-35 minutes
 
 ---
-
-## Prerequisites Check
-
+## Getting Started
+### Prerequisites Check
 Before starting, verify:
 
 1. ✅ **Exercise 5 completed**
@@ -47,11 +40,7 @@ nothing to commit, working tree clean
 
 **If you see this, proceed.**
 **If not, complete Exercise 5 first or resolve any uncommitted changes.**
-
----
-
-## What You Will Accomplish
-
+## What To Expect
 By the end of this exercise, you will have:
 
 - Added inline CSS styles to understand how CSS works
@@ -62,7 +51,6 @@ By the end of this exercise, you will have:
 - Committed your work with Git
 
 ---
-
 ## Step 1: Understand How HTML and CSS Work Together
 
 ### What This Step Does
@@ -83,7 +71,6 @@ Before adding CSS, it's important to understand how HTML and CSS work together. 
 For this exercise, you'll try inline styles first (to see how CSS works), then move to external stylesheets (the best practice).
 
 ---
-
 ## Step 2: Add Inline CSS to Understand How It Works
 
 ### What This Step Does
@@ -140,7 +127,6 @@ Changes not staged for commit:
 **If you see `index.html` listed as modified, proceed to Step 3.**
 
 ---
-
 ## Step 3: Create CSS Folder Structure (File Organization)
 
 ### What This Step Does
@@ -182,7 +168,6 @@ css  index.html  README.md
 **If not, make sure you created it in the repository root (same level as index.html).**
 
 ---
-
 ## Step 4: Create CSS File with Proper Naming
 
 ### What This Step Does
@@ -235,7 +220,6 @@ no changes added to commit (use "git add" or "git commit -a")
 **You should see `css/` listed as an untracked directory. This is correct - Git detects the new folder.**
 
 ---
-
 ## Step 5: Add CSS to Your Stylesheet
 
 ### What This Step Does
@@ -294,7 +278,6 @@ p {
 **You should see both `index.html` and `css/` listed. This is correct.**
 
 ---
-
 ## Step 6: Link CSS File to HTML
 
 ### What This Step Does
@@ -348,7 +331,6 @@ Untracked files:
 **You should see both `index.html` modified and `css/` as untracked. This is correct.**
 
 ---
-
 ## Step 7: Preview Your Styled Page
 
 ### What This Step Does
@@ -376,7 +358,6 @@ You should see:
 - You're viewing the page with Live Server (not by opening the file directly)
 
 ---
-
 ## Step 8: Understand the CSS Box Model
 
 ### What This Step Does
@@ -430,7 +411,6 @@ section {
 **Preview:** Refresh your browser and you should see sections have spacing and borders around them.
 
 ---
-
 ## Step 9: Use Browser Developer Tools
 
 ### What This Step Does
@@ -461,7 +441,6 @@ Browser developer tools let you inspect your HTML and CSS, see which styles are 
 **This is how developers debug CSS:** Developer tools are essential for understanding why styles aren't applying, seeing the box model in action, and testing changes before committing them.
 
 ---
-
 ## Step 10: Commit Your Work
 
 ### What This Step Does
@@ -573,7 +552,6 @@ nothing to commit, working tree clean
 **If you see this, your commit was successful. Proceed to final verification.**
 
 ---
-
 ## Expected Final State
 
 After completing this exercise, you should have:
@@ -606,7 +584,6 @@ nothing to commit, working tree clean
 **If you see "working tree clean", you're ready for the next exercise.**
 
 ---
-
 ## What This Sets Up for Exercise 7
 
 You now have CSS set up with proper file organization. In the next exercise, you'll learn more about CSS selectors (how to target elements) and understand CSS cascade and specificity (how browsers decide which styles to apply when multiple rules conflict).

@@ -12,29 +12,29 @@ draft: false
 date: 2026-01-30
 ---
 
-# What Are We Doing?
-GitHub Desktop provides a visual interface for Git and GitHub, making version control easier for beginners. This exercise is part of the [[c01-found/c1s0-orientation/index|Orientation section]]. 
+# Exercise 5: Installing GitHub Desktop
+Install and configure GitHub Desktop,
 
+## Getting Started
+GitHub Desktop provides a visual interface for Git and GitHub, making version control easier for beginners. 
+### Prerequisites:
+Before You Start - Make sure you have:
+- A Windows computer with administrator access
+- A working internet connection
+- A GitHub account (created in Exercise 4)
+- About 5-10 minutes
+### What to Expect?
 By the end of this exercise, you will have:
 - GitHub Desktop installed
 - GitHub Desktop signed in to your GitHub account
 - Basic understanding of the GitHub Desktop interface
 
 ---
-## Before You Start
-
-Make sure you have:
-- A Windows computer with administrator access
-- A working internet connection
-- A GitHub account (created in Exercise 4)
-- About 5-10 minutes
-
----
 ## Step 1: Download GitHub Desktop
 
 ### What This Step Does
 This downloads the GitHub Desktop installer to your computer.
-### Instructions
+#### Instructions
 1. Open your web browser
 2. Go to [desktop.github.com](https://desktop.github.com)
 3. Click **Download for Windows**
@@ -47,7 +47,7 @@ You should see a file named something like `githubdesktopsetup-x.x.x.exe` in you
 
 ### What This Step Does
 This installs GitHub Desktop on your computer.
-### Instructions
+#### Instructions
 1. Find the downloaded file in your downloads folder
 2. Double-click the installer (githubdesktopsetup-x.x.x.exe)
 3. If Windows asks for permission, click **Yes**
@@ -71,7 +71,7 @@ If GitHub Desktop opens, the installation is successful.
 ### What This Step Does
 This connects GitHub Desktop to your GitHub account so you can use it to manage repositories.
 
-### Instructions
+#### Instructions
 1. When GitHub Desktop opens, you'll be prompted to sign in
 2. Click **Sign in to GitHub.com**
 3. You'll be taken to a browser window
@@ -92,7 +92,7 @@ If you can see the GitHub Desktop interface and you're signed in, the setup is s
 
 ### What This Step Does
 This helps you understand the basic GitHub Desktop interface.
-### Instructions
+#### Instructions
 1. Look at the main interface:
    - **File menu**: Create repository, clone repository, options
    - **Repository list**: Shows your repositories (empty for now)
@@ -150,8 +150,8 @@ If something didn't work:
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
 
 ---
-[Back to the Top](#What%20are%20we%20doing?)
 ## Navigation
+[Back to the Top](#Getting%20Started)
 ### Section 0 Map
 - [C1S0E1:](s0e1-Term.md) Installing Windows Terminal
 - [C1S0E2:](s0e2-gitbash.md) Installing Git Bash

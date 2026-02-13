@@ -11,29 +11,30 @@ draft: false
 date: 2026-01-30
 ---
 
-# What Are We Doing?
-GitHub is where you'll store your code online and build your portfolio. You need an account before you can use GitHub. This exercise is part of the [[c01-found/c1s0-orientation/index|Orientation section]]. 
+# Exercise 4: Create and Configure Your GitHub Account
 
+## Getting Started
+GitHub is where you'll store your code online and build your portfolio. You need an account before you can use GitHub. 
+### Prerequisites
+Before You Start - Make sure you have:
+
+- A working internet connection
+- An email address (for creating the account)
+- About 10-15 minutes
+### What to Expect?
 By the end of this exercise, you will have:
+
 - A GitHub account created and verified
 - Basic profile information set up
 - Understanding of the GitHub interface
 - Access to GitHub's features
 
 ---
-## Before You Start
-
-Make sure you have:
-- A working internet connection
-- An email address (for creating the account)
-- About 10-15 minutes
-
----
 ## Step 1: Create a GitHub Account
 
 ### What This Step Does
 This creates your GitHub account, which you'll use to store and share code.
-### Instructions
+#### Instructions
 1. Open your web browser
 2. Go to [github.com](https://github.com)
 3. Click **Sign up** (top right corner)
@@ -64,7 +65,7 @@ If you can do these things, your GitHub account is ready.
 
 ### What This Step Does
 This makes your GitHub profile more professional and helps others understand who you are.
-### Instructions
+#### Instructions
 1. While logged in to GitHub, click your profile picture (top right)
 2. Click **Your profile**
 3. Click **Edit profile** (button near your profile picture)
@@ -87,7 +88,7 @@ You should see:
 
 ### What This Step Does
 This helps you understand the basic GitHub interface so you can navigate it confidently.
-### Instructions
+#### Instructions
 1. Look at the top navigation bar:
    - **GitHub logo**: Takes you to your dashboard
    - **Search bar**: Search for repositories, users, code
@@ -145,9 +146,10 @@ If something didn't work:
 3. **Username already taken**: GitHub usernames must be unique. Try a different variation of your desired username.
 
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
+
 ---
-[Back to the Top](#What%20are%20we%20doing?)
 ## Navigation
+[Back to the Top](#Getting%20Started)
 ### Section 0 Map
 - [C1S0E1:](s0e1-Term.md) Installing Windows Terminal
 - [C1S0E2:](s0e2-gitbash.md) Installing Git Bash

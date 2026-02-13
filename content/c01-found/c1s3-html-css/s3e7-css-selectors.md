@@ -11,19 +11,12 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
 # Exercise 7: CSS Selectors
-
-**This exercise continues from Exercise 6. You must complete Exercise 6 first.**
-
-**This exercise is a standalone technical manual. Follow each step exactly.**
-
 **Time Required:** 30-35 minutes
 
 ---
-
-## Prerequisites Check
-
+## Getting Started
+### Prerequisites Check
 Before starting, verify:
 
 1. ✅ **Exercise 6 completed**
@@ -46,11 +39,7 @@ nothing to commit, working tree clean
 
 **If you see this, proceed.**
 **If not, complete Exercise 6 first or resolve any uncommitted changes.**
-
----
-
-## What You Will Accomplish
-
+### What to Expect
 By the end of this exercise, you will have:
 
 - Used various CSS selectors (element, ID, class, descendant)
@@ -61,7 +50,6 @@ By the end of this exercise, you will have:
 - Committed your work with Git
 
 ---
-
 ## Step 1: Understand CSS Selectors
 
 ### What This Step Does
@@ -77,7 +65,6 @@ CSS selectors are patterns that tell the browser which HTML elements to style. U
 **Why selectors matter:** The selector you choose determines which elements get styled and how specific your rule is. More specific selectors override less specific ones.
 
 ---
-
 ## Step 2: Use Element Selectors
 
 ### What This Step Does
@@ -142,7 +129,6 @@ Changes not staged for commit:
 **If you see `css/styles.css` listed as modified, proceed to Step 3.**
 
 ---
-
 ## Step 3: Use ID Selectors
 
 ### What This Step Does
@@ -193,7 +179,6 @@ ID selectors target elements with a specific ID. IDs are unique (only one elemen
 **You should still see `css/styles.css` as modified. This is correct.**
 
 ---
-
 ## Step 4: Use Class Selectors
 
 ### What This Step Does
@@ -249,7 +234,6 @@ Class selectors target elements with a specific class. Classes are reusable (man
 **You should still see `css/styles.css` as modified. This is correct.**
 
 ---
-
 ## Step 5: Use Descendant Selectors
 
 ### What This Step Does
@@ -308,7 +292,6 @@ footer p {
 **You should still see `css/styles.css` as modified. This is correct.**
 
 ---
-
 ## Step 6: Group Multiple Selectors
 
 ### What This Step Does
@@ -362,7 +345,6 @@ textarea {
 **You should still see `css/styles.css` as modified. This is correct.**
 
 ---
-
 ## Step 7: Understand CSS Cascade
 
 ### What This Step Does
@@ -406,7 +388,6 @@ section p {
 **Key takeaway:** When specificity is equal, the last rule wins. When specificity differs, the more specific rule wins.
 
 ---
-
 ## Step 8: Understand CSS Specificity
 
 ### What This Step Does
@@ -468,7 +449,6 @@ p.intro {
 **Key takeaway:** More specific selectors (higher points) always win, regardless of source order.
 
 ---
-
 ## Step 9: Use Developer Tools to Inspect Specificity
 
 ### What This Step Does
@@ -499,7 +479,6 @@ Developer tools show you which CSS rules are active, their specificity, and whic
 **This is how developers debug CSS:** When styles aren't working, developer tools show you exactly which rules are active and why others are being overridden.
 
 ---
-
 ## Step 10: Commit Your Work
 
 ### What This Step Does
@@ -604,7 +583,6 @@ nothing to commit, working tree clean
 **If you see this, your commit was successful. Proceed to final verification.**
 
 ---
-
 ## Expected Final State
 
 After completing this exercise, you should have:
@@ -636,7 +614,6 @@ nothing to commit, working tree clean
 **If you see "working tree clean", you're ready for the next exercise.**
 
 ---
-
 ## What This Sets Up for Exercise 8
 
 You now understand how to target elements with CSS selectors and how the cascade and specificity work. In the next exercise, you'll learn more about CSS styling properties (text, borders, backgrounds) and practice the box model. You'll also organize your CSS with comments and sections.

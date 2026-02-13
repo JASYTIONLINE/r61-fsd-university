@@ -12,23 +12,24 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-#  What are we doing?
-Git is the foundation of version control, and Git Bash provides a command-line interface for using Git on Windows. This exercise is part of the [[c01-found/c1s0-orientation/index|Orientation section]]. 
+#  Installing Git Bash
+In this exercise you will download, install, and configure Git Bash
+## Getting Started
+Git is the foundation of version control, and Git Bash provides a command-line interface for using Git on Windows.
+### Prerequisites
+Before You Start, Make sure you have:
 
-By the end of this exercise, you will have:
-- Git for Windows installed
-- Git Bash accessible and working
-- Git configured and ready to use
-- Git integrated with Windows Terminal (if you installed it in Exercise 1)
-
----
-## Before You Start
-
-Make sure you have:
 - A Windows computer *with administrator access*
 - A working internet connection
 - About 10-15 minutes
 - Windows Terminal installed (from Exercise 1, optional but recommended)
+### What to expect?
+By the end of this exercise, you will have:
+
+- Git for Windows installed
+- Git Bash accessible and working
+- Git configured and ready to use
+- Git integrated with Windows Terminal (if you installed it in Exercise 1)
 
 ---
 ## Step 1: Download Git for Windows
@@ -49,7 +50,7 @@ You should see a file named something like `git-x.x.x-64-bit.exe` in your downlo
 
 ### What This Step Does
 This installs Git and Git Bash on your computer with the recommended settings.
-### Instructions
+#### Instructions
 1. Find the downloaded file in your downloads folder
 2. Double-click the installer (git-x.x.x-64-bit.exe)
 3. If Windows asks for permission, click **Yes**
@@ -77,7 +78,7 @@ If you can see the Git Bash prompt, Git is installed correctly.
 
 ### What This Step Does
 This confirms that Git is installed and accessible from the command line.
-### Instructions
+#### Instructions
 1. In Git Bash, type: `git --version`
 2. Press Enter
 3. You should see something like: `git version 2.x.x`
@@ -95,7 +96,7 @@ If you see a version number, Git is installed and working.
 
 ### What This Step Does
 If you installed Windows Terminal, this adds Git Bash as a profile option.
-### Instructions
+#### Instructions
 1. Open Windows Terminal
 2. Click the dropdown arrow next to the new tab button
 3. You should now see "git bash" as an option
@@ -145,7 +146,7 @@ If something didn't work:
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
 
 ---
-[Back to the Top](#What%20are%20we%20doing?)
+[Back to the Top](#Getting%20Started)
 ## Navigation
 ### Section 0 Map
 - [C1S0E1:](s0e1-Term.md) Installing Windows Terminal

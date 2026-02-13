@@ -1,5 +1,5 @@
 ---
-title: "EC1S3E4: Creating Forms"
+title: EC1S3E
 description: Create HTML forms to collect user input. Learn about different input types, labels, and form accessibility.
 tags:
   - html
@@ -12,27 +12,13 @@ draft: false
 date: 2026-01-30
 ---
 
-# What Are We Doing?
-
-By the end of this exercise, you will have:
-
-- Created a contact form with multiple input types
-- Used proper labels associated with inputs (for accessibility)
-- Added form validation attributes
-- Understood different input types and when to use them
-- Committed your work with Git
-- Updated your remote repositoryExercise 4: Creating Forms
-
-**This exercise continues from [[s3e3-tables|Exercise 3.]] You must complete Exercise 3 first.**
-
-**Follow each step exactly.**
-
+# Exercise 4: Creating Forms
 **Time Required:** 25-30 minutes
 
 ---
+## Getting Started
 
-## Prerequisites Check
-
+### Prerequisites Check
 Before starting, verify:
 
 1. ✅ **Exercise 3 completed**
@@ -56,12 +42,17 @@ Your branch is up to date with 'origin/main'.
 **If not, complete Exercise 3 first or resolve and push any uncommitted changes.**
 
 3. ✅ **Open index.html in LIVE SERVER.**
+### What to Expect
+By the end of this exercise, you will have:
+
+- Created a contact form with multiple input types
+- Used proper labels associated with inputs (for accessibility)
+- Added form validation attributes
+- Understood different input types and when to use them
+- Committed your work with Git
+- Updated your remote repository 
 
 ---
-
-
----
-
 ## Step 1: Understand Forms and Their Purpose
 
 ### What This Step Does
@@ -84,7 +75,6 @@ Forms allow users to submit data to your website. They're essential for many web
 For this exercise, you'll create a contact form that demonstrates these concepts.
 
 ---
-
 ## Step 2: Create a Basic Contact Form
 
 ### What This Step Does
@@ -154,7 +144,6 @@ no changes added to commit (use "git add" and/or "git commit -a")
 **If you see `index.html` listed as modified, proceed to Step 3.**
 
 ---
-
 ## Step 3: Add More Input Types
 
 ### What This Step Does
@@ -208,7 +197,6 @@ HTML provides many input types for different kinds of data. You'll add a few mor
 **You should still see `index.html` as modified. This is correct.**
 
 ---
-
 ## Step 4: Preview Your Form
 
 ### What This Step Does
@@ -247,7 +235,6 @@ Try these interactions:
 **If something doesn't work, check that you saved the file and that all attributes are correct.**
 
 ---
-
 ## Step 5: Understand Form Submission (Conceptual)
 
 ### What This Step Does
@@ -269,7 +256,6 @@ This step explains what happens when forms are submitted. You won't actually mak
 **Note:** The form structure you're creating is correct. Making it actually submit data requires backend code (which you'll learn in later courses). For now, focus on creating properly structured, accessible forms.
 
 ---
-
 ## Step 6: Commit Your Work
 
 ### What This Step Does
@@ -374,7 +360,6 @@ nothing to commit, working tree clean
 **If you see this, your commit was successful. Proceed to final verification.**
 
 ---
-
 ## Expected Final State
 
 After completing this exercise, you should have:
@@ -405,13 +390,15 @@ nothing to commit, working tree clean
 **If you see "working tree clean", you're ready for the next exercise.**
 
 ---
-
 ## What This Sets Up for Exercise 5
 
 You now understand how to create forms for collecting user input. In the next exercise, you'll learn about semantic HTML structure, including how to use ID and class attributes, and semantic elements like header, footer, nav, and section. This will help you organize your page structure better.
 
 ---
+#### Next Steps: [Return to Lecture](c01-found/c1s3-html-css/index#5.-Semantic-HTML-Structure)
+5. Semantic HTML Structure
 
+---
 ## Troubleshooting
 
 ### Problem: Labels don't focus inputs when clicked
@@ -441,10 +428,6 @@ You now understand how to create forms for collecting user input. In the next ex
 - Make sure each `<option>` is inside the `<select>` tag
 - Verify option tags are properly closed: `</option>`
 - Check that you saved the file
-
----
-#### Next Steps: [Return to Lecture](c01-found/c1s3-html-css/index#5.-Semantic-HTML-Structure)
-5. Semantic HTML Structure
 
 ---
 ## Navigation

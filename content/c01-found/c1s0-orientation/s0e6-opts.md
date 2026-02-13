@@ -13,23 +13,22 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# What Are We Doing?
+# Installing Optional Tools
 This exercise covers optional tools mentioned in the [[c01-found/c1s1-files/index|File Systems lecture]]. 
 
-By the end of this exercise, you will have (optionally):
-- Cursor installed (AI-powered code editor)
-- Obsidian installed (note-taking and knowledge management tool)
-
+## Getting Started
 **Note:** Both tools are optional. You can complete this course using only VS Code (from Orientation) and basic note-taking. These tools are just enhancements if you want them.
 
----
-## Before You Start
-
-Make sure you have:
+### Prerequisites:
+Before You Start - Make sure you have:
 - A Windows computer with administrator access
 - A working internet connection
 - About 10-15 minutes (if installing both tools)
 - VS Code already installed (from Orientation Exercise 3)
+### What to Expect?
+By the end of this exercise, you will have (optionally):
+- Cursor installed (AI-powered code editor)
+- Obsidian installed (note-taking and knowledge management tool)
 
 ---
 ## Part 1: Installing Cursor (Optional)
@@ -46,7 +45,7 @@ Cursor is an AI-powered code editor based on VS Code. It has built-in AI assista
 **Note:** Cursor is an alternative to VS Code. You can use either, but we'll primarily use VS Code in this course since it's the industry standard. Cursor is just an additional tool if you want AI assistance.
 
 **Double Sticky Note:** Cursor is a paid subscription program.
-### Instructions
+#### Instructions
 1. Open your web browser
 2. Go to [cursor.sh](https://cursor.sh)
 3. Click **Download**
@@ -77,7 +76,7 @@ If Cursor opens, the installation is successful.
 - Works with plain text files (future-proof)
 
 **Note:** Obsidian is optional. You can take notes in any text editor or even on paper. Obsidian is just a nice tool for organizing your learning.
-### Instructions
+#### Instructions
 1. Open your web browser
 2. Go to [obsidian.md](https://obsidian.md)
 3. Click **Download**
@@ -126,6 +125,10 @@ You should now have (optionally):
 Both tools are optional but can enhance your development and learning experience if you choose to use them.
 
 ---
+#### Next Steps: [Return to Lecture](c01-found/c1s0-orientation/index#7.-Recap:-Tools-You-Have-Installed-in-This-Section)
+7. Recap: Tools You Have Installed in This Section
+
+---
 ## Troubleshooting
 
 If something didn't work:
@@ -139,12 +142,8 @@ If something didn't work:
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
 
 ---
-#### Next Steps: [Return to Lecture](c01-found/c1s0-orientation/index#7.-Recap:-Tools-You-Have-Installed-in-This-Section)
-7. Recap: Tools You Have Installed in This Section
-
----
-[Back to the Top](#What%20are%20we%20doing?)
 ## Navigation
+[Back to the Top](#Getting%20Started)
 ### Section 0 Map
 - [C1S0E1:](s0e1-Term.md) Installing Windows Terminal
 - [C1S0E2:](s0e2-gitbash.md) Installing Git Bash

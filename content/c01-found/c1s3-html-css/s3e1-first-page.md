@@ -11,16 +11,13 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# Getting Started:
-Exercise 1: Creating Your First Webpage
-
-**This exercise continues from Section 2. You must complete Section 2 first. Follow each step exactly.**
-
+# Exercise 1: Creating Your First Webpage
 **Time Required:** 20-25 minutes
 
 ---
+## Getting Started:
 
-## Prerequisites Check
+### Prerequisites Check
 
 Before starting, verify:
 
@@ -49,11 +46,7 @@ nothing to commit, working tree clean
 
 **If you see this, proceed.**
 **If not, complete Section 2 first or resolve any uncommitted changes.**
-
----
-
-## What You Will Accomplish
-
+### What to Expect?
 By the end of this exercise, you will have:
 
 - Created a properly structured HTML document
@@ -64,7 +57,6 @@ By the end of this exercise, you will have:
 - Committed your work with Git
 
 ---
-
 ## Step 1: Open index.html and Understand What You're Editing
 
 ### What This Step Does
@@ -79,7 +71,6 @@ By the end of this exercise, you will have:
 3. If the file already has content from Section 2, that's fine. You're about to replace it with a cleaner, properly structured HTML template.
 
 ---
-
 ## Step 2: Replace the File with Basic HTML Template
 
 ### What This Step Does
@@ -123,7 +114,6 @@ This creates the foundation of every HTML document. The structure you're creatin
 - **`<p>`** - This is a paragraph. Paragraphs are for body text and automatically create spacing between blocks of text.
 
 ---
-
 ## Step 3: Verify File Was Saved
 
 ### What This Step Does
@@ -166,7 +156,6 @@ no changes added to commit (use "git add" or "git commit -a")
 - Check that you actually modified the file
 
 ---
-
 ## Step 4: Install Live Server Extension (One-Time Setup)
 
 ### What This Step Does
@@ -193,7 +182,6 @@ After installation:
 **If Live Server is installed, proceed to Step 5.**
 
 ---
-
 ## Step 5: Preview Your Page in the Browser
 
 ### What This Step Does
@@ -227,6 +215,7 @@ You should see in the browser:
 - Try closing the browser tab and opening with Live Server again
 ![[live-rightpng.png]]--
 
+---
 ## Step 6: Commit Your Work
 
 ### What This Step Does

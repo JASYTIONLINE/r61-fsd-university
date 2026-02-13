@@ -12,16 +12,12 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
 # Exercise 2: Adding Rich Content Elements
-
-**This exercise continues from [[s3e1-first-page|Exercise 1]]. You must complete Exercise 1 first.** Follow each step exactly.**
 **Time Required:** 25-30 minutes
 
 ---
-
-## Prerequisites Check
-
+## Getting Started
+### Prerequisites Check
 Before starting, verify:
 
 1. ✅ **Exercise 1 completed**
@@ -46,8 +42,7 @@ nothing to commit, working tree clean
 **If you see this, proceed.**
 **If not, complete Exercise 1 first or resolve any uncommitted changes.**
 
----
-## Setup
+### Setup
 ### Part One
 Download the image we will use in this exercise.
 
@@ -81,9 +76,7 @@ Create a basic About me page
 4. Right Click and Choose "Format Document"
 5. Hit *CTRL+s* and close the document
 
----
-## What You Will Accomplish
-
+### What to Expect
 By the end of this exercise, you will have:
 
 - Added [hyperlinks](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links) (internal, external, and anchor links) to your page
@@ -94,7 +87,6 @@ By the end of this exercise, you will have:
 - Committed your work with Git (including image files)
 
 ---
-
 ## Step 1: Add [[https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links|Hyperlinks]] to Your Page
 
 ### What This Step Does
@@ -149,7 +141,6 @@ Changes not staged for commit:
 (We will commit and push later after a few more changes)
 
 ---
-
 ## Step 2: Add Lists to Your Page
 
 ### What This Step Does
@@ -276,8 +267,7 @@ Untracked files:
 **Note:** You should see both `index.html` as modified AND `local-img.jpg` as an untracked file. This is correct - the new image file needs to be added to your repository. We'll commit both files together later.
 
 ---
-
-## Step 4: Add Embedded Content with iframe
+## Step 5: Add Embedded Content with iframe
 
 ### What This Step Does
 
@@ -324,7 +314,7 @@ This is correct. We will add and commit in a minute
 
 ---
 
-## Step 5: Check Your Work with Live Server
+## Step 6: Check Your Work with Live Server
 
 ### What This Step Does
 
@@ -352,7 +342,7 @@ You should see:
 
 ---
 
-## Step 6: Add Contact Section for Anchor Link
+## Step 7: Add Contact Section for Anchor Link
 
 ### What This Step Does
 
@@ -400,8 +390,7 @@ Earlier, you added an anchor link (`href="#contact"`), but you haven't created t
 **If the anchor links work, proceed to Step 7.**
 
 ---
-
-## Step 7: Commit Your Work
+## Step 8: Commit Your Work
 
 ### What This Step Does
 
@@ -518,24 +507,10 @@ nothing to commit, working tree clean
 **If you see this, your commit was successful. Proceed to final verification.**
 
 ---
-
-## Expected Final State
-
-After completing this exercise, you should have:
-
-- ✅ Hyperlinks added (external, internal, and anchor links)
-- ✅ Ordered and unordered lists on your page
-- ✅ Two images with proper alt text (one local file, one remote URL)
-- ✅ `local-img.jpg` file saved in your project folder
-- ✅ Embedded content using iframe
-- ✅ Contact section with ID for anchor link
-- ✅ All changes committed to Git (including the image file)
-- ✅ Working tree clean
-
-### Final Step
+### Step 10 Push Change to Remote Repository
 Push your local changes to the remote server on GitHub
 
-1. In the terminal, type exactly:
+1. In the VS Code Terminal, type the following command:
    ```bash
    git push
    ```
@@ -580,7 +555,6 @@ You now have a page with rich content elements. In the next exercise, you'll lea
 - External links should work if you have internet connection
 - Internal links (like `about.html`) won't work yet because that file doesn't exist - that's expected
 - Anchor links should work if you added the `id="contact"` attribute correctly
-
 ### Problem: Local image doesn't display
 
 **Solution:**
@@ -590,7 +564,6 @@ You now have a page with rich content elements. In the next exercise, you'll lea
 - Make sure you saved the HTML file
 - Try refreshing the browser
 - Check the browser console (F12) for error messages about the image path
-
 ### Problem: Remote image doesn't display
 
 **Solution:**
@@ -599,14 +572,12 @@ You now have a page with rich content elements. In the next exercise, you'll lea
 - Make sure you saved the file
 - Try refreshing the browser
 - Some networks block external image requests - try a different network if possible
-
 ### Problem: iframe shows blank or error
 
 **Solution:**
 - Some websites block embedding - this is normal and expected
 - The iframe code is correct; the source website just doesn't allow embedding
 - In real projects, you'd use services that allow embedding (YouTube, Google Maps, etc.)
-
 ### Problem: Anchor link doesn't jump to section
 
 **Solution:**

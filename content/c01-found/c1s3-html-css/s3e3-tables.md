@@ -12,17 +12,12 @@ date: 2026-01-30
 ---
 
 # Exercise 3: Creating Tables
-
-**This exercise continues from Exercise 2. You must complete [[s3e2-elements|Exercise 2]] first.**
-
-** Follow each step exactly.**
-
 **Time Required:** 20-25 minutes
 
 ---
+## Getting Started
 
-## Prerequisites Check
-
+### Prerequisites Check
 Before starting, verify:
 
 1. ✅ **Exercise 2 completed**
@@ -53,21 +48,17 @@ Your branch is up to date with 'origin/main'.
 
 **If you see this, proceed.**
 **If not, complete Exercise 2 first or resolve and push any uncommitted changes.**
-
----
-
-## What You Will Accomplish
-
+### What to Expect?
 By the end of this exercise, you will have:
 
 - Created a properly structured HTML table
-- Used semantic table elements (thead, tbody, th, td)
+- Used semantic table elements `<thead>, <tbody>, <th>, <td>)`
 - Added a table caption
 - Understood when and how to use tables
 - Committed your work with Git
+- Updated Your Remote Repository
 
 ---
-
 ## Step 1: Understand When to Use Tables
 
 ### What This Step Does
@@ -88,7 +79,6 @@ Before creating a [table in HTML](https://developer.mozilla.org/en-US/docs/Learn
 For this exercise, you'll create a simple schedule table to demonstrate table structure.
 
 ---
-
 ## Step 2: Add a Table to Your Page
 
 ### What This Step Does
@@ -206,7 +196,6 @@ Changes to be committed:
 - proceed to Step 3.**
 
 ---
-
 ## Step 3: Preview Your Table
 
 ### What This Step Does
@@ -234,7 +223,6 @@ You should see:
 **If the table doesn't look right, check that you saved the file and that all tags are properly closed.**
 
 ---
-
 ## Step 4: Add More Table Rows (Optional Practice)
 
 ### What This Step Does
@@ -278,7 +266,6 @@ This step gives you practice adding more data to your table. In real projects, t
 **You should still see `index.html` as modified. This is correct.**
 
 ---
-
 ## Step 5: Commit Your Work
 
 ### What This Step Does
@@ -401,7 +388,6 @@ nothing to commit, working tree clean
 **If you see this, your commit was successful, PUSH your commit and proceed to final verification.**
 
 ---
-
 ## Expected Final State
 
 After completing this exercise, you should have:
@@ -431,7 +417,6 @@ Your branch is up to date with 'origin/main'.
 **If you see "Your branch is up to date...", you're ready for the next exercise.**
 
 ---
-
 ## What This Sets Up for Exercise 4
 
 You now understand how to create tables for organizing structured data. In the next exercise, you'll learn about forms, which allow users to submit data to your website. Forms are essential for contact forms, search boxes, login pages, and any interactive data collection.
