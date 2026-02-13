@@ -417,7 +417,7 @@ After completing this exercise, you should have:
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
-- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 03:](c03-fe-react/index.md) Designing a Dynamic Frontend with React
 - [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
 - [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
 - [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases

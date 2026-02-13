@@ -1,5 +1,5 @@
 ---
-title: "C01: Foundations of Front-end Development"
+title: "C1S01: Foundations of Front-end Development"
 description: A beginner-friendly course covering version control, HTML, CSS, JavaScript, and modern front-end development practices.
 tags:
   - course
@@ -10,76 +10,202 @@ draft: false
 date: 2026-01-30
 enableToc: true
 ---
+# Lecture C1S01: Foundations of Front-end Development
 
-# Foundations of Front-end Development
+---
+## About this Section
+Welcome to ...
+### Prerequisites:
+Before starting this section, make sure you have:
+- ✅ Task 1
+	 - Subtask 1
+- ✅ Task 2
+### What to Expect
+In this section, you will:
+- Learn ...
+- Understand ...
+- Set up...
+- Create..
+- Manage... 
+- Track... 
+- Work with...
+- Develop ...
 
-## About This Course
+---
+##  0. topic 0 Intro
 
-Welcome to the **Foundations of Front-end Development** course. This is a comprehensive, beginner-friendly program designed to teach you the essential skills needed to become a [front-end developer.](https://www.bing.com/ck/a?!&&p=e2877549ce424abf9b315d310a43615978f6699054321d9b29d7028045883848JmltdHM9MTc3MDg1NDQwMA&ptn=3&ver=2&hsh=4&fclid=07f802bb-eb29-6f86-2b0a-1404ea816ee4&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRnJvbnQtZW5kX3dlYl9kZXZlbG9wbWVudA) 
+What are we talking about?
+### Problem Statement
+Why are we talking about it
+### The Solution:
+What are we goig to do about it
 
-This course is part of a larger [full-stack](https://en.wikipedia.org/wiki/Front_end_and_back_end) development series that will eventually cover the complete [MERN Stack](https://dev.to/utkarsh_singh_/understanding-the-mern-stack-a-beginners-guide-5d1k) (MongoDB, Express, React, Node.js). Here, we focus on building a solid foundation in Front End Web Engineering:
+---
+## Background (context)
+---
+### The Solution: Explain the process
 
-- Creating your Knowledge Base with a solid expandable file structure
-- **Version Control** - Professional Git and GitHub workflows
-- **HTML & CSS** - Building and styling web pages
-- **JavaScript Fundamentals** - Core programming concepts
-- **Advanced JavaScript** - Functions, strings, and optimization
-- **Modern Front-end Tools** - Tailwind CSS and advanced techniques
+---
+## 1. Topic 1 
+caption
 
-Although this course come with a complete lecture series and is designed to be experienced in a linear fashion starting with [Course 01 Section 0](c01-found/c1s0-orientation/index.md), each lesson is structured as a **workbook** that you can complete independent of the course lecture at your own pace, without requiring an instructor.
-
-I do recommend completing the exercises in order since each exercise builds on the exercise preceding it. Upon completion of all the exercises, you will have a comprehensive portfolio-ready repository that demonstrates your skills as a Full Stack Engineer and a showcases the professional development practices you will develop throughout the course.
+### Why ?
+### What?
+### How?
 
 ---
 
-## Course Overview
-
-Although I do recommend starting at the beginning, you may navigate to any section using the links below. Each section contains a comprehensive lecture (index.md) covering all concepts, and focused exercises (exercise-N-name.md) that practice individual concepts.
-
-### [Orientation: Getting Started in a Windows Environment](c01-found/c1s0-orientation/index.md)
-Get oriented with full stack engineering. Learn what it means to be a full stack engineer, understand prerequisites, and set up your development environment (Windows Terminal, Git Bash, VS Code).
-
-### [File Systems and Organization](c01-found/c1s1-files/index.md)
-Introduction to file organization principles and developer infrastructure. Learn why logical file structures matter, understand organizational patterns, and set up your GitHub account and tools.
-
-### [Version Control Foundations](c01-found/c1s2-vers-ctrl/index.md)
-Comprehensive introduction to Git and GitHub. Learn all version control concepts through focused exercises: authentication, repositories, commits, branches, merging, and professional workflows.
-
-### [HTML & CSS](c01-found/c1s3-html-css/index.md)
-Create your first web pages and learn to structure and style content. Build on the repository from Version Control as you develop real web development skills.
-
-### [JavaScript Fundamentals](c01-found/c1s4-js/index.md)
-Introduction to JavaScript programming. Learn core concepts, syntax, and how to make your web pages interactive.
-
-### [Optimizing JavaScript Functions & Strings](c01-found/c1s5-Opt-js/index.md)
-Deep dive into JavaScript functions, string manipulation, and optimization techniques. Learn to write efficient, maintainable code.
-
-### [Advanced JavaScript](c01-found/c1s6-adv-js/index.md)
-Explore advanced JavaScript concepts including prototypes, closures, and modern ES6+ features.
-
-### [Advanced Elements & Tailwind CSS](c01-found/c1s6-adv-js/index.md)
-Modern CSS frameworks and advanced styling techniques. Learn to build responsive, professional-looking interfaces with Tailwind CSS.
-
-Next Steps: [Orientation:](c01-found/c1s0-orientation/index.md) - Get started here by setting up Your Windows Environment
+Now that you understand... Complete [Exercise 1:]() {ex name}.
 
 ---
-[[#About This Course|Back to the top]]
-### Fundamentals of Front End Development: Course Sections
-- [Section 0: Orientation:](c01-found/c1s0-orientation/index.md) Getting Started in Your Windows Environment
-- [Section 1: File Structure: ](c01-found/c1s1-files/index.md) - Organization principles
-- [Section 2: Version Control Foundations](c01-found/c1s2-vers-ctrl/index.md) - Git and GitHub basics
-- [Section 3: HTML & CSS Foundations](c01-found/c1s3-html-css/index.md) - Web page fundamentals
-- [Section 4: JavaScript Basics](c01-found/c1s4-js/index.md) - Programming fundamentals
-- [Section 5: Optimizing Java Script](c01-found/c1s5-Opt-js/index.md) - Functions and optimization
-- [Section 6: Advanced JavaScript](c01-found/c1s6-adv-js/index.md) - Advanced concepts
-- [Section 7: Tailwind CSS](c01-found/index) - Modern styling
+## 2. Topic 2
+caption
+### Why ?
+### What?
+### How?
 
 ---
-## Global Navigation
+
+Now that you understand... Complete [Exercise 2:]() {ex name}.
+
+---
+## 3. Topic 3
+caption
+### Why ?
+### What?
+### How?
+
+---
+Now that you understand... Complete [Exercise 3:]() {ex name}.
+
+---
+## 4. Topic 4
+caption
+### Why ?
+### What?
+### How?
+
+---
+Now that you understand... Complete [Exercise 4:]() {ex name}.
+
+---
+## 5. Topic 5
+caption
+### Why ?
+### What?
+### How?
+
+---
+Now that you understand... Complete [Exercise 5:]() {ex name}.
+
+---
+## 6. Topic 6
+caption
+### Why ?
+### What?
+### How?
+
+---
+Now that you understand... Complete [Exercise 6:]() {ex name}.
+
+---
+## 7. Topic 7
+caption
+
+---
+Now that you understand... Complete [Exercise 7:]() {ex name}.
+
+---
+## Topic 8
+caption
+### Why ?
+### What?
+### How?
+
+---
+Now that you understand... Complete [Exercise 8:]() {ex name}.
+
+---
+## 9. Topic 9
+caption
+### Why ?
+### What?
+### How?
+
+---
+Now that you understand... Complete [Exercise 9:]() {ex name}.
+
+---
+## 10. Topic 10
+caption
+### Why ?
+### What?
+### How?
+
+---
+Now that you understand... Complete [Exercise 10:]() {ex name}.
+
+---
+## 11. Wrap Up: What You've Accomplished
+By completing this section and its exercises, you will have:
+
+- ✅ completed task
+- ✅ completed task
+
+You will see.
+- a tangible result
+- a tangible result
+
+This will... a benefical consequece 
+
+---
+## How This Applies to Your Learning
+As you work through this section:
+
+1. **look for**...
+2. **remember**...
+3. **relate**...
+
+Conclusion statement: 
+
+---
+#### Next Steps: [[c01-found/c1s3-html-css/index|Section 3: HTML & CSS Foundations]] 
+Start building and styling your first web page.
+
+---
+## Navigation
+[Back to the Top](#About%20This%20Section)
+### Exercises in This Section
+Complete these exercises in order to build your version control skills:
+
+1. [Exercise 1:]()
+   - bullet 1
+1. [Exercise 2:]()
+   - bullet 1
+1. [Exercise 3:]()
+   - Bullet 1
+1. [Exercise 4:]()
+   - Bullet 1
+1. [Exercise 5:]()
+   - Bullet 1
+1. [Exercise 6:]()
+   - Bullet 1
+1. [Exercise 7:]()
+   - Bullet 1
+1. [Exercise 8:]()
+   - Bullet 1
+1. . [Exercise 9]()
+   - Bullet 1
+10. [Exercise 10:]()
+   - Bullet 1
+
+---
+### Global Navigation
+
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
-- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 03:](c03-fe-react/index.md) Designing a Dynamic Frontend with React
 - [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
 - [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
 - [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases

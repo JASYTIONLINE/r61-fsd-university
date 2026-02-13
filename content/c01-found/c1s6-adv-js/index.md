@@ -1,5 +1,5 @@
 ---
-title: "C1S6: Advanced javaScript"
+title: "C1S6: Advanced JavaScript"
 description: a beginner friendly workbook lesson that introduces git and github by building one clean repository from start to finish.
 tags:
   - git
@@ -11,279 +11,205 @@ draft: false
 date: 2026-01-30
 ---
 
-# lesson 1: version control foundations
+# Lecture C1S6: Advanced JavaScript
 
-this lesson is written as a **workbook**, not a quick reference.
+---
+## About this Section
+Welcome to ...
+### Prerequisites:
+Before starting this section, make sure you have:
+- ✅ Task 1
+	 - Subtask 1
+- ✅ Task 2
+### What to Expect
+In this section, you will:
+- Learn ...
+- Understand ...
+- Set up...
+- Create..
+- Manage... 
+- Track... 
+- Work with...
+- Develop ...
 
-assume:
-- you are brand new to git and github
-- no instructor is present to answer questions
-- you are working step by step and reading as you go
+---
+##  0. topic 0 Intro
 
-take your time. do not skip explanations.
+What are we talking about?
+### Problem Statement
+Why are we talking about it
+### The Solution:
+What are we goig to do about it
+
+---
+## Background (context)
+---
+### The Solution: Explain the process
+
+---
+## 1. Topic 1 
+caption
+
+### Why ?
+### What?
+### How?
 
 ---
 
-## why this lesson matters
+Now that you understand... Complete [Exercise 1:]() {ex name}.
 
-if you complete this lesson exactly as written, you will finish with:
-
-- a real github repository
-- clean commit history
-- professional file naming
-- correct branch usage
-- a clean main branch
-
-this repository is not practice or disposable.  
-it can be shown to prospective employers as evidence that you understand professional version control habits.
-
-this lesson can stand on its own, or it can complement full stack bootcamps and training programs.
+---
+## 2. Topic 2
+caption
+### Why ?
+### What?
+### How?
 
 ---
 
-## how this lesson is structured
-
-lesson 1 is made up of **six connected exercises**.
-
-they are not independent tasks.  
-each exercise builds on the previous one.
-
-you will use:
-- one repository
-- one main branch
-- one final set of files
-
-temporary branches and changes are created only to teach concepts, then removed.
-
-at the end of the lesson, your repository will be clean and intentional.
+Now that you understand... Complete [Exercise 2:]() {ex name}.
 
 ---
-
-## before you begin
-
-### tools you need
-- a github account
-- vs code installed (or cursor as an alternative)
-- an internet connection
-
-### important habit (introduced now)
-throughout this lesson, you will run the command:
-
-```text
-git status
-```
-
-this command:
-- never changes anything
-- only reports your current state
-- is completely safe
-
-you should run it:
-- before committing
-- before switching branches
-- before merging
-- before deleting branches
-
-if you are ever unsure what to do next, run `git status` first.
+## 3. Topic 3
+caption
+### Why ?
+### What?
+### How?
 
 ---
-
-## naming rules used in this workbook
-
-all files and branches in this lesson follow these rules:
-
-- lowercase letters only
-- no spaces
-- use hyphens instead of underscores
-
-these rules prevent errors and match professional standards.
-
-examples you will see:
-- readme.md
-- index.html
-- text-branch
+Now that you understand... Complete [Exercise 3:]() {ex name}.
 
 ---
-
-## exercise 1: create your repository
-
-### goal
-create the single github repository you will use for the rest of lesson 1.
-
-### what you are doing
-a repository is a container for files and their history.  
-github stores repositories online so they can be shared and reviewed.
-
-### steps
-1. log in to github in your web browser
-2. create a new repository
-3. check the option to initialize the repository with a readme file
-4. name the repository appropriately (no spaces, lowercase recommended)
-5. clone the repository to your computer
-6. open the folder in vs code
-
-when vs code displays a message saying it detected a git repository, **click yes**.  
-this allows vs code to show helpful git information.
-
-### verify your work
-open the vs code terminal and run:
-
-```text
-git status
-```
-
-you should see:
-- you are on the main branch
-- the working tree is clean
-
-at this point, your repository contains one file:
-- readme.md
+## 4. Topic 4
+caption
+### Why ?
+### What?
+### How?
 
 ---
-
-## exercise 2: create your first tracked file
-
-### goal
-learn how git tracks files and records changes.
-
-### what you are doing
-you will create a simple html file and commit it to the repository.
-
-### steps
-1. create a file named index.html
-2. add minimal html content to the file
-3. save the file
-4. run `git status` and observe that the file is untracked
-5. stage the file
-6. run `git status` again and observe the change
-7. commit the file with a clear message
-
-### verify your work
-after committing, run:
-
-```text
-git status
-```
-
-you should see:
-- working tree clean
-- still on the main branch
-
-your repository now contains:
-- readme.md
-- index.html
+Now that you understand... Complete [Exercise 4:]() {ex name}.
 
 ---
-
-## exercise 3: create a branch
-
-### goal
-understand what a branch is and why it exists.
-
-### what you are doing
-a branch allows you to work without affecting the main version of the project.
-
-### steps
-1. create a branch named text-branch
-2. switch to the new branch
-3. run `git status` to confirm your branch
-
-### verify your work
-`git status` should show:
-- on branch text-branch
-
-your files have not changed yet. only your working context has.
+## 5. Topic 5
+caption
+### Why ?
+### What?
+### How?
 
 ---
-
-## exercise 4: make changes on a branch
-
-### goal
-see how branches isolate work.
-
-### what you are doing
-you will change index.html on the branch and observe that main is unaffected.
-
-### steps
-1. modify index.html on text-branch
-2. save the file
-3. run `git status` to see the change
-4. stage the file
-5. commit the change
-6. switch back to main
-
-### verify your work
-when you return to main:
-- index.html should revert to its earlier version
-- your changes are not visible
-
-this confirms branch isolation.
+Now that you understand... Complete [Exercise 5:]() {ex name}.
 
 ---
-
-## exercise 5: merge the branch into main
-
-### goal
-apply branch work to the main branch.
-
-### what you are doing
-merging takes completed work from a branch and integrates it into main.
-
-### steps
-1. confirm you are on main using `git status`
-2. merge text-branch into main
-3. run `git status` after the merge
-
-### verify your work
-- index.html now includes the changes from the branch
-- working tree is clean
-
-the branch work is now part of main.
+## 6. Topic 6
+caption
+### Why ?
+### What?
+### How?
 
 ---
-
-## exercise 6: clean up
-
-### goal
-leave the repository in a professional state.
-
-### what you are doing
-branches are temporary tools. once merged, they should be removed.
-
-### steps
-1. delete text-branch
-2. confirm only main remains
-3. push main to github
-
-### final state
-your repository should contain:
-
-```text
-main
-├── readme.md
-└── index.html
-```
-
-no extra branches.  
-no extra files.
+Now that you understand... Complete [Exercise 6:]() {ex name}.
 
 ---
-
-## what you accomplished
-
-you have:
-- created a real github repository
-- tracked files correctly
-- used branches safely
-- merged work intentionally
-- practiced professional habits
-
-this repository is suitable for a portfolio.
+## 7. Topic 7
+caption
 
 ---
+Now that you understand... Complete [Exercise 7:]() {ex name}.
 
-## moving forward
+---
+## Topic 8
+caption
+### Why ?
+### What?
+### How?
 
-lesson 1 built the foundation.
+---
+Now that you understand... Complete [Exercise 8:]() {ex name}.
 
-future lessons will build on this same repository and workflow.
+---
+## 9. Topic 9
+caption
+### Why ?
+### What?
+### How?
+
+---
+Now that you understand... Complete [Exercise 9:]() {ex name}.
+
+---
+## 10. Topic 10
+caption
+### Why ?
+### What?
+### How?
+
+---
+Now that you understand... Complete [Exercise 10:]() {ex name}.
+
+---
+## 11. Wrap Up: What You've Accomplished
+By completing this section and its exercises, you will have:
+
+- ✅ completed task
+- ✅ completed task
+
+You will see.
+- a tangible result
+- a tangible result
+
+This will... a benefical consequece 
+
+---
+## How This Applies to Your Learning
+As you work through this section:
+
+1. **look for**...
+2. **remember**...
+3. **relate**...
+
+Conclusion statement: 
+
+---
+#### Next Steps: [C1S7: Basic of Tailwinds](c01-found/c1s7-tailwind/index) 
+Tailwind transforms the way you style web pages by using utility classes directly in your HTML, allowing you to build clean, responsive, and professional-looking layouts quickly without managing large, separate CSS files.
+
+---
+## Navigation
+[Back to the Top](#About%20This%20Section)
+### Exercises in This Section
+Complete these exercises in order to build your version control skills:
+
+1. [Exercise 1:]()
+   - bullet 1
+1. [Exercise 2:]()
+   - bullet 1
+1. [Exercise 3:]()
+   - Bullet 1
+1. [Exercise 4:]()
+   - Bullet 1
+1. [Exercise 5:]()
+   - Bullet 1
+1. [Exercise 6:]()
+   - Bullet 1
+1. [Exercise 7:]()
+   - Bullet 1
+1. [Exercise 8:]()
+   - Bullet 1
+1. . [Exercise 9]()
+   - Bullet 1
+10. [Exercise 10:]()
+   - Bullet 1
+
+---
+### Global Navigation
+
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index.md) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

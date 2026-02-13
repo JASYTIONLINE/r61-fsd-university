@@ -9,7 +9,6 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
 # Welcome! 
 You're about to embark on a journey to become a **full Stack Web Application Engineer**. This course will teach you the essential skills needed to build modern web applications from the ground up.
 
@@ -27,7 +26,6 @@ A **full stack engineer** is a developer who can work on both the **front-end** 
 The term "full stack" refers to working across the entire technology stack—from the user interface all the way down to the database and server infrastructure.
 
 ---
-
 ## What This Course Covers
 
 This course is part of a comprehensive full stack development program that will teach you the **MERN stack**:
@@ -49,7 +47,6 @@ In this **Foundations of Front-end Development** section, we focus on building t
 Each lesson builds on the previous one, and you'll work with a single repository that becomes a portfolio piece demonstrating your professional development skills.
 
 ---
-
 ## What Makes This Course Different
 
 This course is designed as both a textbook and a **workbook**—meaning you can learn at your own pace without needing an instructor present. Here's what to expect:
@@ -61,22 +58,23 @@ This course is designed as both a textbook and a **workbook**—meaning you can 
 - **Beginner Friendly**: No prior experience assumed—we explain everything
 
 ---
-
 ## Ready to Begin?
 
 You're about to learn skills that are in high demand. Full stack engineers work at startups, large tech companies, agencies, and as freelancers. The skills you'll develop here are the foundation of modern web development.
 
 **Remember**: Every expert was once a beginner. Don't be discouraged if things feel challenging at first. That's normal and expected. The key is to keep going, practice regularly, and build on what you learn each day.
 
-**Next Step:** [Foundations of Front End Development: ](c01-found/index) focus on building a solid foundation in Front End Web Engineering with a comprehensive, beginner-friendly program designed to teach you the essential skills needed to become a front-end developer. 
+---
+#### Next Step: [Foundations of Front End Development: ](c01-found/index) 
+A beginner-friendly course covering version control, HTML, CSS, JavaScript, and modern front-end development practices.
  
 ---
-[Back to Top](#Welcome!)
 ## Navigation
+[Back to Top](#Welcome!)
 
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
-- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 03:](c03-fe-react/index.md) Designing a Dynamic Frontend with React
 - [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
 - [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
 - [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases

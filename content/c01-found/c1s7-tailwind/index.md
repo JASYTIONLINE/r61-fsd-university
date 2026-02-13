@@ -1,6 +1,6 @@
 ---
 title: "C1S7: Basic of Tailwinds"
-description: a beginner friendly workbook lesson that introduces git and github by building one clean repository from start to finish.
+description: Tailwind transforms the way you style web pages by using utility classes directly in your HTML, allowing you to build clean, responsive, and professional-looking layouts quickly without managing large, separate CSS files.
 tags:
   - git
   - github

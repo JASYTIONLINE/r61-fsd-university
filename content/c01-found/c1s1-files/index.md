@@ -11,7 +11,7 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# Lecture 01: File Systems and Organization
+# Lecture C1S1: File Systems and Organization
 In this section you'll learn why good organization matters, see examples of effective structures, understand how the organizational patterns used in this course help you (and others) find what you need quickly, and discover why developers need personal infrastructure that matches organizational standards.
 ## Getting Started
 Many educational platforms strive to teach you "Everything you need to know" about the subject matter it explores, but I have found this endeavor is often fruitless and results in overwhelming the student.
@@ -414,7 +414,7 @@ Complete these exercises to set up your knowledge base and understand file organ
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
-- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 03:](c03-fe-react/index.md) Designing a Dynamic Frontend with React
 - [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
 - [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
 - [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
