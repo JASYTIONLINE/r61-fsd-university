@@ -287,7 +287,6 @@ obsidian-vault/
 - ✅ You understand the special structure
 
 ---
-
 ## Why This Matters
 
 Understanding Obsidian's structure:
@@ -299,18 +298,16 @@ Understanding Obsidian's structure:
 **Key takeaway:** Not all tools use standard repository structures. Obsidian is a special case where the published content lives in a `content/` subfolder. If you plan to use Obsidian for publishing (like this course does), you need this structure. If you're just using it for personal notes, you can use a simpler structure, but understanding this pattern helps you adapt to different tools.
 
 ---
+#### Next Steps: - [Return to Lecture](c01-found/c1s1-files/index#4.-Apply-this-lesson-to-Your-Learning-Experience) 
+Apply this lesson to Your Learning Experience
 
-## Next Steps
-
-- [[c01-found/c1s1-files/index#Special Cases: Obsidian Knowledge Management|Return to Lecture]] - Go back to the lecture section that introduced Obsidian as a special case.
 ---
-[Back to the Top](#What%20are%20we%20doing?)
 ## Navigation
+[Back to the Top](#What%20are%20we%20doing?)
 ### Section 0 Map
 - [C1S1E1:](c01-found/c1s1-files/s1e2-creat-kbs) Planning Your Knowledge Base Structure
 - [C1S1E2:](c01-found/c1s1-files/s1e2-creat-kbs) Creating Your Project Organization Structure
 - [C1S1E3:](c01-found/c1s1-files/s1e3-obsid-kbs) Setting Up Obsidian Knowledge Base (Optional)
-
 ---
 ### Global Navigation
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -

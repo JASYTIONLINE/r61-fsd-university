@@ -193,7 +193,6 @@ You should understand:
 - ✅ How this prevents nested repositories
 
 ---
-
 ## Expected State at the End of This Exercise
 
 You should now have:
@@ -216,7 +215,6 @@ knowledge-base/
 **Important**: No `.git` folders should exist anywhere yet. These are all regular folders.
 
 ---
-
 ## Why Did You Make ME DO This?
 
 This organized structure:
@@ -228,10 +226,13 @@ This organized structure:
 
 GREAT JOB!!: When you start creating Git repositories in the next section, you'll create them as separate folders inside `projects/`, each with its own `.git` folder. This structure ensures they're never nested.
 
-[[c01-found/c1s1-files/index#Special Cases: Obsidian Knowledge Management|Return to Lecture]]
 ---
-[Back to the Top](#What%20are%20we%20doing?)
+#### Next Steps: [Return to Lecture](c01-found/c1s1-files/index#3.-Special Cases:-Obsidian-Knowledge-Base-Management|)
+3. Special Cases: Obsidian Knowledge Base Management
+
+---
 ## Navigation
+[Back to the Top](#What%20are%20we%20doing?) 
 ### Section 0 Map
 - [C1S1E1:](c01-found/c1s1-files/s1e2-creat-kbs) Planning Your Knowledge Base Structure
 - [C1S1E2:](c01-found/c1s1-files/s1e2-creat-kbs) Creating Your Project Organization Structure

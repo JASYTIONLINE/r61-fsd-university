@@ -30,7 +30,8 @@ I will leave it to you to make the rest of the journey through level 4
 Don't try to memorize or learn all the concepts you see here.  Work through the entire course, and we will reinforce the important concepts multiple times. For now, it is enough to grasp the "why" behind our organizational choices, not a deep dive into every possible file structure pattern. By the end, you'll understand why we organize repositories the way we do, and you'll be able to navigate and contribute to well-organized projects.
 
 ---
-## Why File Organization Matters
+## 1. Planning your Knowledge base
+Why File Organization Matters
 
 Imagine you're a new employee at a software company. On your first day, your manager says: "Welcome! Your first task is to update the user authentication system. All the files you need are somewhere in our codebase. Good luck!"
 
@@ -85,7 +86,7 @@ Even without instructions, you can immediately see:
 - Where to add new files
 
 ---
-## The New Employee Test
+### The New Employee Test
 
 A simple test for good organization: **Can a new team member find what they need without asking?**
 
@@ -105,7 +106,7 @@ When files are organized logically, the structure itself becomes a form of commu
 - losing work in the mess of files and having to re-create it
 
 ---
-## Industry Standard Project Structures
+### Industry Standard Project Structures
 
 The software development industry has converged on certain organizational patterns. These aren't arbitrary—they exist because they work well for collaboration and productivity across different programming languages, frameworks, and team sizes.
 ### The Standard Structure
@@ -144,29 +145,29 @@ The key is that the [separation of concerns](https://en.wikipedia.org/wiki/Separ
 **This is what you'll use in your projects.** When you create repositories in this course, you'll follow this industry-standard structure. It's what employers expect, what tools are designed for, and what makes collaboration possible.
 
 ---
-## Principles of Good Organization
+### Principles of Good Organization
 
 While different projects use different structures, good organization follows these principles:
 
-### 1. **Logical Grouping**
+#### 1. **Logical Grouping**
 Files that belong together should be together. Authentication files go with authentication files, not scattered across the project.
 
-### 2. **Consistent Naming**
+#### 2. **Consistent Naming**
 Use consistent [naming conventions](https://en.wikipedia.org/wiki/Naming_convention). If you use [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case) for folders, use it everywhere. If you number things, be consistent with the numbering system.
 
-### 3. **Self-Explanatory Names**
+#### 3. **Self-Explanatory Names**
 Folder and file names should tell you what's inside. `user-authentication` is better than `auth` or `stuff`.
 
-### 4. **Shallow When Possible**
+#### 4. **Shallow When Possible**
 Avoid deeply [nested folders](https://www.glarysoft.com/how-to/are-you-making-these-common-mistakes-with-folder-structure-optimization-in-windows/) when you can. `src/components/auth/login.js` is better than `src/components/user/authentication/forms/login/login.js`.
 
-### 5. **Scalable Structure**
+#### 5. **Scalable Structure**
 Organize for growth. A structure that works for 10 files should still make sense with 1000 files.
 
 These principles apply whether you're organizing a single project or your entire development workspace.
 
 ---
-## Understanding Git Repositories
+### Understanding Git Repositories
 
 When you initialize a [Git ](https://git-scm.com/video/what-is-git) Repository (using [git init](https://git-scm.com/docs/git-init) or through [GitHub](https://en.wikipedia.org/wiki/GitHub) Desktop), Git creates a hidden `.git` folder in that directory. **This `.git` folder is what makes a directory a [Git repository](https://github.com/resources/articles/what-are-code-repositories).
 **Important: [Repositories should not be nested](https://www.google.com/search?q=why+not+nest+git+inside+git&sca_esv=4b271a6f1ec3bc04&sxsrf=ANbL-n6vK6tLYJfmBTipapjackZTF5s6Jg%3A1770977859354&source=hp&ei=Q_qOabaZE-LHi-gP87nnGQ&iflsig=AFdpzrgAAAAAaY8IU6eENM44jKc2Ui5FojS7UJwq3B_c&ved=0ahUKEwj2xtbRntaSAxXi4wIHHfPcOQMQ4dUDCDI&uact=5&oq=why+not+nest+git+inside+git&gs_lp=Egdnd3Mtd2l6Iht3aHkgbm90IG5lc3QgZ2l0IGluc2lkZSBnaXQyBRAhGKABMgUQIRigATIFECEYoAFIuS1QwwJYuCtwAngAkAEBmAGeAqAB5haqAQYxOS43LjK4AQPIAQD4AQGYAh2gAoIVqAIKwgIKECMY8AUYJxjqAsICBxAjGCcY6gLCAg0QIxjwBRgnGOoCGJ4GwgINECMY8AUYgAQYJxiKBcICBBAjGCfCAgUQABiABMICCxAuGIAEGNEDGMcBwgIFEC4YgATCAgsQLhiABBjHARivAcICBhAAGBYYHsICCBAAGKIEGIkFwgIFEAAY7wXCAgcQIRigARgKwgIEECEYFcICBhAhGBUYCsICBRAhGJ8FmAMH8QX3pKONZ9TJfZIHBjIxLjcuMaAH3tEBsgcGMTkuNy4xuAf5FMIHBzEzLjE1LjHIByOACAA&sclient=gws-wiz) inside each other.**
@@ -220,12 +221,80 @@ Now that you understand how repositories work and why they shouldn't be nested, 
 - [Exercise 1: Planning Your Knowledge Base Structure](c01-found/c1s1-files/s1e1-plan-kbs) to get started.
 
 ---
-## Your Personal Knowledge Base Structure
+## 2. Create Your Personal Knowledge Base Structure
 
 Before you start creating repositories, you need a place to organize all your development work. This is your **knowledge base**—a well-organized folder structure that will hold your projects, learning materials, and notes.
+### The Importance of Infrastructure
 
+As a developer, you don't work in isolation. You're part of a team, an organization, and an industry. The tools and systems you use need to work with everyone else's tools and systems.
+
+**This is why a having a [solid file infrastructure](https://mitcommlab.mit.edu/broad/commkit/file-structure/) matters.** When everyone uses similar tools and follows similar standards, collaboration becomes easier. Code flows smoothly between team members. Problems get solved faster. New team members can get up to speed quickly.
+### The Organization Connection
+
+Most developers work within organizations—companies, agencies, or teams. These organizations have policies and standards:
+- **Communication tools** - Your company might use [Microsoft Teams](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29), [Slack](https://slack.com/resources/why-use-slack/what-is-slack-and-how-does-it-work), or [Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord)
+- **Project management** - They might use [Jira](https://www.atlassian.com/software/jira), [Trello](https://trello.com/), or [Asana](https://asana.com/)
+	- [Code hosting](https://en.wikipedia.org/wiki/Comparison_of_source-code-hosting_facilities) - They might use [GitHub](https://github.com/), [GitLab](https://gitlab.com/), or [Bitbucket](https://www.atlassian.com/software/bitbucket)
+- [Code editors](https://www.geeksforgeeks.org/blogs/ide-vs-code-editor/) - They might standardize on [VS Code](https://code.visualstudio.com/), [IntelliJ](https://www.jetbrains.com/idea/), or [Vim](https://www.vim.org/)
+
+If your organization uses Teams for communication, you need to be proficient in Teams. If they use GitHub for code, you need to understand GitHub. If they standardize on VS Code, you should use VS Code.
+
+**Your personal infrastructure should mirror your organization's infrastructure.** This doesn't mean you can't have personal preferences, but it does mean you need to be comfortable with the tools your team uses.
+
+---
+### Organizational Structures in This Course
+
+Throughout this course, you'll encounter several organizational patterns. Understanding these patterns helps you navigate the material and prepares you for real-world projects.  We will ask you to think of your own way of organizing things, but at the same time for continuity purposes, we will have you follow our set structure during the course.  Our file system is A WAY not THE Way, but it is the way we will do things during this course.
+#### 1. Section-Based Organization
+
+Our course content is organized by sections. Each section is designed to be reviewed in sequence, but also works as a stand alone work package:
+
+```
+content/
+├── orientation/
+├── file-systems/
+├── version-control/
+├── html-css/
+└── ...
+```
+
+**Why this works:**
+- Clear progression from one topic to the next
+- Easy to find material for a specific section
+- Each section folder contains everything related to that topic
+- Descriptive names show the learning sequence
+
+**When you'd use this:**
+- Educational materials
+- Documentation organized by topic
+- Training programs
+- Sequential learning resources
+#### 2. Section Content Organization
+
+Within each section, content is organized by type:
+
+```
+file-systems/
+├── index.md              # Comprehensive lecture
+├── s1e1-name.md          # Focused exercise 1
+├── s1e2-name.md          # Focused exercise 2
+└── s1e3-name.md          # Focused exercise 3
+```
+
+**Why this works:**
+- Clear separation between learning materials (lecture) and practice (exercises)
+- Easy to find what you need: want to learn? Read the lecture. Want to practice? Do an exercise. (this is where an Obsidian knowledge base shines by allowing you to store your material using separation of concerns while accessing it in sequence)
+- Consistent structure across all sections
+- Each exercise focuses on one concept from the lecture
+
+**When you'd use this:**
+- Educational courses with multiple content types
+- Training programs with lectures and hands-on work
+- Structured learning materials (like this site)
+- Courses that combine theory and practice
+
+---
 ### The Knowledge Base Structure
-
 Your knowledge base will follow this pattern:
 
 ```
@@ -242,15 +311,28 @@ knowledge-base/
 ├── notes/             # Personal notes, documentation, ideas
 └── archive/           # Completed projects or old work
 ```
-
-**Why this structure works:**
-
-1. **Prevents nested repositories**: The **`projects/`** folder itself is NOT a repository. Each project inside it is its own separate repository.
+#### Why this structure works:
+1. It **Prevents nested repositories**: The **`projects/`** folder itself is NOT a repository. Each project inside it is its own separate repository.
 2. **Clear separation**: Projects, learning materials, and notes are organized by purpose
 3. **Scalable**: As you add more projects, the structure stays organized
 4. **Self-documenting**: Anyone (including future you) can understand the organization
 
-**Important points:**
+---
+### Building Your Knowledge Base
+
+By completing this section and its exercises, you will have:
+
+- ✅ A well-organized knowledge base folder structure
+- ✅ Clear separation between projects, learning materials, and notes
+- ✅ Understanding of where future Git repositories will live
+- ✅ A system that prevents nested repositories
+- ✅ Documentation of your organizational structure
+- ✅ (Optional) An Obsidian vault set up with proper structure for publishing
+
+This foundation will support all your development work throughout this course and your career. Every project you create will have a clear place to live, and you'll never struggle with "where should I put this?" or accidentally create nested repositories.
+
+**The knowledge base you build now will become the foundation for everything you create as a developer.**
+#### Important points:
 - The **knowledge-base** folder itself is **NOT** a Git repository
 - Each project in `projects/` will be its own separate repository
 - This structure prevents the nested repository problem we discussed earlier
@@ -260,7 +342,7 @@ With these organizational principles in mind, you're ready to create your own or
 - [Exercise 2: Creating Your Project Organization Structure](c01-found/c1s1-files/s1e2-creat-kbs) to build your knowledge base.
 
 ---
-## Special Cases: Obsidian Knowledge Management
+## 3. Special Cases: Obsidian Knowledge Base Management
 
 Some tools have special organizational requirements. [Obsidian](https://obsidian.md/)  is a note-taking and knowledge management tool that uses Markdown files, and it's great for documenting what you're learning and organizing your knowledge.
 
@@ -292,97 +374,8 @@ or
 
 If you want to set up a Knowledge Base in Obsidian with the proper structure, complete:
 - [Exercise 3: Setting Up Obsidian Knowledge Base](c01-found/c1s1-files/s1e3-obsid-kbs) (optional).
-
 ---
-## Why Infrastructure Matters
-
-As a developer, you don't work in isolation. You're part of a team, an organization, and an industry. The tools and systems you use need to work with everyone else's tools and systems.
-
-**This is why a having a [solid file infrastructure](https://mitcommlab.mit.edu/broad/commkit/file-structure/) matters.** When everyone uses similar tools and follows similar standards, collaboration becomes easier. Code flows smoothly between team members. Problems get solved faster. New team members can get up to speed quickly.
-### The Organization Connection
-
-Most developers work within organizations—companies, agencies, or teams. These organizations have policies and standards:
-
-- **Communication tools** - Your company might use Microsoft Teams, Slack, or Discord
-- **Project management** - They might use [Jira](https://www.atlassian.com/software/jira), [Trello](https://trello.com/), or [Asana](https://asana.com/)
-	- **Code hosting** - They might use [GitHub](https://github.com/), [GitLab](https://gitlab.com/), or [Bitbucket](https://www.atlassian.com/software/bitbucket)
-- **Code editors** - They might standardize on [VS Code](https://code.visualstudio.com/), [IntelliJ](https://www.jetbrains.com/idea/), or [Vim](https://www.vim.org/)
-
-If your organization uses [Teams](https://support.microsoft.com/en-us/topic/what-is-microsoft-teams-3de4d369-0167-8def-b93b-0eb5286d7a29) for communication, you need to be proficient in Teams. If they use GitHub for code, you need to understand GitHub. If they standardize on VS Code, you should use [VS Code.](https://code.visualstudio.com/)
-
-**Your personal infrastructure should mirror your organization's infrastructure.** This doesn't mean you can't have personal preferences, but it does mean you need to be comfortable with the tools your team uses.
-
----
-## Organizational Structures in This Course
-
-Throughout this course, you'll encounter several organizational patterns. Understanding these patterns helps you navigate the material and prepares you for real-world projects.  We will ask you to think of your own way of organizing things, but at the same time for continuity purposes, we will have you follow our set structure during the course.  Our file system is A WAY not THE Way, but it is the way we will do things during this course.
-### 1. Section-Based Organization
-
-Our course content is organized by sections. Each section is designed to be reviewed in sequence, but also works as a stand alone work package:
-
-```
-content/
-├── orientation/
-├── file-systems/
-├── version-control/
-├── html-css/
-└── ...
-```
-
-**Why this works:**
-- Clear progression from one topic to the next
-- Easy to find material for a specific section
-- Each section folder contains everything related to that topic
-- Descriptive names show the learning sequence
-
-**When you'd use this:**
-- Educational materials
-- Documentation organized by topic
-- Training programs
-- Sequential learning resources
-### 2. Section Content Organization
-
-Within each section, content is organized by type:
-
-```
-file-systems/
-├── index.md              # Comprehensive lecture
-├── s1e1-name.md          # Focused exercise 1
-├── s1e2-name.md          # Focused exercise 2
-└── s1e3-name.md          # Focused exercise 3
-```
-
-**Why this works:**
-- Clear separation between learning materials (lecture) and practice (exercises)
-- Easy to find what you need: want to learn? Read the lecture. Want to practice? Do an exercise. (this is where an Obsidian knowledge base shines by allowing you to store your material using separation of concerns while accessing it in sequence)
-- Consistent structure across all sections
-- Each exercise focuses on one concept from the lecture
-
-**When you'd use this:**
-- Educational courses with multiple content types
-- Training programs with lectures and hands-on work
-- Structured learning materials (like this site)
-- Courses that combine theory and practice
-
----
-## Building Your Knowledge Base
-
-By completing this section and its exercises, you will have:
-
-- ✅ A well-organized knowledge base folder structure
-- ✅ Clear separation between projects, learning materials, and notes
-- ✅ Understanding of where future Git repositories will live
-- ✅ A system that prevents nested repositories
-- ✅ Documentation of your organizational structure
-- ✅ (Optional) An Obsidian vault set up with proper structure for publishing
-
-This foundation will support all your development work throughout this course and your career. Every project you create will have a clear place to live, and you'll never struggle with "where should I put this?" or accidentally create nested repositories.
-
-**The knowledge base you build now will become the foundation for everything you create as a developer.**
-
----
-## How This Applies to Your Learning
-
+### 4. Apply this lesson to Your Learning Experience
 As you work through this course:
 
 1. **Notice the patterns** - Pay attention to how files are organized in each section
@@ -394,13 +387,12 @@ OUTSTANDING WORK!!!
 The repository you'll build throughout this course will follow professional organizational standards. By the end of this course, you'll have a portfolio piece that demonstrates not just coding skills, but also professional organizational habits.
 
 ---
-## Next Steps
-
-[C1S2: Version Control Foundations](c01-found/c1s2-vers-ctrl/index) - Git and GitHub basics
+#### Next Steps: [C1S2: Version Control Foundations](c01-found/c1s2-vers-ctrl/index) - Git and GitHub basics
 
 ---
-## Exercises in This Section
-
+## Navigation
+[Back to the Top](#Getting%20Started)
+### Exercises in This Section
 Complete these exercises to set up your knowledge base and understand file organization:
 
 1. [Exercise 1: Planning Your Knowledge Base Structure](c01-found/c1s1-files/s1e1-plan-kbs)
@@ -420,14 +412,6 @@ Complete these exercises to set up your knowledge base and understand file organ
    - Understand how Obsidian's organization differs from standard repositories
    - Create your first notes in the proper structure
    - Document the Obsidian vault structure
-
----
-[Back to the Top](#Getting%20Started)
-## Navigation
-### Section 0 Map
-- [C1S1E1:](c01-found/c1s1-files/s1e2-creat-kbs) Planning Your Knowledge Base Structure
-- [C1S1E2:](c01-found/c1s1-files/s1e2-creat-kbs) Creating Your Project Organization Structure
-- [C1S1E3:](c01-found/c1s1-files/s1e3-obsid-kbs) Setting Up Obsidian Knowledge Base (Optional)
 
 ---
 ### Global Navigation

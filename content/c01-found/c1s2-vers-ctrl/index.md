@@ -10,7 +10,8 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-# Version Control Foundations
+# Getting Started
+The Foundations of Git and Version Control
 
 Welcome to Section 2: [Version Control](https://git-scm.com/video/what-is-version-control) Foundations. This section builds directly on the file organization principles you learned in Section 1. You'll learn how to use Git and GitHub to track changes, collaborate safely, and maintain professional development workflows.
 
@@ -688,77 +689,67 @@ As you work through this section:
 Version control will become second nature as you use it throughout the rest of this course. Every project you build will use Git and GitHub, and these skills will be essential in your career.
 
 ---
-
-## Next Steps
-
-[[s2e8-recap|Exercise 8: Recap and Workflow Habits]] - Review all concepts and reinforce your workflow habits before moving on. After completing the recap, continue to [[c01-found/c1s3-html-css/index|Section 3: HTML & CSS Foundations]] to start building and styling web pages.
+#### Next Steps: [[c01-found/c1s3-html-css/index|Section 3: HTML & CSS Foundations]] 
+Start building and styling your first web page.
 
 ---
-
-## Exercises in This Section
-
+## Navigation
+[Back to the Top](#Getting%20Started)
+### Exercises in This Section
 Complete these exercises in order to build your version control skills:
 
-1. **[[s2e1-auth-gh|Exercise 1: Authenticating Git with GitHub]]**
+1. [Exercise 1: Authenticating Git with GitHub](c01-found/c1s2-vers-ctrl/s2e1-auth-gh)
    - Install GitHub CLI (`gh`)
    - Configure Git with your identity
    - Authenticate with GitHub using `gh auth login`
    - Configure VS Code terminal to use Git Bash
 
-2. **[[s2e2-creat-repo|Exercise 2: Creating Repository]]**
+2. [Exercise 2: Creating Repository](c01-found/c1s2-vers-ctrl/s2e2-creat-repo)
    - Create a GitHub repository
    - Clone it to your `knowledge-base/projects/` folder
    - Set up your development environment
 
-3. **[[s2e3-push|Exercise 3: Pushing Changes]]**
+3. [Exercise 3: Pushing Changes](c01-found/c1s2-vers-ctrl/s2e3-push)
    - Create files and track them with Git
    - Make commits with clear messages
    - Push your work to GitHub
 
-4. **[[s2e4-branch|Exercise 4: Creating Branches]]**
+4. [Exercise 4: Creating Branches](c01-found/c1s2-vers-ctrl/s2e4-branch)
    - Create and list branches
    - Switch between branches
    - Understand branch isolation
 
-5. **[[s2e5-switch|Exercise 5: Switching Branches]]**
+5. [Exercise 5: Switching Branches](c01-found/c1s2-vers-ctrl/s2e5-switch)
    - Make changes on branches
    - See branch isolation in action
    - Understand how commits belong to branches
 
-6. **[[s2e6-pull|Exercise 6: Creating Pull Requests]]**
+6. [Exercise 6: Creating Pull Requests](c01-found/c1s2-vers-ctrl/s2e6-pull)
    - Fork a repository on GitHub
    - Clone your fork locally
    - Add upstream remote
    - Create a branch and make changes
    - Push to your fork and create a pull request
 
-7. **[[s2e7-merge|Exercise 7: Merging Branches]]**
+7. [Exercise 7: Merging Branches](c01-found/c1s2-vers-ctrl/s2e7-merge)
    - Merge branch work into main
    - Push merged changes to GitHub
    - Clean up branches and temporary files
 
-8. **[[s2e8-recap|Exercise 8: Recap and Workflow Habits]]**
+8. [Exercise 8: Recap and Workflow Habits](c01-found/c1s2-vers-ctrl/s2e8-recap)
    - Review all concepts learned
    - Reinforce professional habits
    - Prepare for the next section
 
 ---
-
-## Navigation
-
-### Section Navigation
-- [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Home]] - Return to the main course page
-- [[c01-found/c1s1-files/index|File Systems]] - Previous section
-- [[c01-found/c1s2-vers-ctrl/index|Version Control]] - This page
-- [[c01-found/c1s3-html-css/index|HTML & CSS]] - Next section
-
-### Course Sections
-- [[c01-found/c1s0-orientation/index|Orientation]] - Get started here
-- [[c01-found/c1s1-files/index|Section 1: File Systems]] - Organization principles
-- [[c01-found/c1s2-vers-ctrl/index|Section 2: Version Control]] - This page
-- [[c01-found/c1s3-html-css/index|Section 3: HTML & CSS]] - Web page fundamentals
-- [[c01-found/c1s4-js/index|Section 4: JavaScript Basics]] - Programming fundamentals
-- [[c01-found/c1s5-Opt-js/index|Section 5: JavaScript Functions]] - Functions and optimization
-- [[s6-adv-js/index|Section 6: Advanced JavaScript]] - Advanced concepts
-- [[s7-tailwind/index|Section 7: Tailwind CSS]] - Modern styling
-- [[s8-tailwind-adv/index|Section 8: Advanced Tailwind]] - Advanced styling
+### Global Navigation
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

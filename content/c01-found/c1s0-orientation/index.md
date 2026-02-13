@@ -285,7 +285,8 @@ Now that you have completed the exercises above and set up your development envi
 
 Good luck, and welcome to the journey of becoming a full stack engineer!
 
-**Next Steps:**[C1S1: File Systems and Organization](c01-found/c1s1-files/index.md) - Learn about file organization principles.
+#### Next Steps: [C1S1: File Systems and Organization](c01-found/c1s1-files/index.md) - Learn about file organization principles.
+
 ---
 [Back to the Top](#What%20are%20we%20doing?)
 ## Navigation

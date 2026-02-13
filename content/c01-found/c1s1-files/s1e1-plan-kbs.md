@@ -126,7 +126,8 @@ knowledge-base/
    - Right-click in the folder
    - Select **New** → **Text Document**
    - Name it `structure-plan.md'
-   - Open it and write down your planned structure or copy and past the file structure in [[#Figure 1|Figure 1]]
+   - Open it and write down your planned structure or copy and past the file structure in [[#Figure 1|Figure 1 above]]
+   
 ---
 ### Verify
 You should have:
@@ -162,10 +163,12 @@ A well-planned knowledge base:
 
 Congratulations": You have Just taken the firs steps to managing all your future files in a professional knowledge base with version control. This foundation will support all your development work throughout this course and your career.
 
-Next Steps: [[c01-found/c1s1-files/index#Your Personal Knowledge Base Structure|Return to Lecture]]
 ---
+Next Steps: [Return to Lecture](c01-found/c1s1-files/index#2.-Create-Your-Personal-Knowledge-Base-Structure)
+2. Create Your Personal Knowledge Base Structure
+---
+## ## Navigation
 [Back to the Top](#What%20are%20we%20doing?)
-## Navigation
 ### Section 0 Map
 - [C1S1E1:](c01-found/c1s1-files/s1e2-creat-kbs) Planning Your Knowledge Base Structure
 - [C1S1E2:](c01-found/c1s1-files/s1e2-creat-kbs) Creating Your Project Organization Structure
