@@ -1,6 +1,6 @@
 ---
 title: "C1S6: Advanced JavaScript"
-description: a beginner friendly workbook lesson that introduces git and github by building one clean repository from start to finish.
+description: Gain a deeper understanding of the language by introducing more powerful patterns like asynchronous programming, modular architecture, and higher-order functions.
 tags:
   - git
   - github

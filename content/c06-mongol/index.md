@@ -14,60 +14,60 @@ enableToc: true
 ## Section 1.
 ### Sub Section 1.
 
-Now that you... Complete [Exercise 1:](c05-data/c5s1e1) {exercise name} to ...
+Now that you... Complete [Exercise 1:](c06-mongol/c6s1e1) {exercise name} to ...
 
 ---
 ## Section 2.
 ### Sub Section 1.
 
-Now that you... Complete [Exercise 2:](c05-data/c5s1e2) {ec04-genai-design/c4s1e2xercise name} to ...
+Now that you... Complete [Exercise 2:](c06-mongol/c6s1e2) {exercise name} to ...
 
 ---
 ## Section 3.
 ### Sub Section 1.
 
-Now that you... Complete [Exercise 3:](c05-data/c5s1e3) {exercise name} to ...
+Now that you... Complete [Exercise 3:](c06-mongol/c6s1e3) {exercise name} to ...
 
 ---
 ## Section 4.
 ### Sub Section 1.
 
-Now that you... Complete [Exercise 4:](c05-data/c5s1e4) {exercise name} to ...
+Now that you... Complete [Exercise 4:](c06-mongol/c6s1e4) {exercise name} to ...
 
 ---
 ## Section 5.
 ### Sub Section 1.
 
-Now that you... Complete [Exercise 5:](c05-data/c5s1e5) {exercise name} to ...
+Now that you... Complete [Exercise 5:](c06-mongol/c6s1e5) {exercise name} to ...
 
 ---
 ## Section 6.
 ### Sub Section 1.
 
-Now that you... Complete [Exercise 6:](c05-data/c5s1e6) {exercise name} to ...
+Now that you... Complete [Exercise 6:](c06-mongol/c6s1e6) {exercise name} to ...
 
 ---
 ## Section 7.
 ### Sub Section 1.
 
-Now that you... Complete [Exercise 7:](c05-data/c5s1e7) {exercise name} to ...
+Now that you... Complete [Exercise 7:](c06-mongol/c6s1e7) {exercise name} to ...
 
 ---
 ## Section 8.
 ### Sub Section 1.
 
-Now that you... Complete [Exercise 8:](c05-data/c5s1e8) {exercise name} to ...
+Now that you... Complete [Exercise 8:](c06-mongol/c6s1e8) {exercise name} to ...
 
 ---
 ## Section 9.
 ### Sub Section 1.
-Now that you... Complete [Exercise 9:](c05-data/c5s1e9) {exercise name} to ...
+Now that you... Complete [Exercise 9:](c06-mongol/c6s1e9) {exercise name} to ...
 
 ---
 ## Section 10.
 ### Sub Section 1.
 
-Now that you... Complete [Exercise 10:](c05-data/c5s1e01){exercise name} to ...
+Now that you... Complete [Exercise 10:](c06-mongol/c6s1e10){exercise name} to ...
 
 ---
 ## 11. Wrap Up: What You've Accomplished
@@ -89,7 +89,8 @@ As you work through this section:
 1. This applies to your learning in this way...
 
 ---
-#### Next Steps: [C06: Using MongoDB to Design and Manage Databases](c06-mongol/index)
+#### Next Steps: [C07: Developing a Reliable Back-end with Node and Express](c07-express/index)
+Node and Express helps you how to build secure, scalable server-side systems that handle requests, manage data, and connect your front end to real-world functionality through structured APIs.
 
 ---
 ## Navigation

@@ -10,10 +10,11 @@ draft: false
 date: 2026-01-30
 enableToc: true
 ---
-# Lecture C1S01: Foundations of Front-end Development
+# Foundations of Front-end Development
+A beginner-friendly course covering version control, HTML, CSS, JavaScript, and modern front-end development practices.
 
 ---
-## About this Section
+## About this Course
 Welcome to ...
 ### Prerequisites:
 Before starting this section, make sure you have:
@@ -32,122 +33,59 @@ In this section, you will:
 - Develop ...
 
 ---
-##  0. topic 0 Intro
-
+##  Intro
 What are we talking about?
 ### Problem Statement
 Why are we talking about it
 ### The Solution:
-What are we goig to do about it
+What are we going to do about it
+### Background (context)
+### Course Structure and Outline
 
 ---
-## Background (context)
----
-### The Solution: Explain the process
+## Section 0: [Orientation:](c01-found/c1s0-orientation/index)
+Getting Started in Your Windows Environment
+## 5ws
 
 ---
-## 1. Topic 1 
-caption
+## Section 1: [File Systems and Organization](c01-found/c1s1-files/index)
+A Comprehensive introduction to file organization principles, infrastructure concepts, and why logical file structures matter in professional development.
 
-### Why ?
-### What?
-### How?
+## 5ws
 
 ---
-
-Now that you understand... Complete [Exercise 1:]() {ex name}.
-
----
-## 2. Topic 2
-caption
-### Why ?
-### What?
-### How?
+## Section 2: [Version Control Foundations'(c01-found/c1s2-vers-ctrl/index)
+Comprehensive introduction to Git and GitHub, version control concepts, and professional workflows for managing code changes.
+## 5ws
 
 ---
+## Section 3: [HTML & CSS Foundations](c01-found/c1s3-html-css/index)
+Comprehensive introduction to HTML and CSS, building web pages from structure to styling, culminating in a complete project.
 
-Now that you understand... Complete [Exercise 2:]() {ex name}.
-
----
-## 3. Topic 3
-caption
-### Why ?
-### What?
-### How?
+## 5ws
 
 ---
-Now that you understand... Complete [Exercise 3:]() {ex name}.
+## Section 4: [Fundamentals of JavaScript](c01-found/c1s4-js/index)
+The core building blocks of modern web development, teaching you how variables, functions, conditionals, and logic work together to create interactive, dynamic behavior in your applications.
+## 5ws
 
 ---
-## 4. Topic 4
-caption
-### Why ?
-### What?
-### How?
+## Section 5: [C1S5: Optimizing JavaScript with Functions](c01-found/c1s5-Opt-js/index)
+Optimizing JavaScript through functions transforms scattered logic into clean, reusable building blocks.
+## 5ws
 
 ---
-Now that you understand... Complete [Exercise 4:]() {ex name}.
+## Section 6: [Advanced JavaScript](c01-found/c1s6-adv-js/index)
+Advanced JavaScript deepens your understanding of the language by introducing more powerful patterns like asynchronous programming, modular architecture, and higher-order functions so you can write cleaner, more scalable, and production-ready code.
+## 5ws
 
 ---
-## 5. Topic 5
-caption
-### Why ?
-### What?
-### How?
+## Section 7: [Introduction to Tailwinds](c01-found/c1s7-tailwind/index)
+Tailwind transforms the way you style web pages by using utility classes directly in your HTML, allowing you to build clean, responsive, and professional-looking layouts quickly without managing large, separate CSS files.
 
 ---
-Now that you understand... Complete [Exercise 5:]() {ex name}.
-
----
-## 6. Topic 6
-caption
-### Why ?
-### What?
-### How?
-
----
-Now that you understand... Complete [Exercise 6:]() {ex name}.
-
----
-## 7. Topic 7
-caption
-
----
-Now that you understand... Complete [Exercise 7:]() {ex name}.
-
----
-## Topic 8
-caption
-### Why ?
-### What?
-### How?
-
----
-Now that you understand... Complete [Exercise 8:]() {ex name}.
-
----
-## 9. Topic 9
-caption
-### Why ?
-### What?
-### How?
-
----
-Now that you understand... Complete [Exercise 9:]() {ex name}.
-
----
-## 10. Topic 10
-caption
-### Why ?
-### What?
-### How?
-
----
-Now that you understand... Complete [Exercise 10:]() {ex name}.
-
----
-## 11. Wrap Up: What You've Accomplished
-By completing this section and its exercises, you will have:
+## 11. The Bottom Line
+By completing this course, you will...
 
 - ✅ completed task
 - ✅ completed task
@@ -156,7 +94,7 @@ You will see.
 - a tangible result
 - a tangible result
 
-This will... a benefical consequece 
+This will... a beneficial consequence 
 
 ---
 ## How This Applies to Your Learning
@@ -169,37 +107,12 @@ As you work through this section:
 Conclusion statement: 
 
 ---
-#### Next Steps: [[c01-found/c1s3-html-css/index|Section 3: HTML & CSS Foundations]] 
-Start building and styling your first web page.
+#### Next Steps: [Orientation: Getting Started in Your Windows Environment](c01-found/c1s0-orientation/index) 
+Set up your Windows development environment and learn about the essential developer tools you'll use throughout this course and your career.
 
 ---
 ## Navigation
 [Back to the Top](#About%20This%20Section)
-### Exercises in This Section
-Complete these exercises in order to build your version control skills:
-
-1. [Exercise 1:]()
-   - bullet 1
-1. [Exercise 2:]()
-   - bullet 1
-1. [Exercise 3:]()
-   - Bullet 1
-1. [Exercise 4:]()
-   - Bullet 1
-1. [Exercise 5:]()
-   - Bullet 1
-1. [Exercise 6:]()
-   - Bullet 1
-1. [Exercise 7:]()
-   - Bullet 1
-1. [Exercise 8:]()
-   - Bullet 1
-1. . [Exercise 9]()
-   - Bullet 1
-10. [Exercise 10:]()
-   - Bullet 1
-
----
 ### Global Navigation
 
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -

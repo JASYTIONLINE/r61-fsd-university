@@ -1,6 +1,6 @@
 ---
-title: "C1S7: Basic of Tailwinds"
-description: Tailwind transforms the way you style web pages by using utility classes directly in your HTML, allowing you to build clean, responsive, and professional-looking layouts quickly without managing large, separate CSS files.
+title: "C1S7: Introduction to Tailwinds"
+description: Tailwind transforms the way you style web pages by using utility classes directly in your HTML, allowing you to build clean, responsive, and professional-looking layouts quickly.
 tags:
   - git
   - github

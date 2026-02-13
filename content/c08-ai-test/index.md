@@ -1,6 +1,6 @@
 ---
 title: "C08: The Power of Generative AI Software Testing"
-description: A look at how to store and retrieve data to maximize efficiency in any situation
+description: The Power of Gen-AI Software Testing shows you how to use AI to design smarter test cases, uncover edge cases you might miss, and automate quality assurance.
 tags:
   - course
   - beginner
@@ -100,8 +100,8 @@ As you work through this section:
 1. This applies to your learning in this way...
 
 ---
-#### Next Steps: [C05: Understanding Data Structures and Algorithms](c05-data/index)
-Getting Started: Fundamental Principles of Organizing Files and Folders.
+#### Next Steps: [C09: Publishing Your Website to the Live Internet](c09-publish/index)
+Publishing Your Website to the Live Internet explores the different ways to deploy your finished projects, from simple platforms like GitHub Pages to modern hosting services like Vercel and even self-hosted solutions, so you understand how to take your work from local development to a live, publicly accessible website.
 
 ---
 ## Navigation

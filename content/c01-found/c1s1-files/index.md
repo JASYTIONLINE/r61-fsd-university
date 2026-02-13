@@ -1,6 +1,6 @@
 ---
 title: "C1S1: File Systems and Organization"
-description: Comprehensive introduction to file organization principles, infrastructure concepts, and why logical file structures matter in professional development.
+description: A Comprehensive introduction to file organization principles, infrastructure concepts, and why logical file structures matter in professional development.
 tags:
   - file-systems
   - organization

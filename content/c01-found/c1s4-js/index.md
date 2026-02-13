@@ -1,6 +1,6 @@
 ---
-title: "C1S4: fundamentals of JavaScript"
-description: JavaScript gives you the core building blocks of modern web development, teaching you how variables, functions, conditionals, and logic work together to create interactive, dynamic behavior in your applications.
+title: "C1S4: Fundamentals of JavaScript"
+description: The core building blocks of modern web development, teaching you how variables, functions, conditionals, and logic work together to create interactive, dynamic behavior in your applications.
 tags:
 draft: false
 date: 2026-01-30

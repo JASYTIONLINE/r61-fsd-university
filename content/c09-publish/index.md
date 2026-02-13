@@ -1,6 +1,6 @@
 ---
 title: "C09: Publishing Your Website to the Live Internet"
-description: A look at how to use various tools and interfaces to publish your work to the web
+description: Explore the different ways to deploy your finished projects, from simple platforms like GitHub Pages to modern hosting services like Vercel and even self-hosted solutions,.
 tags:
   - course
   - beginner

@@ -1,6 +1,6 @@
 ---
 title: "C07: Developing a Reliable Back-end with Node and Express"
-description: A look at how to store and retrieve data to maximize efficiency in any situation
+description: Node and Express helps you how to build secure, scalable server-side systems that handle requests, manage data, and connect your front end to real-world functionality through structured APIs.
 tags:
   - course
   - beginner
@@ -100,8 +100,8 @@ As you work through this section:
 1. This applies to your learning in this way...
 
 ---
-#### Next Steps: [C05: Understanding Data Structures and Algorithms](c05-data/index)
-Getting Started: Fundamental Principles of Organizing Files and Folders.
+#### Next Steps: [C08: The Power of Generative AI Software Testing](c08-ai-test/index)
+The Power of Generative AI Software Testing shows you how to use AI to design smarter test cases, uncover edge cases you might miss, and automate quality assurance so your applications are more reliable, resilient, and production-ready.
 
 ---
 ## Navigation
