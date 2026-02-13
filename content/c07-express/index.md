@@ -1,5 +1,5 @@
 ---
-title: "C7: Developing a Reliable Back-end with Node and Express"
+title: "C07: Developing a Reliable Back-end with Node and Express"
 description: A look at how to store and retrieve data to maximize efficiency in any situation
 tags:
   - course

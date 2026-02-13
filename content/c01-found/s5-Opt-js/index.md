@@ -1,9 +1,14 @@
 ---
-title: "lesson 1 version control foundations"
-description: "a beginner friendly workbook lesson that introduces git and github by building one clean repository from start to finish."
-tags: [git, github, version-control, beginner, workbook]
+title: "C1S5: Optimizing JavaScript with Functions"
+description: a beginner friendly workbook lesson that introduces git and github by building one clean repository from start to finish.
+tags:
+  - git
+  - github
+  - version-control
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # lesson 1: version control foundations

@@ -1,9 +1,16 @@
 ---
-title: "Exercise 3: Setting Up Obsidian Knowledge Base (Optional)"
-description: "Set up Obsidian as a knowledge management tool with the special folder structure required for publishing, understanding how it differs from standard repository organization."
-tags: [obsidian, knowledge-base, note-taking, organization, optional, beginner, workbook]
+title: "C1S1E3: Setting Up Obsidian Knowledge Base (Optional)"
+description: Set up Obsidian as a knowledge management tool with the special folder structure required for publishing, understanding how it differs from standard repository organization.
+tags:
+  - obsidian
+  - knowledge-base
+  - note-taking
+  - organization
+  - optional
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 3: Setting Up Obsidian Knowledge Base (Optional)
@@ -30,7 +37,7 @@ By the end of this exercise, you will have:
 ## Before You Start
 
 Make sure you have:
-- Completed [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]]
+- Completed [[s1e1-plan-kbs|Exercise 1: Planning Your Knowledge Base Structure]]
 - Obsidian installed (from [[s0e6-opts|Orientation Exercise 6]] or install it now)
 - About 15-20 minutes
 - Understanding that Obsidian uses a special structure for publishing
@@ -303,8 +310,8 @@ Understanding Obsidian's structure:
 ### Section Navigation
 - [[r61-fsd-university/content/c01-found/s1-files/index|Home]] - Return to main course page
 - [[s1-files/index|File Systems Index]] - Return to file systems overview
-- [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - Previous exercise
-- [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] - This page
+- [[s1e2-creat-kbs|Exercise 2: Creating Project Organization Structure]] - Previous exercise
+- [[s1e3-obsid-kbs|Exercise 3: Setting Up Obsidian Knowledge Base]] - This page
 
 ### Related Materials
 - [[s1-files/index|File Systems Lecture]] - Review the concepts

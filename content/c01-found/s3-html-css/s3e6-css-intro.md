@@ -1,9 +1,16 @@
 ---
-title: "Exercise 6: Introduction to CSS"
-description: "Learn how to add CSS to your webpage. Create organized file structure, understand the box model, and use browser developer tools."
-tags: [css, styling, box-model, developer-tools, file-organization, beginner, workbook]
+title: "C1S3E6: Introduction to CSS"
+description: Learn how to add CSS to your webpage. Create organized file structure, understand the box model, and use browser developer tools.
+tags:
+  - css
+  - styling
+  - box-model
+  - developer-tools
+  - file-organization
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 6: Introduction to CSS
@@ -641,7 +648,7 @@ You now have CSS set up with proper file organization. In the next exercise, you
 
 ## Navigation
 
-**Previous Exercise:** [[s3-html-css/s3e5-using-semantic-html-structure|Exercise 5: Using Semantic HTML Structure]]
+**Previous Exercise:** [[s3e5-semantic|Exercise 5: Using Semantic HTML Structure]]
 
 **Next Exercise:** [[s3-html-css/s3e7-css-selectors|Exercise 7: CSS Selectors]]
 

@@ -1,9 +1,14 @@
 ---
-title: "HTML & CSS Foundations"
-description: "Comprehensive introduction to HTML and CSS, building web pages from structure to styling, culminating in a complete project."
-tags: [html, css, web-development, beginner, fundamentals]
+title: "C1S3: HTML & CSS Foundations"
+description: Comprehensive introduction to HTML and CSS, building web pages from structure to styling, culminating in a complete project.
+tags:
+  - html
+  - css
+  - web-development
+  - beginner
+  - fundamentals
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # HTML & CSS Foundations
@@ -63,7 +68,7 @@ When you visit a webpage, your browser:
 
 Understanding this process helps you debug why styles aren't applying, understand the cascade and specificity, use developer tools effectively, and write more efficient code.
 
-Now that you understand how browsers work, you're ready to create your first webpage. Complete **[[c01-found/s3-html-css/s3e1-creating-first-webpage.md|Exercise 1: Creating Your First Webpage]]** to build the foundation.
+Now that you understand how browsers work, you're ready to create your first webpage. Complete **[[s3e1-first-page|Exercise 1: Creating Your First Webpage]]** to build the foundation.
 
 ---
 
@@ -94,7 +99,7 @@ For responsive design, every HTML document should include a viewport meta tag in
 ![[vsc-meta-mob.png]]
 Semantic HTML uses elements that describe their meaning, not just their appearance. For example, `<header>` for page headers, `<nav>` for navigation, and `<footer>` for page footers. Semantic HTML improves accessibility, SEO, and code maintainability.
 
-Now that you understand HTML structure, complete [Exercise 1: Creating Your First Webpage](c01-found/s3-html-css/s3e1-creating-first-webpage) to create your first HTML document.
+Now that you understand HTML structure, complete [Exercise 1: Creating Your First Webpage](s3e1-first-page.md) to create your first HTML document.
 
 ---
 
@@ -114,7 +119,7 @@ Now that you understand HTML structure, complete [Exercise 1: Creating Your Firs
 
 Always include [`alt` text](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) for images, use descriptive link text (not "click here"), ensure proper heading hierarchy, and use [semantic elements](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) when possible.
 
-Now that you understand content [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element), complete [Exercise 2: Adding Rich Content Elements](c01-found/s3-html-css/s3e2-adding-rich-content-elements) to add links, lists, images, and embedded content to your page.
+Now that you understand content [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element), complete [Exercise 2: Adding Rich Content Elements](s3e2-elements.md) to add links, lists, images, and embedded content to your page.
 
 ---
 
@@ -126,7 +131,7 @@ Tables use semantic elements: [`<table>`](http://developer.mozilla.org/en-US/doc
 
 Tables are perfect for tabular data like schedules, comparisons, and statistics—any structured information that benefits from rows and columns.
 
-Now that you understand tables, complete [Exercise 3: Creating Tables](c01-found/s3-html-css/s3e3-creating-tables) to add structured data to your page.
+Now that you understand tables, complete [Exercise 3: Creating Tables](s3e3-tables.md) to add structured data to your page.
 
 ---
 
@@ -138,7 +143,7 @@ Forms use various input types: `text` for single-line text, `email` for email ad
 
 For accessibility, always use `<label>` elements associated with inputs (using `for` and `id` attributes), use appropriate `type` attributes for validation, include `required` attribute for mandatory fields, and provide clear error messages.
 
-Now that you understand forms, complete [Exercise 4: Creating Forms](c01-found/s3-html-css/s3e4-creating-forms) to add user input capabilities to your page.
+Now that you understand forms, complete [Exercise 4: Creating Forms](s3e4-forms.md) to add user input capabilities to your page.
 
 ---
 
@@ -154,7 +159,7 @@ Semantic HTML uses elements that describe their meaning, making your code more m
 
 Use semantic elements instead of generic `<div>` when possible, maintain proper heading hierarchy, use IDs and classes meaningfully (not just for styling), and ensure accessibility with proper element choice.
 
-Now that you understand semantic HTML, complete [Exercise 5: Using Semantic HTML Structure](c01-found/s3-html-css/s3e5-using-semantic-html-structure) to improve your page structure.
+Now that you understand semantic HTML, complete [Exercise 5: Using Semantic HTML Structure](s3e5-semantic.md) to improve your page structure.
 
 ---
 
@@ -170,7 +175,7 @@ CSS (Cascading Style Sheets) controls how HTML elements look. It separates prese
 
 **Browser Developer Tools** let you inspect and debug your HTML and CSS. You can inspect elements to see HTML structure and applied CSS, view and modify CSS in real-time in the styles panel, see padding, border, and margin in the box model visualization, and test different screen sizes in responsive design mode.
 
-Now that you understand CSS basics, complete [Exercise 6: Introduction to CSS](c01-found/s3-html-css/s3e6-introduction-to-css) to add styling to your page and set up proper file organization.
+Now that you understand CSS basics, complete [Exercise 6: Introduction to CSS](s3e6-css-intro.md) to add styling to your page and set up proper file organization.
 
 ---
 
@@ -206,7 +211,7 @@ CSS provides extensive control over text, borders, backgrounds, and form styling
 
 **CSS Organization:** Organize your CSS for maintainability. Use comments to separate sections, group related styles together, and create logical sections like Typography, Layout, and Forms.
 
-Now that you understand styling fundamentals, complete [Exercise 8: CSS Styling Fundamentals](c01-found/s3-html-css/s3e8-css-styling-fundamentals) to style your page and organize your CSS.
+Now that you understand styling fundamentals, complete [Exercise 8: CSS Styling Fundamentals](s3e8-css-styling.md) to style your page and organize your CSS.
 
 ---
 
@@ -222,7 +227,7 @@ CSS controls how elements are positioned and displayed on the page.
 
 **Using Developer Tools:** Test your layouts with responsive design mode (simulate different devices), inspect elements (see computed styles), and use box model visualization (understand spacing).
 
-Now that you understand layout and responsive design, complete **[Exercise 9: CSS Layout with Float](c01-found/s3-html-css/s3e9-css-layout-with-float) to create page layouts and test responsiveness.
+Now that you understand layout and responsive design, complete **[Exercise 9: CSS Layout with Float](s3e9-css-layout.md) to create page layouts and test responsiveness.
 
 ---
 
@@ -234,7 +239,7 @@ A complete web project requires semantic HTML structure (proper document structu
 
 Your capstone project will be a Client Meeting Scheduler—a complete web application that demonstrates all the concepts you've learned.
 
-Now that you're ready, complete **[Exercise 10: Capstone Project - Client Meeting Scheduler](c01-found/s3-html-css/s3e10-capstone-client-meeting-scheduler) to build your complete project.
+Now that you're ready, complete **[Exercise 10: Capstone Project - Client Meeting Scheduler](s3e10-capstone.md) to build your complete project.
 
 ---
 
@@ -277,7 +282,7 @@ By completing this section and its exercises, you will have:
 
 ## Next Steps
 
-[Exercise 10: Capstone Project - Client Meeting Scheduler](c01-found/s3-html-css/s3e10-capstone-client-meeting-scheduler) - Build the complete Client Meeting Scheduler project that brings together everything you've learned in this section.
+[Exercise 10: Capstone Project - Client Meeting Scheduler](s3e10-capstone.md) - Build the complete Client Meeting Scheduler project that brings together everything you've learned in this section.
 
 ---
 
@@ -285,33 +290,33 @@ By completing this section and its exercises, you will have:
 
 Complete these exercises in order to build your HTML and CSS skills:
 
-1. **[Exercise 1: Creating Your First Webpage](c01-found/s3-html-css/s3e1-creating-first-webpage)
+1. **[Exercise 1: Creating Your First Webpage](s3e1-first-page.md)
    - Create basic HTML structure
    - Add title, headings, and paragraphs
    - Set up Live Server
    - Preview in browser
 
-1. [Exercise 2: Adding Rich Content Elements](c01-found/s3-html-css/s3e2-adding-rich-content-elements)
+1. [Exercise 2: Adding Rich Content Elements](s3e2-elements.md)
    - Add hyperlinks, lists, and images
    - Include HTML plug-ins (iframes)
    - Practice accessibility
 
-1. [Exercise 3: Creating Tables](c01-found/s3-html-css/s3e1-creating-first-webpage)
+1. [Exercise 3: Creating Tables](s3e1-first-page.md)
    - Create table structure
    - Add semantic table elements
    - Style basic tables
 
-1. **[Exercise 4: Creating Forms](c01-found/s3-html-css/s3e4-creating-forms)
+1. **[Exercise 4: Creating Forms](s3e4-forms.md)
    - Build form structure
    - Add various input types
    - Include proper labels
 
-1. [Exercise 5: Using Semantic HTML Structure](c01-found/s3-html-css/s3e5-using-semantic-html-structure)
+1. [Exercise 5: Using Semantic HTML Structure](s3e5-semantic.md)
    - Use ID and class attributes
    - Implement semantic elements
    - Improve document structure
 
-1. [Exercise 6: Introduction to CSS](c01-found/s3-html-css/s3e6-introduction-to-css)
+1. [Exercise 6: Introduction to CSS](s3e6-css-intro.md)
    - Add inline and external CSS
    - Create organized file structure (css/ folder)
    - Understand box model
@@ -322,19 +327,19 @@ Complete these exercises in order to build your HTML and CSS skills:
    - Understand cascade and specificity
    - Practice with developer tools
 
-1. [Exercise 8: CSS Styling Fundamentals](c01-found/s3-html-css/s3e8-css-styling-fundamentals)
+1. [Exercise 8: CSS Styling Fundamentals](s3e8-css-styling.md)
    - Style text, borders, backgrounds
    - Practice box model
    - Organize CSS with comments
    - Style forms
 
-1. [Exercise 9: CSS Layout with Float](c01-found/s3-html-css/s3e9-css-layout-with-float)
+1. [Exercise 9: CSS Layout with Float](s3e9-css-layout.md)
    - Create page layouts
    - Use float for positioning
    - Add responsive design basics
    - Test with developer tools
 
-1. **[Exercise 10: Capstone Project - Client Meeting Scheduler](c01-found/s3-html-css/s3e10-capstone-client-meeting-scheduler)
+1. **[Exercise 10: Capstone Project - Client Meeting Scheduler](s3e10-capstone.md)
     - Build complete project
     - Combine all concepts
     - Implement best practices

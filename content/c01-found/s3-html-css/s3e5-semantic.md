@@ -1,9 +1,15 @@
 ---
-title: "Exercise 5: Using Semantic HTML Structure"
-description: "Improve your HTML structure using semantic elements, ID and class attributes. Learn about header, footer, nav, section, and other semantic elements."
-tags: [html, semantic-html, accessibility, structure, beginner, workbook]
+title: "C1S3E5: Using Semantic HTML Structure"
+description: Improve your HTML structure using semantic elements, ID and class attributes. Learn about header, footer, nav, section, and other semantic elements.
+tags:
+  - html
+  - semantic-html
+  - accessibility
+  - structure
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 5: Using Semantic HTML Structure
@@ -505,9 +511,9 @@ You now have a well-structured HTML page with semantic elements and proper IDs a
 
 ## Navigation
 
-**Previous Exercise:** [[s3-html-css/s3e4-creating-forms|Exercise 4: Creating Forms]]
+**Previous Exercise:** [[s3e4-forms|Exercise 4: Creating Forms]]
 
-**Next Exercise:** [[s3-html-css/s3e6-introduction-to-css|Exercise 6: Introduction to CSS]]
+**Next Exercise:** [[s3e6-css-intro|Exercise 6: Introduction to CSS]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 

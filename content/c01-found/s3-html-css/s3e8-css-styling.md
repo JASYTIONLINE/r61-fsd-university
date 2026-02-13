@@ -1,9 +1,15 @@
 ---
-title: "Exercise 8: CSS Styling Fundamentals"
-description: "Learn CSS styling properties for text, borders, and backgrounds. Practice the box model and organize CSS with comments and sections."
-tags: [css, styling, box-model, organization, beginner, workbook]
+title: "C1S3E8: CSS Styling Fundamentals"
+description: Learn CSS styling properties for text, borders, and backgrounds. Practice the box model and organize CSS with comments and sections.
+tags:
+  - css
+  - styling
+  - box-model
+  - organization
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 8: CSS Styling Fundamentals
@@ -803,7 +809,7 @@ You now have a well-styled page with organized CSS. In the next exercise, you'll
 
 **Previous Exercise:** [[s3-html-css/s3e7-css-selectors|Exercise 7: CSS Selectors]]
 
-**Next Exercise:** [[s3-html-css/s3e9-css-layout-with-float|Exercise 9: CSS Layout with Float]]
+**Next Exercise:** [[s3e9-css-layout|Exercise 9: CSS Layout with Float]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 

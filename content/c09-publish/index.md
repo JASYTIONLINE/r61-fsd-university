@@ -1,5 +1,5 @@
 ---
-title: "C9: Publishing Your Website to the Live Internet"
+title: "C09: Publishing Your Website to the Live Internet"
 description: A look at how to use various tools and interfaces to publish your work to the web
 tags:
   - course

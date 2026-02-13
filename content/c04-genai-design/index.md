@@ -1,5 +1,5 @@
 ---
-title: "C4:: Harnessing Gen AI: From Design to Code Optimization"
+title: "C04:: Harnessing Gen AI: From Design to Code Optimization"
 description: A more advanced look at using the power of generative AI to build code
 tags:
   - course

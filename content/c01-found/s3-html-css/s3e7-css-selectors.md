@@ -1,9 +1,15 @@
 ---
-title: "Exercise 7: CSS Selectors"
-description: "Learn about CSS selectors, how to target elements, and understand CSS cascade and specificity. Practice with developer tools."
-tags: [css, selectors, cascade, specificity, beginner, workbook]
+title: "C1S3E7: CSS Selectors"
+description: Learn about CSS selectors, how to target elements, and understand CSS cascade and specificity. Practice with developer tools.
+tags:
+  - css
+  - selectors
+  - cascade
+  - specificity
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 7: CSS Selectors
@@ -673,9 +679,9 @@ You now understand how to target elements with CSS selectors and how the cascade
 
 ## Navigation
 
-**Previous Exercise:** [[s3-html-css/s3e6-introduction-to-css|Exercise 6: Introduction to CSS]]
+**Previous Exercise:** [[s3e6-css-intro|Exercise 6: Introduction to CSS]]
 
-**Next Exercise:** [[s3-html-css/s3e8-css-styling-fundamentals|Exercise 8: CSS Styling Fundamentals]]
+**Next Exercise:** [[s3e8-css-styling|Exercise 8: CSS Styling Fundamentals]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 

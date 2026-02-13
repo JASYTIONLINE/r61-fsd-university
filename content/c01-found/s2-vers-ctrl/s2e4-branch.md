@@ -1,9 +1,14 @@
 ---
-title: "Exercise 4: Creating Branches"
-description: "Learn to create, list, switch between, and delete Git branches while protecting main."
-tags: [git, github, branching, beginner, workbook]
+title: "EC1S2E4: Creating Branches"
+description: Learn to create, list, switch between, and delete Git branches while protecting main.
+tags:
+  - git
+  - github
+  - branching
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 4: Creating Branches
@@ -400,9 +405,9 @@ After completing this exercise, you should have:
 
 ## Navigation
 
-**Previous Exercise:** [[s2-vers-ctrl/s2e3-pushing-changes|Exercise 3: Pushing Changes]]
+**Previous Exercise:** [[s2e3-push|Exercise 3: Pushing Changes]]
 
-**Next Exercise:** [[s2-vers-ctrl/s2e5-switching-branches|Exercise 5: Switching Branches]]
+**Next Exercise:** [[s2e5-switch|Exercise 5: Switching Branches]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Main Course Page]]
 

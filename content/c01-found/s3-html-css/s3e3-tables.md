@@ -1,14 +1,19 @@
 ---
-title: "Exercise 3: Creating Tables"
-description: "Create HTML tables to organize structured data. Learn about semantic table elements and proper table structure."
-tags: [html, tables, structured-data, beginner, workbook]
+title: "EC1S3E3: Creating Tables"
+description: Create HTML tables to organize structured data. Learn about semantic table elements and proper table structure.
+tags:
+  - html
+  - tables
+  - structured-data
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 3: Creating Tables
 
-**This exercise continues from Exercise 2. You must complete [[c01-found/s3-html-css/s3e2-adding-rich-content-elements|Exercise 2]] first.**
+**This exercise continues from Exercise 2. You must complete [[s3e2-elements|Exercise 2]] first.**
 
 ** Follow each step exactly.**
 
@@ -21,9 +26,9 @@ date: "2026-01-30"
 Before starting, verify:
 
 1. ✅ **Exercise 2 completed**
-   - `index.html` file has [[s3e2-adding-rich-content-elements|links, lists, images, and embedded content]]
-   - All changes from Exercise 2 are [[c01-found/s2-vers-ctrl/s2e3-pushing-changes#Step 3: Commit the File|committed]].
-   - You have [[c01-found/s2-vers-ctrl/s2e3-pushing-changes#Step 5: Push to GitHub|pushed your changes]] to the remote GitHub server on the command line.
+   - `index.html` file has [[s3e2-elements|links, lists, images, and embedded content]]
+   - All changes from Exercise 2 are [[s2e3-push#Step 3: Commit the File|committed]].
+   - You have [[s2e3-push#Step 5: Push to GitHub|pushed your changes]] to the remote GitHub server on the command line.
    - You can [[r61-fsd-university/content/c01-found/s3-html-css/s3e1-creating-first-webpage#Step 4: Install Live Server Extension (One-Time Setup)|preview your page in a browser]]
 
 2. ✅ **Current State Verification**
@@ -470,9 +475,9 @@ You now understand how to create tables for organizing structured data. In the n
 ---
 ## Navigation
 
-**Previous Exercise:** [[s3-html-css/s3e2-adding-rich-content-elements|Exercise 2: Adding Rich Content Elements]]
+**Previous Exercise:** [[s3e2-elements|Exercise 2: Adding Rich Content Elements]]
 
-**Next Exercise:** [[s3-html-css/s3e4-creating-forms|Exercise 4: Creating Forms]]
+**Next Exercise:** [[s3e4-forms|Exercise 4: Creating Forms]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 

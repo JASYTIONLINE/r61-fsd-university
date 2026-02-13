@@ -1,9 +1,15 @@
 ---
-title: "Exercise 1: Planning Your Knowledge Base Structure"
-description: "Plan and create the foundational folder structure for your development knowledge base that will hold all your projects, repositories, and learning materials."
-tags: [file-systems, organization, knowledge-base, structure, beginner, workbook]
+title: "C1S1E1: Planning Your Knowledge Base Structure"
+description: Plan and create the foundational folder structure for your development knowledge base that will hold all your projects, repositories, and learning materials.
+tags:
+  - file-systems
+  - organization
+  - knowledge-base
+  - structure
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 1: Planning Your Knowledge Base Structure
@@ -167,8 +173,8 @@ Next Steps: [[c01-found/s1-files/index#Your Personal Knowledge Base Structure|Re
 ### Section Navigation
 - [[r61-fsd-university/content/c01-found/s1-files/index|Home]] - Return to main course page
 - [[s1-files/index|File Systems Index]] - Return to file systems overview
-- [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Knowledge Base Structure]] - This page
-- [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Project Organization Structure]] - Next exercise
+- [[s1e1-plan-kbs|Exercise 1: Planning Knowledge Base Structure]] - This page
+- [[s1e2-creat-kbs|Exercise 2: Creating Project Organization Structure]] - Next exercise
 
 ### Related Materials
 - [[s1-files/index|File Systems Lecture]] - Review the concepts

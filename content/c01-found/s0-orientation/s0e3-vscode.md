@@ -1,5 +1,5 @@
 ---
-title: "EC1S0E3: Installing VS Code"
+title: "C1S0E3: Installing VS Code"
 description: Install and configure Visual Studio Code, the industry-standard code editor.
 tags:
   - vs-code

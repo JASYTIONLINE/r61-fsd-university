@@ -12,7 +12,7 @@ draft: false
 date: 2026-01-30
 ---
 
-# Fundamental principles of organizing files and folders.
+# Fundamental Principles of Organizing Files and Folders.
 IN this section you'll learn why good organization matters, see examples of effective structures, understand how the organizational patterns used in this course help you (and others) find what you need quickly, and discover why developers need personal infrastructure that matches organizational standards.
 
 Our goal in this course is to take your from the first level of understanding: I don't know what I don't know to level 2: I know what I don't know.
@@ -214,7 +214,7 @@ Documents/
 **Key takeaway:** If you're setting up multiple repositories, make sure each one is in its own separate folder at the same level, not nested inside another repository. Each project should have its own `.git` folder at the root of that project, and no other `.git` folders should exist inside it.
 
 Now that you understand how repositories work and why they shouldn't be nested, you're ready to plan where yours will live. Complete:
-- [[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]] to get started.
+- [[s1e1-plan-kbs|Exercise 1: Planning Your Knowledge Base Structure]] to get started.
 
 ---
 
@@ -255,7 +255,7 @@ knowledge-base/
 - You'll create this structure in the exercises
 
 With these organizational principles in mind, you're ready to create your own organized structure. Complete:
-- [[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Your Project Organization Structure]] to build your knowledge base.
+- [[s1e2-creat-kbs|Exercise 2: Creating Your Project Organization Structure]] to build your knowledge base.
 
 ---
 
@@ -290,7 +290,7 @@ To learn more about Why you should consider using Obsidian check out [this ~30mi
 or 
 
 If you want to set up a Knowledge Base in Obsidian with the proper structure, complete:
-- [[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]] (optional).
+- [[s1e3-obsid-kbs|Exercise 3: Setting Up Obsidian Knowledge Base]] (optional).
 
 ---
 ## Why Infrastructure Matters
@@ -408,19 +408,19 @@ The repository you'll build throughout this course will follow professional orga
 
 Complete these exercises to set up your knowledge base and understand file organization:
 
-1. **[[s1-files/s1e1-planning-knowledge-base-structure|Exercise 1: Planning Your Knowledge Base Structure]]**
+1. **[[s1e1-plan-kbs|Exercise 1: Planning Your Knowledge Base Structure]]**
    - Choose a location for your knowledge base
    - Understand the difference between a knowledge base folder and a Git repository
    - Create your top-level knowledge base folder
    - Plan your folder structure
 
-2. **[[s1-files/s1e2-creating-project-organization-structure|Exercise 2: Creating Your Project Organization Structure]]**
+2. **[[s1e2-creat-kbs|Exercise 2: Creating Your Project Organization Structure]]**
    - Create organized folders for projects, learning materials, and notes
    - Set up a structure that prevents nested repositories
    - Document your organization with README files
    - Understand where future Git repositories will be placed
 
-3. **[[s1-files/s1e3-setting-up-obsidian-knowledge-base|Exercise 3: Setting Up Obsidian Knowledge Base]]** (Optional)
+3. **[[s1e3-obsid-kbs|Exercise 3: Setting Up Obsidian Knowledge Base]]** (Optional)
    - Set up Obsidian with the special `content/` folder structure for publishing
    - Understand how Obsidian's organization differs from standard repositories
    - Create your first notes in the proper structure

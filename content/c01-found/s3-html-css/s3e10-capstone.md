@@ -1,9 +1,16 @@
 ---
-title: "Exercise 10: Capstone Project - Client Meeting Scheduler"
-description: "Build a complete Client Meeting Scheduler web application combining all HTML and CSS concepts. Create a portfolio-ready project with proper file organization and best practices."
-tags: [html, css, capstone, project, portfolio, beginner, workbook]
+title: "C1S3E10: Capstone Project - Client Meeting Scheduler"
+description: Build a complete Client Meeting Scheduler web application combining all HTML and CSS concepts. Create a portfolio-ready project with proper file organization and best practices.
+tags:
+  - html
+  - css
+  - capstone
+  - project
+  - portfolio
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 10: Capstone Project - Client Meeting Scheduler
@@ -966,7 +973,7 @@ After completing this section, you can:
 
 ## Navigation
 
-**Previous Exercise:** [[s3-html-css/s3e9-css-layout-with-float|Exercise 9: CSS Layout with Float]]
+**Previous Exercise:** [[s3e9-css-layout|Exercise 9: CSS Layout with Float]]
 
 **Next Section:** [[s4-js/index|Section 4: JavaScript Basics]]
 

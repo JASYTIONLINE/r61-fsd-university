@@ -1,9 +1,17 @@
 ---
-title: "Exercise 6: Creating Pull Requests"
+title: "C1S2E6: Creating Pull Requests"
 description: "Learn the fork workflow: fork a repository, clone your fork, add upstream remote, create a branch, push changes, and create a pull request."
-tags: [git, github, pull-request, fork, upstream, collaboration, beginner, workbook]
+tags:
+  - git
+  - github
+  - pull-request
+  - fork
+  - upstream
+  - collaboration
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 6: Creating Pull Requests
@@ -515,9 +523,9 @@ After completing this exercise, you should have:
 
 ## Navigation
 
-**Previous Exercise:** [[s2-vers-ctrl/s2e5-switching-branches|Exercise 5: Switching Branches]]
+**Previous Exercise:** [[s2e5-switch|Exercise 5: Switching Branches]]
 
-**Next Exercise:** [[s2-vers-ctrl/s2e7-merging-branches|Exercise 7: Merging Branches]]
+**Next Exercise:** [[s2e7-merge|Exercise 7: Merging Branches]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Main Course Page]]
 

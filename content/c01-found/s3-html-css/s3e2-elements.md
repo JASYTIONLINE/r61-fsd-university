@@ -1,14 +1,21 @@
 ---
-title: "Exercise 2: Adding Rich Content Elements"
-description: "Add hyperlinks, lists, images, and embedded content to your webpage. Learn about accessibility and proper HTML attributes."
-tags: [html, links, lists, images, accessibility, beginner, workbook]
+title: "C1S3E2: Adding Rich Content Elements"
+description: Add hyperlinks, lists, images, and embedded content to your webpage. Learn about accessibility and proper HTML attributes.
+tags:
+  - html
+  - links
+  - lists
+  - images
+  - accessibility
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 2: Adding Rich Content Elements
 
-**This exercise continues from [[s3e1-creating-first-webpage|Exercise 1]]. You must complete Exercise 1 first.** Follow each step exactly.**
+**This exercise continues from [[s3e1-first-page|Exercise 1]]. You must complete Exercise 1 first.** Follow each step exactly.**
 **Time Required:** 25-30 minutes
 
 ---
@@ -612,9 +619,9 @@ Next Steps: Return to Lecture @ [[c01-found/s3-html-css/index#Structured Data wi
 
 Course Lecture: [[c01-found/s3-html-css/index|HTML & CSS Foundations]]
 
-**Previous Exercise:** [[s3-html-css/s3e1-creating-first-webpage|Exercise 1: Creating Your First Webpage]]
+**Previous Exercise:** [[s3e1-first-page|Exercise 1: Creating Your First Webpage]]
 
-**Next Exercise:** [[s3-html-css/s3e3-creating-tables|Exercise 3: Creating Tables]]
+**Next Exercise:** [[s3e3-tables|Exercise 3: Creating Tables]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 

@@ -1,5 +1,5 @@
 ---
-title: "C8: The Power of Generative AI Software Testing"
+title: "C08: The Power of Generative AI Software Testing"
 description: A look at how to store and retrieve data to maximize efficiency in any situation
 tags:
   - course

@@ -1,9 +1,14 @@
 ---
-title: "Exercise 2: Creating Repository"
-description: "Create a GitHub repository and clone it to your knowledge-base/projects/ folder to begin version control work."
-tags: [git, github, repository, beginner, workbook]
+title: "C1S2E2: Creating Your First Repository"
+description: Create a GitHub repository and clone it to your knowledge-base/projects/ folder to begin version control work.
+tags:
+  - git
+  - github
+  - repository
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 2: Creating Repository
@@ -415,9 +420,9 @@ After completing this exercise, you should have:
 
 ## Navigation
 
-**Previous Exercise:** [[s2-vers-ctrl/s2e1-authenticating-git-with-github|Exercise 1: Authenticating Git with GitHub]]
+**Previous Exercise:** [[s2e1-auth-gh|Exercise 1: Authenticating Git with GitHub]]
 
-**Next Exercise:** [[s2-vers-ctrl/s2e3-pushing-changes|Exercise 3: Pushing Changes]]
+**Next Exercise:** [[s2e3-push|Exercise 3: Pushing Changes]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Main Course Page]]
 

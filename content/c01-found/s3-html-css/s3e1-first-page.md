@@ -1,9 +1,15 @@
 ---
-title: "Exercise 1: Creating Your First Webpage"
-description: "Create your first HTML webpage with proper document structure, title, headings, and paragraphs. Set up Live Server and preview your page in a browser."
-tags: [html, css, vs-code, live-server, beginner, workbook]
+title: "C1S3E1: Creating Your First Webpage"
+description: Create your first HTML webpage with proper document structure, title, headings, and paragraphs. Set up Live Server and preview your page in a browser.
+tags:
+  - html
+  - css
+  - vs-code
+  - live-server
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 1: Creating Your First Webpage
@@ -406,7 +412,7 @@ Things not working? Check out these common mistakes.
 
 **Previous Section:** [[s2-vers-ctrl/index|Section 2: Version Control]]
 
-**Next Exercise:** [[s3-html-css/s3e2-adding-rich-content-elements|Exercise 2: Adding Rich Content Elements]]
+**Next Exercise:** [[s3e2-elements|Exercise 2: Adding Rich Content Elements]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 

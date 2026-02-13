@@ -1,9 +1,15 @@
 ---
-title: "Exercise 1: Authenticating Git with GitHub"
-description: "Install GitHub CLI, configure Git identity, authenticate with GitHub, and configure VS Code terminal for version control."
-tags: [git, github, authentication, setup, beginner, workbook]
+title: "C1S2E1: Authenticating Git with GitHub"
+description: Install GitHub CLI, configure Git identity, authenticate with GitHub, and configure VS Code terminal for version control.
+tags:
+  - git
+  - github
+  - authentication
+  - setup
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 1: Authenticating Git with GitHub
@@ -430,7 +436,7 @@ After completing this exercise, you should have:
 
 ## Navigation
 
-**Next Exercise:** [[s2-vers-ctrl/s2e2-creating-repository|Exercise 2: Creating Repository]]
+**Next Exercise:** [[s2e2-creat-repo|Exercise 2: Creating Repository]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Main Course Page]]
 

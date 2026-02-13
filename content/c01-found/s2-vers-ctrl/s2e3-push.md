@@ -1,9 +1,15 @@
 ---
-title: "Exercise 3: Pushing Changes"
-description: "Create files, stage them, commit them, and push to GitHub to synchronize local and remote repositories."
-tags: [git, github, push, commits, beginner, workbook]
+title: "C1S2E3: Pushing Changes to Your Remote"
+description: Create files, stage them, commit them, and push to GitHub to synchronize local and remote repositories.
+tags:
+  - git
+  - github
+  - push
+  - commits
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 3: Pushing Changes
@@ -410,9 +416,9 @@ After completing this exercise, you should have:
 
 ## Navigation
 
-**Previous Exercise:** [[s2-vers-ctrl/s2e2-creating-repository|Exercise 2: Creating Repository]]
+**Previous Exercise:** [[s2e2-creat-repo|Exercise 2: Creating Repository]]
 
-**Next Exercise:** [[s2-vers-ctrl/s2e4-creating-branches|Exercise 4: Creating Branches]]
+**Next Exercise:** [[s2e4-branch|Exercise 4: Creating Branches]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Main Course Page]]
 

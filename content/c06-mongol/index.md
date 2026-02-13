@@ -1,5 +1,5 @@
 ---
-title: "C6: Using MongoDB to Design and Manage Databases"
+title: "C06: Using MongoDB to Design and Manage Databases"
 description: A look at how to store and retrieve data to maximize efficiency in any situation
 tags:
   - course

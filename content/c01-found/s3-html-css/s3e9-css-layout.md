@@ -1,9 +1,16 @@
 ---
-title: "Exercise 9: CSS Layout with Float"
-description: "Learn CSS layout using float, display properties, and responsive design. Test layouts with developer tools."
-tags: [css, layout, float, responsive-design, display, beginner, workbook]
+title: "C1S3E9: CSS Layout with Float"
+description: Learn CSS layout using float, display properties, and responsive design. Test layouts with developer tools.
+tags:
+  - css
+  - layout
+  - float
+  - responsive-design
+  - display
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 9: CSS Layout with Float
@@ -637,9 +644,9 @@ You now have a complete understanding of HTML structure, CSS styling, and layout
 
 ## Navigation
 
-**Previous Exercise:** [[s3-html-css/s3e8-css-styling-fundamentals|Exercise 8: CSS Styling Fundamentals]]
+**Previous Exercise:** [[s3e8-css-styling|Exercise 8: CSS Styling Fundamentals]]
 
-**Next Exercise:** [[s3-html-css/s3e10-capstone-client-meeting-scheduler|Exercise 10: Capstone Project - Client Meeting Scheduler]]
+**Next Exercise:** [[s3e10-capstone|Exercise 10: Capstone Project - Client Meeting Scheduler]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 

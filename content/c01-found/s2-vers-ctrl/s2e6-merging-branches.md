@@ -625,9 +625,9 @@ After completing this exercise, you should have:
 
 ## Navigation
 
-**Previous Exercise:** [[s2-vers-ctrl/s2e6-creating-pull-requests|Exercise 6: Creating Pull Requests]]
+**Previous Exercise:** [[s2e6-pull|Exercise 6: Creating Pull Requests]]
 
-**Next Exercise:** [[s2-vers-ctrl/s2e8-recap-and-workflow-habits|Exercise 8: Recap and Workflow Habits]]
+**Next Exercise:** [[s2e8-recap|Exercise 8: Recap and Workflow Habits]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Main Course Page]]
 

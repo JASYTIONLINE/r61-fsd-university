@@ -1,9 +1,15 @@
 ---
-title: "Exercise 5: Switching Branches"
-description: "Make real file changes on a branch and observe branch isolation in action."
-tags: [git, github, branches, checkout, beginner, workbook]
+title: "C1S2E5: Switching Branches"
+description: Make real file changes on a branch and observe branch isolation in action.
+tags:
+  - git
+  - github
+  - branches
+  - checkout
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 5: Switching Branches
@@ -458,9 +464,9 @@ After completing this exercise, you should have:
 
 ## Navigation
 
-**Previous Exercise:** [[s2-vers-ctrl/s2e4-creating-branches|Exercise 4: Creating Branches]]
+**Previous Exercise:** [[s2e4-branch|Exercise 4: Creating Branches]]
 
-**Next Exercise:** [[s2-vers-ctrl/s2e6-creating-pull-requests|Exercise 6: Creating Pull Requests]]
+**Next Exercise:** [[s2e6-pull|Exercise 6: Creating Pull Requests]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s2-vers-ctrl/index|Main Course Page]]
 

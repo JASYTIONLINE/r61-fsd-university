@@ -1,5 +1,5 @@
 ---
-title: "C02: Understanding Fundamentals of Generative AI"
+title: "C02: Fundamentals of Generative AI"
 description: Learn about Generative AI and how it can help you in your Full Stack Journey
 tags:
   - course

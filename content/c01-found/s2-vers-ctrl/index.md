@@ -1,9 +1,14 @@
 ---
-title: "Version Control Foundations"
-description: "Comprehensive introduction to Git and GitHub, version control concepts, and professional workflows for managing code changes."
-tags: [git, github, version-control, beginner, fundamentals]
+title: "C1S2: Version Control Foundations"
+description: Comprehensive introduction to Git and GitHub, version control concepts, and professional workflows for managing code changes.
+tags:
+  - git
+  - github
+  - version-control
+  - beginner
+  - fundamentals
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 # Version Control Foundations
 
@@ -89,7 +94,7 @@ Before starting this section, make sure you have:
 
 - ✅ **VS Code installed** (from Orientation section)
 
-If you haven't completed [[c01-found/s1-files/s1e1-planning-knowledge-base-structure.md|Section 1]], go back and complete it first. The knowledge base structure you created there is essential for organizing your work in this section.
+If you haven't completed [[s1e1-plan-kbs|Section 1]], go back and complete it first. The knowledge base structure you created there is essential for organizing your work in this section.
 
 ---
 
@@ -278,7 +283,7 @@ You'll configure authentication using **VS Code's integrated terminal** (configu
 
 Once set up, you can push and pull from GitHub using VS Code terminal without entering credentials every time. GitHub CLI manages authentication securely in the background.
 
-Now that you understand authentication and your terminal setup, you're ready to configure it. Complete [[s2-vers-ctrl/s2e1-authenticating-git-with-github|Exercise 1: Authenticating Git with GitHub]] to set up Git and connect it to GitHub.
+Now that you understand authentication and your terminal setup, you're ready to configure it. Complete [[s2e1-auth-gh|Exercise 1: Authenticating Git with GitHub]] to set up Git and connect it to GitHub.
 
 ---
 
@@ -332,7 +337,7 @@ my-project/
 
 The `.git` folder is what makes a directory a repository. It contains all the version history.
 
-Now that you understand repositories, you're ready to create your first one. Complete [[s2-vers-ctrl/s2e2-creating-repository|Exercise 2: Creating Repository]] to create a GitHub repository and clone it to your `knowledge-base/projects/` folder.
+Now that you understand repositories, you're ready to create your first one. Complete [[s2e2-creat-repo|Exercise 2: Creating Repository]] to create a GitHub repository and clone it to your `knowledge-base/projects/` folder.
 
 ---
 
@@ -382,7 +387,7 @@ Good commit messages explain **what** changed and **why**:
 
 Clear commit messages help you (and others) understand the project's history.
 
-Now that you understand how Git tracks files, you're ready to create files and commit them. Complete [[s2-vers-ctrl/s2e3-pushing-changes|Exercise 3: Pushing Changes]] to practice tracking files, making commits, and pushing to GitHub.
+Now that you understand how Git tracks files, you're ready to create files and commit them. Complete [[s2e3-push|Exercise 3: Pushing Changes]] to practice tracking files, making commits, and pushing to GitHub.
 
 ---
 
@@ -464,7 +469,7 @@ Changes on a branch don't affect other branches until you merge them. This means
 - You can abandon work without consequences
 - You can work on multiple features simultaneously
 
-Now that you understand branching, you're ready to create and work with branches. Complete [[s2-vers-ctrl/s2e4-creating-branches|Exercise 4: Creating Branches]] to learn how to create, list, and switch between branches.
+Now that you understand branching, you're ready to create and work with branches. Complete [[s2e4-branch|Exercise 4: Creating Branches]] to learn how to create, list, and switch between branches.
 
 ---
 
@@ -502,7 +507,7 @@ In this example:
 - `feature` branch has commits D, E (based on B)
 - They haven't been merged yet
 
-Now that you understand how to work with branches, complete [[s2-vers-ctrl/s2e5-switching-branches|Exercise 5: Switching Branches]] to practice making changes on branches and seeing branch isolation in action.
+Now that you understand how to work with branches, complete [[s2e5-switch|Exercise 5: Switching Branches]] to practice making changes on branches and seeing branch isolation in action.
 
 ---
 
@@ -550,7 +555,7 @@ In professional development:
 
 **Pull requests are the professional way to merge code in collaborative environments.** While you can merge branches locally (which you'll learn next), PRs provide review, discussion, and documentation that make collaboration safe and effective.
 
-Now that you understand forking and pull requests, complete [[s2-vers-ctrl/s2e6-creating-pull-requests|Exercise 6: Creating Pull Requests]] to practice the fork workflow.
+Now that you understand forking and pull requests, complete [[s2e6-pull|Exercise 6: Creating Pull Requests]] to practice the fork workflow.
 
 ---
 
@@ -600,7 +605,7 @@ The standard workflow:
 5. Delete the feature branch
 6. Push `main` to GitHub
 
-Now that you understand merging, complete [[s2-vers-ctrl/s2e7-merging-branches|Exercise 7: Merging Branches]] to practice merging branch work into main and cleaning up.
+Now that you understand merging, complete [[s2e7-merge|Exercise 7: Merging Branches]] to practice merging branch work into main and cleaning up.
 
 ---
 
@@ -644,7 +649,7 @@ These habits:
 - Build skills employers expect
 - Make you more confident as a developer
 
-Now that you understand professional workflow habits, complete [[s2-vers-ctrl/s2e8-recap-and-workflow-habits|Exercise 8: Recap and Workflow Habits]] to reinforce these concepts and tie everything together.
+Now that you understand professional workflow habits, complete [[s2e8-recap|Exercise 8: Recap and Workflow Habits]] to reinforce these concepts and tie everything together.
 
 ---
 
@@ -686,7 +691,7 @@ Version control will become second nature as you use it throughout the rest of t
 
 ## Next Steps
 
-[[s2-vers-ctrl/s2e8-recap-and-workflow-habits|Exercise 8: Recap and Workflow Habits]] - Review all concepts and reinforce your workflow habits before moving on. After completing the recap, continue to [[s3-html-css/index|Section 3: HTML & CSS Foundations]] to start building and styling web pages.
+[[s2e8-recap|Exercise 8: Recap and Workflow Habits]] - Review all concepts and reinforce your workflow habits before moving on. After completing the recap, continue to [[s3-html-css/index|Section 3: HTML & CSS Foundations]] to start building and styling web pages.
 
 ---
 
@@ -694,45 +699,45 @@ Version control will become second nature as you use it throughout the rest of t
 
 Complete these exercises in order to build your version control skills:
 
-1. **[[s2-vers-ctrl/s2e1-authenticating-git-with-github|Exercise 1: Authenticating Git with GitHub]]**
+1. **[[s2e1-auth-gh|Exercise 1: Authenticating Git with GitHub]]**
    - Install GitHub CLI (`gh`)
    - Configure Git with your identity
    - Authenticate with GitHub using `gh auth login`
    - Configure VS Code terminal to use Git Bash
 
-2. **[[s2-vers-ctrl/s2e2-creating-repository|Exercise 2: Creating Repository]]**
+2. **[[s2e2-creat-repo|Exercise 2: Creating Repository]]**
    - Create a GitHub repository
    - Clone it to your `knowledge-base/projects/` folder
    - Set up your development environment
 
-3. **[[s2-vers-ctrl/s2e3-pushing-changes|Exercise 3: Pushing Changes]]**
+3. **[[s2e3-push|Exercise 3: Pushing Changes]]**
    - Create files and track them with Git
    - Make commits with clear messages
    - Push your work to GitHub
 
-4. **[[s2-vers-ctrl/s2e4-creating-branches|Exercise 4: Creating Branches]]**
+4. **[[s2e4-branch|Exercise 4: Creating Branches]]**
    - Create and list branches
    - Switch between branches
    - Understand branch isolation
 
-5. **[[s2-vers-ctrl/s2e5-switching-branches|Exercise 5: Switching Branches]]**
+5. **[[s2e5-switch|Exercise 5: Switching Branches]]**
    - Make changes on branches
    - See branch isolation in action
    - Understand how commits belong to branches
 
-6. **[[s2-vers-ctrl/s2e6-creating-pull-requests|Exercise 6: Creating Pull Requests]]**
+6. **[[s2e6-pull|Exercise 6: Creating Pull Requests]]**
    - Fork a repository on GitHub
    - Clone your fork locally
    - Add upstream remote
    - Create a branch and make changes
    - Push to your fork and create a pull request
 
-7. **[[s2-vers-ctrl/s2e7-merging-branches|Exercise 7: Merging Branches]]**
+7. **[[s2e7-merge|Exercise 7: Merging Branches]]**
    - Merge branch work into main
    - Push merged changes to GitHub
    - Clean up branches and temporary files
 
-8. **[[s2-vers-ctrl/s2e8-recap-and-workflow-habits|Exercise 8: Recap and Workflow Habits]]**
+8. **[[s2e8-recap|Exercise 8: Recap and Workflow Habits]]**
    - Review all concepts learned
    - Reinforce professional habits
    - Prepare for the next section

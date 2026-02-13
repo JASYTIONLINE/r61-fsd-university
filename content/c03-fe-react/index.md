@@ -1,5 +1,5 @@
 ---
-title: "C3: Using React to Design a Dynamic Frontend"
+title: "C03: Using React to Design a Dynamic Frontend"
 description: An introduction to the REACT Model. A shortcut system to make creating web applications easier and modular.
 tags:
   - course

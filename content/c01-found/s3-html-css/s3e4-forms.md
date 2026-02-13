@@ -1,14 +1,20 @@
 ---
-title: "Exercise 4: Creating Forms"
-description: "Create HTML forms to collect user input. Learn about different input types, labels, and form accessibility."
-tags: [html, forms, user-input, accessibility, beginner, workbook]
+title: "EC1S3E4: Creating Forms"
+description: Create HTML forms to collect user input. Learn about different input types, labels, and form accessibility.
+tags:
+  - html
+  - forms
+  - user-input
+  - accessibility
+  - beginner
+  - workbook
 draft: false
-date: "2026-01-30"
+date: 2026-01-30
 ---
 
 # Exercise 4: Creating Forms
 
-**This exercise continues from [[s3e3-creating-tables|Exercise 3.]] You must complete Exercise 3 first.**
+**This exercise continues from [[s3e3-tables|Exercise 3.]] You must complete Exercise 3 first.**
 
 **Follow each step exactly.**
 
@@ -447,9 +453,9 @@ You now understand how to create forms for collecting user input. In the next ex
 
 ## Navigation
 
-**Previous Exercise:** [[s3-html-css/s3e3-creating-tables|Exercise 3: Creating Tables]]
+**Previous Exercise:** [[s3e3-tables|Exercise 3: Creating Tables]]
 
-**Next Exercise:** [[s3-html-css/s3e5-using-semantic-html-structure|Exercise 5: Using Semantic HTML Structure]]
+**Next Exercise:** [[s3e5-semantic|Exercise 5: Using Semantic HTML Structure]]
 
 **Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
 

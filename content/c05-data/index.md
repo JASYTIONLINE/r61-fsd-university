@@ -1,5 +1,5 @@
 ---
-title: "C5: Understanding Data Structures and Algorithms"
+title: "C05: Understanding Data Structures and Algorithms"
 description: A look at how to store and retrieve data to maximize efficiency in any situation
 tags:
   - course
