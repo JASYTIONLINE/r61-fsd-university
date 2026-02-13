@@ -102,9 +102,9 @@ Windows Terminal provides:
 While optional, Windows Terminal makes working with the command line more pleasant and professional.
 
 ---
-## Next Steps
+#### Next Steps: Return to the [Orientation Lecture](c01-found/c1s0-orientation/index.md#Introduction-to-git-and-versionc-control)
+2. Introduction to Git and Version Control
 
-- Return to the [Orientation Lecture](c01-found/c1s0-orientation/index.md#Introduction-to-git-and-versionc-control) to learn and install Git and Git Bash
 ---
 [Back to the Top](#What%20are%20we%20doing?)
 ## Navigation

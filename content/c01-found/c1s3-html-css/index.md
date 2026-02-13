@@ -10,17 +10,12 @@ tags:
 draft: false
 date: 2026-01-30
 ---
+# 0: Getting Started
+In this section, you will move from managing code to actually creating what users see in a browser. 
 
-# HTML & CSS Foundations
-
-Welcome to Section 3: HTML & CSS Foundations. This section builds directly on the version control skills you learned in Section 2. You'll learn how to build and style web pages, creating a professional portfolio project that demonstrates your HTML and CSS skills.
-
-This is a **level 2 understanding**—enough to grasp the "why" behind web development practices and develop professional habits. By the end, you'll understand how HTML and CSS work together, why semantic HTML matters, how CSS styling works, and you'll have hands-on experience building a complete web project.
-
----
-
-## What to Expect
-
+## What are we doing?
+You will learn how web pages are structured using HTML and how they are styled and laid out using CSS. By the end of this section, you will understand how websites are built from the ground up and will have created a clean, structured, and beautifully styled web page that can serve as the foundation of your professional portfolio.
+### What to Expect
 In this section, you will:
 
 - Learn HTML document structure and semantic elements
@@ -32,11 +27,8 @@ In this section, you will:
 - Maintain professional Git workflow throughout
 - Build a complete Client Meeting Scheduler project
 
-**Important:** All your work in this section continues in the same repository you created in Section 2. This repository is becoming a portfolio piece, not a collection of throwaway demos. Every exercise builds on the previous one.
-
----
-
-## Prerequisites
+**Important:** All your work in this section continues in the same repository you created in Section 2. This repository is becoming a portfolio piece.  I highly recommend following the storage location recommendations in these lectures as all links depend on files being in the right place.  Every page builds on the pages before, and most are interconnected.
+### Prerequisites
 
 Before starting this section, make sure you have:
 
@@ -51,30 +43,25 @@ Before starting this section, make sure you have:
 If you haven't completed Section 2, go back and complete it first. The repository you created there is essential for this section.
 
 ---
-
-## How Browsers Work
-
-Before we dive into HTML and CSS, it's important to understand how browsers process web pages. This understanding will help you debug issues and write better code.
+## 1. How Browsers Work
+Before we dive into [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), it's important to understand how a [web browser](https://developer.mozilla.org/en-US/docs/Glossary/Browser) processes web pages. This understanding will help you [debug](https://www.bing.com/ck/a?!&&p=69031b31a1acec92758683b7cd6319b1fe05ba985badef5c1749a3f8901e436dJmltdHM9MTc3MDk0MDgwMA&ptn=3&ver=2&hsh=4&fclid=07f802bb-eb29-6f86-2b0a-1404ea816ee4&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRGVidWdnaW5n) issues and write better code.
 
 When you visit a webpage, your browser:
 
-1. **Downloads the HTML file** from the server
-2. **Parses the HTML** - Reads the structure and creates a Document Object Model (DOM)
+1. **Downloads the HTML file** from the [server](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server)
+2. [Parses](https://www.bing.com/ck/a?!&&p=2a21e9f9cf1e29f021d9821076f3823d045d8ce3ee8268aa59fb3d383b67ac93JmltdHM9MTc3MDk0MDgwMA&ptn=3&ver=2&hsh=4&fclid=07f802bb-eb29-6f86-2b0a-1404ea816ee4&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvUGFyc2luZw) the HTML** - Reads the structure and creates a Document Object Model (DOM)
 3. **Downloads linked resources** - CSS files, images, etc.
-4. **Applies CSS** - Matches selectors to elements and applies styles
-5. **Renders the page** - Displays the final visual result
+4. **Applies CSS** - Matches [selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Selectors) to [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element) and applies [styles](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics)
+5. [Renders](https://terminalnotes.com/how-browsers-work-understanding-rendering-parsing-and-repainting/) the page and displays the final visual result
 
 **HTML** provides the structure and content (what's on the page). **CSS** provides the presentation (how it looks). They work together: HTML elements are styled by CSS rules.
 
 Understanding this process helps you debug why styles aren't applying, understand the cascade and specificity, use developer tools effectively, and write more efficient code.
 
-Now that you understand how browsers work, you're ready to create your first webpage. Complete **[[s3e1-first-page|Exercise 1: Creating Your First Webpage]]** to build the foundation.
-
 ---
-
 ## HTML Document Structure
 
-HTML (HyperText Markup Language) is the foundation of every web page. It provides the structure and content that browsers display.
+HTML (Hypertext Markup Language) is the foundation of every web page. It provides the structure and content that browsers display.
 
 Every HTML document follows this structure:
 
@@ -102,12 +89,10 @@ Semantic HTML uses elements that describe their meaning, not just their appearan
 Now that you understand HTML structure, complete [Exercise 1: Creating Your First Webpage](s3e1-first-page.md) to create your first HTML document.
 
 ---
+## 2. HTML Content Elements
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)  provides many elements for adding content to your pages.
 
-## HTML Content Elements
-
-[HTML provides many elements](https://developer.mozilla.org/en-US/docs/Web/HTML) for adding content to your pages.
-
-**[Text elements** include headings (`<h1>` through `<h6>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements) for creating hierarchy, [paragraphs (`<p>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p) for body text, and strong/emphasis ([`<strong>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/strong), [`<em>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/em) for important or emphasized text.
+Text [elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements) include headings (`<h1>` through `<h6>`)for creating hierarchy, [paragraphs (`<p>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p) for body text, and strong/emphasis ([`<strong>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/strong), [`<em>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/em) for important or emphasized text.
 
 **Hyperlinks** [(`<a href="url">`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a) create clickable links. You can link to other pages on your site (internal), other websites (external), or sections on the same page (anchors).
 
@@ -119,11 +104,10 @@ Now that you understand HTML structure, complete [Exercise 1: Creating Your Firs
 
 Always include [`alt` text](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) for images, use descriptive link text (not "click here"), ensure proper heading hierarchy, and use [semantic elements](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) when possible.
 
-Now that you understand content [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element), complete [Exercise 2: Adding Rich Content Elements](s3e2-elements.md) to add links, lists, images, and embedded content to your page.
+Now that you have a basic understanding content [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element), complete [Exercise 2: Adding Rich Content Elements](s3e2-elements.md) to add links, lists, images, and embedded content to your page.
 
 ---
-
-## Structured Data with Tables
+## 3. Structured Data with Tables
 
 Tables organize data into rows and columns, making information easy to scan and understand.
 
@@ -135,7 +119,7 @@ Now that you understand tables, complete [Exercise 3: Creating Tables](s3e3-tabl
 
 ---
 
-## Collecting User Input with Forms
+## 4. Collecting User Input with Forms
 
 Forms allow users to submit data to your website. They're essential for contact forms, search boxes, login pages, and more.
 
@@ -147,7 +131,7 @@ Now that you understand forms, complete [Exercise 4: Creating Forms](s3e4-forms.
 
 ---
 
-## Semantic HTML Structure
+## 5. Semantic HTML Structure
 
 Semantic HTML uses elements that describe their meaning, making your code more maintainable and accessible.
 
@@ -162,8 +146,7 @@ Use semantic elements instead of generic `<div>` when possible, maintain proper 
 Now that you understand semantic HTML, complete [Exercise 5: Using Semantic HTML Structure](s3e5-semantic.md) to improve your page structure.
 
 ---
-
-## Introduction to CSS
+## 6. Introduction to CSS
 
 CSS (Cascading Style Sheets) controls how HTML elements look. It separates presentation from structure, making your code more maintainable.
 
@@ -178,8 +161,7 @@ CSS (Cascading Style Sheets) controls how HTML elements look. It separates prese
 Now that you understand CSS basics, complete [Exercise 6: Introduction to CSS](s3e6-css-intro.md) to add styling to your page and set up proper file organization.
 
 ---
-
-## CSS Selectors and Specificity
+## 7. CSS Selectors and Specificity
 
 CSS selectors target HTML elements to apply styles. Understanding selectors and specificity is crucial for writing effective CSS.
 
@@ -196,8 +178,7 @@ Developer tools show you which selectors are active, which rules are being overr
 Now that you understand selectors and specificity, complete [Exercise 7: CSS Selectors](s3e7-css-selectors.md) to practice targeting elements and understanding the cascade.
 
 ---
-
-## CSS Styling Fundamentals
+## 8. CSS Styling Fundamentals
 
 CSS provides extensive control over text, borders, backgrounds, and form styling.
 
@@ -214,8 +195,7 @@ CSS provides extensive control over text, borders, backgrounds, and form styling
 Now that you understand styling fundamentals, complete [Exercise 8: CSS Styling Fundamentals](s3e8-css-styling.md) to style your page and organize your CSS.
 
 ---
-
-## CSS Layout and Responsive Design
+## 9. CSS Layout and Responsive Design
 
 CSS controls how elements are positioned and displayed on the page.
 
@@ -230,8 +210,8 @@ CSS controls how elements are positioned and displayed on the page.
 Now that you understand layout and responsive design, complete **[Exercise 9: CSS Layout with Float](s3e9-css-layout.md) to create page layouts and test responsiveness.
 
 ---
-
-## Putting It All Together
+## 10. Putting It All Together
+Capstone Project - Client Meeting Scheduler
 
 You've learned HTML structure, CSS styling, and layout. Now it's time to combine everything into a complete project.
 
@@ -242,8 +222,8 @@ Your capstone project will be a Client Meeting Scheduler—a complete web applic
 Now that you're ready, complete **[Exercise 10: Capstone Project - Client Meeting Scheduler](s3e10-capstone.md) to build your complete project.
 
 ---
-
-## Modern Best Practices
+## 11. Wrap Up
+Modern Best Practices
 
 As you continue developing, keep these practices in mind:
 
@@ -260,8 +240,7 @@ As you continue developing, keep these practices in mind:
 **Responsive Design:** Always include viewport meta tag, test on multiple screen sizes, use relative units (%, em, rem) when possible, and consider mobile-first approach.
 
 ---
-
-## What You'll Accomplish
+## What You've Accomplished
 
 By completing this section and its exercises, you will have:
 
@@ -279,14 +258,13 @@ By completing this section and its exercises, you will have:
 - ✅ **Portfolio-ready work** - Created something you can show employers
 
 ---
-
-## Next Steps
-
-[Exercise 10: Capstone Project - Client Meeting Scheduler](s3e10-capstone.md) - Build the complete Client Meeting Scheduler project that brings together everything you've learned in this section.
+#### Next Steps: [Section 04: Fundamentals of JavaScript](c01-found/c1s4-js/index)
+Build the complete Client Meeting Scheduler project that brings together everything you've learned in this section.
 
 ---
-
-## Exercises in This Section
+[Back to the top](#Getting%20Started)
+## Navigation
+Exercises in This Section
 
 Complete these exercises in order to build your HTML and CSS skills:
 
@@ -296,72 +274,65 @@ Complete these exercises in order to build your HTML and CSS skills:
    - Set up Live Server
    - Preview in browser
 
-1. [Exercise 2: Adding Rich Content Elements](s3e2-elements.md)
+2. [Exercise 2: Adding Rich Content Elements](s3e2-elements.md)
    - Add hyperlinks, lists, and images
    - Include HTML plug-ins (iframes)
    - Practice accessibility
 
-1. [Exercise 3: Creating Tables](s3e1-first-page.md)
+3. [Exercise 3: Creating Tables](s3e1-first-page.md)
    - Create table structure
    - Add semantic table elements
    - Style basic tables
 
-1. **[Exercise 4: Creating Forms](s3e4-forms.md)
+4. **[Exercise 4: Creating Forms](s3e4-forms.md)
    - Build form structure
    - Add various input types
    - Include proper labels
 
-1. [Exercise 5: Using Semantic HTML Structure](s3e5-semantic.md)
+5. [Exercise 5: Using Semantic HTML Structure](s3e5-semantic.md)
    - Use ID and class attributes
    - Implement semantic elements
    - Improve document structure
 
-1. [Exercise 6: Introduction to CSS](s3e6-css-intro.md)
+6. [Exercise 6: Introduction to CSS](s3e6-css-intro.md)
    - Add inline and external CSS
    - Create organized file structure (css/ folder)
    - Understand box model
    - Use developer tools
 
-1. [Exercise 7: CSS Selectors](s3e7-css-selectors.md)
+7. [Exercise 7: CSS Selectors](s3e7-css-selectors.md)
    - Use various selectors
    - Understand cascade and specificity
    - Practice with developer tools
 
-1. [Exercise 8: CSS Styling Fundamentals](s3e8-css-styling.md)
+8. [Exercise 8: CSS Styling Fundamentals](s3e8-css-styling.md)
    - Style text, borders, backgrounds
    - Practice box model
    - Organize CSS with comments
    - Style forms
 
-1. [Exercise 9: CSS Layout with Float](s3e9-css-layout.md)
+9. [Exercise 9: CSS Layout with Float](s3e9-css-layout.md)
    - Create page layouts
    - Use float for positioning
    - Add responsive design basics
    - Test with developer tools
 
 1. **[Exercise 10: Capstone Project - Client Meeting Scheduler](s3e10-capstone.md)
-    - Build complete project
-    - Combine all concepts
-    - Implement best practices
-    - Create portfolio-ready work
-
+   - Build complete project
+   - Combine all concepts
+   - Implement best practices
+   - Create portfolio-ready work
+	
 ---
+### Global Navigation
 
-## Navigation
-
-### Section Navigation
-- [Home](r61-fsd-university/content/c01-found/s3-html-css/index.md) - to the main course page
-- [Version Control](c01-found/c1s2-vers-ctrl/index.md) - Previous section
-- [[c01-found/c1s3-html-css/index|HTML & CSS]] - This page
-- [JavaScript Basics](c01-found/c1s4-js/index.md) - Next section
-
-### Course Sections
-- [Orientation](c01-found/c1s0-orientation/index.md) - Get started here
-- [File Systems](c01-found/c1s1-files/index.md) - Organization principles
-- [Version Control](c01-found/c1s2-vers-ctrl/index.md) - Git and GitHub basics
-- [HTML & CSS Foundations](c01-found/c1s3-html-css/index.md) - This page
-- [JavaScript Basics](c01-found/c1s4-js/index.md) - Programming fundamentals
-- [JavaScript Functions](c01-found/c1s5-Opt-js/index.md) - Functions and optimization
-- [Advanced JavaScript](c01-found/c1s6-adv-js/index.md) - Advanced concepts
-- [Tailwind CSS](c01-found/index) - Modern styling
-- [[s8-tailwind-adv/index|Advanced Tailwind]] - Advanced styling
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

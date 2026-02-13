@@ -139,8 +139,8 @@ If something didn't work:
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
 
 ---
-#### Next Steps: [Return to Lecture](c01-found/c1s0-orientation/index#7.-Recap)
-7. Section Recap and Get ready to Begin
+#### Next Steps: [Return to Lecture](c01-found/c1s0-orientation/index#7.-Recap:-Tools-You-Have-Installed-in-This-Section)
+7. Recap: Tools You Have Installed in This Section
 
 ---
 [Back to the Top](#What%20are%20we%20doing?)

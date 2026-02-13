@@ -128,9 +128,8 @@ Git is the foundation of version control. By installing it now, you're:
 In later sections, you'll learn how to use Git and authenticate with GitHub from the command line.
 
 ---
-## Next Steps
-
-- [[c01-found/c1s0-orientation/index|Orientation Lecture]] - Return to the lecture and move on to the next exercise in the setup sequence.
+#### Next Steps: Return to the [[c01-found/c1s0-orientation/index|Orientation Lecture]]
+3. Introduction to Code Editors
 
 ---
 ## Troubleshooting
@@ -144,6 +143,7 @@ If something didn't work:
 3. **Installation failed**: Make sure you have administrator rights. Right-click the installer and choose "run as administrator."
 
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
+
 ---
 [Back to the Top](#What%20are%20we%20doing?)
 ## Navigation

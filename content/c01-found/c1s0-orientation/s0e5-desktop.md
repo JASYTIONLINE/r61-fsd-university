@@ -133,8 +133,8 @@ GitHub Desktop provides:
 While professional developers often use command-line Git, GitHub Desktop is an excellent learning tool and remains useful for visual workflows. You'll use both command-line Git and GitHub Desktop throughout this course.
 
 ---
-#### Next Steps: [Return to Lecture](c01-found/c1s0-orientation/index#6.-Optional-Tools-You-May-Want-to-Install) 
-Installing Optional Tools: Cursor and Obsidian
+#### Next Steps: [Return to the Orientation Lecture](c01-found/c1s0-orientation/index#6.-Optional-Tools-You-May-Want-to-Install) 
+6. Optional Tools You May Want to Install
 
 ---
 ## Troubleshooting

@@ -443,19 +443,34 @@ You now understand how to create forms for collecting user input. In the next ex
 - Check that you saved the file
 
 ---
-
-## Next Steps
-
-- [[c01-found/c1s3-html-css/index#HTML Forms|Return to Lecture]] - Go back to the HTML Forms section of the lecture before continuing.
+#### Next Steps: [Return to Lecture](c01-found/c1s3-html-css/index#5.-Semantic-HTML-Structure)
+5. Semantic HTML Structure
 
 ---
-
 ## Navigation
+[Back to the Top](#Getting%20Started)
+### Section 0 Map
+- [C1S3E1:](c01-found/c1s3-html-css/s3e1-first-page) Exercise 1: Creating Your First Webpage
+- [C1S3E2:](c01-found/c1s3-html-css/s3e2-elements) Exercise 2: Adding Rich Content Elements
+- [C1S3E3:](c01-found/c1s3-html-css/s3e3-tables) Exercise 3: Creating Tables
+- [C1S3E4:](c01-found/c1s3-html-css/s3e4-forms) Exercise 4: Creating Forms
+- [C1S3E5:](c01-found/c1s3-html-css/s3e5-semantic) Exercise 5: Using Semantic HTML Structure
+- [C1S3E6:](c01-found/c1s3-html-css/s3e6-css-intro) Exercise 6: Introduction to CSS
+- [C1S3E7:](c01-found/c1s3-html-css/s3e7-css-selectors) Exercise 7: CSS Selectors
+- [C1S3E8:](c01-found/c1s3-html-css/s3e8-css-styling) Exercise 8: CSS Styling Fundamentals
+- [C1S3E9:](c01-found/c1s3-html-css/s3e9-css-layout) Exercise 9: CSS Layout with Float
+- [C1S3E10:](c01-found/c1s3-html-css/s3e10-capstone) Exercise 10: Capstone Project - Client Meeting Scheduler
 
-**Previous Exercise:** [[s3e3-tables|Exercise 3: Creating Tables]]
+---
+### Global Navigation
 
-**Next Exercise:** [[s3e5-semantic|Exercise 5: Using Semantic HTML Structure]]
-
-**Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
-
-**Return to Section:** [[c01-found/c1s3-html-css/index|HTML & CSS Section]]
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

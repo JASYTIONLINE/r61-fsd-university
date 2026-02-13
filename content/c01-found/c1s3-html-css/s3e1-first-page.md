@@ -11,8 +11,8 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
-# Exercise 1: Creating Your First Webpage
+# Getting Started:
+Exercise 1: Creating Your First Webpage
 
 **This exercise continues from Section 2. You must complete Section 2 first. Follow each step exactly.**
 
@@ -333,7 +333,6 @@ nothing to commit, working tree clean
 **If you see this, your commit was successful. Proceed to final verification.**
 
 ---
-
 ## Expected Final State
 
 After completing this exercise, you should have:
@@ -364,34 +363,29 @@ nothing to commit, working tree clean
 **If you see "working tree clean", you're ready for the next exercise.**
 
 ---
-
 ## What This Sets Up for Exercise 2
 
 You now have a properly structured HTML page that loads reliably in a browser. In the next exercise, you'll add more content elements like hyperlinks, lists, and images to make your page more interesting and functional.
 
 ---
-## Next Steps
+#### Next Steps: [Return to the HTML-CSS Lecture](c01-found/c1s3-html-css/index#2.-HTML-Content-Elements)
+2. HTML Content Elements
 
-- [[c01-found/c1s3-html-css/index#HTML Content Elements|Return to Lecture]] - Go back to the HTML Document Structure section of the lecture before continuing.
 ---
 ## Troubleshooting:
 Things not working? Check out these common mistakes.
-
----
 ### Problem: "fatal: not a git repository"
 
 **Solution:**
 - You're not in the repository folder
 - Run `pwd` to check your location
 - Navigate to your repository folder: `cd path/to/your/repository`
-
 ### Problem: Live Server doesn't open browser
 
 **Solution:**
 - Make sure Live Server is installed (check Extensions)
 - Try clicking the "Go Live" button in the bottom-right corner of VS Code
 - Make sure you right-clicked on `index.html` and selected "Open with Live Server"
-
 ### Problem: Browser shows blank page or file:// in address bar
 
 **Solution:**
@@ -399,7 +393,6 @@ Things not working? Check out these common mistakes.
 - Close the browser tab
 - Right-click `index.html` in VS Code and select "Open with Live Server"
 - The address bar should show `http://127.0.0.1:5500` or similar, not `file://`
-
 ### Problem: Changes don't appear in browser
 
 **Solution:**
@@ -409,11 +402,29 @@ Things not working? Check out these common mistakes.
 
 ---
 ## Navigation
+[Back to the Top](#Getting%20Started)
+### Section 0 Map
+- [C1S3E1:](c01-found/c1s3-html-css/s3e1-first-page) Exercise 1: Creating Your First Webpage
+- [C1S3E2:](c01-found/c1s3-html-css/s3e2-elements) Exercise 2: Adding Rich Content Elements
+- [C1S3E3:](c01-found/c1s3-html-css/s3e3-tables) Exercise 3: Creating Tables
+- [C1S3E4:](c01-found/c1s3-html-css/s3e4-forms) Exercise 4: Creating Forms
+- [C1S3E5:](c01-found/c1s3-html-css/s3e5-semantic) Exercise 5: Using Semantic HTML Structure
+- [C1S3E6:](c01-found/c1s3-html-css/s3e6-css-intro) Exercise 6: Introduction to CSS
+- [C1S3E7:](c01-found/c1s3-html-css/s3e7-css-selectors) Exercise 7: CSS Selectors
+- [C1S3E8:](c01-found/c1s3-html-css/s3e8-css-styling) Exercise 8: CSS Styling Fundamentals
+- [C1S3E9:](c01-found/c1s3-html-css/s3e9-css-layout) Exercise 9: CSS Layout with Float
+- [C1S3E10:](c01-found/c1s3-html-css/s3e10-capstone) Exercise 10: Capstone Project - Client Meeting Scheduler
 
-**Previous Section:** [[c01-found/c1s2-vers-ctrl/index|Section 2: Version Control]]
+---
+### Global Navigation
 
-**Next Exercise:** [[s3e2-elements|Exercise 2: Adding Rich Content Elements]]
-
-**Home:** [[r61-fsd-university/content/c01-found/s3-html-css/index|Main Course Page]]
-
-**Return to Section:** [[c01-found/c1s3-html-css/index|HTML & CSS Section]]
+- [HOME:](index) JASYTI's Full Stack Development Foundations Course -
+- [Course 01:](c01-found/index) Foundations of Front End Development
+- [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
+- [Course 03:](c03-fe-react/index) Designing a Dynamic Frontend with React
+- [Course 04:](c04-genai-design/index.md) Harnessing Gen AI: From Design to Code Optimization
+- [Course 05:](c05-data/index) Understanding Data Structures and Algorithms
+- [Course 06:](c06-mongol/index) Using MongoDB to Design and Manage Databases
+- [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
+- [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
+- [Course 09:](c09-publish/index) Publishing your Website to the Live Internet

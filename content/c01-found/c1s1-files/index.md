@@ -12,8 +12,6 @@ draft: false
 date: 2026-01-30
 ---
 # Getting Started
-Fundamental Principles of Organizing Files and Folders.
-
 In this section you'll learn why good organization matters, see examples of effective structures, understand how the organizational patterns used in this course help you (and others) find what you need quickly, and discover why developers need personal infrastructure that matches organizational standards.
 
 Many educational platforms strive to teach you "Everything you need to know" about the subject matter it explores, but I have found this endeavor is often fruitless and results in overwhelming the student.
@@ -25,7 +23,7 @@ The goal in this course is to take your from the first level of understanding:
 to
 2. level 2: Conscious Incompetence (I know what I don't know.)
 
-I will leave it to you to make the rest of the journey through level 4
+I will leave it to you to make the rest of the journey through level 4 by clicking on hyper links you find embedded within the course, and going down your own rabbit holes to find new an interesting ideas and concepts.
 
 Don't try to memorize or learn all the concepts you see here.  Work through the entire course, and we will reinforce the important concepts multiple times. For now, it is enough to grasp the "why" behind our organizational choices, not a deep dive into every possible file structure pattern. By the end, you'll understand why we organize repositories the way we do, and you'll be able to navigate and contribute to well-organized projects.
 
@@ -131,6 +129,8 @@ my-project/
 4. **Immediately understandable**: Any developer can navigate it without explanation
 5. [Scales well:](https://en.wikipedia.org/wiki/Scalability) Works for small projects and large [codebases](https://en.wikipedia.org/wiki/Codebase)
 6. **Tool compatibility**: [Build tools](https://dev.to/vaib/top-5-essential-build-tools-for-modern-development-5694), [IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment), and [CI/CD systems](https://en.wikipedia.org/wiki/CI/CD) expect this structure
+
+---
 ### Variations You'll See
 
 While the core pattern is consistent, you'll see variations:
@@ -148,19 +148,14 @@ The key is that the [separation of concerns](https://en.wikipedia.org/wiki/Separ
 ### Principles of Good Organization
 
 While different projects use different structures, good organization follows these principles:
-
 #### 1. **Logical Grouping**
 Files that belong together should be together. Authentication files go with authentication files, not scattered across the project.
-
 #### 2. **Consistent Naming**
 Use consistent [naming conventions](https://en.wikipedia.org/wiki/Naming_convention). If you use [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case) for folders, use it everywhere. If you number things, be consistent with the numbering system.
-
 #### 3. **Self-Explanatory Names**
 Folder and file names should tell you what's inside. `user-authentication` is better than `auth` or `stuff`.
-
 #### 4. **Shallow When Possible**
 Avoid deeply [nested folders](https://www.glarysoft.com/how-to/are-you-making-these-common-mistakes-with-folder-structure-optimization-in-windows/) when you can. `src/components/auth/login.js` is better than `src/components/user/authentication/forms/login/login.js`.
-
 #### 5. **Scalable Structure**
 Organize for growth. A structure that works for 10 files should still make sense with 1000 files.
 
@@ -387,7 +382,8 @@ OUTSTANDING WORK!!!
 The repository you'll build throughout this course will follow professional organizational standards. By the end of this course, you'll have a portfolio piece that demonstrates not just coding skills, but also professional organizational habits.
 
 ---
-#### Next Steps: [C1S2: Version Control Foundations](c01-found/c1s2-vers-ctrl/index) - Git and GitHub basics
+#### Next Steps: [C1S2: Version Control Foundations](c01-found/c1s2-vers-ctrl/index)
+The Foundations of Git and Version Control
 
 ---
 ## Navigation
@@ -415,6 +411,7 @@ Complete these exercises to set up your knowledge base and understand file organ
 
 ---
 ### Global Navigation
+
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI

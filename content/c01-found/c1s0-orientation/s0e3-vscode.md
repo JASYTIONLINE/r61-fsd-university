@@ -140,7 +140,9 @@ If something didn't work:
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
 
 ---
-Next Steps: [[c01-found/c1s0-orientation/index|Orientation Lecture]] - Return to the lecture and continue with the next orientation exercise.
+#### Next Steps: Return to the [[c01-found/c1s0-orientation/index|Orientation Lecture]] 
+4. Introduction to GitHub
+
 ---
 [Back to the Top](#What%20are%20we%20doing?)
 ## Navigation

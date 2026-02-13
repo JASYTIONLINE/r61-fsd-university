@@ -276,8 +276,7 @@ If you want a system that grows with you instead of collapsing under its own com
 With this in mind, I suggest you complete [Exercise 6:](c01-found/c1s0-orientation/s0e6-opts) Installing Optional Tools and give them a try.
 
 ---
-## 7. Recap
-Tools You Have Installed in This Section
+## 7. Recap: Tools You Have Installed in This Section
 
 In the exercises below, you'll installed:
 - **Windows Terminal** - Modern terminal application (optional but recommended)
@@ -300,8 +299,8 @@ Now that you have completed the exercises above and set up your development envi
 Good luck, and welcome to the journey of becoming a full stack engineer!
 
 ---
-#### Next Steps: [C1S1: File Systems and Organization](c01-found/c1s1-files/index.md) - Learn about file organization principles.
-You’re right.
+#### Next Steps: [C1S1: File Systems and Organization](c01-found/c1s1-files/index.md)
+Getting Started: Fundamental Principles of Organizing Files and Folders.
 
 ---
 ## Navigation
@@ -327,10 +326,10 @@ Complete these exercises in order to properly configure your Windows development
     
 6. **[Exercise 6: Installing Optional Tools](s0e6-opts.md)**  
     Explore advanced tools like Cursor and Obsidian that can enhance productivity and knowledge management.
-    
+
 ---
- ### Global Navigation
- 
+### Global Navigation
+
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI

@@ -11,19 +11,16 @@ draft: false
 date: 2026-01-30
 ---
 # Getting Started
-The Foundations of Git and Version Control
-
-Welcome to Section 2: [Version Control](https://git-scm.com/video/what-is-version-control) Foundations. This section builds directly on the file organization principles you learned in Section 1. You'll learn how to use Git and GitHub to track changes, collaborate safely, and maintain professional development workflows.
+Welcome to Version Control Foundations. This section builds directly on the file organization principles you learned in Section 1. You'll learn how to use Git and GitHub to track changes, collaborate safely, and maintain professional development workflows.
 
  By the end of this section, you'll understand how version control works, why it's essential for professional development, and you'll have hands-on experience with Git and GitHub.
 
 ---
-
-## What to Expect
+## 0. What to Expect
 
 In this section, you will:
 
-- Learn what version control is and why every developer needs it
+- Learn what [version control](https://git-scm.com/video/what-is-version-control) ) is and why every developer needs it
 - Understand the relationship between [Git (the tool)](https://en.wikipedia.org/wiki/Git) and [GitHub (the platform)](https://en.wikipedia.org/wiki/GitHub)
 - **Use VS Code's integrated terminal** configured with Git Bash for all Git operations
 - Set up [Git authentication](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github) with GitHub via [GitHub CLI](https://docs.github.com/en/github-cli/github-cli/about-github-cli) (install `gh` and use `gh auth login`)
@@ -42,10 +39,9 @@ In this section, you will:
 	- This is intentional—you're building your own professional development environment.
 
 ---
-
 ## What is Version Control?
 
-[Version control](https://en.wikipedia.org/wiki/Version_control) is a system that tracks changes to files over time. Think of it as a time machine for your code, with the ability to:
+[Version control](https://git-scm.com/video/what-is-version-control) ) is a system that tracks changes to files over time. Think of it as a time machine for your code, with the ability to:
 
 - **See what changed**: View the history of every file
 - **Go back in time**: Revert to previous versions if something breaks
@@ -78,9 +74,7 @@ Imagine you're working on a website. You make changes, test them, and everything
 
 Together, Git and GitHub form the foundation of modern software development.
 
----
-
-## Prerequisites
+### Prerequisites
 
 Before starting this section, make sure you have:
 
@@ -95,11 +89,10 @@ Before starting this section, make sure you have:
 
 - ✅ **VS Code installed** (from Orientation section)
 
-If you haven't completed [[s1e1-plan-kbs|Section 1]], go back and complete it first. The knowledge base structure you created there is essential for organizing your work in this section.
+If you haven't completed ][Section 1](c01-found/c1s1-files/index), go back and complete it first. The knowledge base structure you created there is essential for organizing your work in this section.
 
 ---
-
-## Your Development Environment
+## 1. Your Development Environment
 
 In Section 1, you set up a knowledge base structure like this:
 
@@ -743,6 +736,7 @@ Complete these exercises in order to build your version control skills:
 
 ---
 ### Global Navigation
+
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI

@@ -130,9 +130,8 @@ You now have:
 This account will be used throughout the course. Every repository you create will be stored on GitHub, and your GitHub profile will become a portfolio of your work.
 
 ---
-## Next Steps
-
-- [[c01-found/c1s0-orientation/index|Orientation Lecture]] - Return to the lecture and complete the remaining orientation exercises.
+#### Next Steps: Return to the lecture [Orientation Lecture](c01-found/c1s0-orientation/index#5.-Introduction-to-GitHub-Desktop.)
+- 5. Introduction to GitHub Desktop.
 
 ---
 ## Troubleshooting
