@@ -10,7 +10,6 @@ tags:
 draft: false
 date: 2026-01-30
 ---
-
 # Getting Started
 Welcome to the orientation! Before you start building web applications, you need to set up your development environment. This section will guide you through installing and configuring the essential tools you'll use throughout this course.
 
@@ -18,7 +17,6 @@ Welcome to the orientation! Before you start building web applications, you need
 ## 0. Prerequisites for Success
 
 You don't need any prior programming experience to start this course, but here's what will help you succeed:
-
 ### Essential Requirements
 
 - **A Windows Computer**: This course is taught for Windows users. While most development concepts are the same across Windows, Mac, and Linux, the instructions and examples in this course are Windows-specific. If you're using Mac or Linux, you may need to do additional research to adapt certain steps to your system.
@@ -55,7 +53,6 @@ If you need help with basic computer operations (like opening a terminal or navi
 - **Comfort with Self-Directed Learning**: Being able to look up basic OS operations when needed (Google is your friend)
 
 ---
-
 ### Course Environment: Windows Focus
 
 This course is designed for **Windows users**. While the core development concepts (Git, HTML, CSS, JavaScript) work the same across all operating systems, the specific instructions, file paths, and tool setup in this course are Windows-focused.
@@ -134,8 +131,7 @@ Windows Terminal is an upgraded version of the traditional Command Prompt window
 - It provides better compatibility with modern development tools.
 
 ---
-
-### Why We Use It
+#### Why We Use It
 
 - The Command Line is widely used in Windows development environments.
 - It allows you to work with Git, Node, PowerShell, and other tools in one place.
@@ -148,7 +144,6 @@ Now that you concept of what a Command Line (terminal) is and why it matters, yo
 ## 2. Introduction to Git and Version Control
 
 **Git** is a version control system—a tool that tracks changes to your files over time. Think of it like a time machine for your code.
-
 ### What is Version Control?
 
 [Version control](https://git-scm.com/video/what-is-version-control) lets you:
@@ -158,7 +153,7 @@ Now that you concept of what a Command Line (terminal) is and why it matters, yo
 - Collaborate with others without conflicts
 - Keep a history of all your work
 
-**Why version control matters:**
+### Why version control matters:
 - Professional developers use it for every project
 - It's essential for collaboration
 - It protects you from losing work
@@ -172,7 +167,7 @@ Now that you concept of what a Command Line (terminal) is and why it matters, yo
 - Tools for working with files and directories
 - Integration with Windows Terminal
 
-**Why we use Git Bash:**
+#### Why we use Git Bash:
 - Git commands work the same across all platforms
 - Professional developers use command-line Git regularly
 - Gives you more control and flexibility
@@ -181,11 +176,9 @@ Now that you concept of what a Command Line (terminal) is and why it matters, yo
 Now that you understand Git and version control, you're ready to install Git. Complete [[s0e2-gitbash|Exercise 2: Installing Git Bash]] to set up version control on your computer.
 
 ---
-
 ## 3. Introduction to Code Editors
 
 A [Source Code Editor](https://en.wikipedia.org/wiki/Source-code_editor) is a specialized text editor designed for writing code. While you could write code in Notepad, code editors provide features that make development much easier.
-
 ### What Code Editors Provide
 
 - **Syntax Highlighting**: Colors code to make it easier to read
@@ -218,15 +211,13 @@ Now that you understand code editors and why VS Code is the standard, you're rea
 ## 4. Introduction to GitHub
 
 [GitHub](https://en.wikipedia.org/wiki/GitHub) is a website that hosts Git repositories online. Think of it as The Drop Box for developers. It is a cloud storage space specifically designed for code.
-
-### What GitHub Provides
+### What Does GitHub Provide?
 
 - **Online Backup**: Your code is stored in the cloud, safe from computer failures
 - **Portfolio**: Your GitHub profile becomes a showcase of your work
 - **Collaboration**: Share code with others and work on projects together
 - **Version History**: See all changes to your code over time
 - **Access Anywhere**: Work on your code from any computer
-
 ### Why You Need a GitHub Account
 
 Even though you'll primarily use command-line Git, you need a GitHub account to:
@@ -241,11 +232,8 @@ Even though you'll primarily use command-line Git, you need a GitHub account to:
 Now that you understand what GitHub is and why you need it, you're ready to create your account. Complete [[s0e4-github|Exercise 4: Creating GitHub Account]] to set up your GitHub account.
 
 ---
-
 ## 5. Introduction to GitHub Desktop
-
 [GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop) is a visual interface for Git and GitHub. While this course focuses on command-line Git (the industry standard), GitHub Desktop provides a helpful visual way to understand Git concepts.
-
 ### What GitHub Desktop Provides & Why Install It Now
 
 - **Visual Interface**: See your changes, commits, and history in a graphical format
@@ -261,8 +249,34 @@ Now that you understand what GitHub is and why you need it, you're ready to crea
 Now that you understand GitHub Desktop and its role as a learning tool, you're ready to install it. Complete [[s0e5-desktop|Exercise 5: Installing GitHub Desktop]] to set up the visual interface.
 
 ---
+## 6. Optional Tools You May Want to Install
 
-## 6. Recap
+These tools are not required, but they can dramatically improve how you learn, build, and organize your work throughout this course.
+### What is Cursor?
+
+[Cursor](https://en.wikipedia.org/wiki/Cursor_\(code_editor\)) is an AI-powered code editor built on the same open-source foundation as Visual Studio Code. It looks and feels like VS Code, so you can use it seamlessly with this course. If you prefer, it can completely replace VS Code without changing your workflow.
+
+What makes Cursor different is its built-in AI. It understands your entire project, not just a single file or snippet. You can ask questions about your codebase, refactor across multiple files, generate features, or debug with context awareness. It operates inside your development environment, which makes it significantly more powerful than standard Large Language Model chat interfaces.
+
+Cursor does require a paid subscription, similar to ChatGPT. But if you plan to write serious code, the productivity gain is noticeable.
+
+---
+### What is Obsidian?
+
+Obsidian is a flexible, Markdown-based knowledge base application designed to help you think, not just take notes. It stores everything locally as plain text files, so you fully own your data. There is no lock-in and no proprietary database.
+
+Its real strength is linking. You can connect notes instantly using simple internal links. If you rename a file, move it to another folder, or reorganize your structure, Obsidian automatically updates every link across your entire vault. You never have to manually repair broken references.
+
+That means your knowledge base can evolve freely. You can restructure ideas, merge concepts, split topics, and reorganize folders without fear of breaking your system. The links remain intact. The graph adapts. The database stays clean.
+
+Over time, this turns your notes into a living, dynamic network of connected knowledge rather than a stack of disconnected documents.
+
+If you want a system that grows with you instead of collapsing under its own complexity, Obsidian is worth installing.
+
+With this in mind, I suggest you complete [Exercise 6:](c01-found/c1s0-orientation/s0e6-opts) Installing Optional Tools and give them a try.
+
+---
+## 7. Recap
 Tools You Have Installed in This Section
 
 In the exercises below, you'll installed:
@@ -279,27 +293,44 @@ In the exercises below, you'll installed:
 Don't worry if these sound unfamiliar now. We'll walk you through everything step by step.
 
 ---
-## Ready to Begin?
+## 8. Ready to Begin?
 
 Now that you have completed the exercises above and set up your development environment. You are ready to proceed to Section 1: File Systems and Organization to begin your journey to become a Full Fledged Full Stack Code Monkey!
 
 Good luck, and welcome to the journey of becoming a full stack engineer!
 
+---
 #### Next Steps: [C1S1: File Systems and Organization](c01-found/c1s1-files/index.md) - Learn about file organization principles.
+You’re right.
 
 ---
-[Back to the Top](#What%20are%20we%20doing?)
 ## Navigation
-### Section 0 Map
-- [C1S0E1:](s0e1-Term.md) Installing Windows Terminal
-- [C1S0E2:](s0e2-gitbash.md) Installing Git Bash
-- [C1S0E3:](s0e3-vscode.md) Installing VS Code
-- [C1S0E4:](s0e4-github.md) Create and Configure Your GitHub Account
-- [C1S0E5:](s0e5-desktop.md) Installing GitHub Desktop
-- [C1S0E6:](s0e6-opts.md) Installing Optional Tools
 
+[Back to the Top](#Getting%20Started)
+### Exercises in This Section
+Complete these exercises in order to properly configure your Windows development environment. Each exercise builds on the previous one and prepares you for professional development workflows used throughout the rest of this course.
+
+1. [Exercise 1: Installing Windows Terminal](s0e1-Term.md)  
+    Install and understand the modern Windows command-line interface that will host your development tools.
+    
+2. **[Exercise 2: Installing Git Bash](s0e2-gitbash.md)**  
+    Install Git for Windows and gain access to command-line Git and a Unix-style shell environment.
+    
+3. **[Exercise 3: Installing VS Code](s0e3-vscode.md)**  
+    Set up the industry-standard code editor used throughout this course and most professional environments.
+    
+4. **[Exercise 4: Create and Configure Your GitHub Account](s0e4-github.md)**  
+    Create your GitHub account and prepare it to host your repositories and portfolio.
+    
+5. **[Exercise 5: Installing GitHub Desktop](s0e5-desktop.md)**  
+    Install the visual Git interface to reinforce your understanding of version control workflows.
+    
+6. **[Exercise 6: Installing Optional Tools](s0e6-opts.md)**  
+    Explore advanced tools like Cursor and Obsidian that can enhance productivity and knowledge management.
+    
 ---
-### Global Navigation
+ ### Global Navigation
+ 
 - [HOME:](index) JASYTI's Full Stack Development Foundations Course -
 - [Course 01:](c01-found/index) Foundations of Front End Development
 - [Course 02:](c02-genai-fun/index.md) Fundamentals of Generative AI
@@ -310,3 +341,4 @@ Good luck, and welcome to the journey of becoming a full stack engineer!
 - [Course 07:](c07-express/index) Developing a Reliable Back-end with Node and Express
 - [Course:08](c08-ai-test/index) The Power of Generative AI Software Testing
 - [Course 09:](c09-publish/index) Publishing your Website to the Live Internet
+    

@@ -137,6 +137,11 @@ If something didn't work:
 3. **Installation failed**: Check that you have enough disk space and administrator rights.
 
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
+
+---
+#### Next Steps: [Return to Lecture](c01-found/c1s0-orientation/index#7.-Recap)
+7. Section Recap and Get ready to Begin
+
 ---
 [Back to the Top](#What%20are%20we%20doing?)
 ## Navigation

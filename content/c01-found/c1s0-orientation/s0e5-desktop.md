@@ -122,7 +122,7 @@ You should now have:
 - **Interface familiarity**: Understand basic navigation
 
 ---
-## Why This Matters
+### Why This Matters
 
 GitHub Desktop provides:
 - A visual way to use Git (easier for beginners)
@@ -131,6 +131,10 @@ GitHub Desktop provides:
 - Great learning tool for understanding Git concepts
 
 While professional developers often use command-line Git, GitHub Desktop is an excellent learning tool and remains useful for visual workflows. You'll use both command-line Git and GitHub Desktop throughout this course.
+
+---
+#### Next Steps: [Return to Lecture](c01-found/c1s0-orientation/index#6.-Optional-Tools-You-May-Want-to-Install) 
+Installing Optional Tools: Cursor and Obsidian
 
 ---
 ## Troubleshooting
@@ -144,6 +148,7 @@ If something didn't work:
 3. **Can't find GitHub Desktop after installation**: Press Windows key, type "github desktop", and it should appear.
 
 If you're still stuck, use ChatGPT or Google to search for your specific error message.
+
 ---
 [Back to the Top](#What%20are%20we%20doing?)
 ## Navigation
